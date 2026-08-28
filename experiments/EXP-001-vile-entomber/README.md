@@ -1,8 +1,9 @@
 # EXP-001 — Vile Entomber reanimation package
 
 - Status: `testing`
-- Baseline: `3.0.0`
-- Candidate: `3.1.0-exp.1`
+- Baseline: `0.3.0`
+- Candidate: `0.3.1`
+- Experiment revision: `exp.1`
 - Started: 2026-08-28
 
 ## Proposed change
@@ -30,17 +31,29 @@ In an Arena game, Vile Entomber put Massacre Wurm into the graveyard and Zombify
 
 ## Test protocol
 
-1. Play at least 12 games with the candidate list.
-2. Do not make the final decision until Vile Entomber has been cast at least four times.
-3. Log the card buried, whether recursion was available, and whether the line produced meaningful value within two turns.
-4. Note games where Assert Perfection would probably have been better.
-5. Keep all other cards unchanged during this experiment.
+1. Play at least 30 games with the candidate list.
+2. Do not make the final decision until Vile Entomber has been cast at least ten times, even if that requires more than 30 games.
+3. Cover all six matchup families below, with each family appearing among the opposing decks in at least five games. One Commander pod may count toward several families.
+4. Log the card buried, whether recursion was available, and whether the line produced meaningful value within two turns.
+5. Note games where Assert Perfection would probably have been better.
+6. Keep all other cards unchanged during this experiment.
+
+### Matchup families
+
+1. Go-wide tokens or creature swarm.
+2. Creature midrange, tribal, or big-mana threats.
+3. Voltron or other tall-threat decks.
+4. Control, board-wipe-heavy, or stax decks.
+5. Combo or spellslinger decks.
+6. Graveyard or reanimator decks.
+
+This is a practical deckbuilding screen, not a statistically significant win-rate study. Under ideal independent-game assumptions, detecting an increase from a 25% to a 35% multiplayer win rate at 95% confidence and 80% power would require about 329 games with each version. Commander pod composition and politics add further noise. A card-level estimate is more useful here: roughly 33 actual Vile Entomber casts would estimate a 75% useful-impact rate to within about 15 percentage points at 95% confidence.
 
 ## Success criteria
 
-Adopt the change as `3.1.0` if:
+Adopt the change as `0.3.1` if:
 
-- at least three of the first four casts create meaningful card, board, or game-winning value within two turns;
+- at least seven of the first ten casts create meaningful card, board, or game-winning value within two turns;
 - the card finds useful targets beyond only the ideal Massacre Wurm plus Zombify line; and
 - the lost cheap interaction does not become a repeated problem.
 
@@ -49,4 +62,3 @@ Revise the experiment if Vile Entomber performs well but Assert Perfection prove
 ## Decision
 
 Pending play-test evidence.
-

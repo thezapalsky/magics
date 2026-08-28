@@ -5,7 +5,7 @@ This repository is the source of truth for paper deck releases, candidate change
 ## Current release
 
 - Deck: Lathril, Blade of the Elves
-- Version: `3.0.0`
+- Version: `0.3.0`
 - Canonical list: `decks/lathril/decklist.txt`
 - Forge export: `decks/lathril/forge.dck`
 
@@ -13,13 +13,13 @@ Only released lists change the version in `VERSION`. Experiments keep their own 
 
 ## Versioning
 
-Deck releases use `X.Y.Z`:
+Deck releases use `X.Y.Z`. While the project is still below `1.0.0`, the current line is:
 
-- `X` — major rebuild: commander, color identity, or primary game plan changes.
-- `Y` — tested functional release: a card package or meaningful strategic change is adopted.
-- `Z` — correction or micro-tuning that does not change the deck's plan, such as a list correction, printing metadata, or basic-land allocation.
+- `0` — the deck project is still evolving toward its first stable release.
+- `3` — the third established deck generation, historically called V3.
+- `Z` — an accepted tuning change to V3; the first such change is `0.3.1`.
 
-Candidate versions use a prerelease suffix, for example `3.1.0-exp.1`. If the experiment is accepted, it becomes `3.1.0`. If the proposed cut changes, the next candidate becomes `3.1.0-exp.2`.
+An experiment names its intended release, for example `0.3.1`, while its status remains `planned` or `testing`. If the proposal changes materially before release, track that as experiment revision `exp.2` without pretending the target release has been accepted.
 
 ## Workflow
 
@@ -28,7 +28,6 @@ Candidate versions use a prerelease suffix, for example `3.1.0-exp.1`. If the ex
 3. Record games in the experiment log and in `logs/games.csv`.
 4. Decide: adopt, revise, or reject.
 5. If adopted, update the canonical deck, `VERSION`, Forge export, and `CHANGELOG.md`.
-6. Commit the release and create a Git tag such as `lathril-v3.1.0`.
+6. Commit the release and create a Git tag such as `lathril-v0.3.1`.
 
 Run `scripts/validate-deck.sh` before releasing a list.
-
