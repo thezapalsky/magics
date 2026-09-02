@@ -12,6 +12,7 @@ These instructions apply to the entire repository.
 - `decks/<deck>/decklist.txt` — canonical released paper list.
 - `decks/<deck>/forge.dck` — simulator export of the same released list.
 - `decks/<deck>/README.md` — deck identity and release summary.
+- `decks/<deck>/exports/` — versioned import-ready text snapshots and their instructions; distinguish exact paper lists from Arena targets and document all substitutions.
 - `experiments/EXP-NNN-short-name/` — isolated candidate list, hypothesis, evidence, and decision.
 - `logs/games.csv` — cross-experiment game history.
 - `CHANGELOG.md` — released changes, not unaccepted ideas.
@@ -32,6 +33,7 @@ The user's current direction overrides this paragraph whenever they explicitly c
 5. Keep `decklist.txt` and `forge.dck` synchronized when releasing a change.
 6. Do not invent game, draw, matchup, or simulation results. Leave unknown fields blank and label anecdotal observations as such.
 7. Inspect `git status` before editing and preserve unrelated user changes.
+8. Keep import snapshots tied to the release named in their filenames. For a new release, add new version-named snapshots and refresh README links; do not silently replace old snapshots with a different release. Validate paper exports against the canonical list and Arena target exports against only the documented substitutions. Never describe a target export as the user's verified current or fully owned Arena deck.
 
 ## Versioning
 

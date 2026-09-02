@@ -8,6 +8,7 @@ This repository is the source of truth for paper deck releases, candidate change
 - Version: `0.3.1`
 - Canonical list: `decks/lathril/decklist.txt`
 - Forge export: `decks/lathril/forge.dck`
+- Import files: [paper for ManaBox](decks/lathril/exports/paper-0.3.1.txt) and [Arena target](decks/lathril/exports/arena-target-0.3.1.txt), with [instructions and the exact target diff](decks/lathril/exports/README.md).
 
 Release `0.3.1` adds Vile Entomber and removes Assert Perfection. The user confirmed completing this paper change on 2026-09-02; [EXP-001](experiments/EXP-001-vile-entomber/README.md) is adopted by user decision, not by a claim that its play-test criteria were met.
 

@@ -21,6 +21,12 @@ The released list remains unchanged while experiments are running. Candidate lis
 
 The land count and Elf count are unchanged. The Forge export contains the same released commander and main deck.
 
+## Import-ready text files
+
+- [Paper 0.3.1 for ManaBox](exports/paper-0.3.1.txt): exact released paper deck.
+- [Arena target 0.3.1](exports/arena-target-0.3.1.txt): complete intended practice list with the three agreed substitutions, not a verified current/owned Arena export.
+- [Import instructions and exact target differences](exports/README.md).
+
 ## Arena practice mirror
 
 See the [Arena crafting plan](arena-crafting-plan.md) for the pending craft queue, alignment with paper `0.3.1`, wildcard budget, and limitations of the three paper-card substitutes. The temporary Entomber/Tome-slot route and final Arena export still need confirmation. Arena-only changes do not alter this released paper list.
