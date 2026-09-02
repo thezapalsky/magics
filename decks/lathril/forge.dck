@@ -1,11 +1,10 @@
 [metadata]
-Name=Lathril v0.3.0 - Paper Deck
+Name=Lathril v0.3.1 - Paper Deck
 [Commander]
 1 Lathril, Blade of the Elves
 [Main]
 1 Adaptive Automaton
 1 Arcane Signet
-1 Assert Perfection
 1 Basilisk Collar
 1 Biosynthic Burst
 1 Bloodline Bidding
@@ -70,6 +69,7 @@ Name=Lathril v0.3.0 - Paper Deck
 1 Unforgiving Aim
 1 Vampiric Rites
 1 Vengeful Bloodwitch
+1 Vile Entomber
 1 Vinebred Brawler
 1 Vizier of the Menagerie
 1 Wardens of the Cycle

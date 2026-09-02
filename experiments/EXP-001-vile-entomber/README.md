@@ -1,18 +1,19 @@
 # EXP-001 — Vile Entomber reanimation package
 
-- Status: `testing`
-- Baseline: `0.3.0`
-- Candidate: `0.3.1`
+- Status: `adopted`
+- Baseline: `0.3.0` (preserved at Git commit `e6dd695`, path `decks/lathril/decklist.txt`).
+- Adopted release: `0.3.1`
 - Experiment revision: `exp.1`
 - Started: 2026-08-28
+- Adopted: 2026-09-02, by explicit user decision.
 
 ## Card availability
 
 On 2026-09-02, the user confirmed finding a physical copy of Vile Entomber, so ownership of at least one paper copy is confirmed. Arena ownership was established by the user's earlier Arena deck and play report.
 
-This confirms availability, not that either deck has been changed or that this experiment has been adopted. The released paper list remains `0.3.0`; the `0.3.1` candidate and its proposed cut remain pending adoption.
+The user subsequently confirmed completing paper `0.3.1`, adopting the exact swap below. The Arena-only temporary swap and final Arena contents remain unconfirmed. Ownership and paper adoption do not establish Arena completion.
 
-## Proposed change
+## Adopted change
 
 ```diff
 - 1 Assert Perfection
@@ -27,7 +28,7 @@ The cost is adding a four-mana non-Elf that can be low-impact when no recursion 
 
 ## Why cut Assert Perfection
 
-Assert Perfection is sorcery-speed interaction that needs a creature already in play and large enough to win the fight. The released deck still has multiple removal spells after the cut, and this choice preserves its Elves, token production, and mana sources.
+Assert Perfection is sorcery-speed interaction that needs a creature already in play and enough power after its +1/+0 bonus to deal lethal damage. Its damage is one-way, not a fight. The released deck still has multiple removal spells after the cut, and this choice preserves its Elves, token production, and mana sources.
 
 Stalactite Dagger is not the first cut because it creates a Changeling token, which counts as an Elf. Commander's Sphere is not the first cut because the candidate adds another four-mana spell and still needs reliable development.
 
@@ -35,7 +36,9 @@ Stalactite Dagger is not the first cut because it creates a Changeling token, wh
 
 In an Arena game, Vile Entomber put Massacre Wurm into the graveyard and Zombify returned it, producing a reported win around turn four against a 1/1 Squirrel/token deck. This was the reason to create the experiment, but it was not a controlled game with this exact paper list and its precise turn and mana sequence have not been independently reconstructed.
 
-## Test protocol
+## Original test protocol
+
+Retained for reference. No logged results establish completion of this protocol; the user chose adoption independently of it.
 
 1. Play at least 30 games with the candidate list.
 2. Do not make the final decision until Vile Entomber has been cast at least ten times, even if that requires more than 30 games.
@@ -55,9 +58,9 @@ In an Arena game, Vile Entomber put Massacre Wurm into the graveyard and Zombify
 
 This is a practical deckbuilding screen, not a statistically significant win-rate study. Under ideal independent-game assumptions, detecting an increase from a 25% to a 35% multiplayer win rate at 95% confidence and 80% power would require about 329 games with each version. Commander pod composition and politics add further noise. A card-level estimate is more useful here: roughly 33 actual Vile Entomber casts would estimate a 75% useful-impact rate to within about 15 percentage points at 95% confidence.
 
-## Success criteria
+## Original evidence-based success criteria
 
-Adopt the change as `0.3.1` if:
+The proposed evidence-based route to adopting `0.3.1` required:
 
 - at least seven of the first ten casts create meaningful card, board, or game-winning value within two turns;
 - the card finds useful targets beyond only the ideal Massacre Wurm plus Zombify line; and
@@ -67,4 +70,8 @@ Revise the experiment if Vile Entomber performs well but Assert Perfection prove
 
 ## Decision
 
-Pending play-test evidence.
+Adopted as paper `0.3.1` on 2026-09-02 after the user explicitly confirmed completing the Vile Entomber in / Assert Perfection out swap. The reason is the user's preference to play the reanimation package while retaining the Elf core.
+
+This decision does not claim that the original success criteria were met or that a statistically significant improvement was demonstrated. At adoption, `games.csv` and the cross-experiment game log contain no recorded game results. They remain unchanged rather than backfilled with the earlier anecdote.
+
+The candidate decklist and candidate Forge export are preserved as the proposal's archived artifacts; the released deck and matching release-named Forge export live under `decks/lathril/`. No release tag or remote push is implied by adoption.

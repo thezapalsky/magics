@@ -1,8 +1,8 @@
 # Lathril Arena mirror — crafting plan
 
-- Status: partially completed; **3 of 9 swaps user-confirmed**, 6 pending.
+- Status: partially completed; **3 of 9 original craft swaps user-confirmed**, 6 pending. The additional Arena Entomber alignment is unconfirmed.
 - Recorded: 2026-09-02.
-- Paper baseline: released [`0.3.0`](decklist.txt), not the `0.3.1` Vile Entomber experiment.
+- Paper target: released [`0.3.1`](decklist.txt), with Vile Entomber replacing Assert Perfection. The original crafting plan targeted `0.3.0`.
 - Arena format: 100-card Brawl.
 - Goal: reproduce the paper deck as closely as Arena availability and owned cards allow, for practice and card familiarity. This is not an independent Arena power-upgrade plan or a paper release.
 
@@ -14,7 +14,9 @@ The user's last explicitly reported wildcard balance was **0 common / 10 uncommo
 
 On 2026-09-02, the user confirmed completing **Worn Powerstone in / Jaspera Sentinel out** and **Llanowar Tribe in / Llanowar Visionary out**, then also confirmed **Wishclaw Talisman in / Elvish Visionary out**. This confirms those three swaps, not the other six queue entries or the earlier 107-to-100 cleanup.
 
-Also on 2026-09-02, the user confirmed finding a physical copy of **Vile Entomber**. Paper ownership is now confirmed, alongside its previously established Arena ownership; see [EXP-001 card availability](../../experiments/EXP-001-vile-entomber/README.md#card-availability). This does not confirm the proposed paper swap for Assert Perfection or the discussed temporary Arena swap for Village Rites in Mazemind Tome's slot. Neither is marked completed or adopted here.
+Also on 2026-09-02, the user confirmed finding a physical copy of **Vile Entomber**, then confirmed completing paper **0.3.1**: Vile Entomber in / Assert Perfection out. [EXP-001](../../experiments/EXP-001-vile-entomber/README.md) is adopted. This does not confirm the discussed temporary Arena swap for Village Rites in Mazemind Tome's slot; Arena alignment remains pending a separate confirmation or export.
+
+Primal Might remains pending in this tracker because its Arena swap has not been explicitly confirmed. If it has already replaced Felling Blow, five original crafts remain rather than six; do not craft or swap it twice.
 
 The linked Arena printings and Brawl legality were checked using Scryfall on 2026-09-02. Printing availability does not establish collection ownership. The Arena client's actual craft prompt takes precedence over a database rarity assumption.
 
@@ -31,7 +33,7 @@ For each pending row, craft **one copy** only if unowned. Replace the named Aren
 | Pending | [Letter of Acceptance](https://scryfall.com/card/stx/256/letter-of-acceptance) | Common | Paradise Druid | Commander's Sphere — substitute |
 | Pending | [Primal Might](https://scryfall.com/card/fdn/643/primal-might) | Rare | Felling Blow | Exact paper card |
 | Pending | [Maelstrom Pulse](https://scryfall.com/card/fdn/661/maelstrom-pulse) | Rare | Skemfar Shadowsage | Exact paper card |
-| Pending | [Mazemind Tome](https://scryfall.com/card/fdn/676/mazemind-tome) | Rare | Village Rites | Exact paper card |
+| Pending | [Mazemind Tome](https://scryfall.com/card/fdn/676/mazemind-tome) | Rare | Assert Perfection after the temporary Entomber swap; otherwise see alignment below | Exact paper card |
 | Done — user-confirmed | [Wishclaw Talisman](https://scryfall.com/card/fdn/617/wishclaw-talisman) | Rare | Elvish Visionary | Exact paper card |
 
 *Springleaf Drum: use the common version the user found in Arena when budgeting common wildcards. An [uncommon ECL printing](https://scryfall.com/card/ecl/260/springleaf-drum) also exists; if selectable in the Arena craft screen, it can use an available uncommon wildcard instead. These are alternative printings of the same single deck slot, not two crafts.
@@ -47,6 +49,17 @@ Assuming all six pending cards are unowned; the three completed swaps are exclud
 
 Selecting an uncommon Drum can use an uncommon instead of a common wildcard, if that printing is offered in Arena; confirm the current balance first. The other pending crafts require common/rare wildcards unless the cards are already owned. No mythic wildcards are needed for this plan.
 
+## Entomber alignment with paper 0.3.1 — Arena completion unconfirmed
+
+Vile Entomber is owned in Arena, so it adds no craft cost. The temporary route discussed while Mazemind Tome is missing is:
+
+1. If Entomber is absent, add it and remove Village Rites. This keeps Assert Perfection temporarily in the slot still awaiting Tome.
+2. When Tome is acquired, add Tome and remove Assert Perfection, keeping Entomber. Do not remove Village Rites a second time.
+
+If Entomber is already present, do not add a duplicate; verify the current list and which placeholder remains. If the direct paper swap (Entomber in / Assert Perfection out) has already been made in Arena instead, Tome should replace Village Rites. These are alternative routes to the same final list, not cumulative extra cuts.
+
+The temporary route trades the missing Tome's draw/selection role for graveyard setup; it is not an ability-equivalent replacement. Only a fresh export or explicit Arena confirmation should mark this route completed. The final target includes both Entomber and Tome, and excludes both Assert Perfection and Village Rites.
+
 ## How the three substitutes differ
 
 These preserve selected abilities, not identical power or play patterns:
@@ -57,9 +70,9 @@ These preserve selected abilities, not identical power or play patterns:
 
 These replace the earlier loose proxies Jaspera Sentinel, Paradise Druid, and Llanowar Visionary. Do not interpret Arena results with these substitutions as controlled tests of the unchanged paper deck.
 
-## Earlier 107-to-100 cleanup — completion unconfirmed
+## 107-to-100 cleanup for the temporary Arena route — completion unconfirmed
 
-The last screenshot still showed these seven proposed cuts. Check the current deck first; do not remove a card twice if the cleanup has already been applied:
+The last screenshot showed Entomber already included. The original `0.3.0` cleanup would have removed it; that cut is superseded for the new `0.3.1` target. If still starting from the pictured 107-card list and using the temporary route above, keep one Entomber and use these seven cuts. Check the current deck first; do not repeat an already-applied cut:
 
 - 1 Swamp (13 → 12).
 - 1 Golgari Guildgate.
@@ -67,9 +80,9 @@ The last screenshot still showed these seven proposed cuts. Check the current de
 - 1 Poison-Tip Archer.
 - 1 Stoic Grove-Guide.
 - 1 Elfsworn Giant.
-- 1 Vile Entomber.
+- 1 Village Rites (instead of the original Vile Entomber cut).
 
-Removing those seven from the pictured 107-card deck would leave 100 cards with 35 lands. The nine swaps above then preserve that count. Vile Entomber remains a separate paper experiment, not part of the released baseline being mirrored here.
+Removing those seven from the pictured 107-card deck would leave 100 cards with 35 lands and retain Entomber. The remaining one-for-one craft swaps preserve that count, with Tome eventually replacing Assert Perfection. If the old cleanup already removed Entomber, use the Entomber in / Village Rites out swap on the resulting 100-card deck instead. Do not apply both full cleanup routes blindly.
 
 ## Completion checklist
 
@@ -79,7 +92,8 @@ Removing those seven from the pictured 107-card deck would leave 100 cards with 
 - [ ] Confirm the current Arena list and which cards are already owned.
 - [ ] Confirm the earlier cleanup leaves exactly 100 cards, including Lathril, and 35 lands.
 - [ ] Confirm the selected Springleaf Drum printing and actual wildcard cost.
+- [ ] Confirm Entomber's inclusion in Arena and which Tome placeholder remains (Assert Perfection or Village Rites).
 - [ ] Complete the six pending one-for-one swaps and confirm the updated wildcard balance.
 - [ ] Obtain a fresh Arena text export and compare it with the released paper list, retaining the three documented substitutions and identifying any other differences.
 
-Do not update `VERSION`, the released paper deck, its Forge export, the release changelog, or EXP-001's adoption status when completing this Arena-only plan. No new deck version is assigned by this document.
+The paper release is now `0.3.1`, and EXP-001 is adopted by user decision. Completing the remaining Arena-only plan does not create another paper release or prove any play-test result; do not change the paper version or lists without a separate paper-deck decision.
