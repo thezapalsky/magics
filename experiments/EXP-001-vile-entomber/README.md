@@ -6,6 +6,12 @@
 - Experiment revision: `exp.1`
 - Started: 2026-08-28
 
+## Card availability
+
+On 2026-09-02, the user confirmed finding a physical copy of Vile Entomber, so ownership of at least one paper copy is confirmed. Arena ownership was established by the user's earlier Arena deck and play report.
+
+This confirms availability, not that either deck has been changed or that this experiment has been adopted. The released paper list remains `0.3.0`; the `0.3.1` candidate and its proposed cut remain pending adoption.
+
 ## Proposed change
 
 ```diff

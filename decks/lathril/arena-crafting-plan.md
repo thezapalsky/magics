@@ -14,6 +14,8 @@ The user's last explicitly reported wildcard balance was **0 common / 10 uncommo
 
 On 2026-09-02, the user confirmed completing **Worn Powerstone in / Jaspera Sentinel out** and **Llanowar Tribe in / Llanowar Visionary out**, then also confirmed **Wishclaw Talisman in / Elvish Visionary out**. This confirms those three swaps, not the other six queue entries or the earlier 107-to-100 cleanup.
 
+Also on 2026-09-02, the user confirmed finding a physical copy of **Vile Entomber**. Paper ownership is now confirmed, alongside its previously established Arena ownership; see [EXP-001 card availability](../../experiments/EXP-001-vile-entomber/README.md#card-availability). This does not confirm the proposed paper swap for Assert Perfection or the discussed temporary Arena swap for Village Rites in Mazemind Tome's slot. Neither is marked completed or adopted here.
+
 The linked Arena printings and Brawl legality were checked using Scryfall on 2026-09-02. Printing availability does not establish collection ownership. The Arena client's actual craft prompt takes precedence over a database rarity assumption.
 
 ## Craft and swap queue
