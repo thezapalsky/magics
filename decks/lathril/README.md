@@ -12,3 +12,7 @@ Baseline composition:
 - 100 cards total
 
 The released list remains unchanged while experiments are running. Candidate lists live under `experiments/`.
+
+## Arena practice mirror
+
+See the [Arena crafting plan](arena-crafting-plan.md) for the pending craft queue, one-for-one swaps, wildcard budget, and limitations of the three paper-card substitutes. Arena-only changes do not alter this released paper list.

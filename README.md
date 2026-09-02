@@ -11,6 +11,10 @@ This repository is the source of truth for paper deck releases, candidate change
 
 Only released lists change the version in `VERSION`. Experiments keep their own candidate list until a decision is made.
 
+## Arena practice mirror
+
+The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) tracks the missing paper cards, Arena-only substitutes, proposed swaps, and last reported wildcard budget. It is a pending practice plan, not a released paper change or a verified current Arena export.
+
 ## Versioning
 
 Deck releases use `X.Y.Z`. While the project is still below `1.0.0`, the current line is:
