@@ -1,6 +1,6 @@
 # Lathril Arena mirror — crafting plan
 
-- Status: partially completed; **3 of 9 original craft swaps user-confirmed**, 6 pending. The additional Arena Entomber alignment is unconfirmed.
+- Status: partially completed; **4 of 9 original craft swaps user-confirmed**, 5 pending. The additional Arena Entomber alignment is unconfirmed.
 - Recorded: 2026-09-02.
 - Paper target: released [`0.3.1`](decklist.txt), with Vile Entomber replacing Assert Perfection. The original crafting plan targeted `0.3.0`.
 - Arena format: 100-card Brawl.
@@ -14,9 +14,11 @@ The user's last explicitly reported wildcard balance was **0 common / 10 uncommo
 
 On 2026-09-02, the user confirmed completing **Worn Powerstone in / Jaspera Sentinel out** and **Llanowar Tribe in / Llanowar Visionary out**, then also confirmed **Wishclaw Talisman in / Elvish Visionary out**. This confirms those three swaps, not the other six queue entries or the earlier 107-to-100 cleanup.
 
+On 2026-09-04, the user confirmed completing **Scarblade Scout in / A-Harald, King of Skemfar out**. This confirms that swap only; the current complete Arena list and the other pending swaps remain unverified.
+
 Also on 2026-09-02, the user confirmed finding a physical copy of **Vile Entomber**, then confirmed completing paper **0.3.1**: Vile Entomber in / Assert Perfection out. [EXP-001](../../experiments/EXP-001-vile-entomber/README.md) is adopted. This does not confirm the discussed temporary Arena swap for Village Rites in Mazemind Tome's slot; Arena alignment remains pending a separate confirmation or export.
 
-Primal Might remains pending in this tracker because its Arena swap has not been explicitly confirmed. If it has already replaced Felling Blow, five original crafts remain rather than six; do not craft or swap it twice.
+Primal Might remains pending in this tracker because its Arena swap has not been explicitly confirmed. If it has already replaced Felling Blow, four original crafts remain rather than five; do not craft or swap it twice.
 
 The linked Arena printings and Brawl legality were checked using Scryfall on 2026-09-02. Printing availability does not establish collection ownership. The Arena client's actual craft prompt takes precedence over a database rarity assumption.
 
@@ -29,7 +31,7 @@ For each pending row, craft **one copy** only if unowned. Replace the named Aren
 | Done — user-confirmed | [Worn Powerstone](https://scryfall.com/card/mh3/298/worn-powerstone) | Uncommon | Jaspera Sentinel | Sol Ring — substitute |
 | Done — user-confirmed | [Llanowar Tribe](https://scryfall.com/card/j21/598/llanowar-tribe) | Uncommon | Llanowar Visionary | Elvish Aberration — substitute |
 | Pending | [Springleaf Drum](https://scryfall.com/card/lrw/261/springleaf-drum) | Common* | Tamiyo's Safekeeping | Exact paper card |
-| Pending | [Scarblade Scout](https://scryfall.com/card/ecl/118/scarblade-scout) | Common | A-Harald, King of Skemfar | Exact paper card |
+| Done — user-confirmed | [Scarblade Scout](https://scryfall.com/card/ecl/118/scarblade-scout) | Common | A-Harald, King of Skemfar | Exact paper card |
 | Pending | [Letter of Acceptance](https://scryfall.com/card/stx/256/letter-of-acceptance) | Common | Paradise Druid | Commander's Sphere — substitute |
 | Pending | [Primal Might](https://scryfall.com/card/fdn/643/primal-might) | Rare | Felling Blow | Exact paper card |
 | Pending | [Maelstrom Pulse](https://scryfall.com/card/fdn/661/maelstrom-pulse) | Rare | Skemfar Shadowsage | Exact paper card |
@@ -40,12 +42,12 @@ For each pending row, craft **one copy** only if unowned. Replace the named Aren
 
 ### Remaining wildcard budget
 
-Assuming all six pending cards are unowned; the three completed swaps are excluded:
+Assuming all five pending cards are unowned; the four completed swaps are excluded:
 
 | Drum printing selected | Common | Uncommon | Rare | Mythic |
 |---|---:|---:|---:|---:|
-| Common | 3 | 0 | 3 | 0 |
-| Uncommon, if available in the craft screen | 2 | 1 | 3 | 0 |
+| Common | 2 | 0 | 3 | 0 |
+| Uncommon, if available in the craft screen | 1 | 1 | 3 | 0 |
 
 Selecting an uncommon Drum can use an uncommon instead of a common wildcard, if that printing is offered in Arena; confirm the current balance first. The other pending crafts require common/rare wildcards unless the cards are already owned. No mythic wildcards are needed for this plan.
 
@@ -89,11 +91,12 @@ Removing those seven from the pictured 107-card deck would leave 100 cards with 
 - [x] Worn Powerstone in / Jaspera Sentinel out — user-confirmed 2026-09-02.
 - [x] Llanowar Tribe in / Llanowar Visionary out — user-confirmed 2026-09-02.
 - [x] Wishclaw Talisman in / Elvish Visionary out — user-confirmed 2026-09-02.
+- [x] Scarblade Scout in / A-Harald, King of Skemfar out — user-confirmed 2026-09-04.
 - [ ] Confirm the current Arena list and which cards are already owned.
 - [ ] Confirm the earlier cleanup leaves exactly 100 cards, including Lathril, and 35 lands.
 - [ ] Confirm the selected Springleaf Drum printing and actual wildcard cost.
 - [ ] Confirm Entomber's inclusion in Arena and which Tome placeholder remains (Assert Perfection or Village Rites).
-- [ ] Complete the six pending one-for-one swaps and confirm the updated wildcard balance.
+- [ ] Complete the five pending one-for-one swaps and confirm the updated wildcard balance.
 - [ ] Obtain a fresh Arena text export and compare it with the released paper list, retaining the three documented substitutions and identifying any other differences.
 
 The paper release is now `0.3.1`, and EXP-001 is adopted by user decision. Completing the remaining Arena-only plan does not create another paper release or prove any play-test result; do not change the paper version or lists without a separate paper-deck decision.
