@@ -2,6 +2,21 @@
 
 All released changes to the paper Lathril deck are recorded here.
 
+## [0.3.2] - 2026-09-05
+
+### Changed
+
+- Added 1 Changeling Wayfinder, 1 Risky Research, and 1 Scarblade's Malice.
+- Removed 1 Mazemind Tome, 1 Ravenous Amulet, and 1 Basilisk Collar.
+- Reduced the artifact count from 13 to 10 while preserving 35 lands and the 100-card total.
+- Synchronized the canonical paper list, Forge export, and versioned import snapshots.
+
+### Decision basis
+
+- Adopted after the user confirmed completing all three physical paper swaps.
+- The goal is to reduce artifact-heavy awkward hands, add an Elf and land access, replace slow draw with immediate selection, and exchange repeatable Equipment for a cheaper trick that can leave an Elf token.
+- No controlled paper game results are claimed. Arena ownership and completion of the matching swaps remain unconfirmed.
+
 ## [0.3.1] - 2026-09-02
 
 ### Changed

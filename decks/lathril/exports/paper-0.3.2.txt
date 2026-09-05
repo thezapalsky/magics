@@ -1,8 +1,7 @@
-[metadata]
-Name=Lathril v0.3.2 - Paper Deck
-[Commander]
+Commander
 1 Lathril, Blade of the Elves
-[Main]
+
+Deck
 1 Adaptive Automaton
 1 Arcane Signet
 1 Biosynthic Burst

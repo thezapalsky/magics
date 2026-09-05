@@ -1,8 +1,7 @@
-[metadata]
-Name=Lathril v0.3.2 - Paper Deck
-[Commander]
+Commander
 1 Lathril, Blade of the Elves
-[Main]
+
+Deck
 1 Adaptive Automaton
 1 Arcane Signet
 1 Biosynthic Burst
@@ -12,7 +11,6 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Changeling Wayfinder
 1 Collective Resistance
 1 Command Tower
-1 Commander's Sphere
 1 Dawn's Light Archer
 1 Dawnhand Eulogist
 1 Deadly Brew
@@ -20,7 +18,6 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Dwynen's Elite
 1 Eclipsed Elf
 1 Eclipsed Realms
-1 Elvish Aberration
 1 Elvish Regrower
 1 Evolving Wilds
 1 Exsanguinate
@@ -40,6 +37,7 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Jungle Hollow
 1 Llanowar Elves
 1 Llanowar Stalker
+1 Llanowar Tribe
 1 Lluwen, Imperfect Naturalist
 1 Lys Alana Informant
 1 Maelstrom Pulse
@@ -47,6 +45,7 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Midnight Reaper
 1 Moonglove Extractor
 1 Primal Might
+1 Paradise Druid
 1 Reclamation Sage
 1 Risky Research
 1 Rogue's Passage
@@ -55,7 +54,6 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Scarblade Scout
 1 Sephiroth, Fabled SOLDIER
 1 Snakeskin Veil
-1 Sol Ring
 1 Springbloom Druid
 1 Springleaf Drum
 1 Stalactite Dagger
@@ -75,4 +73,5 @@ Name=Lathril v0.3.2 - Paper Deck
 1 Wardens of the Cycle
 1 Wildborn Preserver
 1 Wishclaw Talisman
+1 Worn Powerstone
 1 Zombify

@@ -1,5 +1,32 @@
 # Lathril import-ready lists
 
+## Current release 0.3.2
+
+Paper release: `0.3.2`. Prepared 2026-09-05.
+
+| File | Use | Contents |
+|---|---|---|
+| [paper-0.3.2.txt](paper-0.3.2.txt) | Import the physical deck into ManaBox | Exact released paper deck: 1 commander + 99 cards. |
+| [arena-target-0.3.2.txt](arena-target-0.3.2.txt) | Import the intended practice deck into Arena | Paper release with only the three documented Arena substitutions below; 1 commander + 99 cards. |
+
+### Exact paper-to-Arena target differences
+
+| Paper 0.3.2 | Arena target 0.3.2 |
+|---|---|
+| Sol Ring | Worn Powerstone |
+| Commander's Sphere | Paradise Druid |
+| Elvish Aberration | Llanowar Tribe |
+
+The other 97 card copies match paper `0.3.2`, including Changeling Wayfinder, Risky Research, and Scarblade's Malice. Letter of Acceptance and Mazemind Tome are not in the current target. Paradise Druid is retained deliberately because the user rejected Letter of Acceptance as a weak substitute.
+
+The Arena target is not a verified export of the user's current deck or a statement that every card is owned. At the latest report, Risky Research still required one common wildcard; Assert Perfection should remain temporarily in its slot to preserve 100 cards. The Changeling Wayfinder and Scarblade's Malice swaps still need explicit completion confirmation.
+
+Both current files use `Commander` / `Deck` headings and quantity-plus-name lines without set codes, so they can be imported into ManaBox. The Arena target can also be imported into Arena. After importing, verify Lathril is the commander and the total is 100 before crafting anything.
+
+The paper export was synchronized from the canonical released list. All three new additions were checked as Arena-available and Brawl-legal on 2026-09-05; this database check does not establish ownership or a successful client import.
+
+## Archived 0.3.1 notes
+
 Paper release: `0.3.1`. Prepared 2026-09-02.
 
 | File | Use | Contents |

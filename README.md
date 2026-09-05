@@ -5,18 +5,18 @@ This repository is the source of truth for paper deck releases, candidate change
 ## Current release
 
 - Deck: Lathril, Blade of the Elves
-- Version: `0.3.1`
+- Version: `0.3.2`
 - Canonical list: `decks/lathril/decklist.txt`
 - Forge export: `decks/lathril/forge.dck`
-- Import files: [paper for ManaBox](decks/lathril/exports/paper-0.3.1.txt) and [Arena target](decks/lathril/exports/arena-target-0.3.1.txt), with [instructions and the exact target diff](decks/lathril/exports/README.md).
+- Import files: [paper for ManaBox](decks/lathril/exports/paper-0.3.2.txt) and [Arena target](decks/lathril/exports/arena-target-0.3.2.txt), with [instructions and the exact target diff](decks/lathril/exports/README.md).
 
-Release `0.3.1` adds Vile Entomber and removes Assert Perfection. The user confirmed completing this paper change on 2026-09-02; [EXP-001](experiments/EXP-001-vile-entomber/README.md) is adopted by user decision, not by a claim that its play-test criteria were met.
+Release `0.3.2` removes three generic artifacts and adds Changeling Wayfinder, Risky Research, and Scarblade's Malice. The user confirmed completing these physical paper swaps on 2026-09-05; [EXP-002](experiments/EXP-002-artifact-trim/README.md) is adopted by user decision, not by a claim that its play-test criteria were met.
 
 Only released lists change the version in `VERSION`. Experiments keep their own candidate list until a decision is made.
 
 ## Arena practice mirror
 
-The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.1` and tracks the missing cards, Arena-only substitutes, proposed swaps, and last reported wildcard budget. Arena completion remains unverified; a paper release does not confirm that the Arena swaps have been made.
+The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.2`. It preserves Paradise Druid as the deliberate substitute for Commander's Sphere, drops the Letter of Acceptance and Mazemind Tome crafts, and tracks the three new one-for-one Arena sync swaps. Arena completion remains unverified; a paper release does not confirm that the Arena swaps have been made.
 
 ## Versioning
 

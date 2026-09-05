@@ -1,5 +1,38 @@
 # Lathril Arena mirror — crafting plan
 
+## Current 0.3.2 state — authoritative
+
+- Paper target: released [`0.3.2`](decklist.txt), physically completed by the user on 2026-09-05.
+- Arena status: 100/100 before the `0.3.2` sync; the three new one-for-one swaps are not yet fully confirmed.
+- The user is checking Arena craftability and reports being **one common wildcard short for Risky Research**.
+- Do **not** craft Letter of Acceptance or Mazemind Tome. Neither is part of the current Arena target.
+
+### Arena actions for paper 0.3.2
+
+| Status | Add to Arena | Remove from Arena | Reason |
+|---|---|---|---|
+| Pending — one common wildcard short | [Risky Research](https://scryfall.com/card/spm/62/risky-research) | Assert Perfection | Exact paper `0.3.2` card; Assert was the Arena placeholder for the former paper Mazemind Tome slot. |
+| Pending confirmation | [Changeling Wayfinder](https://scryfall.com/card/ecl/1/changeling-wayfinder) | Ravenous Amulet | Exact paper `0.3.2` card. |
+| Pending confirmation | [Scarblade's Malice](https://scryfall.com/card/ecl/119/scarblades-malice) | Basilisk Collar | Exact paper `0.3.2` card. |
+
+All three additions are commons and were confirmed available and Brawl-legal in Arena on 2026-09-05. Database availability does not prove current ownership; the Arena craft screen is authoritative.
+
+Until Risky Research is obtained, keep Assert Perfection so the deck remains at 100 cards. If Scout the City is already owned in Arena, it is a reasonable temporary proxy, but it is not the exact released paper card.
+
+### Deliberate Arena substitutes retained
+
+| Paper 0.3.2 | Arena target 0.3.2 | Difference |
+|---|---|---|
+| Sol Ring | Worn Powerstone | Both make two colorless mana; Powerstone costs three and enters tapped. |
+| Commander's Sphere | Paradise Druid | Druid costs two and supplies a creature body but cannot be sacrificed to draw. Letter of Acceptance was rejected as too weak. |
+| Elvish Aberration | Llanowar Tribe | Both are Elves that tap for three green; Tribe costs less but lacks Forestcycling. |
+
+The versioned target is [`exports/arena-target-0.3.2.txt`](exports/arena-target-0.3.2.txt). It is a target list, not confirmation that the three new swaps have been completed or crafted.
+
+## Archived 0.3.1 tracker
+
+Everything below records the path to the previous release and is retained as history. Its Letter of Acceptance and Mazemind Tome rows are obsolete and must not be followed for `0.3.2`.
+
 - Status: partially completed; **7 of 9 original craft swaps user-confirmed**, 2 pending. The Arena Entomber alignment is partially complete, with Mazemind Tome still pending.
 - Recorded: 2026-09-02.
 - Paper target: released [`0.3.1`](decklist.txt), with Vile Entomber replacing Assert Perfection. The original crafting plan targeted `0.3.0`.
