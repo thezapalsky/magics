@@ -1,0 +1,393 @@
+Error handling registered!
+18:32:55 [INFO ] GuiBase: ##########################################
+18:32:55 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:32:55 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:32:55 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:32:55 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:32:55 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Lathril Alternate Supplied vs Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 - fifty  games of Brawl seed 33027
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 1 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 1 ended in 8141 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+No AI assigned for API: Intensify
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 2 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 2 ended in 7364 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 3 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 3 ended in 4722 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 4 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 4 ended in 3966 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 5 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 5 ended in 12413 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 6 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 6 ended in 1480 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 7 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 7 ended in 3012 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 8 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 8 ended in 2320 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 9 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 9 ended in 1811 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 10 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 10 ended in 1693 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 11 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 11 ended in 4644 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 12 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 12 ended in 4825 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 13 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 13 ended in 17359 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 14 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 14 ended in 3006 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 15 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 15 ended in 1813 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+ComputerUtilMana: payManaCost() cost was not paid for Ironheart, Clever Champion - Creature 3 / 4 (Ironheart, Clever Champion). Didn't find what to pay for {1}
+[Ai(2)-Emry Competitive Brawl MTGDecks 2026-07] AI failed to play Ironheart, Clever Champion (178) [Stack]
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 16 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 16 ended in 17081 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 17 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 17 ended in 8480 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 18 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 18 ended in 2584 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 19 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 19 ended in 3128 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 20 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 20 ended in 20215 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 21 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 21 ended in 2831 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 22 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 22 ended in 1723 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 23 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 23 ended in 2627 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 24 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 24 ended in 3794 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 25 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 25 ended in 4697 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 26 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 26 ended in 7026 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 27 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 27 ended in 1775 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 28 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 28 ended in 2167 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 29 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 29 ended in 9664 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 30 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 30 ended in 3650 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 31 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 31 ended in 1757 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost trying to draw cards from empty library
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 31 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 32 ended in 2308 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 32 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 33 ended in 1773 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 33 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 34 ended in 2213 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 34 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 35 ended in 5509 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 35 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 36 ended in 1165 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 36 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 37 ended in 1519 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 37 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 38 ended in 3106 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 38 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 39 ended in 1106 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 39 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 40 ended in 870 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 40 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 41 ended in 1394 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 41 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 42 ended in 2228 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 42 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 43 ended in 1774 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 43 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 44 ended in 8682 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 44 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 45 ended in 993 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 45 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 46 ended in 4647 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 46 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 47 ended in 21095 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 47 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 48 ended in 2269 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 4
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 48 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 49 ended in 1122 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 49 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 50 ended in 3043 ms. Ai(1)-Lathril Alternate Supplied has won!

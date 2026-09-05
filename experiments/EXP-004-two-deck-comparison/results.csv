@@ -1,0 +1,23 @@
+date,input,opponent,archetype,games,input_wins,opponent_wins,draws,input_win_rate_all,input_win_rate_decisive,average_turn,min_turn,max_turn,seed_a,seed_b,full_timeouts,input_ai_card_failures,opponent_ai_card_failures,notes
+2026-09-05,Sephiroth Sacrifice Supplied,"Nashi, Illusion Gadgeteer",Sultai control/value,100,69,31,0,69.0%,69.0%,10.00,6,22,33001,33002,0,0,0,BrawlREC snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Yuriko, the Tiger's Shadow",Dimir tempo,100,58,42,0,58.0%,58.0%,9.25,5,16,33003,33004,0,0,0,BrawlREC snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Grist, the Hunger Tide",Golgari creature/graveyard,100,26,74,0,26.0%,26.0%,8.87,5,15,33005,33006,0,0,0,AetherHub snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Emry, Lurker of the Loch",Mono-blue artifact combo,100,69,31,0,69.0%,69.0%,8.82,5,18,33007,33008,0,0,2,MTGDecks snapshot; Forge combo AI caveat
+2026-09-05,Sephiroth Sacrifice Supplied,"Katara, Waterbending Master",Mono-blue control/tempo,100,81,19,0,81.0%,81.0%,10.22,6,23,33009,33010,0,0,0,BrawlREC snapshot; Forge control AI caveat
+2026-09-05,Sephiroth Sacrifice Supplied,"Merry, Esquire of Rohan",Boros legendary aggro,100,30,70,0,30.0%,30.0%,8.27,5,16,33011,33012,0,0,3,BrawlREC snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Phelia, Exuberant Shepherd",Mono-white blink/taxes,100,22,78,0,22.0%,22.0%,9.66,5,20,33013,33014,0,0,0,MTGGoldfish snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Raffine, Scheming Seer",Esper tempo,100,50,50,0,50.0%,50.0%,9.24,6,22,33015,33016,0,0,0,MTGDecks Platinum snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,"Rofellos, Llanowar Emissary",Mono-green ramp,100,15,85,0,15.0%,15.0%,7.48,4,14,33017,33018,0,0,0,BrawlREC snapshot
+2026-09-05,Sephiroth Sacrifice Supplied,Spider-Man 2099,Izzet control/value,100,58,42,0,58.0%,58.0%,9.38,5,16,33019,33020,0,0,1,MTGDecks Platinum snapshot; Forge control AI caveat
+2026-09-05,Sephiroth Sacrifice Supplied,ALL,Ten-opponent spectrum,1000,478,522,0,47.8%,47.8%,9.12,4,23,33001,33020,0,0,6,Aggregate; full timeouts manually treated as draws
+2026-09-05,Lathril Alternate Supplied,"Nashi, Illusion Gadgeteer",Sultai control/value,100,84,16,0,84.0%,84.0%,9.34,6,21,33021,33022,0,0,0,BrawlREC snapshot
+2026-09-05,Lathril Alternate Supplied,"Yuriko, the Tiger's Shadow",Dimir tempo,100,75,25,0,75.0%,75.0%,8.66,5,17,33023,33024,0,0,0,BrawlREC snapshot
+2026-09-05,Lathril Alternate Supplied,"Grist, the Hunger Tide",Golgari creature/graveyard,100,61,37,2,61.0%,62.2%,8.86,6,15,33025,33026,2,0,0,AetherHub snapshot
+2026-09-05,Lathril Alternate Supplied,"Emry, Lurker of the Loch",Mono-blue artifact combo,100,92,8,0,92.0%,92.0%,7.70,4,16,33027,33028,0,0,1,MTGDecks snapshot; Forge combo AI caveat
+2026-09-05,Lathril Alternate Supplied,"Katara, Waterbending Master",Mono-blue control/tempo,100,87,13,0,87.0%,87.0%,9.86,6,21,33029,33030,0,1,0,BrawlREC snapshot; Forge control AI caveat
+2026-09-05,Lathril Alternate Supplied,"Merry, Esquire of Rohan",Boros legendary aggro,100,56,44,0,56.0%,56.0%,7.91,4,15,33031,33032,0,0,2,BrawlREC snapshot
+2026-09-05,Lathril Alternate Supplied,"Phelia, Exuberant Shepherd",Mono-white blink/taxes,100,54,45,1,54.0%,54.5%,8.90,5,17,33033,33034,1,0,0,MTGGoldfish snapshot
+2026-09-05,Lathril Alternate Supplied,"Raffine, Scheming Seer",Esper tempo,100,70,30,0,70.0%,70.0%,8.94,5,19,33035,33036,0,0,0,MTGDecks Platinum snapshot
+2026-09-05,Lathril Alternate Supplied,"Rofellos, Llanowar Emissary",Mono-green ramp,100,39,61,0,39.0%,39.0%,7.41,4,12,33037,33038,0,0,0,BrawlREC snapshot
+2026-09-05,Lathril Alternate Supplied,Spider-Man 2099,Izzet control/value,100,70,30,0,70.0%,70.0%,8.92,5,17,33039,33040,0,0,2,MTGDecks Platinum snapshot; Forge control AI caveat
+2026-09-05,Lathril Alternate Supplied,ALL,Ten-opponent spectrum,1000,688,309,3,68.8%,69.0%,8.65,4,21,33021,33040,3,1,5,Aggregate; full timeouts manually treated as draws

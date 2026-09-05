@@ -1,0 +1,958 @@
+Error handling registered!
+18:55:27 [INFO ] GuiBase: ##########################################
+18:55:27 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:55:27 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:55:27 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:55:27 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:55:27 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 vs Ai(2)-Lathril Alternate Supplied - fifty  games of Brawl seed 33034
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 0 Ai(2)-Lathril Alternate Supplied: 1
+
+Game Result: Game 1 ended in 13820 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 0 Ai(2)-Lathril Alternate Supplied: 2
+
+Game Result: Game 2 ended in 71522 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 0 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 3 ended in 20938 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 1 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 4 ended in 8853 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 2 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 5 ended in 7446 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.keyword.KeywordCollection.applyStaticAbility(KeywordCollection.java:207)
+	at app//forge.game.card.Card.updateStaticAbilities(Card.java:7014)
+	at app//forge.game.card.CardState.getStaticAbilities(CardState.java:712)
+	at app//forge.game.card.Card.getStaticAbilities(Card.java:6993)
+	at app//forge.game.cost.CostAdjustment.adjust(CostAdjustment.java:75)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:103)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$483/0x000000a8012d63f0.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$362/0x000000a801241980.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1338)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.ArrayList.addAll(ArrayList.java:670)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:100)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:726)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$483/0x000000a8012d63f0.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$362/0x000000a801241980.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//com.google.common.collect.TransformedIterator.hasNext(TransformedIterator.java:46)
+	at app//com.google.common.collect.Iterators$ConcatenatedIterator.hasNext(Iterators.java:1392)
+	at app//com.google.common.collect.Iterators$ConcatenatedIterator.next(Iterators.java:1431)
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7064)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:760)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1423)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1754)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7065)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1505)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.dealsFirstStrikeDamage(ComputerUtilCombat.java:2251)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1973)
+	at app//forge.ai.AiBlockController.getSafeBlockers(AiBlockController.java:106)
+	at app//forge.ai.AiBlockController.reinforceBlockersToKill(AiBlockController.java:819)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1104)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.regex.Pattern$Start.match(Pattern.java:3635)
+	at java.base@17.0.17/java.util.regex.Matcher.search(Matcher.java:1728)
+	at java.base@17.0.17/java.util.regex.Matcher.find(Matcher.java:745)
+	at java.base@17.0.17/java.util.regex.Matcher.replaceAll(Matcher.java:1177)
+	at java.base@17.0.17/java.lang.String.replaceAll(String.java:2944)
+	at app//forge.game.card.CounterEnumType.getType(CounterEnumType.java:556)
+	at app//forge.game.card.CounterType.getType(CounterType.java:20)
+	at app//forge.game.card.CardProperty.cardHasProperty(CardProperty.java:1480)
+	at app//forge.game.card.Card.hasProperty(Card.java:5831)
+	at app//forge.game.card.Card.isValid(Card.java:5817)
+	at app//forge.game.GameObject.isValid(GameObject.java:27)
+	at app//forge.game.card.CardPredicates.lambda$restriction$20(CardPredicates.java:140)
+	at app//forge.game.card.CardPredicates$$Lambda$446/0x000000a8012a6938.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$362/0x000000a801241980.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.game.card.CardLists.getValidCards(CardLists.java:189)
+	at app//forge.game.CardTraitBase.meetsCommonRequirements(CardTraitBase.java:423)
+	at app//forge.game.trigger.Trigger.requirementsCheck(Trigger.java:340)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:751)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:734)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.HashMap.resize(HashMap.java:705)
+	at java.base@17.0.17/java.util.HashMap.putVal(HashMap.java:661)
+	at java.base@17.0.17/java.util.HashMap.put(HashMap.java:610)
+	at java.base@17.0.17/java.util.HashSet.add(HashSet.java:221)
+	at app//forge.util.collect.FCollection.add(FCollection.java:273)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:346)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:325)
+	at app//forge.game.Game.getCardsIn(Game.java:628)
+	at app//forge.game.staticability.StaticAbilityCantBeCast.cantBeActivatedAbility(StaticAbilityCantBeCast.java:60)
+	at app//forge.game.spellability.AbilityActivated.checkRestrictions(AbilityActivated.java:109)
+	at app//forge.game.spellability.SpellAbility.checkRestrictions(SpellAbility.java:2612)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$483/0x000000a8012d63f0.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$362/0x000000a801241980.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1338)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.ArrayList.addAll(ArrayList.java:670)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:100)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:726)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$483/0x000000a8012d63f0.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$362/0x000000a801241980.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.ArrayList.addAll(ArrayList.java:670)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:100)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:726)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1537)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtil.possibleDamagePrevention(ComputerUtil.java:1047)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1693)
+	at app//forge.ai.AiBlockController.getKillingBlockers(AiBlockController.java:120)
+	at app//forge.ai.AiBlockController.makeGoodBlocks(AiBlockController.java:239)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1083)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3179)
+	at app//forge.ai.AiAttackController.notNeededAsBlockers(AiAttackController.java:426)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1279)
+	at app//forge.ai.AiController.getPredictedCombat(AiController.java:145)
+	at app//forge.ai.ComputerUtilCard.doesCreatureAttackAI(ComputerUtilCard.java:806)
+	at app//forge.ai.ComputerUtilCard.shouldPumpCard(ComputerUtilCard.java:1557)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.HashMap.hash(HashMap.java:338)
+	at java.base@17.0.17/java.util.HashMap.put(HashMap.java:610)
+	at java.base@17.0.17/java.util.HashSet.add(HashSet.java:221)
+	at app//forge.util.collect.FCollection.add(FCollection.java:273)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:346)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:325)
+	at app//forge.game.player.PlayerCollection.getCardsIn(PlayerCollection.java:33)
+	at app//forge.game.Game.getCardsIn(Game.java:610)
+	at app//forge.game.cost.CostAdjustment.adjust(CostAdjustment.java:65)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:103)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1423)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtil.possibleDamagePrevention(ComputerUtil.java:1047)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1693)
+	at app//forge.ai.AiBlockController.getKillingBlockers(AiBlockController.java:120)
+	at app//forge.ai.AiBlockController.makeGoodBlocks(AiBlockController.java:239)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1083)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3179)
+	at app//forge.ai.AiAttackController.notNeededAsBlockers(AiAttackController.java:426)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1279)
+	at app//forge.ai.AiController.getPredictedCombat(AiController.java:145)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//com.google.common.collect.AbstractMultimap$Values.iterator(AbstractMultimap.java:184)
+	at app//forge.game.keyword.KeywordCollection.applyReplacementEffect(KeywordCollection.java:200)
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7069)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1423)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtil.possibleDamagePrevention(ComputerUtil.java:1047)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1693)
+	at app//forge.ai.AiBlockController.getKillingBlockers(AiBlockController.java:120)
+	at app//forge.ai.AiBlockController.makeTradeBlocks(AiBlockController.java:618)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.card.CardType.hasSubtype(CardType.java:385)
+	at app//forge.card.CardType.isSaga(CardType.java:565)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:747)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$430/0x000000a80129ba60.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.player.Player.cantLoseCheck(Player.java:2018)
+	at app//forge.game.player.Player.cantLoseForZeroOrLessLife(Player.java:2012)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1370)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.dealsFirstStrikeDamage(ComputerUtilCombat.java:2251)
+	at app//forge.ai.ComputerUtilCombat.predictPowerBonusOfAttacker(ComputerUtilCombat.java:1162)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1709)
+	at app//forge.ai.AiBlockController.getKillingBlockers(AiBlockController.java:120)
+	at app//forge.ai.AiBlockController.makeGoodBlocks(AiBlockController.java:239)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1116)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+Stopping slow match as draw
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 3 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 6 ended in 120006 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 4 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 7 ended in 4424 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 5 Ai(2)-Lathril Alternate Supplied: 3
+
+Game Result: Game 8 ended in 1955 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 5 Ai(2)-Lathril Alternate Supplied: 4
+
+Game Result: Game 9 ended in 2621 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Undercity (237) - [Couldn't add to stack, failed to target] - Goad target creature.[[Dionus, Elvish Archdruid (193), Gloom Ripper (150)]]
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 5 Ai(2)-Lathril Alternate Supplied: 5
+
+Game Result: Game 10 ended in 37724 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 6 Ai(2)-Lathril Alternate Supplied: 5
+
+Game Result: Game 11 ended in 2293 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 6 Ai(2)-Lathril Alternate Supplied: 6
+
+Game Result: Game 12 ended in 2360 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Moving spell to Exile
+Game Outcome: Turn 17
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 6 Ai(2)-Lathril Alternate Supplied: 7
+
+Game Result: Game 13 ended in 11739 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 7 Ai(2)-Lathril Alternate Supplied: 7
+
+Game Result: Game 14 ended in 6715 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 8 Ai(2)-Lathril Alternate Supplied: 7
+
+Game Result: Game 15 ended in 1747 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 8 Ai(2)-Lathril Alternate Supplied: 8
+
+Game Result: Game 16 ended in 1034 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 9 Ai(2)-Lathril Alternate Supplied: 8
+
+Game Result: Game 17 ended in 1979 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 9 Ai(2)-Lathril Alternate Supplied: 9
+
+Game Result: Game 18 ended in 2936 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 10 Ai(2)-Lathril Alternate Supplied: 9
+
+Game Result: Game 19 ended in 1065 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 10 Ai(2)-Lathril Alternate Supplied: 10
+
+Game Result: Game 20 ended in 763 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 10 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 21 ended in 2067 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 11 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 22 ended in 951 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 12 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 23 ended in 2642 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 13 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 24 ended in 1117 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 14 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 25 ended in 1329 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 15 Ai(2)-Lathril Alternate Supplied: 11
+
+Game Result: Game 26 ended in 10611 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Undercity (206) - [Couldn't add to stack, failed to target] - Goad target creature.[[Trystan, Callous Cultivator (180), High Perfect Morcant (184)]]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 15 Ai(2)-Lathril Alternate Supplied: 12
+
+Game Result: Game 27 ended in 2012 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 16 Ai(2)-Lathril Alternate Supplied: 12
+
+Game Result: Game 28 ended in 1317 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 17 Ai(2)-Lathril Alternate Supplied: 12
+
+Game Result: Game 29 ended in 2149 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 17 Ai(2)-Lathril Alternate Supplied: 13
+
+Game Result: Game 30 ended in 1650 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 18 Ai(2)-Lathril Alternate Supplied: 13
+
+Game Result: Game 31 ended in 603 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 18 Ai(2)-Lathril Alternate Supplied: 14
+
+Game Result: Game 32 ended in 2489 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19 Ai(2)-Lathril Alternate Supplied: 14
+
+Game Result: Game 33 ended in 2151 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19 Ai(2)-Lathril Alternate Supplied: 15
+
+Game Result: Game 34 ended in 664 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19 Ai(2)-Lathril Alternate Supplied: 16
+
+Game Result: Game 35 ended in 3925 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19 Ai(2)-Lathril Alternate Supplied: 17
+
+Game Result: Game 36 ended in 2580 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19 Ai(2)-Lathril Alternate Supplied: 18
+
+Game Result: Game 37 ended in 920 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 20 Ai(2)-Lathril Alternate Supplied: 18
+
+Game Result: Game 38 ended in 2566 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 21 Ai(2)-Lathril Alternate Supplied: 18
+
+Game Result: Game 39 ended in 1820 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 21 Ai(2)-Lathril Alternate Supplied: 19
+
+Game Result: Game 40 ended in 932 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 21 Ai(2)-Lathril Alternate Supplied: 20
+
+Game Result: Game 41 ended in 1185 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22 Ai(2)-Lathril Alternate Supplied: 20
+
+Game Result: Game 42 ended in 3675 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22 Ai(2)-Lathril Alternate Supplied: 21
+
+Game Result: Game 43 ended in 2262 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22 Ai(2)-Lathril Alternate Supplied: 22
+
+Game Result: Game 44 ended in 1698 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22 Ai(2)-Lathril Alternate Supplied: 23
+
+Game Result: Game 45 ended in 8759 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril Alternate Supplied has won because all opponents have lost
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22 Ai(2)-Lathril Alternate Supplied: 24
+
+Game Result: Game 46 ended in 9037 ms. Ai(2)-Lathril Alternate Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 23 Ai(2)-Lathril Alternate Supplied: 24
+
+Game Result: Game 47 ended in 3425 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 24 Ai(2)-Lathril Alternate Supplied: 24
+
+Game Result: Game 48 ended in 1176 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 25 Ai(2)-Lathril Alternate Supplied: 24
+
+Game Result: Game 49 ended in 1185 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril Alternate Supplied has lost because life total reached 0
+Match Result: Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08: 26 Ai(2)-Lathril Alternate Supplied: 24
+
+Game Result: Game 50 ended in 963 ms. Ai(1)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!

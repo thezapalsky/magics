@@ -1,0 +1,398 @@
+Error handling registered!
+18:20:16 [INFO ] GuiBase: ##########################################
+18:20:16 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:20:16 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:20:16 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:20:16 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:20:16 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Sephiroth Sacrifice Supplied vs Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 - fifty  games of Brawl seed 33017
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 0 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 1
+
+Game Result: Game 1 ended in 6100 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Undying Malice (86) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 0 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 2
+
+Game Result: Game 2 ended in 2770 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 0 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 3
+
+Game Result: Game 3 ended in 4386 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 0 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 4
+
+Game Result: Game 4 ended in 4029 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 4
+
+Game Result: Game 5 ended in 4309 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 5
+
+Game Result: Game 6 ended in 2903 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Undying Malice (86) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Feign Death (79) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 6
+
+Game Result: Game 7 ended in 16133 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Feign Death (79) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 7
+
+Game Result: Game 8 ended in 4056 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 7
+
+Game Result: Game 9 ended in 4387 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 8
+
+Game Result: Game 10 ended in 4445 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 9
+
+Game Result: Game 11 ended in 3928 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 10
+
+Game Result: Game 12 ended in 3950 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 10
+
+Game Result: Game 13 ended in 4353 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 11
+
+Game Result: Game 14 ended in 4358 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 15 ended in 1922 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 13
+
+Game Result: Game 16 ended in 7359 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 14
+
+Game Result: Game 17 ended in 15853 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 15
+
+Game Result: Game 18 ended in 3145 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 16
+
+Game Result: Game 19 ended in 3671 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 20 ended in 23337 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Feign Death (79) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 18
+
+Game Result: Game 21 ended in 4286 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 19
+
+Game Result: Game 22 ended in 1770 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 23 ended in 4624 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 21
+
+Game Result: Game 24 ended in 1266 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 22
+
+Game Result: Game 25 ended in 1972 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 23
+
+Game Result: Game 26 ended in 1875 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 24
+
+Game Result: Game 27 ended in 3445 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 25
+
+Game Result: Game 28 ended in 2613 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 26
+
+Game Result: Game 29 ended in 2091 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Not Dead After All (35) - [Couldn't add to stack, failed to target] - Until end of turn, target creature you control gains "When this creature dies, return it to the battlefield tapped under its owner's control, then create a Wicked Role token attached to it." (Enchanted creature gets +1/+1. When this Aura is put into a graveyard, each opponent loses 1 life.)[[]]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 27
+
+Game Result: Game 30 ended in 11708 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 28
+
+Game Result: Game 31 ended in 13140 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 29
+
+Game Result: Game 32 ended in 1928 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 29
+
+Game Result: Game 33 ended in 3330 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 30
+
+Game Result: Game 34 ended in 5281 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 30
+
+Game Result: Game 35 ended in 1551 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 31
+
+Game Result: Game 36 ended in 1968 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 32
+
+Game Result: Game 37 ended in 2463 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 33
+
+Game Result: Game 38 ended in 1398 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 34
+
+Game Result: Game 39 ended in 8387 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 35
+
+Game Result: Game 40 ended in 2258 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Undying Malice (86) - [Couldn't add to stack, failed to target] - Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."[[]]
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 36
+
+Game Result: Game 41 ended in 1662 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 37
+
+Game Result: Game 42 ended in 7391 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 38
+
+Game Result: Game 43 ended in 2955 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 39
+
+Game Result: Game 44 ended in 5145 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 39
+
+Game Result: Game 45 ended in 1499 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 39
+
+Game Result: Game 46 ended in 847 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 40
+
+Game Result: Game 47 ended in 1334 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 41
+
+Game Result: Game 48 ended in 1610 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 42
+
+Game Result: Game 49 ended in 1560 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07: 43
+
+Game Result: Game 50 ended in 2050 ms. Ai(2)-Rofellos, Llanowar Emissary Competitive Brawl BrawlREC 2026-07 has won!

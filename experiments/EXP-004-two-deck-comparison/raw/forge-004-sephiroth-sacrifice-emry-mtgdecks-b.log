@@ -1,0 +1,395 @@
+Error handling registered!
+18:04:34 [INFO ] GuiBase: ##########################################
+18:04:34 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:04:34 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:04:34 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:04:34 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:04:34 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 vs Ai(2)-Sephiroth Sacrifice Supplied - fifty  games of Brawl seed 33008
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 1 ended in 10055 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 2 ended in 44050 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 3 ended in 3133 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 1 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 4 ended in 21218 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 5 ended in 5593 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 4
+
+Game Result: Game 6 ended in 1733 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+No AI assigned for API: Intensify
+ComputerUtilMana: payManaCost() cost was not paid for Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle. (Whir of Invention). Didn't find what to pay for {1}
+[Ai(1)-Emry Competitive Brawl MTGDecks 2026-07] AI failed to play Whir of Invention (58) [Stack]
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 7 ended in 5019 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 6
+
+Game Result: Game 8 ended in 3243 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 9 ended in 3615 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 8
+
+Game Result: Game 10 ended in 24441 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 9
+
+Game Result: Game 11 ended in 9079 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 12 ended in 4983 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 11
+
+Game Result: Game 13 ended in 27269 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 3 Ai(2)-Sephiroth Sacrifice Supplied: 11
+
+Game Result: Game 14 ended in 4529 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 11
+
+Game Result: Game 15 ended in 15104 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 12
+
+Game Result: Game 16 ended in 6643 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 13
+
+Game Result: Game 17 ended in 13184 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 14
+
+Game Result: Game 18 ended in 3838 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 15
+
+Game Result: Game 19 ended in 5752 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 16
+
+Game Result: Game 20 ended in 3981 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 16
+
+Game Result: Game 21 ended in 5664 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 17
+
+Game Result: Game 22 ended in 12514 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 18
+
+Game Result: Game 23 ended in 14277 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 19
+
+Game Result: Game 24 ended in 2378 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 20
+
+Game Result: Game 25 ended in 5915 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 21
+
+Game Result: Game 26 ended in 2219 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 21
+
+Game Result: Game 27 ended in 6037 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 22
+
+Game Result: Game 28 ended in 1056 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 23
+
+Game Result: Game 29 ended in 1134 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 24
+
+Game Result: Game 30 ended in 1296 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 25
+
+Game Result: Game 31 ended in 1798 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 26
+
+Game Result: Game 32 ended in 1568 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 27
+
+Game Result: Game 33 ended in 1660 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 27
+
+Game Result: Game 34 ended in 1436 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 28
+
+Game Result: Game 35 ended in 1214 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 29
+
+Game Result: Game 36 ended in 1044 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 30
+
+Game Result: Game 37 ended in 1506 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 31
+
+Game Result: Game 38 ended in 2185 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 32
+
+Game Result: Game 39 ended in 1242 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 33
+
+Game Result: Game 40 ended in 1294 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 34
+
+Game Result: Game 41 ended in 1456 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 35
+
+Game Result: Game 42 ended in 1076 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 36
+
+Game Result: Game 43 ended in 1195 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Sephiroth Sacrifice Supplied: 36
+
+Game Result: Game 44 ended in 3216 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 36
+
+Game Result: Game 45 ended in 6198 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 37
+
+Game Result: Game 46 ended in 6467 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 38
+
+Game Result: Game 47 ended in 1684 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 39
+
+Game Result: Game 48 ended in 902 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 40
+
+Game Result: Game 49 ended in 1103 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Emry Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Sephiroth Sacrifice Supplied: 40
+
+Game Result: Game 50 ended in 1378 ms. Ai(1)-Emry Competitive Brawl MTGDecks 2026-07 has won!

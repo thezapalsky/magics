@@ -1,0 +1,383 @@
+Error handling registered!
+18:20:16 [INFO ] GuiBase: ##########################################
+18:20:16 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:20:16 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:20:16 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:20:16 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:20:16 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 vs Ai(2)-Sephiroth Sacrifice Supplied - fifty  games of Brawl seed 33016
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 1 ended in 15640 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 1 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 2 ended in 8082 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 3 ended in 8544 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 3 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 4 ended in 5507 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 5 ended in 5190 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 22
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 6 ended in 32601 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 7 ended in 8475 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 8 ended in 6568 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 9 ended in 11738 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 4
+
+Game Result: Game 10 ended in 5162 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 11 ended in 6750 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 12 ended in 2846 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 13 ended in 3810 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Sephiroth Sacrifice Supplied: 6
+
+Game Result: Game 14 ended in 6673 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 6
+
+Game Result: Game 15 ended in 2590 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 16 ended in 1640 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Sephiroth Sacrifice Supplied: 8
+
+Game Result: Game 17 ended in 2764 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Sephiroth Sacrifice Supplied: 8
+
+Game Result: Game 18 ended in 3359 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Sephiroth Sacrifice Supplied: 9
+
+Game Result: Game 19 ended in 29917 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 20 ended in 1807 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Sephiroth Sacrifice Supplied: 11
+
+Game Result: Game 21 ended in 16207 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 11 Ai(2)-Sephiroth Sacrifice Supplied: 11
+
+Game Result: Game 22 ended in 1605 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 11 Ai(2)-Sephiroth Sacrifice Supplied: 12
+
+Game Result: Game 23 ended in 1411 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 11 Ai(2)-Sephiroth Sacrifice Supplied: 13
+
+Game Result: Game 24 ended in 7148 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 12 Ai(2)-Sephiroth Sacrifice Supplied: 13
+
+Game Result: Game 25 ended in 3458 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 12 Ai(2)-Sephiroth Sacrifice Supplied: 14
+
+Game Result: Game 26 ended in 2304 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 13 Ai(2)-Sephiroth Sacrifice Supplied: 14
+
+Game Result: Game 27 ended in 2849 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 13 Ai(2)-Sephiroth Sacrifice Supplied: 15
+
+Game Result: Game 28 ended in 1136 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 14 Ai(2)-Sephiroth Sacrifice Supplied: 15
+
+Game Result: Game 29 ended in 1138 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Sephiroth Sacrifice Supplied: 15
+
+Game Result: Game 30 ended in 1185 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Sephiroth Sacrifice Supplied: 16
+
+Game Result: Game 31 ended in 1785 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 16 Ai(2)-Sephiroth Sacrifice Supplied: 16
+
+Game Result: Game 32 ended in 5122 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 16 Ai(2)-Sephiroth Sacrifice Supplied: 17
+
+Game Result: Game 33 ended in 1573 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Sephiroth Sacrifice Supplied: 17
+
+Game Result: Game 34 ended in 1250 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Sephiroth Sacrifice Supplied: 17
+
+Game Result: Game 35 ended in 1477 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Sephiroth Sacrifice Supplied: 18
+
+Game Result: Game 36 ended in 1148 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Sephiroth Sacrifice Supplied: 19
+
+Game Result: Game 37 ended in 1994 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Sephiroth Sacrifice Supplied: 20
+
+Game Result: Game 38 ended in 1171 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 19 Ai(2)-Sephiroth Sacrifice Supplied: 20
+
+Game Result: Game 39 ended in 2602 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 20 Ai(2)-Sephiroth Sacrifice Supplied: 20
+
+Game Result: Game 40 ended in 1523 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 20 Ai(2)-Sephiroth Sacrifice Supplied: 21
+
+Game Result: Game 41 ended in 1036 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 21
+
+Game Result: Game 42 ended in 2230 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 22
+
+Game Result: Game 43 ended in 1713 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 23
+
+Game Result: Game 44 ended in 1429 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 24
+
+Game Result: Game 45 ended in 1468 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 25
+
+Game Result: Game 46 ended in 1269 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 26
+
+Game Result: Game 47 ended in 943 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Sephiroth Sacrifice Supplied: 27
+
+Game Result: Game 48 ended in 659 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 22 Ai(2)-Sephiroth Sacrifice Supplied: 27
+
+Game Result: Game 49 ended in 1139 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07: 23 Ai(2)-Sephiroth Sacrifice Supplied: 27
+
+Game Result: Game 50 ended in 1431 ms. Ai(1)-Raffine Competitive Brawl MTGDecks 2026-07 has won!

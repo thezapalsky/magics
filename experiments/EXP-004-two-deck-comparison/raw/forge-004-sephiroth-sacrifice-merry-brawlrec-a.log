@@ -1,0 +1,437 @@
+Error handling registered!
+18:10:11 [INFO ] GuiBase: ##########################################
+18:10:11 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:10:11 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:10:11 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:10:11 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:10:11 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Sephiroth Sacrifice Supplied vs Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 - fifty  games of Brawl seed 33011
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 0
+
+Game Result: Game 1 ended in 9381 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 1
+
+Game Result: Game 2 ended in 3370 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 2
+
+Game Result: Game 3 ended in 6453 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 3
+
+Game Result: Game 4 ended in 7214 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 4
+
+Game Result: Game 5 ended in 21522 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 5
+
+Game Result: Game 6 ended in 6416 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 6
+
+Game Result: Game 7 ended in 6731 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 6
+
+Game Result: Game 8 ended in 2896 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 6
+
+Game Result: Game 9 ended in 2501 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 7
+
+Game Result: Game 10 ended in 2511 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 8
+
+Game Result: Game 11 ended in 17272 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 9
+
+Game Result: Game 12 ended in 1866 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 10
+
+Game Result: Game 13 ended in 7152 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 11
+
+Game Result: Game 14 ended in 5589 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 15 ended in 1297 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 13
+
+Game Result: Game 16 ended in 1691 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 14
+
+Game Result: Game 17 ended in 1513 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 14
+
+Game Result: Game 18 ended in 5439 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 15
+
+Game Result: Game 19 ended in 1840 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 15
+
+Game Result: Game 20 ended in 2973 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 16
+
+Game Result: Game 21 ended in 2113 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 22 ended in 1887 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 23 ended in 1810 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 24 ended in 4169 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 8 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 25 ended in 2595 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 8 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 18
+
+Game Result: Game 26 ended in 3580 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 8 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 19
+
+Game Result: Game 27 ended in 5257 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 9 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 19
+
+Game Result: Game 28 ended in 2434 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 10 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 19
+
+Game Result: Game 29 ended in 4794 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 10 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 30 ended in 2519 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 11 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 31 ended in 2589 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 12 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 32 ended in 15693 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 33 ended in 721 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 21
+
+Game Result: Game 34 ended in 2473 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 21
+
+Game Result: Game 35 ended in 40175 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 22
+
+Game Result: Game 36 ended in 1418 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 23
+
+Game Result: Game 37 ended in 8986 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 24
+
+Game Result: Game 38 ended in 2466 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 25
+
+Game Result: Game 39 ended in 922 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 16
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 26
+
+Game Result: Game 40 ended in 4403 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 27
+
+Game Result: Game 41 ended in 2893 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 28
+
+Game Result: Game 42 ended in 1397 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 29
+
+Game Result: Game 43 ended in 1742 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 30
+
+Game Result: Game 44 ended in 2046 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 15 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 30
+
+Game Result: Game 45 ended in 1779 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 15 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 31
+
+Game Result: Game 46 ended in 1925 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 16 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 31
+
+Game Result: Game 47 ended in 2458 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 16 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 32
+
+Game Result: Game 48 ended in 516 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 16 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 33
+
+Game Result: Game 49 ended in 1450 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 16 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 34
+
+Game Result: Game 50 ended in 662 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!

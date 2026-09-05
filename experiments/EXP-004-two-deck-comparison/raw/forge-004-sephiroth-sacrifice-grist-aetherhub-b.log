@@ -1,0 +1,383 @@
+Error handling registered!
+17:57:06 [INFO ] GuiBase: ##########################################
+17:57:06 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+17:57:06 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+17:57:06 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+17:57:06 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+17:57:06 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Grist Competitive Brawl AetherHub 2026-09 vs Ai(2)-Sephiroth Sacrifice Supplied - fifty  games of Brawl seed 33006
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 0 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 1 ended in 22506 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 1 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 2 ended in 5463 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 2 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 3 ended in 8584 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 3 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 4 ended in 12842 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 4 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 5 ended in 8816 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 5 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 6 ended in 5019 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 6 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 7 ended in 6119 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 7 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 8 ended in 6790 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 8 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 9 ended in 8829 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 9 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 10 ended in 5494 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 10 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 11 ended in 2047 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 11 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 12 ended in 5118 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 12 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 13 ended in 8377 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 13 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 14 ended in 14351 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 14 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 15 ended in 13582 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 15 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 16 ended in 17190 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 16 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 17 ended in 22805 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 17 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 18 ended in 27270 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 18 Ai(2)-Sephiroth Sacrifice Supplied: 1
+
+Game Result: Game 19 ended in 6411 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 18 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 20 ended in 24492 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 19 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 21 ended in 7757 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 20 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 22 ended in 10401 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 21 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 23 ended in 7077 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 22 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 24 ended in 5070 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 23 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 25 ended in 5139 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 24 Ai(2)-Sephiroth Sacrifice Supplied: 2
+
+Game Result: Game 26 ended in 12579 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 24 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 27 ended in 2769 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 25 Ai(2)-Sephiroth Sacrifice Supplied: 3
+
+Game Result: Game 28 ended in 51245 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 25 Ai(2)-Sephiroth Sacrifice Supplied: 4
+
+Game Result: Game 29 ended in 14814 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 25 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 30 ended in 1180 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 26 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 31 ended in 2876 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 27 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 32 ended in 4668 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 28 Ai(2)-Sephiroth Sacrifice Supplied: 5
+
+Game Result: Game 33 ended in 2715 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 28 Ai(2)-Sephiroth Sacrifice Supplied: 6
+
+Game Result: Game 34 ended in 2915 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 28 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 35 ended in 1261 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 29 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 36 ended in 1475 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 30 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 37 ended in 6056 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 31 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 38 ended in 6122 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 32 Ai(2)-Sephiroth Sacrifice Supplied: 7
+
+Game Result: Game 39 ended in 2130 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 32 Ai(2)-Sephiroth Sacrifice Supplied: 8
+
+Game Result: Game 40 ended in 4257 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 32 Ai(2)-Sephiroth Sacrifice Supplied: 9
+
+Game Result: Game 41 ended in 22420 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has lost because life total reached 0
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 32 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 42 ended in 835 ms. Ai(2)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 33 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 43 ended in 4342 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 34 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 44 ended in 8060 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 35 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 45 ended in 2688 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 36 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 46 ended in 2838 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 37 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 47 ended in 1655 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 38 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 48 ended in 6169 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 39 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 49 ended in 1178 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won because all opponents have lost
+Game Outcome: Ai(2)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Match Result: Ai(1)-Grist Competitive Brawl AetherHub 2026-09: 40 Ai(2)-Sephiroth Sacrifice Supplied: 10
+
+Game Result: Game 50 ended in 1243 ms. Ai(1)-Grist Competitive Brawl AetherHub 2026-09 has won!

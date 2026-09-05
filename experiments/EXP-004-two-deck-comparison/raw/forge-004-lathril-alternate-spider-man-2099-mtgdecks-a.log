@@ -1,0 +1,405 @@
+Error handling registered!
+19:02:19 [INFO ] GuiBase: ##########################################
+19:02:19 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+19:02:19 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+19:02:19 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+19:02:19 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+19:02:19 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Lathril Alternate Supplied vs Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 - fifty  games of Brawl seed 33039
+Moving spell to Library
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Glorious Gale for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 0 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 1 ended in 11795 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 1 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 2 ended in 6149 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 2 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 3 ended in 2851 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 3 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 4 ended in 4326 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 4 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 5 ended in 4337 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 4 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 2
+
+Game Result: Game 6 ended in 4173 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Island Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 4 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 7 ended in 3177 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 5 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 8 ended in 1578 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 6 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 9 ended in 3351 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 7 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 10 ended in 4158 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 8 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 11 ended in 3515 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 9 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 12 ended in 1848 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Glorious Gale for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 9 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 13 ended in 6946 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 10 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 14 ended in 1210 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 11 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 15 ended in 3403 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 12 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 16 ended in 1661 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 13 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 17 ended in 2308 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 14 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 18 ended in 4519 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Island Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 15 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 19 ended in 14022 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Petty Theft Did not have activator set in SpellAbilityRestriction.canPlay()
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 16 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 20 ended in 7422 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 17 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 21 ended in 2411 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 18 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 22 ended in 1299 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 19 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 23 ended in 2561 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 19 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 5
+
+Game Result: Game 24 ended in 4530 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 20 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 5
+
+Game Result: Game 25 ended in 1460 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 20 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 6
+
+Game Result: Game 26 ended in 2378 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 21 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 6
+
+Game Result: Game 27 ended in 5351 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 21 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 7
+
+Game Result: Game 28 ended in 5891 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 22 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 7
+
+Game Result: Game 29 ended in 2725 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 23 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 7
+
+Game Result: Game 30 ended in 5814 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 23 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 31 ended in 4900 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 24 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 32 ended in 2820 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 25 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 33 ended in 5965 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 26 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 34 ended in 2295 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 27 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 35 ended in 1843 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 28 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 36 ended in 2026 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 29 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 37 ended in 1977 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 30 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 38 ended in 3942 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 31 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 39 ended in 1937 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 31 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 40 ended in 17710 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 32 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 41 ended in 1409 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 33 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 42 ended in 2356 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 33 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 43 ended in 2104 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 34 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 44 ended in 5927 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 34 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 11
+
+Game Result: Game 45 ended in 4131 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Glorious Gale for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril Alternate Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril Alternate Supplied: 34 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 46 ended in 4373 ms. Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Correcting zone for Infestation Sage (18)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 35 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 47 ended in 1935 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Correcting zone for Insect Token (201)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 36 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 48 ended in 2733 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Moving spell to Library
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 37 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 49 ended in 2754 ms. Ai(1)-Lathril Alternate Supplied has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril Alternate Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril Alternate Supplied: 38 Ai(2)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 50 ended in 1415 ms. Ai(1)-Lathril Alternate Supplied has won!

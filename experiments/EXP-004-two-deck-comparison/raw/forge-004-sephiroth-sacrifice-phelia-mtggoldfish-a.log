@@ -1,0 +1,464 @@
+Error handling registered!
+18:14:26 [INFO ] GuiBase: ##########################################
+18:14:26 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+18:14:26 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+18:14:26 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+18:14:26 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+18:14:26 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Sephiroth Sacrifice Supplied vs Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 - fifty  games of Brawl seed 33013
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 0 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 1
+
+Game Result: Game 1 ended in 33749 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 1
+
+Game Result: Game 2 ended in 6069 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 2
+
+Game Result: Game 3 ended in 4714 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 1 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 3
+
+Game Result: Game 4 ended in 2613 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 3
+
+Game Result: Game 5 ended in 6400 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 4
+
+Game Result: Game 6 ended in 4201 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 5
+
+Game Result: Game 7 ended in 14401 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 6
+
+Game Result: Game 8 ended in 7696 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.begin(ReferencePipeline.java:173)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:526)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.17/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at app//forge.game.CardTraitBase.findSVar(CardTraitBase.java:554)
+	at app//forge.game.CardTraitBase.getSVar(CardTraitBase.java:562)
+	at app//forge.game.ability.AbilityUtils.calculateAmount(AbilityUtils.java:403)
+	at app//forge.game.ability.AbilityUtils.calculateAmount(AbilityUtils.java:365)
+	at app//forge.game.spellability.SpellAbilityCondition.areMet(SpellAbilityCondition.java:493)
+	at app//forge.game.spellability.SpellAbility.metConditions(SpellAbility.java:840)
+	at app//forge.game.spellability.SpellAbility.canThisProduce(SpellAbility.java:296)
+	at app//forge.game.spellability.SpellAbility.canProduce(SpellAbility.java:303)
+	at app//forge.game.spellability.SpellAbility.calculateScoreForManaAbility(SpellAbility.java:2396)
+	at app//forge.ai.ComputerUtilMana.scoreManaProducingCard(ComputerUtilMana.java:110)
+	at app//forge.ai.ComputerUtilMana.sortManaAbilities(ComputerUtilMana.java:140)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:858)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1985)
+	at app//forge.ai.AiBlockController.getSafeBlockers(AiBlockController.java:106)
+	at app//forge.ai.AiBlockController.reinforceBlockersToKill(AiBlockController.java:819)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1104)
+Moving spell to Exile
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 2 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 7
+
+Game Result: Game 9 ended in 80259 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 7
+
+Game Result: Game 10 ended in 1909 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 8
+
+Game Result: Game 11 ended in 2069 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 9
+
+Game Result: Game 12 ended in 9112 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 10
+
+Game Result: Game 13 ended in 6270 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 11
+
+Game Result: Game 14 ended in 1720 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 12
+
+Game Result: Game 15 ended in 2147 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 16
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 13
+
+Game Result: Game 16 ended in 56860 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 14
+
+Game Result: Game 17 ended in 5033 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 15
+
+Game Result: Game 18 ended in 6868 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Moving spell to Exile
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 3 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 16
+
+Game Result: Game 19 ended in 2199 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 19
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 16
+
+Game Result: Game 20 ended in 10755 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Exile
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 17
+
+Game Result: Game 21 ended in 1528 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 18
+
+Game Result: Game 22 ended in 2047 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 19
+
+Game Result: Game 23 ended in 1177 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 4 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 20
+
+Game Result: Game 24 ended in 1610 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 20
+
+Game Result: Game 25 ended in 1224 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Exile
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 21
+
+Game Result: Game 26 ended in 6700 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 22
+
+Game Result: Game 27 ended in 1437 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 5 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 23
+
+Game Result: Game 28 ended in 2592 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 23
+
+Game Result: Game 29 ended in 1755 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 24
+
+Game Result: Game 30 ended in 2680 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 25
+
+Game Result: Game 31 ended in 1520 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 26
+
+Game Result: Game 32 ended in 641 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 27
+
+Game Result: Game 33 ended in 1368 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 28
+
+Game Result: Game 34 ended in 1989 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 29
+
+Game Result: Game 35 ended in 1252 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 30
+
+Game Result: Game 36 ended in 2767 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 6 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 31
+
+Game Result: Game 37 ended in 2702 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 17
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has won because all opponents have lost
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has lost because life total reached 0
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 31
+
+Game Result: Game 38 ended in 12255 ms. Ai(1)-Sephiroth Sacrifice Supplied has won!
+
+Moving spell to Exile
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 32
+
+Game Result: Game 39 ended in 2589 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 33
+
+Game Result: Game 40 ended in 1114 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 34
+
+Game Result: Game 41 ended in 1154 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 35
+
+Game Result: Game 42 ended in 1474 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 36
+
+Game Result: Game 43 ended in 6415 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 37
+
+Game Result: Game 44 ended in 2765 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Warning: default (ie. inherited from base class) implementation of chooseSingleCard is used by Samwise the Stouthearted for forge.ai.ability.AlwaysPlayAi. Consider declaring an overloaded method
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 38
+
+Game Result: Game 45 ended in 1231 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 39
+
+Game Result: Game 46 ended in 3311 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 40
+
+Game Result: Game 47 ended in 805 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 41
+
+Game Result: Game 48 ended in 1447 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Snow-Covered Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 42
+
+Game Result: Game 49 ended in 1392 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Sephiroth Sacrifice Supplied has lost because life total reached 0
+Game Outcome: Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won because all opponents have lost
+Match Result: Ai(1)-Sephiroth Sacrifice Supplied: 7 Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08: 43
+
+Game Result: Game 50 ended in 1938 ms. Ai(2)-Phelia Competitive Brawl MTGGoldfish 2026-08 has won!
