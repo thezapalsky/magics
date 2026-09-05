@@ -13,11 +13,11 @@ Paper release: `0.3.2`. Prepared 2026-09-05.
 
 | Paper 0.3.2 | Arena target 0.3.2 |
 |---|---|
-| Sol Ring | Worn Powerstone |
-| Commander's Sphere | Paradise Druid |
+| Sol Ring | Mind Stone |
+| Commander's Sphere | The Soul Stone |
 | Elvish Aberration | Llanowar Tribe |
 
-The other 97 card copies match paper `0.3.2`, including Changeling Wayfinder, Risky Research, and Scarblade's Malice. Letter of Acceptance and Mazemind Tome are not in the current target. Paradise Druid is retained deliberately because the user rejected Letter of Acceptance as a weak substitute.
+The other 97 card copies match paper `0.3.2`, including Changeling Wayfinder, Risky Research, and Scarblade's Malice. Worn Powerstone, Paradise Druid, Letter of Acceptance, and Mazemind Tome are not in the current target. The user deliberately chose the two-Stone setup: Mind Stone keeps a cheap artifact-ramp slot, while The Soul Stone provides black mana and a much stronger Arena-only late-game reanimation mode than Commander's Sphere.
 
 The Arena target is not a verified export of the user's current deck or a statement that every card is owned. At the latest report, Risky Research still required one common wildcard; the user confirmed using owned Cost of Brilliance as its temporary proxy and removing Assert Perfection. The Changeling Wayfinder and Scarblade's Malice swaps still need explicit completion confirmation.
 

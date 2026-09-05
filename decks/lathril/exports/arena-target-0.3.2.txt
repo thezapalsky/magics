@@ -45,7 +45,7 @@ Deck
 1 Midnight Reaper
 1 Moonglove Extractor
 1 Primal Might
-1 Paradise Druid
+1 The Soul Stone
 1 Reclamation Sage
 1 Risky Research
 1 Rogue's Passage
@@ -73,5 +73,5 @@ Deck
 1 Wardens of the Cycle
 1 Wildborn Preserver
 1 Wishclaw Talisman
-1 Worn Powerstone
+1 Mind Stone
 1 Zombify

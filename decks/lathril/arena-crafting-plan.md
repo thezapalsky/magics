@@ -3,14 +3,15 @@
 ## Current 0.3.2 state — authoritative
 
 - Paper target: released [`0.3.2`](decklist.txt), physically completed by the user on 2026-09-05.
-- Arena status: 100/100 before the `0.3.2` sync; the three new one-for-one swaps are not yet fully confirmed.
+- Arena status: the latest screenshot showed 101/100 while comparing mana-rock substitutes. The user chose to keep Mind Stone and The Soul Stone and remove Worn Powerstone; confirm the client returns to 100/100 after that removal.
 - The user is **one common wildcard short for Risky Research** and confirmed replacing Assert Perfection with an owned Cost of Brilliance as the temporary proxy.
-- Do **not** craft Letter of Acceptance or Mazemind Tome. Neither is part of the current Arena target.
+- Do **not** craft Letter of Acceptance or Mazemind Tome, and do not retain Worn Powerstone. None is part of the current Arena target.
 
 ### Arena actions for paper 0.3.2
 
 | Status | Add to Arena | Remove from Arena | Reason |
 |---|---|---|---|
+| Target decided; final 100/100 confirmation pending | Keep [Mind Stone](https://scryfall.com/search?q=%21%22Mind+Stone%22) and [The Soul Stone](https://scryfall.com/card/spm/66/the-soul-stone) | Worn Powerstone | Mind Stone represents Sol Ring's cheap mana-rock slot; The Soul Stone represents Commander's Sphere's colored-mana artifact slot. The Soul Stone's harness ability is a deliberate Arena-only deviation. |
 | Temporary proxy done; exact card pending one common wildcard | [Risky Research](https://scryfall.com/card/spm/62/risky-research); currently [Cost of Brilliance](https://scryfall.com/card/sos/77/cost-of-brilliance) | Assert Perfection | Cost has the same mana cost, draws two, and loses 2 life; it gives a +1/+1 counter instead of surveilling two. |
 | Pending confirmation | [Changeling Wayfinder](https://scryfall.com/card/ecl/1/changeling-wayfinder) | Ravenous Amulet | Exact paper `0.3.2` card. |
 | Pending confirmation | [Scarblade's Malice](https://scryfall.com/card/ecl/119/scarblades-malice) | Basilisk Collar | Exact paper `0.3.2` card. |
@@ -23,11 +24,11 @@ Until Risky Research is obtained, keep Cost of Brilliance so the deck remains at
 
 | Paper 0.3.2 | Arena target 0.3.2 | Difference |
 |---|---|---|
-| Sol Ring | Worn Powerstone | Both make two colorless mana; Powerstone costs three and enters tapped. |
-| Commander's Sphere | Paradise Druid | Druid costs two and supplies a creature body but cannot be sacrificed to draw. Letter of Acceptance was rejected as too weak. |
+| Sol Ring | Mind Stone | Both are cheap untapped artifact mana sources. Mind Stone costs one more, makes only one colorless mana instead of two, and can be sacrificed for a card. |
+| Commander's Sphere | The Soul Stone | Both are artifact mana sources. The Soul Stone costs one less, makes only black mana, is indestructible, and replaces Sphere's cash-in draw with an expensive repeatable-reanimation mode. |
 | Elvish Aberration | Llanowar Tribe | Both are Elves that tap for three green; Tribe costs less but lacks Forestcycling. |
 
-The versioned target is [`exports/arena-target-0.3.2.txt`](exports/arena-target-0.3.2.txt). It is a target list, not confirmation that the three new swaps have been completed or crafted.
+The versioned target is [`exports/arena-target-0.3.2.txt`](exports/arena-target-0.3.2.txt). It records the chosen Mind Stone / The Soul Stone configuration, but is not confirmation that the final removal was completed in the client or that every exact paper card is owned.
 
 ## Archived 0.3.1 tracker
 
