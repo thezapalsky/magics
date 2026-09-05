@@ -16,7 +16,7 @@ Only released lists change the version in `VERSION`. Experiments keep their own 
 
 ## Arena practice mirror
 
-The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.2`. It preserves Paradise Druid as the deliberate substitute for Commander's Sphere, drops the Letter of Acceptance and Mazemind Tome crafts, and tracks the three new one-for-one Arena sync swaps. Arena completion remains unverified; a paper release does not confirm that the Arena swaps have been made.
+The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.2`. The latest Arena export uses Mind Stone for Sol Ring, The Soul Stone for Commander's Sphere, and Llanowar Tribe for Elvish Aberration. Cost of Brilliance temporarily occupies Risky Research's slot while the user is one common wildcard short. [EXP-003](experiments/EXP-003-competitive-brawl-benchmark/README.md) benchmarks that exact Arena snapshot in Forge without changing the released paper list.
 
 ## Versioning
 

@@ -1,0 +1,431 @@
+Error handling registered!
+16:21:27 [INFO ] GuiBase: ##########################################
+16:21:27 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+16:21:27 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+16:21:27 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+16:21:27 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+16:21:27 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 vs Ai(2)-Lathril v0.3.2 - Arena Mirror - fifty  games of Brawl seed 32004
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 1 Ai(2)-Lathril v0.3.2 - Arena Mirror: 0
+
+Game Result: Game 1 ended in 32268 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 2 Ai(2)-Lathril v0.3.2 - Arena Mirror: 0
+
+Game Result: Game 2 ended in 16626 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 2 Ai(2)-Lathril v0.3.2 - Arena Mirror: 1
+
+Game Result: Game 3 ended in 3968 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 2 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 4 ended in 5753 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 3 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 5 ended in 7296 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 16
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 4 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 6 ended in 27392 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 17
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 5 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 7 ended in 36108 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 6 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 8 ended in 11943 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 9 ended in 7847 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 3
+
+Game Result: Game 10 ended in 1847 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 4
+
+Game Result: Game 11 ended in 2995 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 5
+
+Game Result: Game 12 ended in 2760 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 6
+
+Game Result: Game 13 ended in 1703 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 7
+
+Game Result: Game 14 ended in 2557 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 8 Ai(2)-Lathril v0.3.2 - Arena Mirror: 7
+
+Game Result: Game 15 ended in 7489 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 8 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 16 ended in 1562 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 9 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 17 ended in 16020 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 20
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 10 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 18 ended in 28199 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 11 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 19 ended in 5578 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 12 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 20 ended in 6608 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 16
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 13 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 21 ended in 9130 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 14 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 22 ended in 5052 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 14 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 23 ended in 7468 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 24 ended in 4976 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 16 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 25 ended in 2894 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 26 ended in 6542 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 27 ended in 4118 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 18 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 28 ended in 4502 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 19 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 29 ended in 6649 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 30 ended in 8066 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 11
+
+Game Result: Game 31 ended in 2671 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 12
+
+Game Result: Game 32 ended in 3513 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 13
+
+Game Result: Game 33 ended in 1861 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 13
+
+Game Result: Game 34 ended in 8251 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 14
+
+Game Result: Game 35 ended in 6129 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 15
+
+Game Result: Game 36 ended in 2471 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 16
+
+Game Result: Game 37 ended in 1899 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 17
+
+Game Result: Game 38 ended in 18467 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 22 Ai(2)-Lathril v0.3.2 - Arena Mirror: 17
+
+Game Result: Game 39 ended in 31226 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 22 Ai(2)-Lathril v0.3.2 - Arena Mirror: 18
+
+Game Result: Game 40 ended in 3645 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 25
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 23 Ai(2)-Lathril v0.3.2 - Arena Mirror: 18
+
+Game Result: Game 41 ended in 33528 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 23 Ai(2)-Lathril v0.3.2 - Arena Mirror: 19
+
+Game Result: Game 42 ended in 2896 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 23 Ai(2)-Lathril v0.3.2 - Arena Mirror: 20
+
+Game Result: Game 43 ended in 3487 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 23 Ai(2)-Lathril v0.3.2 - Arena Mirror: 21
+
+Game Result: Game 44 ended in 3265 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Moving spell to Library
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 24 Ai(2)-Lathril v0.3.2 - Arena Mirror: 21
+
+Game Result: Game 45 ended in 22105 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 24 Ai(2)-Lathril v0.3.2 - Arena Mirror: 22
+
+Game Result: Game 46 ended in 2019 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 24 Ai(2)-Lathril v0.3.2 - Arena Mirror: 23
+
+Game Result: Game 47 ended in 2520 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 24 Ai(2)-Lathril v0.3.2 - Arena Mirror: 24
+
+Game Result: Game 48 ended in 2409 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 25 Ai(2)-Lathril v0.3.2 - Arena Mirror: 24
+
+Game Result: Game 49 ended in 1149 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07: 26 Ai(2)-Lathril v0.3.2 - Arena Mirror: 24
+
+Game Result: Game 50 ended in 17874 ms. Ai(1)-Nashi Competitive Brawl BrawlREC 2026-07 has won!

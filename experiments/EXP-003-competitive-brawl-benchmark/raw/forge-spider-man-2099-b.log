@@ -1,0 +1,429 @@
+Error handling registered!
+17:13:58 [INFO ] GuiBase: ##########################################
+17:13:58 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+17:13:58 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+17:13:58 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+17:13:58 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+17:13:58 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 2 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 vs Ai(2)-Lathril v0.3.2 - Arena Mirror - fifty  games of Brawl seed 32020
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Lathril v0.3.2 - Arena Mirror: 1
+
+Game Result: Game 1 ended in 18745 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 16
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Lathril v0.3.2 - Arena Mirror: 2
+
+Game Result: Game 2 ended in 15343 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Lathril v0.3.2 - Arena Mirror: 3
+
+Game Result: Game 3 ended in 3920 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 0 Ai(2)-Lathril v0.3.2 - Arena Mirror: 4
+
+Game Result: Game 4 ended in 6430 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1 Ai(2)-Lathril v0.3.2 - Arena Mirror: 4
+
+Game Result: Game 5 ended in 6381 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 1 Ai(2)-Lathril v0.3.2 - Arena Mirror: 5
+
+Game Result: Game 6 ended in 9022 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 2 Ai(2)-Lathril v0.3.2 - Arena Mirror: 5
+
+Game Result: Game 7 ended in 3298 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+[Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07] AI failed to play Detective's Phoenix (79) [Stack]
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 3 Ai(2)-Lathril v0.3.2 - Arena Mirror: 5
+
+Game Result: Game 8 ended in 15560 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Lathril v0.3.2 - Arena Mirror: 5
+
+Game Result: Game 9 ended in 6040 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 4 Ai(2)-Lathril v0.3.2 - Arena Mirror: 6
+
+Game Result: Game 10 ended in 1594 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (200)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (200)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 5 Ai(2)-Lathril v0.3.2 - Arena Mirror: 6
+
+Game Result: Game 11 ended in 3752 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Lathril v0.3.2 - Arena Mirror: 6
+
+Game Result: Game 12 ended in 7817 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 15
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 6 Ai(2)-Lathril v0.3.2 - Arena Mirror: 7
+
+Game Result: Game 13 ended in 3331 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 7 Ai(2)-Lathril v0.3.2 - Arena Mirror: 7
+
+Game Result: Game 14 ended in 2017 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Lathril v0.3.2 - Arena Mirror: 7
+
+Game Result: Game 15 ended in 3181 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Warning: default (ie. inherited from base class) implementation of chkAIDrawback is used by Three Steps Ahead for forge.ai.ability.CopyPermanentAi. Consider declaring an overloaded method
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Lathril v0.3.2 - Arena Mirror: 8
+
+Game Result: Game 16 ended in 1646 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 8 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 17 ended in 1124 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Lathril v0.3.2 - Arena Mirror: 9
+
+Game Result: Game 18 ended in 2188 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 9 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 19 ended in 1233 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 10 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 20 ended in 2415 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 11 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 21 ended in 2639 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Petty Theft Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12 Ai(2)-Lathril v0.3.2 - Arena Mirror: 10
+
+Game Result: Game 22 ended in 1556 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 12 Ai(2)-Lathril v0.3.2 - Arena Mirror: 11
+
+Game Result: Game 23 ended in 893 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 13 Ai(2)-Lathril v0.3.2 - Arena Mirror: 11
+
+Game Result: Game 24 ended in 3220 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Island Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 13 Ai(2)-Lathril v0.3.2 - Arena Mirror: 12
+
+Game Result: Game 25 ended in 1746 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 13 Ai(2)-Lathril v0.3.2 - Arena Mirror: 13
+
+Game Result: Game 26 ended in 2134 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 14 Ai(2)-Lathril v0.3.2 - Arena Mirror: 13
+
+Game Result: Game 27 ended in 2524 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 13
+
+Game Result: Game 28 ended in 2162 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 14
+
+Game Result: Game 29 ended in 674 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 15
+
+Game Result: Game 30 ended in 1993 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Moving spell to Library
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Correcting zone for Infestation Sage (122)
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 16
+
+Game Result: Game 31 ended in 3306 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Correcting zone for Rustvine Cultivator (150)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 17
+
+Game Result: Game 32 ended in 1391 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 15 Ai(2)-Lathril v0.3.2 - Arena Mirror: 18
+
+Game Result: Game 33 ended in 2175 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 16 Ai(2)-Lathril v0.3.2 - Arena Mirror: 18
+
+Game Result: Game 34 ended in 3508 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 16 Ai(2)-Lathril v0.3.2 - Arena Mirror: 19
+
+Game Result: Game 35 ended in 1937 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Petty Theft Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 16 Ai(2)-Lathril v0.3.2 - Arena Mirror: 20
+
+Game Result: Game 36 ended in 3058 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 20
+
+Game Result: Game 37 ended in 1548 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 21
+
+Game Result: Game 38 ended in 1655 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 22
+
+Game Result: Game 39 ended in 3014 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 23
+
+Game Result: Game 40 ended in 2681 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Correcting zone for Infestation Sage (122)
+Correcting zone for Shapeshifter Token (203)
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 17 Ai(2)-Lathril v0.3.2 - Arena Mirror: 24
+
+Game Result: Game 41 ended in 2765 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Lathril v0.3.2 - Arena Mirror: 24
+
+Game Result: Game 42 ended in 1170 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 18 Ai(2)-Lathril v0.3.2 - Arena Mirror: 25
+
+Game Result: Game 43 ended in 1313 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 19 Ai(2)-Lathril v0.3.2 - Arena Mirror: 25
+
+Game Result: Game 44 ended in 1570 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (193)
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 19 Ai(2)-Lathril v0.3.2 - Arena Mirror: 26
+
+Game Result: Game 45 ended in 2342 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 19 Ai(2)-Lathril v0.3.2 - Arena Mirror: 27
+
+Game Result: Game 46 ended in 1577 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 27
+
+Game Result: Game 47 ended in 3052 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 20 Ai(2)-Lathril v0.3.2 - Arena Mirror: 28
+
+Game Result: Game 48 ended in 3544 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 28
+
+Game Result: Game 49 ended in 1084 ms. Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has won!
+
+[Ai(2)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (123) [Stack]
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Game Outcome: Ai(2)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Match Result: Ai(1)-Spider-Man 2099 Competitive Brawl MTGDecks 2026-07: 21 Ai(2)-Lathril v0.3.2 - Arena Mirror: 29
+
+Game Result: Game 50 ended in 2230 ms. Ai(2)-Lathril v0.3.2 - Arena Mirror has won!

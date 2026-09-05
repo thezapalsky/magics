@@ -1,0 +1,419 @@
+Error handling registered!
+16:46:02 [INFO ] GuiBase: ##########################################
+16:46:02 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+16:46:02 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+16:46:02 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+16:46:02 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+16:46:02 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Lathril v0.3.2 - Arena Mirror vs Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 - fifty  games of Brawl seed 32007
+Moving spell to Library
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 0
+
+Game Result: Game 1 ended in 15644 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 2 ended in 64501 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 3 ended in 22278 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+No AI assigned for API: Intensify
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 3 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 1
+
+Game Result: Game 4 ended in 29448 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 3 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 2
+
+Game Result: Game 5 ended in 8828 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 4 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 2
+
+Game Result: Game 6 ended in 3618 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 4 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 7 ended in 5847 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 5 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 8 ended in 3908 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 3
+
+Game Result: Game 9 ended in 4195 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 10 ended in 16403 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 7 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 11 ended in 3051 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 8 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 12 ended in 11760 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 9 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 13 ended in 3611 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 10 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 14 ended in 5427 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 4
+
+Game Result: Game 15 ended in 1585 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 5
+
+Game Result: Game 16 ended in 3862 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 12 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 5
+
+Game Result: Game 17 ended in 1841 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 5
+
+Game Result: Game 18 ended in 1973 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 6
+
+Game Result: Game 19 ended in 2872 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 7
+
+Game Result: Game 20 ended in 3370 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 21 ended in 2003 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 14 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 22 ended in 1218 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 15 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 23 ended in 2271 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 16 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 24 ended in 5853 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 17 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 8
+
+Game Result: Game 25 ended in 2534 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 17 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 26 ended in 7474 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 18 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 27 ended in 11806 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 19 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 28 ended in 2788 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 20 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 9
+
+Game Result: Game 29 ended in 1886 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 20 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 30 ended in 1449 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 21 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 31 ended in 1637 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 22 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 32 ended in 1929 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Moving spell to Library
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 23 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 33 ended in 1550 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 24 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 34 ended in 1144 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 25 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 35 ended in 2095 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 26 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 36 ended in 830 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 27 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 37 ended in 1113 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 28 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 10
+
+Game Result: Game 38 ended in 806 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 28 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 11
+
+Game Result: Game 39 ended in 3488 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 29 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 11
+
+Game Result: Game 40 ended in 11521 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 30 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 11
+
+Game Result: Game 41 ended in 4520 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost trying to draw cards from empty library
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 30 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 12
+
+Game Result: Game 42 ended in 15084 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 30 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 13
+
+Game Result: Game 43 ended in 3003 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 30 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 44 ended in 2485 ms. Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 31 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 45 ended in 3461 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 32 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 46 ended in 1106 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 33 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 47 ended in 5825 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 34 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 48 ended in 1420 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+ComputerUtilMana: payManaCost() cost was not paid for Ironheart, Clever Champion - Creature 3 / 4 (Ironheart, Clever Champion). Didn't find what to pay for {1}
+[Ai(2)-Emry Competitive Brawl MTGDecks 2026-07] AI failed to play Ironheart, Clever Champion (178) [Stack]
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 35 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 49 ended in 1979 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 14
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Emry Competitive Brawl MTGDecks 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 36 Ai(2)-Emry Competitive Brawl MTGDecks 2026-07: 14
+
+Game Result: Game 50 ended in 13119 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!

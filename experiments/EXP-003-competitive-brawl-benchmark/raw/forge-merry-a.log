@@ -1,0 +1,1029 @@
+Error handling registered!
+16:46:06 [INFO ] GuiBase: ##########################################
+16:46:06 [INFO ] GuiBase: APP: Forge v.2.0.14-SNAPSHOT-08.08
+16:46:06 [INFO ] GuiBase: Java: 17.0.17 (Homebrew)
+16:46:06 [INFO ] GuiBase: OS: Mac OS X 15.5 aarch64
+16:46:06 [INFO ] GuiBase: RAM: 4096 MB max, 8 CPUs
+16:46:06 [INFO ] GuiBase: ##########################################
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running with priority 5
+Read cards: 33617 archived files in 1 ms (25 parts) using thread pool
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+The card A-Alrund's Epiphany was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Baba Lysaga, Night Witch was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Divide by Zero was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Esika's Chariot was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Faceless Haven was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Fires of Invention was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Goldspan Dragon was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Hullbreaker Horror was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Kumano Faces Kakkazan was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Luminarch Aspirant was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Monster Manual was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Omnath, Locus of Creation was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-The Meathook Massacre was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card A-Unholy Heat was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Blinding Radiance was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Goblin Bruiser was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Ogre Painbringer was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Titanic Pelagosaur was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+The card Treetop Recluse was not assigned to any set. Adding it to UNKNOWN set... to fix see res/editions/ folder.
+Upcoming set Star Trek (TRK) dated in the future. All `upcoming` cards will be added to this set with unknown rarity.
+Read cards: 836 files in 0 ms (8 parts) using thread pool
+Simulation mode
+Ai(1)-Lathril v0.3.2 - Arena Mirror vs Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 - fifty  games of Brawl seed 32009
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 0 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 1
+
+Game Result: Game 1 ended in 23166 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 0 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 2
+
+Game Result: Game 2 ended in 4968 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07] AI failed to play Detective's Phoenix (160) [Stack]
+Game Outcome: Turn 10
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 0 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 3
+
+Game Result: Game 3 ended in 14559 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 0 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 4
+
+Game Result: Game 4 ended in 6265 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 4
+
+Game Result: Game 5 ended in 5699 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 5
+
+Game Result: Game 6 ended in 8222 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 6
+
+Game Result: Game 7 ended in 6924 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 1 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 7
+
+Game Result: Game 8 ended in 4442 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 7
+
+Game Result: Game 9 ended in 3912 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 8
+
+Game Result: Game 10 ended in 3816 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 9
+
+Game Result: Game 11 ended in 2386 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 10
+
+Game Result: Game 12 ended in 3215 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 11
+
+Game Result: Game 13 ended in 2308 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 2 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 14 ended in 3450 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 3 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 15 ended in 6150 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 4 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 16 ended in 4678 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 12
+
+Game Result: Game 17 ended in 15645 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 13
+
+Game Result: Game 18 ended in 2571 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 5 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 14
+
+Game Result: Game 19 ended in 2073 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Plains Did not have activator set in SpellAbilityRestriction.canPlay()
+[Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07] AI failed to play Detective's Phoenix (160) [Stack]
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 14
+
+Game Result: Game 20 ended in 2545 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 15
+
+Game Result: Game 21 ended in 1537 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 16
+
+Game Result: Game 22 ended in 2614 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 17
+
+Game Result: Game 23 ended in 5583 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 6 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 18
+
+Game Result: Game 24 ended in 2602 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 7 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 18
+
+Game Result: Game 25 ended in 3065 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 7 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 19
+
+Game Result: Game 26 ended in 4085 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 7 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 27 ended in 6818 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//com.google.common.collect.AbstractMultimap$Values.iterator(AbstractMultimap.java:184)
+	at app//forge.game.keyword.KeywordCollection.applyReplacementEffect(KeywordCollection.java:200)
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7069)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$422/0x000000700129a4a0.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canUntap(Card.java:4745)
+	at app//forge.game.spellability.SpellAbility.calculateScoreForManaAbility(SpellAbility.java:2413)
+	at app//forge.game.spellability.SpellAbility.compareTo(SpellAbility.java:2383)
+	at app//forge.ai.ComputerUtilMana.lambda$sortManaAbilities$6(ComputerUtilMana.java:218)
+	at app//forge.ai.ComputerUtilMana$$Lambda$499/0x00000070012d6f78.compare(Unknown Source)
+	at java.base@17.0.17/java.util.Arrays.mergeSort(Arrays.java:1339)
+	at java.base@17.0.17/java.util.Arrays.legacyMergeSort(Arrays.java:1318)
+	at java.base@17.0.17/java.util.Arrays.sort(Arrays.java:1305)
+	at java.base@17.0.17/java.util.ArrayList.sort(ArrayList.java:1721)
+	at app//forge.ai.ComputerUtilMana.sortManaAbilities(ComputerUtilMana.java:181)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:858)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7066)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$422/0x000000700129a4a0.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canTap(Card.java:4696)
+	at app//forge.game.card.Card.canTap(Card.java:4688)
+	at app//forge.game.cost.CostTap.canPay(CostTap.java:69)
+	at app//forge.game.cost.Cost.canPay(Cost.java:1085)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:104)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$491/0x00000070012d5b40.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$370/0x00000070012420a0.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7066)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$422/0x000000700129a4a0.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1537)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1754)
+	at app//forge.ai.AiBlockController.getKillingBlockers(AiBlockController.java:120)
+	at app//forge.ai.AiBlockController.makeGoodBlocks(AiBlockController.java:203)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1083)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3179)
+	at app//forge.ai.AiAttackController.notNeededAsBlockers(AiAttackController.java:426)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1279)
+	at app//forge.ai.ComputerUtilCard.doesSpecifiedCreatureAttackAI(ComputerUtilCard.java:820)
+	at app//forge.ai.ComputerUtilCard.shouldPumpCard(ComputerUtilCard.java:1557)
+	at app//forge.ai.ability.PumpAi.checkApiLogic(PumpAi.java:316)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.CardProperty.cardHasProperty(CardProperty.java:789)
+	at app//forge.game.card.Card.hasProperty(Card.java:5831)
+	at app//forge.game.card.Card.isValid(Card.java:5817)
+	at app//forge.game.GameObject.isValid(GameObject.java:27)
+	at app//forge.game.CardTraitBase.matchesValid(CardTraitBase.java:225)
+	at app//forge.game.CardTraitBase.matchesValid(CardTraitBase.java:220)
+	at app//forge.game.CardTraitBase.matchesValidParam(CardTraitBase.java:261)
+	at app//forge.game.CardTraitBase.matchesValidParam(CardTraitBase.java:268)
+	at app//forge.game.cost.CostAdjustment.checkRequirement(CostAdjustment.java:521)
+	at app//forge.game.cost.CostAdjustment.applyRaiseCostAbility(CostAdjustment.java:111)
+	at app//forge.game.cost.CostAdjustment.adjust(CostAdjustment.java:94)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:103)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.ai.ComputerUtilMana.canPayShardWithSpellAbility(ComputerUtilMana.java:951)
+	at app//forge.ai.ComputerUtilMana.chooseManaAbility(ComputerUtilMana.java:398)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:696)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1985)
+	at app//forge.ai.AiBlockController.getSafeBlockers(AiBlockController.java:106)
+	at app//forge.ai.AiBlockController.makeGoodBlocks(AiBlockController.java:198)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1083)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3179)
+	at app//forge.ai.AiAttackController.notNeededAsBlockers(AiAttackController.java:426)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:346)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:325)
+	at app//forge.ai.ComputerUtilCombat.predictToughnessBonusOfBlocker(ComputerUtilCombat.java:1019)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1943)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1872)
+	at app//forge.ai.AiAttackController$SpellAbilityFactors.calculate(AiAttackController.java:1408)
+	at app//forge.ai.AiAttackController.shouldAttack(AiAttackController.java:1493)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1300)
+	at app//forge.ai.AiController.getPredictedCombat(AiController.java:145)
+	at app//forge.ai.ComputerUtilCard.doesCreatureAttackAI(ComputerUtilCard.java:806)
+	at app//forge.ai.ComputerUtilCard.shouldPumpCard(ComputerUtilCard.java:1557)
+	at app//forge.ai.ComputerUtilCard.shouldPumpCard(ComputerUtilCard.java:1446)
+	at app//forge.ai.ability.PumpAllAi.lambda$checkApiLogic$2(PumpAllAi.java:132)
+	at app//forge.ai.ability.PumpAllAi$$Lambda$714/0x000000700131bce0.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base@17.0.17/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.17/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base@17.0.17/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base@17.0.17/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at app//forge.util.collect.FCollection.anyMatch(FCollection.java:622)
+	at app//forge.ai.ability.PumpAllAi.checkApiLogic(PumpAllAi.java:131)
+	at app//forge.ai.SpellAbilityAi.canPlayWithoutRestrict(SpellAbilityAi.java:98)
+	at app//forge.ai.SpellAbilityAi.canPlay(SpellAbilityAi.java:76)
+	at app//forge.ai.SpellAbilityAi.canPlayWithSubs(SpellAbilityAi.java:55)
+	at app//forge.ai.AiController.canPlaySa(AiController.java:909)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.CardProperty.cardHasProperty(CardProperty.java:493)
+	at app//forge.game.card.Card.hasProperty(Card.java:5831)
+	at app//forge.game.card.Card.isValid(Card.java:5817)
+	at app//forge.game.GameObject.isValid(GameObject.java:27)
+	at app//forge.game.card.CardPredicates.lambda$restriction$20(CardPredicates.java:140)
+	at app//forge.game.card.CardPredicates$$Lambda$428/0x000000700129fa98.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$370/0x00000070012420a0.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.game.card.CardLists.getValidCards(CardLists.java:189)
+	at app//forge.game.CardTraitBase.meetsCommonRequirements(CardTraitBase.java:423)
+	at app//forge.game.trigger.Trigger.requirementsCheck(Trigger.java:340)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:751)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:734)
+	at app//forge.ai.ComputerUtilCombat.predictToughnessBonusOfAttacker(ComputerUtilCombat.java:1401)
+	at app//forge.ai.ComputerUtilCombat.predictToughnessBonusOfAttacker(ComputerUtilCombat.java:1341)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttackerBeforeFirstStrike(ComputerUtilCombat.java:1557)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1651)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1642)
+	at app//forge.ai.ComputerUtilCombat.attackerWouldBeDestroyed(ComputerUtilCombat.java:701)
+	at app//forge.ai.ComputerUtilCard.canBeBlockedProfitably(ComputerUtilCard.java:882)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.util.ArrayList.addAll(ArrayList.java:670)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:100)
+	at app//forge.game.card.CardState.getStaticAbilities(CardState.java:705)
+	at app//forge.game.card.Card.getStaticAbilities(Card.java:6993)
+	at app//forge.game.cost.CostAdjustment.adjust(CostAdjustment.java:75)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:103)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$491/0x00000070012d5b40.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$370/0x00000070012420a0.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1338)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:726)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$422/0x000000700129a4a0.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:757)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.player.Player.cantLoseCheck(Player.java:2018)
+	at app//forge.game.player.Player.cantLoseForZeroOrLessLife(Player.java:2012)
+	at app//forge.ai.ComputerUtilCombat.lifeInDanger(ComputerUtilCombat.java:453)
+	at app//forge.ai.ComputerUtilCombat.lifeInDanger(ComputerUtilCombat.java:390)
+	at app//forge.ai.AiBlockController.makeChumpBlocks(AiBlockController.java:658)
+	at app//forge.ai.AiBlockController.makeChumpBlocks(AiBlockController.java:711)
+	at app//forge.ai.AiBlockController.makeChumpBlocks(AiBlockController.java:711)
+	at app//forge.ai.AiBlockController.makeChumpBlocks(AiBlockController.java:651)
+	at app//forge.ai.AiBlockController.makeChumpBlocks(AiBlockController.java:643)
+	at app//forge.ai.AiBlockController.assignBlockers(AiBlockController.java:1134)
+	at app//forge.ai.AiBlockController.assignBlockersForCombat(AiBlockController.java:1014)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3214)
+	at app//forge.ai.ComputerUtil.predictNextCombatsRemainingLife(ComputerUtil.java:3179)
+	at app//forge.ai.AiAttackController.notNeededAsBlockers(AiAttackController.java:426)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1279)
+	at app//forge.ai.ComputerUtilCard.doesSpecifiedCreatureAttackAI(ComputerUtilCard.java:820)
+	at app//forge.ai.ComputerUtilCard.shouldPumpCard(ComputerUtilCard.java:1557)
+	at app//forge.ai.ability.PumpAi.checkApiLogic(PumpAi.java:316)
+	at app//forge.ai.SpellAbilityAi.canPlayWithoutRestrict(SpellAbilityAi.java:98)
+	at app//forge.ai.SpellAbilityAi.canPlay(SpellAbilityAi.java:76)
+	at app//forge.ai.SpellAbilityAi.canPlayWithSubs(SpellAbilityAi.java:55)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//com.google.common.collect.CompactHashSet$1.next(CompactHashSet.java:562)
+	at app//com.google.common.collect.AbstractMapBasedMultimap$Itr.next(AbstractMapBasedMultimap.java:1190)
+	at app//forge.game.keyword.KeywordCollection.applyReplacementEffect(KeywordCollection.java:200)
+	at app//forge.game.card.Card.updateReplacementEffects(Card.java:7069)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:754)
+	at app//forge.game.card.CardState.getReplacementEffects(CardState.java:723)
+	at app//forge.game.card.Card.getReplacementEffects(Card.java:7055)
+	at app//forge.game.replacement.ReplacementHandler.lambda$getReplacementList$0(ReplacementHandler.java:134)
+	at app//forge.game.replacement.ReplacementHandler$$Lambda$422/0x000000700129a4a0.visit(Unknown Source)
+	at app//forge.util.Visitor.visitAll(Visitor.java:16)
+	at app//forge.game.Game.forEachCardInGame(Game.java:760)
+	at app//forge.game.replacement.ReplacementHandler.getReplacementList(ReplacementHandler.java:102)
+	at app//forge.game.replacement.ReplacementHandler.cantHappenCheck(ReplacementHandler.java:174)
+	at app//forge.game.card.Card.canUntap(Card.java:4745)
+	at app//forge.game.spellability.SpellAbility.calculateScoreForManaAbility(SpellAbility.java:2413)
+	at app//forge.ai.ComputerUtilMana.scoreManaProducingCard(ComputerUtilMana.java:110)
+	at app//forge.ai.ComputerUtilMana.sortManaAbilities(ComputerUtilMana.java:140)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:858)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+	at app//forge.ai.ComputerUtilCombat.hasKeyword(ComputerUtilCombat.java:2270)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1985)
+	at app//forge.ai.ComputerUtilCombat.canDestroyBlocker(ComputerUtilCombat.java:1872)
+	at app//forge.ai.AiAttackController$SpellAbilityFactors.calculate(AiAttackController.java:1408)
+	at app//forge.ai.AiAttackController.shouldAttack(AiAttackController.java:1493)
+	at app//forge.ai.AiAttackController.declareAttackers(AiAttackController.java:1300)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at java.base@17.0.17/java.lang.String.split(String.java:3201)
+	at app//forge.util.Lang.getNickName(Lang.java:223)
+	at app//forge.game.spellability.SpellAbility.toUnsuppressedString(SpellAbility.java:1123)
+	at app//forge.game.spellability.SpellAbility.toString(SpellAbility.java:1106)
+	at java.base@17.0.17/java.lang.String.valueOf(String.java:4220)
+	at app//forge.ai.CreatureEvaluator.evaluateCreature(CreatureEvaluator.java:228)
+	at app//forge.ai.CreatureEvaluator.evaluateCreature(CreatureEvaluator.java:27)
+	at app//forge.ai.CreatureEvaluator.apply(CreatureEvaluator.java:23)
+	at app//forge.ai.CreatureEvaluator.apply(CreatureEvaluator.java:20)
+	at java.base@17.0.17/java.util.Map.computeIfAbsent(Map.java:1054)
+	at app//forge.ai.ComputerUtilCard.lambda$getCachedCreatureComparator$8(ComputerUtilCard.java:740)
+	at app//forge.ai.ComputerUtilCard$$Lambda$493/0x00000070012d5fe8.apply(Unknown Source)
+	at java.base@17.0.17/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base@17.0.17/java.util.Comparator$$Lambda$153/0x00000070010bf420.compare(Unknown Source)
+	at java.base@17.0.17/java.util.Collections$ReverseComparator2.compare(Collections.java:5398)
+	at java.base@17.0.17/java.util.Arrays.mergeSort(Arrays.java:1339)
+	at java.base@17.0.17/java.util.Arrays.legacyMergeSort(Arrays.java:1318)
+	at java.base@17.0.17/java.util.Arrays.sort(Arrays.java:1305)
+	at java.base@17.0.17/java.util.ArrayList.sort(ArrayList.java:1721)
+	at app//forge.util.collect.FCollection.sort(FCollection.java:587)
+	at app//forge.ai.ComputerUtilCard.sortByEvaluateCreature(ComputerUtilCard.java:95)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1478)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+	at app//forge.ai.ComputerUtilMana.getSourcesForShards(ComputerUtilMana.java:831)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:638)
+	at app//forge.ai.ComputerUtilMana.payManaCost(ComputerUtilMana.java:74)
+	at app//forge.ai.ComputerUtilMana.canPayManaCost(ComputerUtilMana.java:63)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:634)
+	at app//forge.ai.ComputerUtilCost.canPayCost(ComputerUtilCost.java:530)
+	at app//forge.ai.ComputerUtilCombat.canGainKeyword(ComputerUtilCombat.java:2290)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.CardProperty.cardHasProperty(CardProperty.java:1327)
+	at app//forge.game.card.Card.hasProperty(Card.java:5831)
+	at app//forge.game.card.Card.isValid(Card.java:5817)
+	at app//forge.game.GameObject.isValid(GameObject.java:27)
+	at app//forge.game.CardTraitBase.matchesValid(CardTraitBase.java:225)
+	at app//forge.game.CardTraitBase.matchesValid(CardTraitBase.java:220)
+	at app//forge.game.CardTraitBase.matchesValidParam(CardTraitBase.java:261)
+	at app//forge.game.CardTraitBase.matchesValidParam(CardTraitBase.java:268)
+	at app//forge.game.cost.CostAdjustment.checkRequirement(CostAdjustment.java:521)
+	at app//forge.game.cost.CostAdjustment.applyRaiseCostAbility(CostAdjustment.java:111)
+	at app//forge.game.cost.CostAdjustment.adjust(CostAdjustment.java:94)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:103)
+	at app//forge.game.cost.CostPayment.canPayAdditionalCosts(CostPayment.java:96)
+	at app//forge.game.spellability.AbilityActivated.canPlay(AbilityActivated.java:103)
+	at app//forge.ai.ComputerUtilMana.lambda$getAvailableManaSources$16(ComputerUtilMana.java:1341)
+	at app//forge.ai.ComputerUtilMana$$Lambda$491/0x00000070012d5b40.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$370/0x00000070012420a0.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:169)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.ai.ComputerUtilMana.getAvailableManaSources(ComputerUtilMana.java:1338)
+	at app//forge.ai.ComputerUtilMana.groupSourcesByManaColor(ComputerUtilMana.java:1496)
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at forge.ai.AiController.chooseSpellAbilityToPlayFromList(AiController.java:1696)
+	at forge.ai.AiController.getSpellAbilityToPlay(AiController.java:1583)
+	at forge.ai.AiController.chooseSpellAbilityToPlay(AiController.java:1403)
+	at forge.ai.PlayerControllerAi.chooseSpellAbilityToPlay(PlayerControllerAi.java:832)
+	at forge.game.phase.PhaseHandler.mainLoopStep(PhaseHandler.java:1056)
+	at forge.game.phase.PhaseHandler.mainGameLoop(PhaseHandler.java:1035)
+	at forge.game.phase.PhaseHandler.startFirstTurn(PhaseHandler.java:1029)
+	at forge.game.GameAction.startGame(GameAction.java:2373)
+	at forge.game.Match.startGame(Match.java:92)
+	at forge.game.Match.startGame(Match.java:77)
+	at forge.view.SimulateMatch.lambda$simulateSingleMatch$0(SimulateMatch.java:213)
+	at forge.view.TimeLimitedCodeBlock.lambda$runWithTimeout$0(TimeLimitedCodeBlock.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+AI eval thread at timeout:
+	at app//forge.game.card.CardProperty.cardHasProperty(CardProperty.java:624)
+	at app//forge.game.card.Card.hasProperty(Card.java:5831)
+	at app//forge.game.card.Card.isValid(Card.java:5817)
+	at app//forge.game.GameObject.isValid(GameObject.java:27)
+	at app//forge.game.card.CardPredicates.lambda$restriction$20(CardPredicates.java:140)
+	at app//forge.game.card.CardPredicates$$Lambda$428/0x000000700129fa98.test(Unknown Source)
+	at java.base@17.0.17/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base@17.0.17/java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$370/0x00000070012420a0.getAsBoolean(Unknown Source)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base@17.0.17/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base@17.0.17/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at app//forge.util.collect.FCollection.addAll(FCollection.java:345)
+	at app//forge.util.collect.FCollection.<init>(FCollection.java:103)
+	at app//forge.game.card.CardCollection.<init>(CardCollection.java:118)
+	at app//forge.game.card.CardLists.filter(CardLists.java:331)
+	at app//forge.game.card.CardLists.getValidCards(CardLists.java:189)
+	at app//forge.game.CardTraitBase.meetsCommonRequirements(CardTraitBase.java:423)
+	at app//forge.game.trigger.Trigger.requirementsCheck(Trigger.java:340)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:751)
+	at app//forge.ai.ComputerUtilCombat.combatTriggerWillTrigger(ComputerUtilCombat.java:734)
+	at app//forge.ai.ComputerUtilCombat.predictPowerBonusOfAttacker(ComputerUtilCombat.java:1198)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1709)
+	at app//forge.ai.ComputerUtilCombat.canDestroyAttacker(ComputerUtilCombat.java:1642)
+	at app//forge.ai.ComputerUtilCombat.attackerWouldBeDestroyed(ComputerUtilCombat.java:701)
+	at app//forge.ai.ComputerUtilCard.canBeBlockedProfitably(ComputerUtilCard.java:882)
+	at app//forge.ai.AiAttackController$SpellAbilityFactors.calculate(AiAttackController.java:1445)
+	at app//forge.ai.AiAttackController.shouldAttack(AiAttackController.java:1493)
+Stopping slow match as draw
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 8 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 28 ended in 120002 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 9 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 29 ended in 1929 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 10 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 20
+
+Game Result: Game 30 ended in 1434 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 10 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 21
+
+Game Result: Game 31 ended in 1581 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 10 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 22
+
+Game Result: Game 32 ended in 3383 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 22
+
+Game Result: Game 33 ended in 1387 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 23
+
+Game Result: Game 34 ended in 666 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+[Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07] AI failed to play Detective's Phoenix (160) [Stack]
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+[Ai(1)-Lathril v0.3.2 - Arena Mirror] AI failed to play Celestial Reunion (24) [Stack]
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (94)
+Game Outcome: Turn 13
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 24
+
+Game Result: Game 35 ended in 4347 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 11 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 25
+
+Game Result: Game 36 ended in 2769 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 12 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 25
+
+Game Result: Game 37 ended in 1547 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 8
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 12 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 26
+
+Game Result: Game 38 ended in 2524 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 12 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 27
+
+Game Result: Game 39 ended in 3532 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 12 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 28
+
+Game Result: Game 40 ended in 1594 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+SVar 'X' not found in ability, fallback to Card (Maddening Hex). Ability is (   )
+SVar 'X' not defined in Card (Maddening Hex)
+Game Outcome: Turn 11
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 28
+
+Game Result: Game 41 ended in 2272 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 29
+
+Game Result: Game 42 ended in 1163 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 30
+
+Game Result: Game 43 ended in 1535 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 6
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 31
+
+Game Result: Game 44 ended in 969 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 32
+
+Game Result: Game 45 ended in 3337 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 7
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 13 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 33
+
+Game Result: Game 46 ended in 3496 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 12
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 33
+
+Game Result: Game 47 ended in 4644 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 14 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 34
+
+Game Result: Game 48 ended in 1182 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
+
+Game Outcome: Turn 9
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has won because all opponents have lost
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has lost because life total reached 0
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 15 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 34
+
+Game Result: Game 49 ended in 6332 ms. Ai(1)-Lathril v0.3.2 - Arena Mirror has won!
+
+Game Outcome: Turn 5
+Game Outcome: Ai(1)-Lathril v0.3.2 - Arena Mirror has lost because life total reached 0
+Game Outcome: Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won because all opponents have lost
+Match Result: Ai(1)-Lathril v0.3.2 - Arena Mirror: 15 Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07: 35
+
+Game Result: Game 50 ended in 1422 ms. Ai(2)-Merry, Esquire of Rohan Competitive Brawl BrawlREC 2026-07 has won!
