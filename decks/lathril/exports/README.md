@@ -19,7 +19,7 @@ Paper release: `0.3.2`. Prepared 2026-09-05.
 
 The other 97 card copies match paper `0.3.2`, including Changeling Wayfinder, Risky Research, and Scarblade's Malice. Letter of Acceptance and Mazemind Tome are not in the current target. Paradise Druid is retained deliberately because the user rejected Letter of Acceptance as a weak substitute.
 
-The Arena target is not a verified export of the user's current deck or a statement that every card is owned. At the latest report, Risky Research still required one common wildcard; Assert Perfection should remain temporarily in its slot to preserve 100 cards. The Changeling Wayfinder and Scarblade's Malice swaps still need explicit completion confirmation.
+The Arena target is not a verified export of the user's current deck or a statement that every card is owned. At the latest report, Risky Research still required one common wildcard; the user confirmed using owned Cost of Brilliance as its temporary proxy and removing Assert Perfection. The Changeling Wayfinder and Scarblade's Malice swaps still need explicit completion confirmation.
 
 Both current files use `Commander` / `Deck` headings and quantity-plus-name lines without set codes, so they can be imported into ManaBox. The Arena target can also be imported into Arena. After importing, verify Lathril is the commander and the total is 100 before crafting anything.
 

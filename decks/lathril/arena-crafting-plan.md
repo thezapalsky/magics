@@ -4,20 +4,20 @@
 
 - Paper target: released [`0.3.2`](decklist.txt), physically completed by the user on 2026-09-05.
 - Arena status: 100/100 before the `0.3.2` sync; the three new one-for-one swaps are not yet fully confirmed.
-- The user is checking Arena craftability and reports being **one common wildcard short for Risky Research**.
+- The user is **one common wildcard short for Risky Research** and confirmed replacing Assert Perfection with an owned Cost of Brilliance as the temporary proxy.
 - Do **not** craft Letter of Acceptance or Mazemind Tome. Neither is part of the current Arena target.
 
 ### Arena actions for paper 0.3.2
 
 | Status | Add to Arena | Remove from Arena | Reason |
 |---|---|---|---|
-| Pending — one common wildcard short | [Risky Research](https://scryfall.com/card/spm/62/risky-research) | Assert Perfection | Exact paper `0.3.2` card; Assert was the Arena placeholder for the former paper Mazemind Tome slot. |
+| Temporary proxy done; exact card pending one common wildcard | [Risky Research](https://scryfall.com/card/spm/62/risky-research); currently [Cost of Brilliance](https://scryfall.com/card/sos/77/cost-of-brilliance) | Assert Perfection | Cost has the same mana cost, draws two, and loses 2 life; it gives a +1/+1 counter instead of surveilling two. |
 | Pending confirmation | [Changeling Wayfinder](https://scryfall.com/card/ecl/1/changeling-wayfinder) | Ravenous Amulet | Exact paper `0.3.2` card. |
 | Pending confirmation | [Scarblade's Malice](https://scryfall.com/card/ecl/119/scarblades-malice) | Basilisk Collar | Exact paper `0.3.2` card. |
 
 All three additions are commons and were confirmed available and Brawl-legal in Arena on 2026-09-05. Database availability does not prove current ownership; the Arena craft screen is authoritative.
 
-Until Risky Research is obtained, keep Assert Perfection so the deck remains at 100 cards. If Scout the City is already owned in Arena, it is a reasonable temporary proxy, but it is not the exact released paper card.
+Until Risky Research is obtained, keep Cost of Brilliance so the deck remains at 100 cards. Do not re-add Assert Perfection. Cost of Brilliance is an ownership workaround, not a legality substitute or an exact paper match.
 
 ### Deliberate Arena substitutes retained
 
