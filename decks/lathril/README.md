@@ -37,4 +37,4 @@ The land count and Elf count are unchanged. The Forge export contains the same r
 
 ## Arena practice mirror
 
-See the [Arena crafting plan](arena-crafting-plan.md) for alignment with paper `0.3.2`, the three pending sync swaps, and limitations of the three paper-card substitutes. Assert Perfection remains the last verified Arena placeholder for the removed paper Mazemind Tome slot; it should be replaced by Risky Research, not by Tome. Arena-only changes do not alter this released paper list.
+See the [Arena crafting plan](arena-crafting-plan.md) for alignment with paper `0.3.2` and the limitations of its three paper-card substitutes. The user's latest 100-card Arena export matches the target except that owned Cost of Brilliance temporarily replaces unowned Risky Research. Arena-only changes and Forge benchmark results do not alter this released paper list.

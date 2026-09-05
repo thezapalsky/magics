@@ -19,7 +19,7 @@ Paper release: `0.3.2`. Prepared 2026-09-05.
 
 The other 97 card copies match paper `0.3.2`, including Changeling Wayfinder, Risky Research, and Scarblade's Malice. Worn Powerstone, Paradise Druid, Letter of Acceptance, and Mazemind Tome are not in the current target. The user deliberately chose the two-Stone setup: Mind Stone keeps a cheap artifact-ramp slot, while The Soul Stone provides black mana and a much stronger Arena-only late-game reanimation mode than Commander's Sphere.
 
-The Arena target is not a verified export of the user's current deck or a statement that every card is owned. At the latest report, Risky Research still required one common wildcard; the user confirmed using owned Cost of Brilliance as its temporary proxy and removing Assert Perfection. The Changeling Wayfinder and Scarblade's Malice swaps still need explicit completion confirmation.
+The user's latest 100-card Arena text export matches this target except for one ownership proxy: Risky Research still requires one common wildcard, so owned Cost of Brilliance currently occupies that slot. The export confirms Changeling Wayfinder and Scarblade's Malice are present and that Ravenous Amulet, Basilisk Collar, Worn Powerstone, and Assert Perfection are absent.
 
 Both current files use `Commander` / `Deck` headings and quantity-plus-name lines without set codes, so they can be imported into ManaBox. The Arena target can also be imported into Arena. After importing, verify Lathril is the commander and the total is 100 before crafting anything.
 
