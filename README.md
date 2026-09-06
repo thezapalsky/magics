@@ -18,6 +18,8 @@ Only released lists change the version in `VERSION`. Experiments keep their own 
 
 The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.2`. The latest Arena export uses Mind Stone for Sol Ring, The Soul Stone for Commander's Sphere, and Llanowar Tribe for Elvish Aberration. Cost of Brilliance temporarily occupies Risky Research's slot while the user is one common wildcard short. [EXP-003](experiments/EXP-003-competitive-brawl-benchmark/README.md) benchmarks that exact Arena snapshot in Forge without changing the released paper list.
 
+Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.0](decks/arena/elves-4.0.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
+
 ## Versioning
 
 Deck releases use `X.Y.Z`. While the project is still below `1.0.0`, the current line is:

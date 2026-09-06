@@ -1,0 +1,73 @@
+Commander
+1 Sephiroth, Fabled SOLDIER (FIN) 115
+
+Deck
+1 Accursed Marauder (MH3) 80
+1 Arcane Signet (ANB) 117
+1 Ashnod's Altar (BRR) 4
+1 Gixian Infiltrator (BRO) 98
+1 Bitterbloom Bearer (ECL) 88
+1 Doomed Dissenter (J25) 425
+1 Bloodghast (DFT) 77
+1 Bojuka Bog (WWK) 132
+1 Bolas's Citadel (WAR) 79
+1 Bontu's Monument (AKR) 269
+1 Braids, Arisen Nightmare (DMU) 84
+1 Voracious Vermin (WOE) 116
+1 Corrupted Conviction (MOM) 98
+1 Culling the Weak (SOA) 27
+1 Deadly Dispute (MSC) 794
+1 Demon's Disciple (ZNR) 97
+1 Feed the Swarm (ZNR) 102
+1 Feign Death (AFR) 103
+1 Fell the Profane (MH3) 244
+1 Fleshbag Marauder (J21) 53
+1 Forsaken Miner (OTJ) 88
+1 Gray Merchant of Asphodel (THB) 99
+1 Jadar, Ghoulcaller of Nephalia (MID) 108
+1 Malakir Rebirth (ZNR) 111
+1 Merciless Executioner (HOC) 188
+1 Undead Butler (PIO) 117
+1 Morbid Opportunist (FIC) 278
+1 Nine-Lives Familiar (FDN) 66
+1 Not Dead After All (WOE) 101
+1 Greedy Freebooter (LCI) 109
+1 Blood for Bones (M20) 89
+1 Pitiless Plunderer (RIX) 81
+1 Plaguecrafter (GRN) 82
+1 Reanimate (OTP) 18
+1 Reassembling Skeleton (FDN) 182
+1 Reliquary Tower (M19) 254
+1 Supernatural Stamina (AKR) 126
+31 Swamp (ANB) 116
+1 Ghoulish Procession (MID) 102
+1 The Meathook Massacre (MID) 112
+1 Timeline Culler (EOE) 121
+1 Toxic Deluge (MH3) 277
+1 Undying Malice (VOW) 134
+1 Unearth (2X2) 96
+1 Victimize (SPG) 23
+1 Village Rites (J25) 508
+1 Command Tower (ANB) 118
+1 Warren Soultrader (MH3) 110
+1 Withering Torment (DSK) 124
+1 Yawgmoth, Thran Physician (MH1) 116
+1 Woe Strider (THB) 123
+1 Weaponcraft Enthusiast (KLR) 110
+1 Cult Conscript (DMU) 88
+1 Shambling Ghast (AFR) 119
+1 Vampiric Rites (FDN) 615
+1 Fake Your Own Death (FDN) 174
+1 Dockside Chef (NEO) 93
+1 Novice Occultist (MID) 117
+1 The Soul Stone (SPM) 66
+1 Witch's Cottage (ELD) 249
+1 Eaten Alive (FDN) 172
+1 Infestation Sage (FDN) 64
+1 Vampire Gourmand (FDN) 74
+1 Infernal Vessel (FDN) 63
+1 Midnight Reaper (FDN) 609
+1 Moonglove Extractor (ECL) 109
+1 My Precious (HOB) 176
+1 Bastion of Remembrance (TLE) 160
+1 Drivnod, Carnage Dominus (ONE) 90
