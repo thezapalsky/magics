@@ -1,0 +1,74 @@
+Commander
+1 Lathril, Blade of the Elves (FDN) 242
+
+Deck
+13 Swamp (FIN) 300
+1 Infestation Sage (FDN) 64
+1 Llanowar Elves (FDN) 227
+1 Dwynen's Elite (FDN) 218
+1 Beast-Kin Ranger (FDN) 100
+1 Redtooth Genealogist (WOE) 179
+1 High Perfect Morcant (ECL) 229
+1 Wardens of the Cycle (FDN) 125
+1 Jaspera Sentinel (KHM) 178
+1 Elvish Visionary (J25) 145
+1 Toxic Deluge (MH3) 277
+1 Reclamation Sage (FDN) 231
+1 Woodland Mystic (ANB) 109
+1 Wood Elves (HOB) 142
+1 Druid of the Cowl (FDN) 554
+1 Dawnhand Eulogist (ECL) 99
+1 Moonglove Extractor (ECL) 109
+1 Creakwood Safewright (ECL) 96
+1 Scarblade's Malice (ECL) 119
+1 Corrupted Conviction (MOM) 98
+1 Paradise Druid (SPG) 0
+1 Sephiroth, Fabled SOLDIER (FIN) 115
+1 Lys Alana Informant (ECL) 181
+1 Eclipsed Elf (ECL) 218
+1 The Huntsman's Redemption (WOE) 176
+1 Deadly Brew (STX) 176
+1 Llanowar Tribe (MH1) 170
+1 Hero's Downfall (FDN) 175
+1 Tamiyo's Safekeeping (NEO) 211
+1 Morcant's Loyalist (ECL) 236
+1 Elven Ambush (KHM) 391
+1 Gloom Ripper (ECL) 102
+1 Deadly Dispute (MSC) 794
+1 Festering Gulch (OTJ) 257
+1 Command Tower (ANB) 118
+1 Jungle Hollow (FDN) 263
+1 Temple of Malady (FDN) 700
+1 Leaf-Crowned Visionary (SPG) 0
+1 Shaman of the Pack (ORI) 217
+1 A-Skemfar Avenger (KHM) 109
+1 Elvish Mystic (M14) 169
+1 Imperious Perfect (FDN) 719
+1 A-Harald, King of Skemfar (KHM) 212
+1 Tyvar, Jubilant Brawler (ONE) 218
+1 Citanul Stalwart (BRO) 175
+1 Wirewood Symbiote (MH3) 288
+1 Llanowar Visionary (J25) 684
+1 Lys Alana Huntmaster (LRW) 229
+1 Skemfar Shadowsage (J25) 489
+1 Poison-Tip Archer (M19) 220
+1 Sylvan Ranger (JMP) 435
+1 Leaf Gilder (JMP) 408
+1 Elfhame Druid (DAR) 159
+1 Arcane Signet (ANB) 117
+1 Elvish Archdruid (FDN) 219
+1 Priest of Titania (MH3) 286
+1 Elvish Warmaster (KHM) 167
+1 Beast Whisperer (GRN) 123
+1 Snakeskin Veil (FDN) 233
+1 Marwyn, the Nurturer (J25) 687
+1 Trystan, Callous Cultivator (ECL) 199
+1 Dionus, Elvish Archdruid (J25) 52
+18 Forest (FIN) 306
+1 Formidable Speaker (ECL) 176
+1 Roaming Throne (LCI) 258
+1 Phyrexian Arena (FDN) 180
+1 Abomination of Llanowar (CMR) 265
+1 Dwynen, Gilt-Leaf Daen (FDN) 217
+1 Eladamri, Korvecdal (MH3) 149
+1 Craterhoof Behemoth (TDM) 138
