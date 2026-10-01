@@ -2,6 +2,8 @@
 
 ## Arena test 0.3.3
 
+Revision exp.2 aligns with the user's chosen paper swaps: Iron-Shield Elf is removed and Mind Stone is retained. Compared with the earlier Arena 0.3.3 proposal, swap Iron-Shield Elf out for Mind Stone. The Soul Stone remains. The selected paper 0.3.3 changes have not yet been published to the canonical paper files.
+
 [Arena simulator 0.3.3](arena-test-0.3.3.txt) is the user-approved six-swap test target dated 2026-10-01, not a verified client export or paper release. It retains the owned Cost of Brilliance proxy, The Soul Stone and 35 lands. See [EXP-005](../../../experiments/EXP-005-arena-elf-tuning/README.md) for the exact diff and tradeoffs. Paper remains 0.3.2; the older Arena target below is preserved as history.
 
 Copy the entire 0.3.3 file into Arena's deck importer, then check the 100-card total and ownership before crafting.

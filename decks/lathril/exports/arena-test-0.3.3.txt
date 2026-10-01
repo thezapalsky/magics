@@ -33,7 +33,7 @@ Deck
 1 Hero's Downfall
 1 Imperious Perfect
 1 Infestation Sage
-1 Iron-Shield Elf
+1 Mind Stone
 1 Jungle Hollow
 1 Llanowar Elves
 1 Sylvan Ranger
