@@ -4,6 +4,7 @@ These are user-owned Arena snapshots, separate from the released paper Lathril d
 
 | Name | File | Status | Source |
 |---|---|---|---|
+| Simulator 0.3.3 | [arena-test-0.3.3.txt](../lathril/exports/arena-test-0.3.3.txt) | Approved Arena test target, 2026-10-01; not a verified client export | Six user-approved swaps; see EXP-005 |
 | Sacrifice 3.0 | [sacrifice-3.0.txt](sacrifice-3.0.txt) | Current Arena snapshot, recorded 2026-09-06 | User export |
 | Elves 4.1 | [elves-4.1.txt](elves-4.1.txt) | Current Arena snapshot, recorded 2026-09-06 | User export |
 | Elves 4.0 | [elves-4.0.txt](elves-4.0.txt) | Historical Arena snapshot | User export |

@@ -1,5 +1,11 @@
 # Lathril import-ready lists
 
+## Arena test 0.3.3
+
+[Arena simulator 0.3.3](arena-test-0.3.3.txt) is the user-approved six-swap test target dated 2026-10-01, not a verified client export or paper release. It retains the owned Cost of Brilliance proxy, The Soul Stone and 35 lands. See [EXP-005](../../../experiments/EXP-005-arena-elf-tuning/README.md) for the exact diff and tradeoffs. Paper remains 0.3.2; the older Arena target below is preserved as history.
+
+Copy the entire 0.3.3 file into Arena's deck importer, then check the 100-card total and ownership before crafting.
+
 ## Current release 0.3.2
 
 Paper release: `0.3.2`. Prepared 2026-09-05.

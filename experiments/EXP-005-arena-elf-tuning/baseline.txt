@@ -1,0 +1,77 @@
+// COMMANDER
+1 Lathril, Blade of the Elves
+
+// DECK
+1 Adaptive Automaton
+1 Arcane Signet
+1 Biosynthic Burst
+1 Bloodline Bidding
+1 Bushwhack
+1 Celestial Reunion
+1 Changeling Wayfinder
+1 Collective Resistance
+1 Command Tower
+1 Dawn's Light Archer
+1 Dawnhand Eulogist
+1 Deadly Brew
+1 Deathbloom Gardener
+1 Dwynen's Elite
+1 Eclipsed Elf
+1 Eclipsed Realms
+1 Elvish Regrower
+1 Evolving Wilds
+1 Exsanguinate
+1 Fanatical Offering
+1 Feed the Swarm
+1 Fierce Empath
+1 Firdoch Core
+16 Forest
+1 Gathering Stone
+1 Gilt-Leaf's Embrace
+1 Gloom Ripper
+1 Graveshifter
+1 Hero's Downfall
+1 Imperious Perfect
+1 Infestation Sage
+1 Iron-Shield Elf
+1 Jungle Hollow
+1 Llanowar Elves
+1 Llanowar Stalker
+1 Llanowar Tribe
+1 Lluwen, Imperfect Naturalist
+1 Lys Alana Informant
+1 Maelstrom Pulse
+1 Massacre Wurm
+1 Midnight Reaper
+1 Moonglove Extractor
+1 Primal Might
+1 The Soul Stone
+1 Reclamation Sage
+1 Cost of Brilliance
+1 Rogue's Passage
+1 Rustvine Cultivator
+1 Scarblade's Malice
+1 Scarblade Scout
+1 Sephiroth, Fabled SOLDIER
+1 Snakeskin Veil
+1 Springbloom Druid
+1 Springleaf Drum
+1 Stalactite Dagger
+1 Strangled Cemetery
+12 Swamp
+1 Swiftfoot Boots
+1 Temple of Malady
+1 Thornweald Archer
+1 Thoughtweft Charge
+1 Undying Malice
+1 Unforgiving Aim
+1 Vampiric Rites
+1 Vengeful Bloodwitch
+1 Vile Entomber
+1 Vinebred Brawler
+1 Vizier of the Menagerie
+1 Wardens of the Cycle
+1 Wildborn Preserver
+1 Wishclaw Talisman
+1 Mind Stone
+1 Zombify
