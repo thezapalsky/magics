@@ -11,6 +11,8 @@ The root AGENTS.md applies. This directory is a read-only presentation layer, no
 - Preserve digital `A-` identities and all faces. New overrides require primary-source provenance.
 - Keep controls restrained and artwork-led. No results dashboard, comparisons, editing, or draw testing in v1.
 - Use factual copy. Keep the grid, mana stacks and artwork-only reader; do not repeat printed rules visually.
+- Default to Mana stacks; selector order is Mana stacks, Card browser, Grid. Lands/no-cost cards trail the mana columns.
+- Keep image warming bounded, idle after initial load, and sensitive to data-saver/slow connections and hidden tabs. No whole-deck upfront preload.
 - Test stack hover/focus, saved layout choice, reader arrows/wheel/native scroll, both faces and focus confinement.
 - Inspect real desktop and narrow-screen previews; verify focus, Escape, exports, missing images and reduced motion.
 - Before committing run `pnpm check`, `pnpm test`, `pnpm build`, root deck validation and `git diff --check`.

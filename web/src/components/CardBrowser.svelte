@@ -3,7 +3,7 @@
   import CardImage from './CardImage.svelte';
   import type { DisplayCard } from '../lib/types.ts';
 
-  let { cards }: { cards: DisplayCard[] } = $props();
+  let { cards, warmAt }: { cards: DisplayCard[]; warmAt: (index: number) => void } = $props();
   let dialog: HTMLDialogElement;
   let feed: HTMLDivElement | undefined = $state();
   let opened = $state(false);
@@ -13,11 +13,13 @@
   let previousOverflow = '';
   let current = $derived(cards[activeIndex]);
   let currentFace = $derived(current?.metadata.faces[faceIndex]);
+  $effect(() => { if (opened) warmAt(activeIndex); });
 
   export async function openAt(index: number, trigger: HTMLElement) {
     if (!cards.length) return;
     opener = trigger;
     activeIndex = Math.max(0, Math.min(index, cards.length - 1));
+    warmAt(activeIndex);
     faceIndex = 0;
     opened = true;
     await tick();

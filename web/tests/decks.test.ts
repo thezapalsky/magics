@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { families, loadCache, loadDeck, readSource } from '../src/lib/decks.ts';
 import { exportDeck, parseDeck } from '../src/lib/parser.ts';
-import { groupBasicCopies, groupByMana, isCardView, isLand, selectCards } from '../src/lib/card-utils.ts';
+import { CARD_VIEWS, DEFAULT_CARD_VIEW, groupBasicCopies, groupByMana, isCardView, isLand, selectCards } from '../src/lib/card-utils.ts';
 
 test('every snapshot is complete, source-preserving and cached', () => {
   const cache = loadCache();
@@ -74,8 +74,32 @@ test('mana columns preserve every card and quantity, with X at zero and lands la
 });
 
 test('only supported card layouts may be restored from browser storage', () => {
+  assert.equal(DEFAULT_CARD_VIEW, 'stacks');
+  assert.deepEqual(CARD_VIEWS.map(view => view.id), ['stacks', 'browse', 'grid']);
   for (const mode of ['grid', 'stacks', 'browse']) assert.ok(isCardView(mode));
   for (const mode of [null, '', 'unknown', 1, {}]) assert.equal(isCardView(mode), false);
+});
+
+test('no-cost spells have a trailing column, distinct from zero-mana spells and lands', () => {
+  const deck = loadDeck(families[0], families[0].defaultVersion);
+  const base = deck.cards.find(card => !isLand(card))!;
+  const withCost = (name: string, manaCost: string) => ({ ...base, name, key: name,
+    metadata: { ...base.metadata, manaValue: 0, faces: [{ ...base.metadata.faces[0], manaCost }] } });
+  const noCost = withCost('No-cost fixture', '');
+  const zero = withCost('Zero-mana fixture', '{0}');
+  const x = withCost('X-only fixture', '{X}');
+  const forest = deck.cards.find(card => card.name === 'Forest')!;
+  const groups = groupByMana([forest, noCost, zero, x, base]);
+  assert.deepEqual(groups.map(group => group.id), ['0', String(base.metadata.manaValue), 'no-cost', 'lands']);
+  assert.deepEqual(groups[0].cards.map(card => card.name), [zero.name, x.name]);
+  assert.equal(groups.at(-2)!.label, 'No mana cost');
+  assert.equal(groups.at(-1)!.quantity, forest.quantity);
+  for (const family of families) for (const version of family.versions) {
+    const snapshot = loadDeck(family, version.version);
+    const columns = groupByMana(selectCards(snapshot.cards));
+    assert.equal(columns.reduce((sum, column) => sum + column.quantity, 0), 99);
+    assert.equal(columns.at(-1)!.quantity, snapshot.landCount);
+  }
 });
 
 test('100-card local filtering stays below the interaction budget', () => {
