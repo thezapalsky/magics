@@ -13,7 +13,7 @@ for (const family of families) {
     // These elements must be present in the HTML before any client JavaScript runs.
     assert.equal((html.match(/class="card-tile(?:\s|")/g) ?? []).length, deck.cards.length);
     assert.equal((html.match(/class="commander-preview(?:\s|")/g) ?? []).length, 1);
-    assert.ok(html.includes('The ninety-nine'));
+    assert.ok(html.includes('Card layout'));
     assert.ok(html.includes(deck.snapshot.status));
     assert.equal(readFileSync(resolve(`dist/exports/${family.id}-${snapshot.version}.txt`), 'utf8'), deck.exportText);
   }

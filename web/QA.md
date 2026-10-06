@@ -9,12 +9,12 @@ This records local evidence, not a public deployment or an Arena-client verifica
 | Check | Result |
 | --- | --- |
 | `pnpm check` | Astro and Svelte: zero errors/warnings |
-| `pnpm test` | 10 tests passed |
+| `pnpm test` | 12 tests passed |
 | `pnpm build` | Eight valid 100-card snapshots, ten HTML pages, eight text exports |
 | Static HTML | Every commander and grid card exists before hydration |
 | Export preservation | Every generated text export exactly matches the parsed tracked source |
-| JavaScript budget | All generated JS bundles combined: **21.0 KiB gzip**, below 100 KiB |
-| Filtering unit benchmark | **0.07 ms** average for a 100-entry fixture on this machine |
+| JavaScript budget | All generated JS bundles combined: **under 24 KiB gzip**, below 100 KiB |
+| Filtering unit benchmark | **0.07–0.15 ms** averages across local runs for a 100-entry fixture |
 | Root paper validator | One commander + 99 main-deck cards |
 | Cloudflare dry run | Assets-only packaging succeeds, with no bindings; nothing published |
 
@@ -31,7 +31,7 @@ Validation also checks commander color identity and the unchanged paper release.
 - Search updates the grid, including a readable empty state and working reset.
 - Card-type filtering and name sorting work; default mana ordering leaves lands last.
 - Commander/card inspection works; Sephiroth's two faces have separate text/images.
-- `A-Skemfar Avenger` displays the sourced Arena rule without “nontoken,” and links
+- `A-Skemfar Avenger` uses the sourced Arena rule without “nontoken,” and links
   to Wizards' rebalance rather than presenting paper rules as the digital variant.
 - Native dialog focus starts on Close. Tab/Shift+Tab stay in the modal; Escape restores
   the opening card's focus and restores page scrolling.
@@ -45,6 +45,38 @@ Validation also checks commander color identity and the unchanged paper release.
   Recorded artwork URLs remain external image requests; details are bundled locally.
 - No application page errors reported in the browser session.
 
+## Layout and reader update
+
+- Removed the promotional home/deck copy; the temporary home heading is “My decks.”
+- Checked all 73 main-deck tiles in the paper mana columns: quantities total 99,
+  lands are last, and a title-strip hover or keyboard focus reveals the complete card
+  above the stack (`z-index: 100`). Search for “wurm” narrows the columns correctly.
+- Stacks persist after reloading through the local layout preference. Unsupported
+  stored values fall back to the server-rendered grid.
+- The full-screen reader shows the card image and source link, not a visible duplicate
+  name/type/rules block. Arrow keys and wheel gestures advance/backtrack; Home/End
+  reach the boundaries; native feed scrolling updates the active card.
+- Sephiroth's Flip control changes the image and accessible title to One-Winged Angel.
+- An explicit Tab/Shift+Tab loop keeps focus in the reader. Escape returns to the
+  original card/layout control. Browser testing identified and fixed the focus-wrap issue.
+- Desktop and 390/320 px mobile layouts fit without document-level horizontal overflow.
+  Mana columns deliberately scroll horizontally within their own container.
+- Layout-change samples: **12.3 and 19.6 ms** to the next frame. Reader open: **15.8 ms**.
+  The art-only reader still made **zero card-data API requests**, with three image
+  elements for the active card and adjacent cards.
+- Injecting an image error in the reader produces a named fallback with its
+  **488 × 680 px** frame unchanged.
+- Mobile-sized layout and native scroll behaviour were checked in Chromium;
+  a physical touchscreen swipe test is still recommended before publishing.
+
+Files changed for this layout update (all under `web/`):
+
+- UI: `src/components/CardBrowser.svelte`, `src/components/DeckViewer.svelte`,
+  `src/pages/index.astro`, `src/layouts/Layout.astro`.
+- Copy/grouping: `data/decks.json`, `src/lib/card-utils.ts`.
+- Verification: `scripts/check-static.ts`, `tests/decks.test.ts`.
+- Guidance/evidence: `README.md`, `AGENTS.md`, `QA.md`.
+
 Clipboard writes were denied by the isolated headless browser. The UI correctly offered
 the download fallback. Generated download contents are verified; successful clipboard
 writing still needs a normal browser with clipboard permission (loopback or HTTPS).
@@ -54,7 +86,8 @@ writing still needs a normal browser with clipboard permission (loopback or HTTP
 1. Run the documented check/test/build commands and the root paper validator.
 2. Start the production preview and review the home, all four defaults, and an older version.
 3. Check search, type filter, name sort, reset, both faces, keyboard focus/Escape,
-   copy and download. Compare the downloaded text with its tracked source.
+   copy and download. Check mana-stack hover/focus, saved layout preference,
+   and reader arrow/wheel/native scroll navigation. Compare the downloaded text with its tracked source.
 4. Review a narrow screen and reduced motion. Trigger an image error and confirm
    that the named placeholder does not change the frame dimensions.
 5. Inspect requests: no runtime card-data API traffic. Confirm the JS gzip budget.
