@@ -6,9 +6,7 @@ const decks = families.map(family => loadDeck(family, family.defaultVersion, cac
 ---
 <Layout>
   <section class="home-intro">
-    <p class="eyebrow">A collection, in motion</p>
-    <h1>Small cards.<br /><em>Big possibilities.</em></h1>
-    <p class="intro-note">Four decks. A few different ways to play.<br />Pull up a chair and take a closer look.</p>
+    <h1>My decks<span class="title-period">.</span></h1>
   </section>
   <section class="deck-shelf" aria-label="The decks">
     {decks.map((deck, index) => (
@@ -26,10 +24,8 @@ const decks = families.map(family => loadDeck(family, family.defaultVersion, cac
 
 <style>
   .home-intro { position: relative; padding: 4.2rem 0 3.5rem; }
-  .eyebrow { font-size: .67rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; }
   h1 { font: 400 clamp(3.2rem, 6vw, 5.4rem) / 1.06 var(--serif); letter-spacing: -.045em; margin: 0; }
-  h1 em { color: var(--accent); font-weight: 400; }
-  .intro-note { position: absolute; right: 0; bottom: 3.65rem; color: var(--muted); font-size: .85rem; line-height: 1.8; }
+  .title-period { color: var(--accent); }
   .deck-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
   .deck-cover { display: block; isolation: isolate; position: relative; overflow: hidden; min-height: 320px; border: 1px solid #56644755; border-radius: 12px; background: #333e2a; transition: border-color 200ms ease, transform 200ms ease; }
   .cover-art { position: absolute; inset: 0; z-index: -2; }
@@ -52,7 +48,7 @@ const decks = families.map(family => loadDeck(family, family.defaultVersion, cac
   .card-count { margin-left: auto; }
   .shelf-note { color: var(--muted); font-size: .7rem; margin-top: 1.5rem; }
   .shelf-note span { color: var(--accent); margin-right: .45rem; }
-  @media (max-width: 850px) { .intro-note { position: static; margin-top: 1.6rem; } .home-intro { padding: 3rem 0 2rem; } .deck-cover { min-height: 290px; } h2 { font-size: 2rem; } }
+  @media (max-width: 850px) { .home-intro { padding: 3rem 0 2rem; } .deck-cover { min-height: 290px; } h2 { font-size: 2rem; } }
   @media (max-width: 600px) { .deck-shelf { grid-template-columns: 1fr; gap: 1rem; } .deck-cover { min-height: 300px; } .cover-copy { left: 1.3rem; right: 1.3rem; } h1 { font-size: 3.3rem; } .shelf-note { line-height: 1.7; } }
   @media (prefers-reduced-motion: reduce) { .deck-cover, .cover-art img { transition: none; } .deck-cover:hover, .deck-cover:hover .cover-art img { transform: none; } }
 </style>

@@ -7,6 +7,24 @@ export function isLand(card: DisplayCard): boolean {
 
 export const cardTypes = ['Creature', 'Artifact', 'Enchantment', 'Instant', 'Sorcery', 'Planeswalker', 'Land'] as const;
 
+export type CardView = 'grid' | 'stacks' | 'browse';
+export function isCardView(value: unknown): value is CardView {
+  return value === 'grid' || value === 'stacks' || value === 'browse';
+}
+
+export function groupByMana(cards: DisplayCard[]): { id: string; label: string; cards: DisplayCard[]; quantity: number }[] {
+  const groups = new Map<string, DisplayCard[]>();
+  for (const card of cards) {
+    const id = isLand(card) ? 'lands' : String(card.metadata.manaValue);
+    const entries = groups.get(id) ?? [];
+    entries.push(card);
+    groups.set(id, entries);
+  }
+  return [...groups].sort(([a], [b]) => a === 'lands' ? 1 : b === 'lands' ? -1 : Number(a) - Number(b))
+    .map(([id, cards]) => ({ id, label: id === 'lands' ? 'Lands' : `${id} mana`, cards,
+      quantity: cards.reduce((sum, card) => sum + card.quantity, 0) }));
+}
+
 export function groupBasicCopies(entries: DisplayCard[]): DisplayCard[] {
   const grouped = new Map<string, DisplayCard>();
   for (const card of entries) {

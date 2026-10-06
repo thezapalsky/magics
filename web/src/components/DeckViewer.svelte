@@ -1,8 +1,9 @@
 <script lang="ts">
-  import { tick } from 'svelte';
+  import { onMount } from 'svelte';
   import CardImage from './CardImage.svelte';
+  import CardBrowser from './CardBrowser.svelte';
   import Mana from './Mana.svelte';
-  import { cardTypes, selectCards } from '../lib/card-utils.ts';
+  import { cardTypes, groupByMana, isCardView, selectCards, type CardView } from '../lib/card-utils.ts';
   import type { DisplayCard, LoadedDeck } from '../lib/types.ts';
 
   let { deck }: { deck: LoadedDeck } = $props();
@@ -12,24 +13,25 @@
   let filtersOpen = $state(false);
   let exportOpen = $state(false);
   let copied = $state('');
-  let selected = $state<DisplayCard | null>(null);
-  let faceIndex = $state(0);
-  let dialog: HTMLDialogElement;
-  let opener: HTMLElement | null = null;
+  let view: CardView = $state('grid');
+  let browser: { openAt(index: number, trigger: HTMLElement): Promise<void> };
+  const views: { id: CardView; label: string }[] = [{ id: 'grid', label: 'Grid' }, { id: 'stacks', label: 'Mana stacks' }, { id: 'browse', label: 'Card browser' }];
   let visible = $derived(selectCards(deck.cards, query, type, sort));
   let visibleCopies = $derived(visible.reduce((sum, card) => sum + card.quantity, 0));
-  let face = $derived(selected?.metadata.faces[faceIndex]);
+  let manaGroups = $derived(groupByMana(visible));
+  let browseCards = $derived([deck.commander, ...visible]);
 
-  async function inspect(card: DisplayCard, event: MouseEvent) {
-    opener = event.currentTarget as HTMLElement;
-    selected = card;
-    faceIndex = 0;
-    await tick();
-    dialog.showModal();
-    document.body.style.overflow = 'hidden';
+  function inspect(card: DisplayCard, event: MouseEvent) {
+    void browser.openAt(browseCards.findIndex(item => item.key === card.key), event.currentTarget as HTMLElement);
   }
-  function close() { dialog.close(); }
-  function closed() { selected = null; document.body.style.overflow = ''; opener?.focus(); }
+  function chooseView(next: CardView, event: MouseEvent) {
+    view = next;
+    try { localStorage.setItem('magics-card-view', next); } catch { /* The controls work without storage permission. */ }
+    if (next === 'browse') void browser.openAt(0, event.currentTarget as HTMLElement);
+  }
+  onMount(() => {
+    try { const saved = localStorage.getItem('magics-card-view'); if (isCardView(saved)) view = saved; } catch { /* Keep the server-rendered grid. */ }
+  });
   function changeVersion(event: Event) {
     window.location.assign(`/decks/${deck.family.id}/${(event.currentTarget as HTMLSelectElement).value}/`);
   }
@@ -48,7 +50,6 @@
     <div class="eyebrow">{deck.family.medium} <span> / </span> {deck.family.format}</div>
     <h1 id="deck-title">{deck.family.title}<span class="title-period">.</span></h1>
     <p class="commander-name">{deck.commander.name}</p>
-    <p class="deck-description">{deck.family.description}</p>
     <div class="deck-facts"><span><strong>{deck.total}</strong> cards</span><span><strong>{deck.landCount}</strong> lands</span><span class="status"><i></i>{deck.snapshot.status}</span></div>
     <p class="snapshot-note">{deck.snapshot.note}</p>
   </div>
@@ -61,7 +62,7 @@
 
 <section class="deck-content" aria-label="Decklist">
   <div class="toolbar">
-    <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search cards</span><input type="search" placeholder="Find a card, an Elf, a little magic…" bind:value={query} /></label>
+    <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search cards</span><input type="search" placeholder="Search cards" bind:value={query} /></label>
     <div class="toolbar-actions">
       <button class:active={filtersOpen || type !== 'All' || sort !== 'mana'} class="control" onclick={() => { filtersOpen = !filtersOpen; exportOpen = false; }} aria-expanded={filtersOpen} aria-controls="filters">Filter & sort <span aria-hidden="true">↓</span></button>
       <label class="version-control"><span class="sr-only">Deck version</span><select value={deck.snapshot.version} onchange={changeVersion}>{#each deck.family.versions as version}<option value={version.version}>v{version.version}</option>{/each}</select></label>
@@ -83,8 +84,12 @@
       <span role="status">{copied}</span>
     </div>
   {/if}
-  <div class="grid-heading"><h2>The ninety-nine</h2><span role="status" aria-live="polite">{visibleCopies} cards <span class="subtle">· {visible.length} unique</span></span></div>
-  <div class="card-grid">
+  <div class="grid-heading">
+    <div class="view-controls" role="group" aria-label="Card layout">{#each views as option}<button class:active={view === option.id} aria-pressed={view === option.id} onclick={(event) => chooseView(option.id, event)}>{option.label}</button>{/each}</div>
+    <span role="status" aria-live="polite">{visibleCopies} cards <span class="subtle">· {visible.length} unique</span></span>
+  </div>
+  {#if view === 'grid'}
+    <div class="card-grid">
     {#each visible as card, index (card.key)}
       <button class="card-tile" onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
         <span class="card-art"><CardImage src={card.metadata.faces[0].images?.normal} alt={card.name} eager={index < 6} />{#if card.quantity > 1}<span class="quantity">×{card.quantity}</span>{/if}{#if card.metadata.faces.length > 1}<span class="flip-badge" aria-hidden="true">↻</span>{/if}</span>
@@ -92,35 +97,39 @@
         <span class="card-mana"><Mana cost={card.metadata.faces[0].manaCost} /></span>
       </button>
     {/each}
-  </div>
+    </div>
+  {:else if view === 'stacks'}
+    <p class="stack-note">Mana value columns. X counts as 0. Hover or focus to reveal; tap to browse.</p>
+    <div class="mana-columns" role="region" aria-label="Cards grouped by mana value">
+      {#each manaGroups as group (group.id)}
+        <section class="mana-column" aria-labelledby={`mana-${group.id}`}>
+          <h2 id={`mana-${group.id}`}>{group.label}<span>{group.quantity}</span></h2>
+          <ol class="stack-pile">
+            {#each group.cards as card, index (card.key)}
+              <li style={`--stack-order: ${index}`}>
+                <button class="stack-card" onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
+                  <CardImage src={card.metadata.faces[0].images?.normal} alt={card.name} eager={index < 2} />
+                  {#if card.quantity > 1}<span class="stack-quantity">×{card.quantity}</span>{/if}
+                </button>
+              </li>
+            {/each}
+          </ol>
+        </section>
+      {/each}
+    </div>
+  {:else}
+    <button class="browse-launch" onclick={(event) => void browser.openAt(0, event.currentTarget)}>
+      <span class="launch-art"><CardImage src={deck.commander.metadata.faces[0].images?.normal} alt={deck.commander.name} /></span>
+      <span>Browse cards <span aria-hidden="true">→</span></span>
+    </button>
+  {/if}
   {#if visible.length === 0}
     <div class="empty-state"><span aria-hidden="true">◇</span><h3>No matching cards.</h3><p>Try another name, type, or bit of rules text.</p><button class="control" onclick={() => { query = ''; type = 'All'; }}>Clear search & filters</button></div>
   {/if}
-  <noscript><p class="noscript-note">The complete deck is visible below. Enable JavaScript for search, filters, card inspection and version selection.</p></noscript>
+  <noscript><p class="noscript-note">Enable JavaScript for search, layouts, card browsing and version selection.</p></noscript>
 </section>
 
-<dialog bind:this={dialog} class="card-dialog" onclose={closed} onclick={(event) => { if (event.target === dialog) close(); }} aria-labelledby="card-detail-title">
-  {#if selected && face}
-    <div class="dialog-inner">
-      <button class="close-dialog" aria-label="Close card details" onclick={close}>×</button>
-      <div class="detail-art">
-        {#key `${selected.metadata.id}-${faceIndex}`}<CardImage src={face.images?.large ?? selected.metadata.faces[0].images?.large} alt={face.name} eager />{/key}
-      </div>
-      <div class="detail-copy">
-        <div class="eyebrow">{selected === deck.commander ? 'Commander' : `${selected.quantity} ${selected.quantity === 1 ? 'copy' : 'copies'} in this deck`}</div>
-        <h2 id="card-detail-title">{face.name}</h2>
-        <Mana cost={face.manaCost} />
-        <p class="detail-type">{face.typeLine}</p>
-        <div class="oracle-text">{#each face.oracleText.split('\n') as paragraph}<p>{paragraph}</p>{/each}</div>
-        {#if face.power !== undefined}<p class="card-stats">{face.power} / {face.toughness}</p>{/if}
-        {#if face.loyalty !== undefined}<p class="card-stats">Loyalty {face.loyalty}</p>{/if}
-        {#if selected.metadata.faces.length > 1}<div class="face-controls" aria-label="Card faces">{#each selected.metadata.faces as item, index}<button class:active={faceIndex === index} class="control" onclick={() => faceIndex = index} aria-pressed={faceIndex === index}>{index === 0 ? 'Front face' : 'Other face'} ↻</button>{/each}</div>{/if}
-        <p class="printing-note">Artwork: {selected.metadata.set.toUpperCase()} #{selected.metadata.collectorNumber}{#if selected.set && (selected.set !== selected.metadata.set || selected.collectorNumber !== selected.metadata.collectorNumber)}<br />Saved printing: {selected.set.toUpperCase()} #{selected.collectorNumber}{/if}{#if selected.foil} · foil{/if}</p>
-        {#if selected.metadata.digitalRebalanced}<p class="printing-note">Arena-rebalanced variant. Rules and card image sourced from Wizards’ published change.</p><a class="detail-source" href={selected.metadata.rulesSource} target="_blank" rel="noopener noreferrer">Arena rules source ↗</a>{:else}<a class="detail-source" href={selected.metadata.scryfallUrl} target="_blank" rel="noopener noreferrer">View on Scryfall ↗</a>{/if}
-      </div>
-    </div>
-  {/if}
-</dialog>
+<CardBrowser cards={browseCards} bind:this={browser} />
 
 <style>
   .deck-intro { display: grid; grid-template-columns: 1fr 210px; gap: 5rem; padding: 2.6rem 0 3.5rem; align-items: center; }
@@ -131,8 +140,7 @@
   h1 { font-family: var(--serif); font-size: clamp(2.8rem, 5vw, 4.8rem); line-height: 1.12; font-weight: 400; letter-spacing: -.045em; margin: .5rem 0 .65rem; }
   .title-period { color: var(--accent); }
   .commander-name { color: var(--text); font-size: .95rem; margin: 0; }
-  .deck-description { max-width: 35rem; color: var(--muted); line-height: 1.75; font-size: .88rem; margin: 1.3rem 0; }
-  .deck-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; color: var(--muted); font-size: .78rem; }
+  .deck-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; color: var(--muted); font-size: .78rem; margin-top: 1.3rem; }
   .deck-facts strong { color: var(--text); font-weight: 500; }
   .status { display: inline-flex; align-items: center; gap: .4rem; }
   .status i { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
@@ -158,8 +166,10 @@
   .export-menu { align-items: center; }
   .export-menu p { flex-basis: 100%; margin: 0; color: var(--muted); }
   .export-menu [role=status] { color: var(--accent); font-size: .72rem; }
-  .grid-heading { display: flex; align-items: baseline; justify-content: space-between; margin: 2rem 0 1.4rem; }
-  .grid-heading h2 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 1.35rem; }
+  .grid-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin: 2rem 0 1.4rem; }
+  .view-controls { display: flex; border: 1px solid var(--line); border-radius: 7px; padding: 3px; }
+  .view-controls button { border: 0; border-radius: 4px; background: none; color: var(--muted); font-size: .72rem; padding: .55rem .7rem; cursor: pointer; }
+  .view-controls button.active { background: #36402e; color: var(--text); }
   .grid-heading > span { font-size: .72rem; color: var(--muted); }
   .subtle { opacity: .7; }
   .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); gap: 1.8rem 1.1rem; }
@@ -175,33 +185,34 @@
   .empty-state h3 { font: 400 1.6rem var(--serif); color: var(--text); }
   .empty-state p { font-size: .85rem; }
   .noscript-note { color: var(--muted); font-size: .8rem; }
-  .card-dialog { max-width: 830px; width: calc(100% - 2rem); max-height: calc(100dvh - 3rem); overflow-y: auto; padding: 0; background: #22251f; border: 1px solid #4c5444; border-radius: 15px; color: var(--text); }
-  .card-dialog::backdrop { background: #080b08d9; backdrop-filter: blur(9px); }
-  .dialog-inner { position: relative; display: grid; grid-template-columns: minmax(0, 310px) minmax(0, 1fr); gap: 2rem; padding: 2rem; }
-  .close-dialog { position: absolute; z-index: 2; top: .5rem; right: .5rem; width: 36px; height: 36px; border-radius: 50%; color: var(--text); background: #30362c; border: 1px solid #55614a; cursor: pointer; font-size: 1.5rem; }
-  .detail-copy { padding-top: 1.3rem; }
-  .detail-copy h2 { font: 400 1.7rem / 1.2 var(--serif); margin: .7rem 0 1rem; }
-  .detail-type { font-size: .78rem; color: var(--muted); padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
-  .oracle-text { font-size: .82rem; line-height: 1.75; }
-  .oracle-text p { margin: .75rem 0; }
-  .card-stats { text-align: right; font-family: var(--serif); font-size: 1.3rem; }
-  .face-controls { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1.5rem 0; }
-  .printing-note { color: var(--muted); font-size: .65rem; line-height: 1.8; margin-top: 1.5rem; }
-  .detail-source { color: var(--accent); font-size: .75rem; }
+  .stack-note { color: var(--muted); font-size: .7rem; margin: -.3rem 0 1.5rem; line-height: 1.6; }
+  .mana-columns { display: flex; gap: 1.3rem; align-items: flex-start; overflow: auto; padding: 8px 10px 20px; margin: -8px -10px; scrollbar-width: thin; scrollbar-color: #526044 transparent; }
+  .mana-column { flex: 0 0 176px; min-width: 0; }
+  .mana-column h2 { font-size: .8rem; font-weight: 500; margin: 0 0 1rem; display: flex; justify-content: space-between; color: var(--text); }
+  .mana-column h2 span { color: var(--muted); font-size: .7rem; }
+  .stack-pile { padding: 0; margin: 0; list-style: none; }
+  .stack-pile li { position: relative; height: 42px; z-index: var(--stack-order); }
+  .stack-pile li:last-child { height: auto; aspect-ratio: 488 / 680; }
+  .stack-pile li:has(.stack-card:hover), .stack-pile li:focus-within { z-index: 100; }
+  .stack-card { position: relative; display: block; width: 100%; padding: 0; border: 0; border-radius: 9px; background: transparent; cursor: pointer; box-shadow: 0 -3px 12px #0004; transition: transform 130ms ease; }
+  .stack-card:hover, .stack-card:focus-visible { transform: translateY(-4px); box-shadow: 0 5px 24px #000a; }
+  .stack-quantity { position: absolute; right: .4rem; top: .4rem; padding: .15rem .35rem; border-radius: 4px; background: #161b16e8; font-size: .65rem; }
+  .stack-card :global(.image-placeholder) { justify-content: flex-start; gap: .2rem; padding: .5rem; font-size: .7rem; }
+  .stack-card :global(.placeholder-mark) { display: none; }
+  .browse-launch { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; width: 100%; padding: 2rem; border: 1px solid var(--line); border-radius: 9px; background: none; cursor: pointer; color: var(--accent); font-size: .85rem; }
+  .launch-art { display: block; width: 176px; }
   @media (max-width: 720px) {
     .deck-intro { grid-template-columns: 1fr 120px; gap: 1.2rem; padding-top: 1.7rem; padding-bottom: 2rem; }
     .back-link { margin-bottom: 1.8rem; }
     .commander-preview { width: 110px; }
     .commander-halo { inset: -.5rem; }
-    .deck-description { font-size: .8rem; }
     .deck-facts { gap: .6rem 1rem; font-size: .72rem; }
     .toolbar { flex-wrap: wrap; }
     .search-box { flex-basis: 100%; }
     .toolbar-actions { width: 100%; justify-content: space-between; }
     .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem .85rem; }
-    .dialog-inner { grid-template-columns: 1fr; gap: 1rem; padding: 1.5rem; }
-    .detail-art { width: min(240px, 100%); margin: auto; }
-    .detail-copy { padding-top: 0; }
+    .mana-column { flex-basis: 154px; }
+    .mana-columns { gap: 1rem; }
   }
   @media (max-width: 460px) {
     .deck-intro { grid-template-columns: 1fr 92px; gap: .9rem; }
@@ -209,11 +220,9 @@
     .commander-caption { font-size: .6rem; }
     .commander-caption span { display: none; }
     .commander-name { font-size: .8rem; line-height: 1.5; }
-    .deck-description { display: none; }
     .snapshot-note { font-size: .65rem; }
     .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 1rem; }
-    .grid-heading h2 { font-size: 1.2rem; }
     .grid-heading > span { font-size: .65rem; }
   }
-  @media (prefers-reduced-motion: reduce) { .card-tile, .commander-preview { transition: none; } .card-tile:hover, .commander-preview:hover { transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .card-tile, .commander-preview, .stack-card { transition: none; } .card-tile:hover, .commander-preview:hover, .stack-card:hover, .stack-card:focus-visible { transform: none; } }
 </style>

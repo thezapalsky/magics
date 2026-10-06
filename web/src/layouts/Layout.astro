@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 interface Props { title?: string; description?: string }
-const { title = 'Magics — a deck notebook', description = 'Four Magic decks, a collection of small experiments, and cards worth a closer look.' } = Astro.props;
+const { title = 'Magics — my decks', description = 'Paper Commander and Arena Brawl decklists, saved versions, and card images.' } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -25,7 +25,7 @@ const { title = 'Magics — a deck notebook', description = 'Four Magic decks, a
     </header>
     <main id="main" class="wrap"><slot /></main>
     <footer class="site-footer wrap">
-      <span>A work in progress. Just like the decks.</span>
+      <span>Paper Commander & Arena Brawl decklists.</span>
       <span>Card data & artwork via <a href="https://scryfall.com" target="_blank" rel="noopener noreferrer">Scryfall</a>.<br />Magic: The Gathering © Wizards of the Coast. Unofficial fan project.</span>
     </footer>
   </body>

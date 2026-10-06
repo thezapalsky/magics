@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { families, loadCache, loadDeck, readSource } from '../src/lib/decks.ts';
 import { exportDeck, parseDeck } from '../src/lib/parser.ts';
-import { groupBasicCopies, isLand, selectCards } from '../src/lib/card-utils.ts';
+import { groupBasicCopies, groupByMana, isCardView, isLand, selectCards } from '../src/lib/card-utils.ts';
 
 test('every snapshot is complete, source-preserving and cached', () => {
   const cache = loadCache();
@@ -57,6 +57,25 @@ test('repeated basics combine visually without mutating source entries', () => {
   assert.equal(combined[0].quantity, 16);
   assert.equal(entries[0].quantity, 6);
   assert.equal(entries[1].quantity, 10);
+});
+
+test('mana columns preserve every card and quantity, with X at zero and lands last', () => {
+  const deck = loadDeck(families[0], families[0].defaultVersion);
+  const groups = groupByMana(selectCards(deck.cards));
+  assert.equal(groups.at(-1)!.id, 'lands');
+  assert.equal(groups.reduce((sum, group) => sum + group.quantity, 0), 99);
+  assert.equal(groups.reduce((sum, group) => sum + group.cards.length, 0), deck.cards.length);
+  // Celestial Reunion is XG: X contributes zero, while G contributes one.
+  assert.ok(groups.find(group => group.id === '1')!.cards.some(card => card.name === 'Celestial Reunion'));
+  const zeroMana = { ...deck.cards[0], metadata: { ...deck.cards[0].metadata, manaValue: 0 } };
+  assert.equal(groupByMana([zeroMana])[0].id, '0');
+  assert.ok(groups.at(-1)!.cards.every(isLand));
+  assert.deepEqual(groupByMana([]), []);
+});
+
+test('only supported card layouts may be restored from browser storage', () => {
+  for (const mode of ['grid', 'stacks', 'browse']) assert.ok(isCardView(mode));
+  for (const mode of [null, '', 'unknown', 1, {}]) assert.equal(isCardView(mode), false);
 });
 
 test('100-card local filtering stays below the interaction budget', () => {

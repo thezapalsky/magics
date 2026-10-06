@@ -3,6 +3,22 @@
 A static, read-only Astro + Svelte viewer for the decklists in this repository.
 No server, database, login, live collection tracking, simulation UI, or runtime card-data API is needed.
 
+## Card layouts
+
+- **Grid**: the original full-card gallery.
+- **Mana stacks**: overlapping columns by mana value, with lands last. X contributes zero
+  to mana value, not zero to the entire spell cost. Hover or keyboard focus raises a full
+  card; tap/click opens the reader. Narrow screens scroll the columns horizontally.
+- **Card browser**: a full-screen, artwork-only reader, starting with the commander.
+  Scroll the wheel, swipe vertically, use the next/previous buttons, or press arrow keys.
+  Home/End go to the first/last card; Escape closes and restores focus. Double-faced
+  cards have a Flip button; the bottom source link opens the displayed printing.
+
+The chosen layout is saved on the visitor's device, not in the repo or a server.
+The reader follows the current search/filter/order and shows grouped basics once.
+Only the current card and its neighbours request large images. Rules remain available
+to screen readers, without duplicating the printed card text visually.
+
 ## Local development
 
 Run commands from this directory (`web/`). Use Node **24.21.0**, pinned in `.nvmrc`, and pnpm **10.17.1**.
@@ -69,7 +85,8 @@ pnpm build
 The refresh batches collection lookups, sets identification/Accept headers, and paces requests.
 It verifies exact card names and prefers saved printings. Placeholder collector number `0`, missing
 printings, or a verified name-only source can use an exact-name printing fallback.
-The overlay shows the displayed artwork printing and any differing saved printing.
+The export preserves the saved printing; the reader's source link points to the displayed
+artwork printing, which may differ when an exact-name fallback was necessary.
 Unresolved/ambiguous identities stop the refresh; the previous complete cache is preserved.
 Commit the refreshed cache with any related manifest change. Do not run refresh on page requests or in CI.
 
