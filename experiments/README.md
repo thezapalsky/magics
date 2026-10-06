@@ -20,3 +20,4 @@ Experiment statuses are `planned`, `testing`, `adopted`, `revised`, or `rejected
 
 - [EXP-001 — Vile Entomber reanimation package](EXP-001-vile-entomber/README.md): adopted as `0.3.1`.
 - [EXP-002 — reduce generic artifacts](EXP-002-artifact-trim/README.md): adopted as `0.3.2`.
+- [EXP-006 — paper Elf tuning](EXP-006-paper-elf-tuning/README.md): adopted as paper `0.3.3` by user confirmation, recorded 2026-10-06; no measured results claimed.

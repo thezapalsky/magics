@@ -68,14 +68,16 @@ All servers bind to loopback; starting a preview does not publish the site.
 
 | Family | Default | Meaning |
 | --- | --- | --- |
-| Paper Lathril | 0.3.2 | Canonical paper release |
+| Paper Lathril | 0.3.3 | Canonical paper release |
 | Arena simulator | 0.3.3 | Approved test target, not a verified client export |
 | Elves | 4.1 | Saved user-exported Arena snapshot |
 | Sacrifice | 3.0 | Saved user-exported Arena snapshot |
 
 Older named snapshots remain selectable. The Arena families have their own version names;
 the website does not renumber them or treat the repository's paper `VERSION` as their version.
-Paper 0.3.3 is not published by this feature.
+Paper 0.3.3 was recorded on 6 October 2026 after the user's explicit adoption confirmation;
+see [EXP-006](../experiments/EXP-006-paper-elf-tuning/README.md). The viewer mirrors that release
+and preserves older versions; website development alone does not authorize deck adoption.
 
 `pnpm validate` checks every selected list for one commander, 99 main-deck cards,
 singleton nonbasics, commander color identity, complete and matching card identities,
@@ -161,7 +163,7 @@ The included GitHub workflow only checks/builds; it has no deployment or write p
 
 - `pnpm check`: Astro/TypeScript and Svelte diagnostics.
 - `pnpm test`: parser, source/export preservation, digital rules, sorting/search, and local-filter budget.
-- `pnpm build`: all eight snapshots, static HTML/text routes, and a combined JavaScript gzip ceiling of 100 KiB.
+- `pnpm build`: all selected snapshots, static HTML/text routes, and a combined JavaScript gzip ceiling of 100 KiB.
 - Browser checklist/evidence: [QA.md](QA.md). Review it after changing interactions, images, or layout.
 - Root `scripts/validate-deck.sh` remains the existing paper validator; it is not changed for the website.
 

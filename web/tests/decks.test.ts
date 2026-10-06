@@ -16,6 +16,66 @@ test('every snapshot is complete, source-preserving and cached', () => {
   }
 });
 
+test('paper 0.3.3 records exactly the accepted six swaps and synchronizes every release export', () => {
+  const paper = families.find(family => family.id === 'paper-lathril')!;
+  const previous = loadDeck(paper, '0.3.2');
+  const current = loadDeck(paper, '0.3.3');
+  const oldEntries = parseDeck(previous.exportText).entries;
+  const newEntries = parseDeck(current.exportText).entries;
+  const oldByName = new Map(oldEntries.map(card => [card.name, card.quantity]));
+  const newByName = new Map(newEntries.map(card => [card.name, card.quantity]));
+  const removed = oldEntries.filter(card => !newByName.has(card.name));
+  const added = newEntries.filter(card => !oldByName.has(card.name));
+  assert.deepEqual(removed.map(card => card.name).sort(), [
+    'Adaptive Automaton', 'Elvish Aberration', 'Iron-Shield Elf',
+    'Llanowar Stalker', 'Vampiric Rites', 'Vengeful Bloodwitch',
+  ].sort());
+  assert.deepEqual(added.map(card => card.name).sort(), [
+    'Elvish Visionary', "Morcant's Loyalist", 'Skemfar Shadowsage',
+    'Sylvan Ranger', 'Wood Elves', 'Woodland Weavemaster',
+  ].sort());
+  assert.ok([...removed, ...added].every(card => card.quantity === 1));
+  for (const card of oldEntries) if (newByName.has(card.name)) {
+    assert.equal(newByName.get(card.name), card.quantity);
+  }
+  assert.equal(current.commander.name, previous.commander.name);
+  assert.equal(current.landCount, 35);
+  assert.equal(paper.defaultVersion, '0.3.3');
+  assert.equal(readSource('VERSION').trim(), '0.3.3');
+  for (const source of [
+    'decks/lathril/decklist.txt',
+    'decks/lathril/exports/paper-0.3.3.txt',
+    'experiments/EXP-006-paper-elf-tuning/decklist.txt',
+  ]) assert.equal(exportDeck(parseDeck(readSource(source))), current.exportText);
+  assert.equal(exportDeck(parseDeck(readSource('experiments/EXP-006-paper-elf-tuning/baseline.txt'))), previous.exportText);
+  const forge = readSource('decks/lathril/forge.dck')
+    .replace(/^\[metadata\]\r?\nName=[^\r\n]+\r?\n/, '')
+    .replace('[Commander]', 'Commander').replace('[Main]', 'Deck');
+  assert.equal(exportDeck(parseDeck(forge)), current.exportText);
+});
+
+test('paper and Arena 0.3.3 differ only in the three recorded proxies', () => {
+  const paper = loadDeck(families.find(family => family.id === 'paper-lathril')!, '0.3.3');
+  const arena = loadDeck(families.find(family => family.id === 'arena-simulator')!, '0.3.3');
+  const entries = (text: string) => {
+    const deck = parseDeck(text);
+    return new Map([deck.commander, ...deck.entries].map(card => [card.name, card.quantity]));
+  };
+  const expected = entries(paper.exportText);
+  for (const [paperName, arenaName] of [
+    ['Sol Ring', 'Mind Stone'],
+    ["Commander's Sphere", 'The Soul Stone'],
+    ['Risky Research', 'Cost of Brilliance'],
+  ]) {
+    assert.equal(expected.get(paperName), 1);
+    expected.delete(paperName);
+    expected.set(arenaName, 1);
+  }
+  assert.deepEqual(entries(arena.exportText), expected);
+  assert.equal(paper.landCount, arena.landCount);
+  assert.equal(arena.snapshot.status, 'Test target');
+});
+
 test('search covers rules, type and names; lands sort last; empty results work', () => {
   const deck = loadDeck(families[0], families[0].defaultVersion);
   const sorted = selectCards(deck.cards);

@@ -6,9 +6,10 @@
     "medium": "Paper",
     "format": "Commander",
     "description": "Released paper Lathril Commander decklist.",
-    "defaultVersion": "0.3.2",
+    "defaultVersion": "0.3.3",
     "versions": [
-      { "version": "0.3.2", "status": "Released", "source": "decks/lathril/exports/paper-0.3.2.txt", "note": "The canonical paper release. Proposed 0.3.3 changes are not published here." },
+      { "version": "0.3.3", "status": "Released", "source": "decks/lathril/exports/paper-0.3.3.txt", "note": "User-confirmed six-swap paper release, recorded 6 October 2026. No controlled play-test improvement is claimed." },
+      { "version": "0.3.2", "status": "Historical release", "source": "decks/lathril/exports/paper-0.3.2.txt", "note": "An earlier released paper list, preserved as recorded." },
       { "version": "0.3.1", "status": "Historical release", "source": "decks/lathril/exports/paper-0.3.1.txt", "note": "An earlier released paper list, preserved as recorded." }
     ]
   },

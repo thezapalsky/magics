@@ -31,4 +31,4 @@ const canonical = parseDeck(readSource('decks/lathril/decklist.txt'));
 const signature = (deck: typeof current) => JSON.stringify([deck.commander.name, ...deck.entries.map(card => `${card.quantity} ${card.name}`).sort()]);
 if (signature(current) !== signature(canonical)) throw new Error('Published paper snapshot differs from the canonical release');
 if (readSource('VERSION').trim() !== paper.defaultVersion) throw new Error('Paper manifest default differs from VERSION');
-console.log(`Validated ${versions} snapshots; canonical paper release is unchanged.`);
+console.log(`Validated ${versions} snapshots; the paper default matches the canonical release and VERSION.`);

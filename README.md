@@ -13,18 +13,18 @@ Public deployment and remote pushes require explicit authorization.
 ## Current release
 
 - Deck: Lathril, Blade of the Elves
-- Version: `0.3.2`
+- Version: `0.3.3`
 - Canonical list: `decks/lathril/decklist.txt`
 - Forge export: `decks/lathril/forge.dck`
-- Import files: [paper for ManaBox](decks/lathril/exports/paper-0.3.2.txt) and [Arena target](decks/lathril/exports/arena-target-0.3.2.txt), with [instructions and the exact target diff](decks/lathril/exports/README.md).
+- Import files: [paper for ManaBox](decks/lathril/exports/paper-0.3.3.txt) and [Arena test target](decks/lathril/exports/arena-test-0.3.3.txt), with [instructions and the exact target diff](decks/lathril/exports/README.md).
 
-Release `0.3.2` removes three generic artifacts and adds Changeling Wayfinder, Risky Research, and Scarblade's Malice. The user confirmed completing these physical paper swaps on 2026-09-05; [EXP-002](experiments/EXP-002-artifact-trim/README.md) is adopted by user decision, not by a claim that its play-test criteria were met.
+Release `0.3.3` records the user's completed six-swap Elf tuning iteration: Sylvan Ranger, Wood Elves, Skemfar Shadowsage, Morcant's Loyalist, Elvish Visionary and Woodland Weavemaster replace Llanowar Stalker, Elvish Aberration, Vengeful Bloodwitch, Adaptive Automaton, Vampiric Rites and Iron-Shield Elf. [EXP-006](experiments/EXP-006-paper-elf-tuning/README.md) was adopted by user confirmation on 2026-10-06, not by measured play-test criteria. All 35 lands remain unchanged.
 
 Only released lists change the version in `VERSION`. Experiments keep their own candidate list until a decision is made.
 
 ## Arena practice mirror
 
-The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now targets paper `0.3.2`. The latest Arena export uses Mind Stone for Sol Ring, The Soul Stone for Commander's Sphere, and Llanowar Tribe for Elvish Aberration. Cost of Brilliance temporarily occupies Risky Research's slot while the user is one common wildcard short. [EXP-003](experiments/EXP-003-competitive-brawl-benchmark/README.md) benchmarks that exact Arena snapshot in Forge without changing the released paper list.
+The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now describes paper `0.3.3` and the saved [Arena 0.3.3 test target](decks/lathril/exports/arena-test-0.3.3.txt). Its only differences are Mind Stone for Sol Ring, The Soul Stone for Commander's Sphere, and Cost of Brilliance as the recorded ownership/wildcard proxy for Risky Research. Both contain Wood Elves; the old Elvish Aberration / Llanowar Tribe difference is gone. The target is not a newly verified client export. [EXP-003](experiments/EXP-003-competitive-brawl-benchmark/README.md) preserves historical Forge results for the older Arena snapshot; those results are not relabelled as 0.3.3 evidence.
 
 Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.0](decks/arena/elves-4.0.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
 

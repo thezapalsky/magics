@@ -1,16 +1,32 @@
 # Lathril import-ready lists
 
+## Current paper release 0.3.3
+
+[Paper 0.3.3](paper-0.3.3.txt) is the exact released physical deck, recorded on 2026-10-06 after the user confirmed already completing the six swaps. The original physical swap date is not known. See [EXP-006](../../../experiments/EXP-006-paper-elf-tuning/README.md) for the adopted diff and tradeoffs. It contains one commander, 99 main-deck cards, and 35 lands; import this file into ManaBox, not Arena.
+
+The existing [Arena simulator 0.3.3](arena-test-0.3.3.txt) remains an approved test target, not a newly verified client export or ownership check. Its only differences from released paper 0.3.3 are:
+
+| Paper 0.3.3 | Arena test 0.3.3 | Reason |
+|---|---|---|
+| Sol Ring | Mind Stone | Deliberate Arena mana-rock substitute |
+| Commander's Sphere | The Soul Stone | Deliberate Arena substitute with different late-game abilities |
+| Risky Research | Cost of Brilliance | Recorded ownership/common-wildcard proxy, not a legality replacement |
+
+The other 97 card copies match, including all 35 lands and Wood Elves. Both lists omit Elvish Aberration and its former Arena proxy Llanowar Tribe. No Arena list or game evidence was changed when recording this paper release.
+
+Both files use `Commander` / `Deck` headings and quantity-plus-name lines. Copy the complete selected file, then verify the commander and 100-card total in the importing app. The Arena client remains authoritative for current ownership and craftability.
+
 ## Arena test 0.3.3
 
-Revision exp.2 aligns with the user's chosen paper swaps: Iron-Shield Elf is removed and Mind Stone is retained. Compared with the earlier Arena 0.3.3 proposal, swap Iron-Shield Elf out for Mind Stone. The Soul Stone remains. The selected paper 0.3.3 changes have not yet been published to the canonical paper files.
+Revision exp.2 aligns with the user's chosen paper swaps: Iron-Shield Elf is removed and Mind Stone is retained. Compared with the earlier Arena 0.3.3 proposal, swap Iron-Shield Elf out for Mind Stone. The Soul Stone remains. The paper swaps were subsequently recorded as release 0.3.3 in EXP-006 on 2026-10-06.
 
-[Arena simulator 0.3.3](arena-test-0.3.3.txt) is the user-approved six-swap test target dated 2026-10-01, not a verified client export or paper release. It retains the owned Cost of Brilliance proxy, The Soul Stone and 35 lands. See [EXP-005](../../../experiments/EXP-005-arena-elf-tuning/README.md) for the exact diff and tradeoffs. Paper remains 0.3.2; the older Arena target below is preserved as history.
+[Arena simulator 0.3.3](arena-test-0.3.3.txt) is the user-approved six-swap test target dated 2026-10-01, not a verified client export or paper release. It retains the recorded Cost of Brilliance proxy, The Soul Stone and 35 lands. See [EXP-005](../../../experiments/EXP-005-arena-elf-tuning/README.md) for the exact diff and tradeoffs. The older Arena targets below are preserved as history, not a current crafting queue.
 
 Copy the entire 0.3.3 file into Arena's deck importer, then check the 100-card total and ownership before crafting.
 
-## Current release 0.3.2
+## Archived release 0.3.2
 
-Paper release: `0.3.2`. Prepared 2026-09-05.
+Paper release: `0.3.2`. Prepared 2026-09-05. All statements in the archived sections describe the state recorded for that version, not the current release or a live ownership check.
 
 | File | Use | Contents |
 |---|---|---|
@@ -80,8 +96,8 @@ Sources: [ManaBox import/export guide](https://www.manabox.app/guides/decks/impo
 
 ## Verification and maintenance
 
-- The paper export matches the canonical [`decklist.txt`](../decklist.txt) and [`forge.dck`](../forge.dck).
-- Both exports were checked for 1 commander, 99 main-deck cards, and no duplicate nonbasic cards; the Arena diff is exactly the three substitutions above.
+- The current paper 0.3.3 export matches the canonical [`decklist.txt`](../decklist.txt) and [`forge.dck`](../forge.dck); older exports retain their historical lists.
+- Current exports were checked for 1 commander, 99 main-deck cards, and no duplicate nonbasic cards; the current Arena diff is exactly the three rows in the 0.3.3 table above.
 - All 74 distinct Arena target card names resolved in Scryfall and were listed as Brawl-legal on 2026-09-02. This is a database check, not a successful in-client import or a collection-ownership check.
 - App imports have not been exercised in the user's clients; verify the imported result before crafting or playing.
 - These are versioned release snapshots. Create new version-named files for later releases instead of silently changing these to a different deck version. Keep canonical paper edits in `decklist.txt` and its synchronized Forge export.

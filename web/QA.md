@@ -9,8 +9,8 @@ This records local evidence, not a public deployment or an Arena-client verifica
 | Check | Result |
 | --- | --- |
 | `pnpm check` | Astro and Svelte: zero errors/warnings |
-| `pnpm test` | 19 tests passed |
-| `pnpm build` | Eight valid 100-card snapshots, ten HTML pages, eight text exports |
+| `pnpm test` | 21 tests passed |
+| `pnpm build` | Nine valid 100-card snapshots, eleven HTML pages, nine text exports |
 | Static HTML | Every commander and mana-stack card exists before hydration; selector order is stacks/browser/grid |
 | Export preservation | Every generated text export exactly matches the parsed tracked source |
 | JavaScript budget | All generated JS bundles combined: **under 25 KiB gzip**, below 100 KiB |
@@ -21,7 +21,9 @@ This records local evidence, not a public deployment or an Arena-client verifica
 Tests cover both list formats, BOM/CRLF, repeated basics, printing suffixes and foil,
 digital `A-` names/rules, full and front-face double-faced names, malformed lists,
 missing metadata, duplicate nonbasics, search, land-last ordering, and empty results.
-Validation also checks commander color identity and the unchanged paper release.
+Validation also checks commander color identity and agreement between the paper default,
+canonical list, and VERSION. Release tests verify the exact six adopted swaps, synchronized
+Forge/import/experiment exports, preserved baseline, and the three paper-to-Arena proxies.
 
 ## Browser checks
 
@@ -109,6 +111,27 @@ Clipboard writes were denied by the isolated headless browser. The UI correctly 
 the download fallback. Generated download contents are verified; successful clipboard
 writing still needs a normal browser with clipboard permission (loopback or HTTPS).
 
+## Paper 0.3.3 release recording
+
+- Recorded only after explicit user confirmation that the six paper swaps were already
+  complete. This is a paper adoption in EXP-006, not a release inferred from viewer work.
+- The home paper tile now links to `/decks/paper-lathril/0.3.3/`, with Released status,
+  100 cards and 35 lands. All six additions are present; all six removals are absent.
+- Version selection reaches the preserved 0.3.2 and 0.3.1 URLs; 0.3.2 still displays its
+  original removed cards. Arena 0.3.3 remains a Test target with its source unchanged.
+- Reviewed the new default at 1440 × 1000 and 390 × 844. No document-level overflow;
+  mobile search for Woodland Weavemaster finds its single card. No card-data API requests.
+- The new paper text export matches the canonical deck, Forge export and adopted candidate.
+  Both paper and Arena contain Wood Elves. Their only three differences remain
+  Sol Ring / Mind Stone, Commander's Sphere / The Soul Stone, and Risky Research /
+  Cost of Brilliance. No game or simulation evidence has been changed.
+
+Files changed for this adoption: VERSION, root/deck release notes and changelog,
+canonical paper/Forge lists, a new `paper-0.3.3.txt` snapshot, EXP-006 baseline/candidate/
+decision and an empty observation log, the experiment index and EXP-005 alignment notes,
+import/crafting guidance, and the viewer manifest, validation tests/scripts and documentation.
+Historical exports, Arena lists and the metadata cache are unchanged.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
@@ -122,5 +145,6 @@ writing still needs a normal browser with clipboard permission (loopback or HTTP
 6. Run the assets-only deployment dry run. Public deployment and remote pushes
    require separate explicit authorization; neither is performed by the CI workflow.
 
-The paper release remains **0.3.2**; the simulator **0.3.3** remains a test target.
-No release files, game evidence, tags, or experiment decisions are changed by the viewer.
+The paper release is now **0.3.3**, adopted by explicit user confirmation in EXP-006;
+the simulator **0.3.3** remains a test target. The earlier viewer-only updates did not
+adopt a paper release. No game evidence, tags, remote pushes or deployments were added.

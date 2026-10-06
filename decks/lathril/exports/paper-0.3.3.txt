@@ -1,7 +1,7 @@
-// COMMANDER
+Commander
 1 Lathril, Blade of the Elves
 
-// DECK
+Deck
 1 Arcane Signet
 1 Biosynthic Burst
 1 Bloodline Bidding
