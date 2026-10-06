@@ -42,6 +42,7 @@ the project name and the `workers.dev` setting, not Workers Builds commands.
 | Git provider / repository | GitHub / `thezapalsky/magics` |
 | Worker name | `magics-viewer` — must match `web/wrangler.jsonc` |
 | Production branch | `main` |
+| Production custom domain | `magics.zapalsky.com` — not a branch/version URL |
 | Root directory | `web` |
 | Build command | `pnpm install --frozen-lockfile && pnpm ci:build` |
 | Deploy command | `pnpm exec wrangler deploy` |
@@ -71,13 +72,41 @@ approved account, without adding unrelated resources to this assets-only project
    the cache and tracked deck snapshots before connecting Cloudflare production.
 4. In the user-confirmed Cloudflare account, check Workers & Pages for an existing
    `magics-viewer`. If an existing project's ownership/purpose is unclear, stop;
-   creating this viewer must not overwrite an unrelated project.
+   creating this viewer must not overwrite an unrelated project. Also confirm the
+   active `zapalsky.com` zone belongs to that account and recheck the exact hostname
+   for DNS/Worker conflicts. Stop before activation if either check fails.
 5. Start a GitHub-connected Worker, authorize Cloudflare's GitHub integration for **only
    this repository**, and enter the settings above. Let the user handle sign-in, 2FA and
    access consent. Review the selected account/repository/branch before the final activation.
-6. After explicit approval, activate the connection and first public build. Verify the
+6. After explicit approval covering the public build and requested hostname, activate
+   the connection and first public build. Verify the
    build log, deployed commit, asset-only configuration and actual returned `workers.dev` URL.
    Do not guess the account-specific address or report an in-progress build as deployed.
+
+## Production domain
+
+The top-level `routes` declaration in `wrangler.jsonc` attaches **only
+`magics.zapalsky.com`** as a Worker Custom Domain when an authorized deployment runs.
+Cloudflare manages its DNS record and HTTPS certificate; do not add a CNAME to an
+individual branch preview or version address. The stable hostname follows the production
+Worker's latest successful deployment from `main`, not a failed build or an unmerged branch.
+
+The required empty `previews` block is checked in. Native `wrangler preview` uploads
+branch assets separately and does not apply the top-level production route. Do not add
+the production hostname to preview settings. No extra domain or certificate subscription
+is required for this existing domain.
+
+On 6 October 2026, public authoritative DNS returned NXDOMAIN for this exact hostname;
+`zapalsky.com` used Cloudflare nameservers. That is not proof of zone ownership in the
+selected account. Recheck live dashboard records/domain assignments immediately before
+deployment, and never remove or override an existing record without approval.
+
+After the first successful build, verify `https://magics.zapalsky.com` over HTTPS and
+its deep links/exports. Wait for certificate/DNS readiness before calling it live.
+Confirm the domain remains attached to `magics-viewer` on the next approved `main` build;
+no DNS edits should be needed for subsequent releases.
+[Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/),
+[preview configuration](https://developers.cloudflare.com/workers/previews/configuration/).
 
 The local Wrangler OAuth login is **not** the credential used by this Git-connected build.
 Do not refresh or narrow the user's existing Pages login just to enable native CI/CD.
@@ -103,7 +132,8 @@ stop it with Ctrl+C. Browser checks are recorded in [QA.md](QA.md).
 
 ## Verify production and previews
 
-- Confirm the deployed source commit and the home page's intended deck/version defaults.
+- Confirm the deployed source commit and the home page's intended deck/version defaults
+  on both the actual `workers.dev` address and `https://magics.zapalsky.com`.
 - Check direct version URLs, reloads, trailing slashes and true 404s.
 - Check search, stacks, reader arrows/both faces and version navigation on desktop/mobile.
 - Compare downloaded exports with their tracked source; check clipboard in a normal HTTPS browser.
