@@ -9,7 +9,7 @@ This records local evidence, not a public deployment or an Arena-client verifica
 | Check | Result |
 | --- | --- |
 | `pnpm check` | Astro and Svelte: zero errors/warnings |
-| `pnpm test` | 23 tests passed |
+| `pnpm test` | 24 tests passed |
 | `pnpm build` | Nine valid 100-card snapshots, eleven HTML pages, nine text exports |
 | Static HTML | Every commander and mana-stack card exists before hydration; selector order is stacks/browser/grid |
 | Export preservation | Every generated text export exactly matches the parsed tracked source |
@@ -180,6 +180,22 @@ Files for this cover change: `web/data/decks.json`, `web/data/cards.json`,
 `web/src/lib/types.ts`, `web/src/lib/decks.ts`, `web/src/pages/index.astro`,
 `web/scripts/refresh-cards.ts`, `web/scripts/validate.ts`, `web/scripts/check-static.ts`,
 `web/tests/decks.test.ts`, `web/README.md`, and this QA record.
+
+## Production custom-domain preparation
+
+- The requested `magics.zapalsky.com` hostname is declared as the only top-level
+  custom-domain route. It is tied to production; native branch previews have an empty
+  required `previews` configuration and separate URLs, not the production domain.
+- Authoritative public DNS returned NXDOMAIN for A, AAAA and CNAME queries on
+  6 October 2026. `zapalsky.com` uses Cloudflare nameservers; the selected account's
+  zone ownership and live DNS/Worker assignments still require dashboard verification
+  immediately before activation. No live DNS record, domain or certificate was changed.
+- A configuration test guards the exact hostname, preview separation and static-only
+  assets. All **24 tests**, check/build, paper validator and Cloudflare dry run pass.
+  No deployment or public preview was performed.
+
+Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.test.ts`,
+`web/DEPLOY.md`, `web/README.md`, and this QA record. Decks/releases remain unchanged.
 
 ## Repeat before publishing
 

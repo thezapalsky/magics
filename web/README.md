@@ -143,6 +143,8 @@ at `/exports/<family-id>-<version>.txt`. There is no public data-write API.
 `wrangler.jsonc` deploys `dist/` as **Workers Static Assets** under `magics-viewer`.
 There is no Worker script, SSR adapter, paid binding, database, or `run_worker_first` setting.
 It includes a true 404 page, cache rules for hashed bundles, and basic security headers.
+Its production Custom Domain is declared as **`magics.zapalsky.com`**; DNS/HTTPS are not
+changed by local builds or dry runs. Confirm zone ownership/conflicts before first activation.
 
 Validate packaging without publishing:
 
@@ -166,6 +168,10 @@ It has read-only permissions and needs no Cloudflare secret. Cloudflare repeats 
 its own deployment; the remote Git connection must be explicitly activated in its dashboard.
 **It is prepared, not yet connected or published.** Pushing, merging and first activation need approval.
 Native CI/CD does not use or require changing the existing local Wrangler login.
+
+Once activated, `magics.zapalsky.com` follows the latest successful `main` deployment.
+Native branch previews use separate URLs; the empty `previews` configuration does not
+claim the production hostname. Cloudflare manages the custom-domain DNS/certificate.
 
 The initial URL is `https://magics-viewer.<account-subdomain>.workers.dev`; verify the actual
 address returned by an authorized build. No paid domain is required. Static asset requests/storage
