@@ -132,6 +132,34 @@ decision and an empty observation log, the experiment index and EXP-005 alignmen
 import/crafting guidance, and the viewer manifest, validation tests/scripts and documentation.
 Historical exports, Arena lists and the metadata cache are unchanged.
 
+## Cloudflare GitHub CI/CD preparation
+
+- The user selected Cloudflare's native GitHub connection (Workers Builds), not a
+  manual-first deployment or a GitHub Actions deployment token.
+- `pnpm deploy:check` passed the shared CI command: zero Astro/Svelte diagnostics,
+  21 passing tests, nine validated snapshots, eleven pages, exact exports, the root
+  paper validator and **24.5 KiB gzip** combined JavaScript. Wrangler's dry run read
+  42 asset files with no bindings and did not upload anything.
+- The local Cloudflare runtime at `127.0.0.1:8787` passed **33 HTTP checks** covering
+  all nine deck routes and exports, 307 trailing-slash redirects, custom true 404s,
+  security/CSP headers and immutable caching for a hashed JavaScript bundle.
+  `/AGENTS.md`, `/.env` and `/_headers` were not served as files.
+- A real Chromium session reviewed search and the artwork-only reader under those
+  headers at **1440 × 1000** and **390 × 844**. Version selection reached 0.3.2;
+  paper 0.3.3 search/inspection found Woodland Weavemaster. The mobile document
+  width remained 390 px, artwork loaded, errors/console were empty, and card-data
+  API requests remained zero. Evidence images are in ignored `test-results/`.
+- `wrangler preview --help` confirms the installed CLI supports the documented
+  native preview command; no public preview command was executed.
+- GitHub `main` still lacked the viewer when checked. Remote publishing/merging,
+  Cloudflare GitHub consent, connection activation and the first remote build remain
+  pending. The existing local Pages login was not changed; native CI uses Cloudflare's
+  own build authorization. No account IDs or tokens were written to the repository.
+
+Files for this preparation: `.github/workflows/viewer.yml`, `web/package.json`,
+`web/scripts/check-cloudflare.ts`, `web/README.md`, `web/DEPLOY.md`, and this QA record.
+Deck sources, release versions, the card cache and the dependency lockfile are unchanged.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
@@ -142,8 +170,9 @@ Historical exports, Arena lists and the metadata cache are unchanged.
 4. Review a narrow screen and reduced motion. Trigger an image error and confirm
    that the named placeholder does not change the frame dimensions.
 5. Inspect requests: no runtime card-data API traffic. Confirm the JS gzip budget.
-6. Run the assets-only deployment dry run. Public deployment and remote pushes
-   require separate explicit authorization; neither is performed by the CI workflow.
+6. Run the assets-only deployment dry run and local Cloudflare smoke check. Public
+   activation and remote pushes require explicit authorization. The GitHub validation
+   workflow does not publish; the native Cloudflare connection publishes after activation.
 
 The paper release is now **0.3.3**, adopted by explicit user confirmation in EXP-006;
 the simulator **0.3.3** remains a test target. The earlier viewer-only updates did not
