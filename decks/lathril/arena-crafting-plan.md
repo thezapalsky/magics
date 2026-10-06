@@ -1,8 +1,24 @@
 # Lathril Arena mirror — crafting plan
 
-## Current 0.3.2 state — authoritative
+## Current 0.3.3 alignment
 
-- Paper target: released [`0.3.2`](decklist.txt), physically completed by the user on 2026-09-05.
+- Paper: released [`0.3.3`](exports/paper-0.3.3.txt), recorded on 2026-10-06 after the user confirmed the six physical swaps were already complete. See [EXP-006](../../experiments/EXP-006-paper-elf-tuning/README.md).
+- Arena: existing approved [`0.3.3` test target](exports/arena-test-0.3.3.txt), documented separately in [EXP-005](../../experiments/EXP-005-arena-elf-tuning/README.md). This paper adoption does not verify a new Arena export, card ownership, or wildcard balance.
+- Both lists contain one commander, 99 main-deck cards, and the same 35 lands. Wood Elves is now in both; Elvish Aberration and its former Arena proxy Llanowar Tribe are out.
+
+| Paper 0.3.3 | Arena test 0.3.3 | Meaning |
+|---|---|---|
+| Sol Ring | Mind Stone | Deliberate Arena mana-rock substitute; not equivalent acceleration |
+| Commander's Sphere | The Soul Stone | Deliberate Arena substitute; different draw/reanimation abilities |
+| Risky Research | Cost of Brilliance | Recorded ownership/common-wildcard proxy, not a legality replacement |
+
+The other 97 card copies match. Risky Research remains the recorded exact-match gap; check current ownership before spending any wildcard. No fresh craft requirement or wildcard balance is inferred here. Do not follow the archived Letter of Acceptance, Mazemind Tome, or Llanowar Tribe queues below for 0.3.3.
+
+## Archived 0.3.2 state
+
+The following sections preserve earlier exports, ownership reports, and crafting decisions. Their relative words such as “current,” “latest,” and “pending” refer to the version/date in that section, not a new client check or today's crafting queue.
+
+- Paper target: released [`0.3.2`](exports/paper-0.3.2.txt), physically completed by the user on 2026-09-05.
 - Arena status: the user's latest text export contains exactly 1 commander and 99 main-deck cards. It keeps Mind Stone and The Soul Stone and omits Worn Powerstone.
 - The user is **one common wildcard short for Risky Research** and confirmed replacing Assert Perfection with an owned Cost of Brilliance as the temporary proxy.
 - Do **not** craft Letter of Acceptance or Mazemind Tome, and do not retain Worn Powerstone. None is part of the current Arena target.
@@ -36,7 +52,7 @@ Everything below records the path to the previous release and is retained as his
 
 - Status: partially completed; **7 of 9 original craft swaps user-confirmed**, 2 pending. The Arena Entomber alignment is partially complete, with Mazemind Tome still pending.
 - Recorded: 2026-09-02.
-- Paper target: released [`0.3.1`](decklist.txt), with Vile Entomber replacing Assert Perfection. The original crafting plan targeted `0.3.0`.
+- Paper target: released [`0.3.1`](exports/paper-0.3.1.txt), with Vile Entomber replacing Assert Perfection. The original crafting plan targeted `0.3.0`.
 - Arena format: 100-card Brawl.
 - Goal: reproduce the paper deck as closely as Arena availability and owned cards allow, for practice and card familiarity. This is not an independent Arena power-upgrade plan or a paper release.
 
@@ -136,4 +152,4 @@ The remaining two one-for-one swaps preserve the confirmed 100-card and 35-land 
 - [ ] Complete the two pending one-for-one swaps and confirm the updated wildcard balance.
 - [ ] Obtain a fresh Arena text export and compare it with the released paper list, retaining the three documented substitutions and identifying any other differences.
 
-The paper release is now `0.3.1`, and EXP-001 is adopted by user decision. Completing the remaining Arena-only plan does not create another paper release or prove any play-test result; do not change the paper version or lists without a separate paper-deck decision.
+At the time of this archived tracker, the paper release was `0.3.1`, and EXP-001 was adopted by user decision. Completing an Arena-only plan does not create another paper release or prove any play-test result; do not change the paper version or lists without a separate paper-deck decision.

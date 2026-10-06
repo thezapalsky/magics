@@ -5,7 +5,7 @@
 - Recorded: 2026-10-01
 - Baseline: last confirmed Arena simulator 0.3.2, including Cost of Brilliance instead of Risky Research.
 - Candidate: Arena simulator 0.3.3, approved by the user for testing.
-- Paper release: unchanged at 0.3.2. This is not a paper release.
+- Paper alignment: paper `0.3.3` was subsequently recorded on 2026-10-06 in [EXP-006](../EXP-006-paper-elf-tuning/README.md). This experiment remains the separate Arena test target.
 - Client edits/import and card ownership for the additions are not independently verified.
 
 ## Exact changes
@@ -39,11 +39,11 @@ Optionally record missed early land drops, unavailable colours and cards strande
 Assess whether development feels smoother without repeatedly missing the removed effects.
 No results or improvement are claimed. The earlier mana problems are anecdotal user observations.
 
-## Pending decision
+## Paper alignment and pending Arena verification
 
-The user selected the corresponding six paper swaps, with Elvish Aberration removed in paper instead of Arena's Llanowar Tribe. Publishing the paper release is not part of this Arena alignment update.
-Relative to that chosen paper candidate, Arena retains three substitutions: Sol Ring -> Mind Stone, Commander's Sphere -> The Soul Stone, and Risky Research -> Cost of Brilliance. Both now use Wood Elves.
-The current paper canonical list, Forge export, VERSION and historical benchmarks remain untouched.
+The user originally selected the corresponding six paper swaps, with Elvish Aberration removed in paper instead of Arena's Llanowar Tribe. This Arena alignment did not publish them. On 2026-10-06 the user confirmed completing the physical swaps and explicitly requested recording paper `0.3.3`; [EXP-006](../EXP-006-paper-elf-tuning/README.md) records that separate adoption.
+Relative to released paper `0.3.3`, Arena retains three substitutions: Sol Ring -> Mind Stone, Commander's Sphere -> The Soul Stone, and Risky Research -> Cost of Brilliance. Both now use Wood Elves.
+The Arena candidate and its historical baseline remain unchanged; a fresh complete client export/ownership check and any play-test results remain pending. Historical benchmarks are not changed or relabelled.
 
 ## Files
 

@@ -2,6 +2,21 @@
 
 All released changes to the paper Lathril deck are recorded here.
 
+## [0.3.3] - 2026-10-06
+
+### Changed
+
+- Added 1 Sylvan Ranger, 1 Wood Elves, 1 Skemfar Shadowsage, 1 Morcant's Loyalist, 1 Elvish Visionary, and 1 Woodland Weavemaster.
+- Removed 1 Llanowar Stalker, 1 Elvish Aberration, 1 Vengeful Bloodwitch, 1 Adaptive Automaton, 1 Vampiric Rites, and 1 Iron-Shield Elf.
+- Preserved Lathril, all 35 lands, Sol Ring, Commander's Sphere and Risky Research; the deck remains 100 cards.
+- Synchronized the canonical paper list, Forge export, VERSION and new paper-0.3.3 import snapshot. Earlier snapshots are preserved.
+
+### Decision basis
+
+- Adopted [EXP-006](experiments/EXP-006-paper-elf-tuning/README.md) after the user confirmed the physical swaps were already completed and requested recording them. This is the recording date, not an asserted original swap date.
+- The goal is smoother early development and more Elf synergy. No controlled game results, simulation improvements, or statistical evidence are claimed.
+- Arena 0.3.3 remains the separately saved test target in EXP-005. Its differences from paper are Sol Ring / Mind Stone, Commander's Sphere / The Soul Stone, and Risky Research / Cost of Brilliance.
+
 ## [0.3.2] - 2026-09-05
 
 ### Changed

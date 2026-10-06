@@ -25,4 +25,5 @@ for (const family of families) {
   }
 }
 assert.ok(readFileSync(resolve('dist/404.html'), 'utf8').includes('No deck at this address.'));
-console.log('Static HTML includes every deck before hydration; all eight text exports match their sources.');
+const snapshotCount = families.reduce((count, family) => count + family.versions.length, 0);
+console.log(`Static HTML includes every deck before hydration; all ${snapshotCount} text exports match their sources.`);
