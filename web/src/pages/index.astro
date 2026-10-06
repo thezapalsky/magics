@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { families, loadCache, loadDeck } from '../lib/decks.ts';
+const cache = loadCache();
+const decks = families.map(family => loadDeck(family, family.defaultVersion, cache));
+---
+<Layout>
+  <section class="home-intro">
+    <p class="eyebrow">A collection, in motion</p>
+    <h1>Small cards.<br /><em>Big possibilities.</em></h1>
+    <p class="intro-note">Four decks. A few different ways to play.<br />Pull up a chair and take a closer look.</p>
+  </section>
+  <section class="deck-shelf" aria-label="The decks">
+    {decks.map((deck, index) => (
+      <a class:list={['deck-cover', { 'list-dark': index === 3 }]} href={`/decks/${deck.family.id}/${deck.snapshot.version}/`} aria-label={`View ${deck.family.subtitle}, version ${deck.snapshot.version}`}>
+        <div class="cover-art">
+          {deck.commander.metadata.faces[0].images?.artCrop && <img src={deck.commander.metadata.faces[0].images.artCrop} alt="" width="626" height="457" loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />}
+        </div>
+        <span class="cover-label">{deck.family.medium} <span> / </span> {deck.family.format}</span>
+        <div class="cover-copy"><span class="cover-subtitle">{deck.family.subtitle}</span><h2>{deck.family.title}<span class="cover-arrow" aria-hidden="true">↗</span></h2><div class="cover-meta"><span>v{deck.snapshot.version}</span><span class="meta-dot">·</span><span>{deck.snapshot.status}</span><span class="card-count">100 cards</span></div></div>
+      </a>
+    ))}
+  </section>
+  <p class="shelf-note"><span aria-hidden="true">◇</span> Saved lists, not live collections. Older versions are inside each deck.</p>
+</Layout>
+
+<style>
+  .home-intro { position: relative; padding: 4.2rem 0 3.5rem; }
+  .eyebrow { font-size: .67rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; }
+  h1 { font: 400 clamp(3.2rem, 6vw, 5.4rem) / 1.06 var(--serif); letter-spacing: -.045em; margin: 0; }
+  h1 em { color: var(--accent); font-weight: 400; }
+  .intro-note { position: absolute; right: 0; bottom: 3.65rem; color: var(--muted); font-size: .85rem; line-height: 1.8; }
+  .deck-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
+  .deck-cover { display: block; isolation: isolate; position: relative; overflow: hidden; min-height: 320px; border: 1px solid #56644755; border-radius: 12px; background: #333e2a; transition: border-color 200ms ease, transform 200ms ease; }
+  .cover-art { position: absolute; inset: 0; z-index: -2; }
+  .cover-art img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; filter: saturate(.72); transition: transform 500ms ease; }
+  .deck-cover::after { position: absolute; inset: 0; content: ''; z-index: -1; background: linear-gradient(180deg, #121a1650, #121a1608 30%, #121a16d9 73%, #121a16f5); }
+  .deck-cover:nth-child(2) .cover-art img { object-position: 70% 25%; filter: saturate(.35) brightness(.85); }
+  .deck-cover:nth-child(3) .cover-art img { object-position: 40% 10%; transform: scale(1.1); }
+  .deck-cover.list-dark::after { background: linear-gradient(180deg, #17131755, #17131700 30%, #171317de 73%, #171317fa); }
+  .deck-cover:hover { transform: translateY(-3px); border-color: #b2cb9177; }
+  .deck-cover:hover .cover-art img { transform: scale(1.04); }
+  .deck-cover:nth-child(3):hover .cover-art img { transform: scale(1.14); }
+  .cover-label { position: absolute; top: 1.35rem; left: 1.5rem; font-size: .6rem; letter-spacing: .11em; text-transform: uppercase; padding: .4rem .6rem; border-radius: 4px; background: #1017108c; color: #e6ecd8; backdrop-filter: blur(10px); }
+  .cover-label span { opacity: .5; margin: 0 .4rem; }
+  .cover-copy { position: absolute; left: 1.6rem; right: 1.6rem; bottom: 1.6rem; }
+  .cover-subtitle { color: #c0c9b5; font-size: .67rem; }
+  h2 { display: flex; align-items: center; justify-content: space-between; font: 400 2.4rem var(--serif); letter-spacing: -.04em; margin: .45rem 0 .85rem; }
+  .cover-arrow { font-family: sans-serif; font-size: 1.6rem; color: var(--accent); }
+  .cover-meta { display: flex; align-items: center; gap: .65rem; color: #b5c1aa; font-size: .65rem; }
+  .meta-dot { opacity: .5; }
+  .card-count { margin-left: auto; }
+  .shelf-note { color: var(--muted); font-size: .7rem; margin-top: 1.5rem; }
+  .shelf-note span { color: var(--accent); margin-right: .45rem; }
+  @media (max-width: 850px) { .intro-note { position: static; margin-top: 1.6rem; } .home-intro { padding: 3rem 0 2rem; } .deck-cover { min-height: 290px; } h2 { font-size: 2rem; } }
+  @media (max-width: 600px) { .deck-shelf { grid-template-columns: 1fr; gap: 1rem; } .deck-cover { min-height: 300px; } .cover-copy { left: 1.3rem; right: 1.3rem; } h1 { font-size: 3.3rem; } .shelf-note { line-height: 1.7; } }
+  @media (prefers-reduced-motion: reduce) { .deck-cover, .cover-art img { transition: none; } .deck-cover:hover, .deck-cover:hover .cover-art img { transform: none; } }
+</style>

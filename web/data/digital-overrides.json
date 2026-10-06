@@ -1,0 +1,20 @@
+{
+  "A-Skemfar Avenger": {
+    "baseName": "Skemfar Avenger",
+    "set": "khm",
+    "collectorNumber": "109",
+    "oracleText": "Whenever another Elf or Berserker you control dies, you draw a card and you lose 1 life.",
+    "image": "https://media.wizards.com/2022/images/daily/81915_Printed_A-SkemfarAvenger.png",
+    "rulesSource": "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-april-7-2022",
+    "verifiedAt": "2026-10-06"
+  },
+  "A-Harald, King of Skemfar": {
+    "baseName": "Harald, King of Skemfar",
+    "set": "khm",
+    "collectorNumber": "212",
+    "oracleText": "Menace\nWhen Harald, King of Skemfar enters the battlefield, look at the top seven cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+    "image": "https://media.wizards.com/2022/images/daily/81920_Printed_A-HaraldKingofSkemfar.png",
+    "rulesSource": "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-april-7-2022",
+    "verifiedAt": "2026-10-06"
+  }
+}

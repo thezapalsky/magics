@@ -1,2 +1,8 @@
 .DS_Store
 
+# Deck viewer generated files
+web/node_modules/
+web/.astro/
+web/dist/
+web/.wrangler/
+web/test-results/

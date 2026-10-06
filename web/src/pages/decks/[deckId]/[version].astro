@@ -1,0 +1,22 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import DeckViewer from '../../../components/DeckViewer.svelte';
+import { families, loadCache, loadDeck } from '../../../lib/decks.ts';
+export function getStaticPaths() {
+  const cache = loadCache();
+  return families.flatMap(family => family.versions.map(snapshot => ({
+    params: { deckId: family.id, version: snapshot.version },
+    props: { deck: loadDeck(family, snapshot.version, cache) },
+  })));
+}
+const { deck } = Astro.props;
+---
+<Layout title={`${deck.family.title} · ${deck.family.medium} v${deck.snapshot.version} — Magics`} description={deck.family.description}>
+  <DeckViewer {deck} client:load />
+  <noscript>
+    <nav aria-label="Deck versions">
+      {deck.family.versions.map(snapshot => <a href={`/decks/${deck.family.id}/${snapshot.version}/`}>Version {snapshot.version} </a>)}
+      <a href={`/exports/${deck.family.id}-${deck.snapshot.version}.txt`} download>Download decklist</a>
+    </nav>
+  </noscript>
+</Layout>
