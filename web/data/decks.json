@@ -1,0 +1,54 @@
+[
+  {
+    "id": "paper-lathril",
+    "title": "Lathril",
+    "subtitle": "The paper deck",
+    "medium": "Paper",
+    "format": "Commander",
+    "description": "Built from the collection. Elves, a little graveyard magic, and a plan that keeps evolving.",
+    "defaultVersion": "0.3.2",
+    "versions": [
+      { "version": "0.3.2", "status": "Released", "source": "decks/lathril/exports/paper-0.3.2.txt", "note": "The canonical paper release. Proposed 0.3.3 changes are not published here." },
+      { "version": "0.3.1", "status": "Historical release", "source": "decks/lathril/exports/paper-0.3.1.txt", "note": "An earlier released paper list, preserved as recorded." }
+    ]
+  },
+  {
+    "id": "arena-simulator",
+    "title": "Lathril, mirrored",
+    "subtitle": "The Arena simulator",
+    "medium": "Arena",
+    "format": "Brawl",
+    "description": "A practice mirror of the paper deck, with a few Arena substitutions. Same idea, another table.",
+    "defaultVersion": "0.3.3",
+    "versions": [
+      { "version": "0.3.3", "status": "Test target", "source": "decks/lathril/exports/arena-test-0.3.3.txt", "note": "Approved Arena test target, recorded 1 October 2026. Not a verified client export or a claim of card ownership." },
+      { "version": "0.3.2", "status": "Historical target", "source": "decks/lathril/exports/arena-target-0.3.2.txt", "note": "Prepared Arena target, not a verified client export or a claim of ownership." },
+      { "version": "0.3.1", "status": "Historical target", "source": "decks/lathril/exports/arena-target-0.3.1.txt", "note": "Prepared Arena target, not a verified client export or a claim of ownership." }
+    ]
+  },
+  {
+    "id": "elves",
+    "title": "Elves",
+    "subtitle": "The Arena Elfball deck",
+    "medium": "Arena",
+    "format": "Brawl",
+    "description": "Small creatures. Very large turns. A more dedicated Elfball take on Lathril.",
+    "defaultVersion": "4.1",
+    "versions": [
+      { "version": "4.1", "status": "Saved snapshot", "source": "decks/arena/elves-4.1.txt", "note": "User-exported Arena snapshot, recorded 6 September 2026. Not a live collection check." },
+      { "version": "4.0", "status": "Historical snapshot", "source": "decks/arena/elves-4.0.txt", "note": "An earlier user-exported Arena list, preserved as recorded." }
+    ]
+  },
+  {
+    "id": "sacrifice",
+    "title": "Sacrifice",
+    "subtitle": "The Arena Sephiroth deck",
+    "medium": "Arena",
+    "format": "Brawl",
+    "description": "Nothing goes to waste. A mono-black deck where the graveyard is part of the plan.",
+    "defaultVersion": "3.0",
+    "versions": [
+      { "version": "3.0", "status": "Saved snapshot", "source": "decks/arena/sacrifice-3.0.txt", "note": "User-exported Arena snapshot, recorded 6 September 2026. Not a live collection check." }
+    ]
+  }
+]

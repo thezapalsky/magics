@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+interface Props { title?: string; description?: string }
+const { title = 'Magics — a deck notebook', description = 'Four Magic decks, a collection of small experiments, and cards worth a closer look.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#191c18" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a href="/" class="wordmark" aria-label="Magics home"><span class="brand-mark" aria-hidden="true">✳</span> magics<span class="wordmark-dot">.</span></a>
+      <span class="header-note">a deck notebook</span>
+      <a href="https://github.com/thezapalsky/magics" target="_blank" rel="noopener noreferrer" class="repo-link">The repository <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main" class="wrap"><slot /></main>
+    <footer class="site-footer wrap">
+      <span>A work in progress. Just like the decks.</span>
+      <span>Card data & artwork via <a href="https://scryfall.com" target="_blank" rel="noopener noreferrer">Scryfall</a>.<br />Magic: The Gathering © Wizards of the Coast. Unofficial fan project.</span>
+    </footer>
+  </body>
+</html>

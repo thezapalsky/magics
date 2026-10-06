@@ -2,6 +2,14 @@
 
 This repository is the source of truth for paper deck releases, candidate changes, and play-test evidence.
 
+## Interactive deck viewer
+
+The [static deck viewer](web/README.md) lives alongside the deck records. It displays the released
+paper Lathril list, the Arena simulator target, and saved Elves/Sacrifice snapshots, with artwork,
+search, card details, historical versions, and text exports. It does not edit decks or run simulations.
+See its README for local preview, validation, and the prepared Cloudflare static-hosting configuration.
+Public deployment and remote pushes require explicit authorization.
+
 ## Current release
 
 - Deck: Lathril, Blade of the Elves
