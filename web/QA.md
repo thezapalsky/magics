@@ -9,7 +9,7 @@ This records local evidence, not a public deployment or an Arena-client verifica
 | Check | Result |
 | --- | --- |
 | `pnpm check` | Astro and Svelte: zero errors/warnings |
-| `pnpm test` | 21 tests passed |
+| `pnpm test` | 23 tests passed |
 | `pnpm build` | Nine valid 100-card snapshots, eleven HTML pages, nine text exports |
 | Static HTML | Every commander and mana-stack card exists before hydration; selector order is stacks/browser/grid |
 | Export preservation | Every generated text export exactly matches the parsed tracked source |
@@ -159,6 +159,27 @@ Historical exports, Arena lists and the metadata cache are unchanged.
 Files for this preparation: `.github/workflows/viewer.yml`, `web/package.json`,
 `web/scripts/check-cloudflare.ts`, `web/README.md`, `web/DEPLOY.md`, and this QA record.
 Deck sources, release versions, the card cache and the dependency lockfile are unchanged.
+
+## Paper home-cover printing
+
+- The Paper Lathril home tile uses the exact user-selected **FDN 349** artwork,
+  verified against Scryfall's printing endpoint and added to the checked-in cache.
+  No other cache entries were refreshed or replaced.
+- Other family tiles retain their original commander artwork. Deck-page commanders,
+  exports, canonical lists, VERSION and experiments are unchanged.
+- Validation fails for missing metadata, a different printing/commander identity,
+  or missing cover artwork. Refresh includes the explicit cover printing and cannot
+  use name-only fallback for it. Static checks verify each tile's actual image URL.
+- All **23 tests** and the complete dry-run preflight pass; combined JavaScript stays
+  at 24.5 KiB gzip. The local Cloudflare smoke check still passes 33 requests.
+- Real Chromium screenshots reviewed at 1440 × 1000 and 390 × 844 show the new
+  artwork loaded and labels readable. Mobile document width remains 390 px; no
+  console/page errors or runtime card-data API requests. Screenshots are ignored.
+
+Files for this cover change: `web/data/decks.json`, `web/data/cards.json`,
+`web/src/lib/types.ts`, `web/src/lib/decks.ts`, `web/src/pages/index.astro`,
+`web/scripts/refresh-cards.ts`, `web/scripts/validate.ts`, `web/scripts/check-static.ts`,
+`web/tests/decks.test.ts`, `web/README.md`, and this QA record.
 
 ## Repeat before publishing
 

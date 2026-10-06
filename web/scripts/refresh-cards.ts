@@ -18,7 +18,14 @@ interface DigitalOverride { baseName: string; set: string; collectorNumber: stri
 const overrides: Record<string, DigitalOverride> = JSON.parse(readFileSync(new URL('../data/digital-overrides.json', import.meta.url), 'utf8'));
 
 const entries = new Map<string, DeckEntry>();
+const coverKeys = new Set<string>();
 for (const family of families) {
+  if (family.coverPrinting) {
+    const entry = { ...family.coverPrinting, quantity: 1 };
+    const key = cardKey(entry);
+    entries.set(key, entry);
+    coverKeys.add(key);
+  }
   for (const version of family.versions) {
     const deck = parseDeck(readSource(version.source));
     for (const entry of [deck.commander, ...deck.entries]) entries.set(cardKey(entry), entry);
@@ -88,7 +95,10 @@ for (const [key, entry] of entries) {
     (card.set === entry.set && card.collector_number === entry.collectorNumber)
   ));
   if (candidates.length === 1) resolved.set(key, candidates[0]);
-  else pending.set(key, entry);
+  else {
+    if (coverKeys.has(key)) throw new Error(`Missing or ambiguous exact cover printing: ${entry.name} (${entry.set} ${entry.collectorNumber}). Existing cache is unchanged.`);
+    pending.set(key, entry);
+  }
 }
 const fallbackNames = [...new Set([...pending.values()].map(entry => entry.name))];
 const fallback = await collection(fallbackNames.map(name => ({ name })));

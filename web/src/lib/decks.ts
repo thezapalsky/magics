@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { resolve, relative } from 'node:path';
-import { cardKey, exportDeck, parseDeck } from './parser.ts';
+import { cardKey, exportDeck, normalizeName, parseDeck } from './parser.ts';
 import { groupBasicCopies, isLand } from './card-utils.ts';
-import type { CardCache, DeckFamily, DisplayCard, LoadedDeck } from './types.ts';
+import type { CardCache, CardMetadata, DeckFamily, DisplayCard, LoadedDeck } from './types.ts';
 
 // Package scripts run from web/. Do not use import.meta.url here: Astro's
 // prerender bundler relocates this module into dist/.prerender/.
@@ -21,6 +21,22 @@ export function loadCache(): CardCache {
   const cache = JSON.parse(readFileSync(cachePath, 'utf8')) as CardCache;
   if (cache.schemaVersion !== 1) throw new Error('Unsupported card cache. Run pnpm refresh:cards.');
   return cache;
+}
+
+// Presentation-only artwork: never replace the tracked commander or its export.
+export function loadCover(deck: LoadedDeck, cache: CardCache): CardMetadata {
+  const printing = deck.family.coverPrinting;
+  if (!printing) return deck.commander.metadata;
+  const cover = cache.cards[cardKey({ ...printing, quantity: 1 })];
+  if (!cover) throw new Error(`Missing cover metadata for ${deck.family.id}. Run pnpm refresh:cards.`);
+  if (normalizeName(cover.name) !== normalizeName(printing.name) ||
+      normalizeName(cover.name) !== normalizeName(deck.commander.metadata.name) ||
+      cover.set !== printing.set || cover.collectorNumber !== printing.collectorNumber ||
+      (cover.oracleId ?? cover.id) !== (deck.commander.metadata.oracleId ?? deck.commander.metadata.id)) {
+    throw new Error(`Incorrect cover printing for ${deck.family.id}`);
+  }
+  if (!cover.faces[0]?.images?.artCrop) throw new Error(`Missing cover artwork for ${deck.family.id}`);
+  return cover;
 }
 
 export function loadDeck(family: DeckFamily, version: string, cache = loadCache()): LoadedDeck {

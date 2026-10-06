@@ -1,8 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
-import { families, loadCache, loadDeck, readSource } from '../src/lib/decks.ts';
-import { exportDeck, parseDeck } from '../src/lib/parser.ts';
+import { families, loadCache, loadCover, loadDeck, readSource } from '../src/lib/decks.ts';
+import { cardKey, exportDeck, parseDeck } from '../src/lib/parser.ts';
 import { CARD_VIEWS, DEFAULT_CARD_VIEW, groupBasicCopies, groupByMana, isCardView, isLand, selectCards } from '../src/lib/card-utils.ts';
 
 test('every snapshot is complete, source-preserving and cached', () => {
@@ -14,6 +14,43 @@ test('every snapshot is complete, source-preserving and cached', () => {
     assert.equal(deck.exportText, exportDeck(parseDeck(readSource(snapshot.source))));
     assert.ok(deck.cards.every(card => card.metadata.faces.length));
   }
+});
+
+test('paper cover uses the selected FDN 349 printing without changing any deck or export', () => {
+  const cache = loadCache();
+  for (const family of families) {
+    const deck = loadDeck(family, family.defaultVersion, cache);
+    const commander = structuredClone(deck.commander);
+    const exported = deck.exportText;
+    const cover = loadCover(deck, cache);
+    if (family.id === 'paper-lathril') {
+      assert.equal(cover.set, 'fdn');
+      assert.equal(cover.collectorNumber, '349');
+      assert.equal(cover.scryfallUrl, 'https://scryfall.com/card/fdn/349/lathril-blade-of-the-elves');
+      assert.notEqual(cover.id, deck.commander.metadata.id);
+      assert.equal(cover.oracleId, deck.commander.metadata.oracleId);
+    } else assert.equal(cover, deck.commander.metadata);
+    assert.deepEqual(deck.commander, commander);
+    assert.equal(deck.exportText, exported);
+    assert.equal(deck.exportText, exportDeck(parseDeck(readSource(deck.snapshot.source))));
+  }
+});
+
+test('missing, mismatched or imageless cover printings fail closed', () => {
+  const deck = loadDeck(families.find(family => family.id === 'paper-lathril')!, '0.3.3');
+  const key = cardKey({ ...deck.family.coverPrinting!, quantity: 1 });
+  const missing = structuredClone(loadCache());
+  delete missing.cards[key];
+  assert.throws(() => loadCover(deck, missing), /Missing cover metadata/);
+  const wrongPrinting = structuredClone(loadCache());
+  wrongPrinting.cards[key].collectorNumber = '242';
+  assert.throws(() => loadCover(deck, wrongPrinting), /Incorrect cover printing/);
+  const wrongIdentity = structuredClone(loadCache());
+  wrongIdentity.cards[key].oracleId = 'another-card';
+  assert.throws(() => loadCover(deck, wrongIdentity), /Incorrect cover printing/);
+  const noImage = structuredClone(loadCache());
+  delete noImage.cards[key].faces[0].images;
+  assert.throws(() => loadCover(deck, noImage), /Missing cover artwork/);
 });
 
 test('paper 0.3.3 records exactly the accepted six swaps and synchronizes every release export', () => {
