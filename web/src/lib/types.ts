@@ -13,6 +13,7 @@ export interface DeckFamily {
   format: 'Commander' | 'Brawl';
   description: string;
   defaultVersion: string;
+  coverPrinting?: { name: string; set: string; collectorNumber: string };
   versions: DeckVersion[];
 }
 

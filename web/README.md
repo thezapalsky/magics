@@ -79,6 +79,11 @@ Paper 0.3.3 was recorded on 6 October 2026 after the user's explicit adoption co
 see [EXP-006](../experiments/EXP-006-paper-elf-tuning/README.md). The viewer mirrors that release
 and preserves older versions; website development alone does not authorize deck adoption.
 
+The paper family's `coverPrinting` selects [Lathril FDN 349](https://scryfall.com/card/fdn/349/lathril-blade-of-the-elves)
+for its **home-page cover only**. Its cached artwork is independent of the tracked commander
+printing and export. Other tiles use their saved commander artwork. Exact cover printing,
+commander identity and artwork must validate; cover refreshes cannot silently substitute another printing.
+
 `pnpm validate` checks every selected list for one commander, 99 main-deck cards,
 singleton nonbasics, commander color identity, complete and matching card identities,
 valid manifest routes, and agreement between the default paper snapshot and its canonical list/`VERSION`.

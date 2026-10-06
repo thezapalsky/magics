@@ -1,4 +1,4 @@
-import { families, loadCache, loadDeck, readSource } from '../src/lib/decks.ts';
+import { families, loadCache, loadCover, loadDeck, readSource } from '../src/lib/decks.ts';
 import { parseDeck } from '../src/lib/parser.ts';
 
 const cache = loadCache();
@@ -8,6 +8,7 @@ for (const family of families) {
   if (!/^[a-z0-9-]+$/.test(family.id) || ids.has(family.id)) throw new Error(`Invalid or duplicate deck ID ${family.id}`);
   ids.add(family.id);
   if (!family.versions.some(item => item.version === family.defaultVersion)) throw new Error(`Missing default version: ${family.id}`);
+  loadCover(loadDeck(family, family.defaultVersion, cache), cache);
   const seen = new Set<string>();
   for (const snapshot of family.versions) {
     if (!/^\d+\.\d+(?:\.\d+)?$/.test(snapshot.version) || seen.has(snapshot.version)) throw new Error(`Invalid or duplicate version: ${family.id}/${snapshot.version}`);

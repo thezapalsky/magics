@@ -1,8 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { families, loadCache, loadDeck } from '../lib/decks.ts';
+import { families, loadCache, loadCover, loadDeck } from '../lib/decks.ts';
 const cache = loadCache();
-const decks = families.map(family => loadDeck(family, family.defaultVersion, cache));
+const decks = families.map(family => {
+  const deck = loadDeck(family, family.defaultVersion, cache);
+  return { ...deck, cover: loadCover(deck, cache) };
+});
 ---
 <Layout>
   <section class="home-intro">
@@ -12,7 +15,7 @@ const decks = families.map(family => loadDeck(family, family.defaultVersion, cac
     {decks.map((deck, index) => (
       <a class:list={['deck-cover', { 'list-dark': index === 3 }]} href={`/decks/${deck.family.id}/${deck.snapshot.version}/`} aria-label={`View ${deck.family.subtitle}, version ${deck.snapshot.version}`}>
         <div class="cover-art">
-          {deck.commander.metadata.faces[0].images?.artCrop && <img src={deck.commander.metadata.faces[0].images.artCrop} alt="" width="626" height="457" loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />}
+          {deck.cover.faces[0].images?.artCrop && <img src={deck.cover.faces[0].images.artCrop} alt="" width="626" height="457" loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />}
         </div>
         <span class="cover-label">{deck.family.medium} <span> / </span> {deck.family.format}</span>
         <div class="cover-copy"><span class="cover-subtitle">{deck.family.subtitle}</span><h2>{deck.family.title}<span class="cover-arrow" aria-hidden="true">↗</span></h2><div class="cover-meta"><span>v{deck.snapshot.version}</span><span class="meta-dot">·</span><span>{deck.snapshot.status}</span><span class="card-count">100 cards</span></div></div>

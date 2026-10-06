@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T15:57:56.461Z",
+  "updatedAt": "2026-10-06T20:33:02.000Z",
   "cards": {
     "[\"Abomination of Llanowar\",\"cmr\",\"265\"]": {
       "id": "567dbc64-4d59-4bab-a551-08fc66c085fa",
@@ -3060,6 +3060,39 @@
             "normal": "https://cards.scryfall.io/normal/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053",
             "large": "https://cards.scryfall.io/large/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053",
             "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053"
+          }
+        }
+      ]
+    },
+    "[\"Lathril, Blade of the Elves\",\"fdn\",\"349\"]": {
+      "id": "61f766b8-a92e-4353-b457-ac62fc470713",
+      "oracleId": "9b568c34-ba0a-44a7-a0ee-bee3a37b3396",
+      "name": "Lathril, Blade of the Elves",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "set": "fdn",
+      "collectorNumber": "349",
+      "scryfallUrl": "https://scryfall.com/card/fdn/349/lathril-blade-of-the-elves",
+      "faces": [
+        {
+          "name": "Lathril, Blade of the Elves",
+          "manaCost": "{2}{B}{G}",
+          "typeLine": "Legendary Creature — Elf Noble",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Lathril deals combat damage to a player, create that many 1/1 green Elf Warrior creature tokens.\n{T}, Tap ten untapped Elves you control: Each opponent loses 10 life and you gain 10 life.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/1/61f766b8-a92e-4353-b457-ac62fc470713.jpg?1783909017",
+            "normal": "https://cards.scryfall.io/normal/front/6/1/61f766b8-a92e-4353-b457-ac62fc470713.jpg?1783909017",
+            "large": "https://cards.scryfall.io/large/front/6/1/61f766b8-a92e-4353-b457-ac62fc470713.jpg?1783909017",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/1/61f766b8-a92e-4353-b457-ac62fc470713.jpg?1783909017"
           }
         }
       ]
