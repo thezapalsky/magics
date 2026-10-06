@@ -5,19 +5,37 @@ No server, database, login, live collection tracking, simulation UI, or runtime 
 
 ## Card layouts
 
-- **Grid**: the original full-card gallery.
-- **Mana stacks**: overlapping columns by mana value, with lands last. X contributes zero
+- **Mana stacks** (default): overlapping columns by mana value, with lands last. X contributes zero
   to mana value, not zero to the entire spell cost. Hover or keyboard focus raises a full
-  card; tap/click opens the reader. Narrow screens scroll the columns horizontally.
+  card; tap/click opens the reader. Nonland cards with no mana cost get a separate trailing
+  column, before lands; spells costing `{0}` or only `{X}` stay in the zero-mana column.
+  Every unique utility land and the grouped basics are included. Narrow screens scroll
+  horizontally; the “Lands →” shortcut jumps to the rightmost column.
 - **Card browser**: a full-screen, artwork-only reader, starting with the commander.
   Scroll the wheel, swipe vertically, use the next/previous buttons, or press arrow keys.
   Home/End go to the first/last card; Escape closes and restores focus. Double-faced
   cards have a Flip button; the bottom source link opens the displayed printing.
+- **Grid**: the original full-card gallery, third in the layout selector.
 
 The chosen layout is saved on the visitor's device, not in the repo or a server.
+The preference key is now `magics-card-view-v2`: old choices start on stacks once,
+then any new explicit choice persists. Missing/unsupported values use stacks.
 The reader follows the current search/filter/order and shows grouped basics once.
-Only the current card and its neighbours request large images. Rules remain available
-to screen readers, without duplicating the printed card text visually.
+Rules remain available to screen readers, without duplicating printed text visually.
+
+### Image warm-up
+
+After the initial page load, idle time warms the commander and the first few large images.
+Hover/focus prioritizes the intended card. Browsing warms both active faces, one previous
+card and three ahead. Requests are deduplicated with at most two speculative loads at a
+time; explicit intent goes ahead of background work. Only eight decoded bitmaps are retained;
+the browser manages its usual HTTP image cache. There is no full-deck upfront download,
+service worker, API call, or permanent storage.
+
+Optional warming is disabled when the browser reports data-saver or a slow connection
+(3G or lower), and no new warm-up starts in a hidden tab. Normal visible artwork still loads.
+Network hints/cache retention vary by browser, so a cold connection or rapid jump to an
+unvisited card can still wait for artwork. Image failures remain readable placeholders.
 
 ## Local development
 

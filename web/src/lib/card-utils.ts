@@ -8,6 +8,14 @@ export function isLand(card: DisplayCard): boolean {
 export const cardTypes = ['Creature', 'Artifact', 'Enchantment', 'Instant', 'Sorcery', 'Planeswalker', 'Land'] as const;
 
 export type CardView = 'grid' | 'stacks' | 'browse';
+export const DEFAULT_CARD_VIEW: CardView = 'stacks';
+// Start everyone on the new default once; subsequent explicit choices persist.
+export const CARD_VIEW_STORAGE_KEY = 'magics-card-view-v2';
+export const CARD_VIEWS: readonly { id: CardView; label: string }[] = [
+  { id: 'stacks', label: 'Mana stacks' },
+  { id: 'browse', label: 'Card browser' },
+  { id: 'grid', label: 'Grid' },
+];
 export function isCardView(value: unknown): value is CardView {
   return value === 'grid' || value === 'stacks' || value === 'browse';
 }
@@ -15,13 +23,14 @@ export function isCardView(value: unknown): value is CardView {
 export function groupByMana(cards: DisplayCard[]): { id: string; label: string; cards: DisplayCard[]; quantity: number }[] {
   const groups = new Map<string, DisplayCard[]>();
   for (const card of cards) {
-    const id = isLand(card) ? 'lands' : String(card.metadata.manaValue);
+    const id = isLand(card) ? 'lands' : !card.metadata.faces[0].manaCost.trim() ? 'no-cost' : String(card.metadata.manaValue);
     const entries = groups.get(id) ?? [];
     entries.push(card);
     groups.set(id, entries);
   }
-  return [...groups].sort(([a], [b]) => a === 'lands' ? 1 : b === 'lands' ? -1 : Number(a) - Number(b))
-    .map(([id, cards]) => ({ id, label: id === 'lands' ? 'Lands' : `${id} mana`, cards,
+  const order = (id: string) => id === 'lands' ? Infinity : id === 'no-cost' ? Number.MAX_VALUE : Number(id);
+  return [...groups].sort(([a], [b]) => order(a) - order(b))
+    .map(([id, cards]) => ({ id, label: id === 'lands' ? 'Lands' : id === 'no-cost' ? 'No mana cost' : `${id} mana`, cards,
       quantity: cards.reduce((sum, card) => sum + card.quantity, 0) }));
 }
 

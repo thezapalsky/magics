@@ -3,7 +3,8 @@
   import CardImage from './CardImage.svelte';
   import CardBrowser from './CardBrowser.svelte';
   import Mana from './Mana.svelte';
-  import { cardTypes, groupByMana, isCardView, selectCards, type CardView } from '../lib/card-utils.ts';
+  import { CARD_VIEWS, CARD_VIEW_STORAGE_KEY, DEFAULT_CARD_VIEW, cardTypes, groupByMana, isCardView, selectCards, type CardView } from '../lib/card-utils.ts';
+  import { canWarmImages, ImagePreloader, readerImageUrls } from '../lib/image-preload.ts';
   import type { DisplayCard, LoadedDeck } from '../lib/types.ts';
 
   let { deck }: { deck: LoadedDeck } = $props();
@@ -13,24 +14,63 @@
   let filtersOpen = $state(false);
   let exportOpen = $state(false);
   let copied = $state('');
-  let view: CardView = $state('grid');
+  let view: CardView = $state(DEFAULT_CARD_VIEW);
   let browser: { openAt(index: number, trigger: HTMLElement): Promise<void> };
-  const views: { id: CardView; label: string }[] = [{ id: 'grid', label: 'Grid' }, { id: 'stacks', label: 'Mana stacks' }, { id: 'browse', label: 'Card browser' }];
+  let manaColumns: HTMLDivElement | undefined = $state();
+  let warmer: ImagePreloader | undefined;
   let visible = $derived(selectCards(deck.cards, query, type, sort));
   let visibleCopies = $derived(visible.reduce((sum, card) => sum + card.quantity, 0));
   let manaGroups = $derived(groupByMana(visible));
   let browseCards = $derived([deck.commander, ...visible]);
+  let specialGroups = $derived(manaGroups.filter(group => group.id === 'lands' || group.id === 'no-cost'));
+
+  function warmCard(card: DisplayCard) {
+    if (!warmer || document.hidden) return;
+    for (const face of card.metadata.faces) void warmer.preload(face.images?.large ?? face.images?.normal, 'high');
+  }
+  function warmReader(index: number) {
+    if (!warmer || document.hidden) return;
+    readerImageUrls(browseCards, index).forEach((url, position) => void warmer!.preload(url, position === 0 ? 'high' : 'low'));
+  }
+  function jumpToSpecial() {
+    if (!manaColumns) return;
+    manaColumns.scrollTo({ left: manaColumns.scrollWidth,
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    manaColumns.querySelector<HTMLElement>(`#mana-${specialGroups.at(-1)?.id}`)?.focus({ preventScroll: true });
+  }
 
   function inspect(card: DisplayCard, event: MouseEvent) {
     void browser.openAt(browseCards.findIndex(item => item.key === card.key), event.currentTarget as HTMLElement);
   }
   function chooseView(next: CardView, event: MouseEvent) {
     view = next;
-    try { localStorage.setItem('magics-card-view', next); } catch { /* The controls work without storage permission. */ }
+    try { localStorage.setItem(CARD_VIEW_STORAGE_KEY, next); } catch { /* The controls work without storage permission. */ }
     if (next === 'browse') void browser.openAt(0, event.currentTarget as HTMLElement);
   }
   onMount(() => {
-    try { const saved = localStorage.getItem('magics-card-view'); if (isCardView(saved)) view = saved; } catch { /* Keep the server-rendered grid. */ }
+    try { const saved = localStorage.getItem(CARD_VIEW_STORAGE_KEY); if (isCardView(saved)) view = saved; } catch { /* Keep the server-rendered stacks. */ }
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
+    if (!canWarmImages(connection)) return;
+    warmer = new ImagePreloader();
+    const visibility = () => warmer?.setPaused(document.hidden);
+    visibility();
+    document.addEventListener('visibilitychange', visibility);
+    let idle: number | undefined;
+    let timer: number | undefined;
+    const schedule = () => {
+      // Don't compete with the initial artwork. Warm the opening cards after load, in idle time.
+      if (typeof window.requestIdleCallback === 'function') idle = window.requestIdleCallback(() => warmReader(0), { timeout: 1500 });
+      else timer = window.setTimeout(() => warmReader(0), 300);
+    };
+    if (document.readyState === 'complete') schedule();
+    else window.addEventListener('load', schedule, { once: true });
+    return () => {
+      window.removeEventListener('load', schedule);
+      document.removeEventListener('visibilitychange', visibility);
+      if (idle !== undefined) window.cancelIdleCallback(idle);
+      if (timer !== undefined) window.clearTimeout(timer);
+      warmer?.dispose();
+    };
   });
   function changeVersion(event: Event) {
     window.location.assign(`/decks/${deck.family.id}/${(event.currentTarget as HTMLSelectElement).value}/`);
@@ -53,7 +93,7 @@
     <div class="deck-facts"><span><strong>{deck.total}</strong> cards</span><span><strong>{deck.landCount}</strong> lands</span><span class="status"><i></i>{deck.snapshot.status}</span></div>
     <p class="snapshot-note">{deck.snapshot.note}</p>
   </div>
-  <button class="commander-preview" aria-label={`Inspect commander: ${deck.commander.name}`} onclick={(event) => inspect(deck.commander, event)}>
+  <button class="commander-preview" aria-label={`Inspect commander: ${deck.commander.name}`} onpointerenter={() => warmCard(deck.commander)} onfocus={() => warmCard(deck.commander)} onclick={(event) => inspect(deck.commander, event)}>
     <span class="commander-halo" aria-hidden="true"></span>
     <CardImage src={deck.commander.metadata.faces[0].images?.normal} alt={deck.commander.name} eager />
     <span class="commander-caption">Your commander <span>↗</span></span>
@@ -85,13 +125,13 @@
     </div>
   {/if}
   <div class="grid-heading">
-    <div class="view-controls" role="group" aria-label="Card layout">{#each views as option}<button class:active={view === option.id} aria-pressed={view === option.id} onclick={(event) => chooseView(option.id, event)}>{option.label}</button>{/each}</div>
+    <div class="view-controls" role="group" aria-label="Card layout">{#each CARD_VIEWS as option}<button class:active={view === option.id} aria-pressed={view === option.id} onpointerenter={() => { if (option.id === 'browse') warmReader(0); }} onfocus={() => { if (option.id === 'browse') warmReader(0); }} onclick={(event) => chooseView(option.id, event)}>{option.label}</button>{/each}</div>
     <span role="status" aria-live="polite">{visibleCopies} cards <span class="subtle">· {visible.length} unique</span></span>
   </div>
   {#if view === 'grid'}
     <div class="card-grid">
     {#each visible as card, index (card.key)}
-      <button class="card-tile" onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
+      <button class="card-tile" onpointerenter={() => warmCard(card)} onfocus={() => warmCard(card)} onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
         <span class="card-art"><CardImage src={card.metadata.faces[0].images?.normal} alt={card.name} eager={index < 6} />{#if card.quantity > 1}<span class="quantity">×{card.quantity}</span>{/if}{#if card.metadata.faces.length > 1}<span class="flip-badge" aria-hidden="true">↻</span>{/if}</span>
         <span class="card-name">{card.name}</span>
         <span class="card-mana"><Mana cost={card.metadata.faces[0].manaCost} /></span>
@@ -99,15 +139,18 @@
     {/each}
     </div>
   {:else if view === 'stacks'}
-    <p class="stack-note">Mana value columns. X counts as 0. Hover or focus to reveal; tap to browse.</p>
-    <div class="mana-columns" role="region" aria-label="Cards grouped by mana value">
+    <div class="stack-tools">
+      <p class="stack-note">Mana value columns. X counts as 0. Hover or focus to reveal; tap to browse.</p>
+      {#if specialGroups.length}<button class="jump-special" onclick={jumpToSpecial}>{specialGroups.map(group => group.label).join(' / ')} →</button>{/if}
+    </div>
+    <div class="mana-columns" bind:this={manaColumns} role="region" aria-label="Cards grouped by mana value">
       {#each manaGroups as group (group.id)}
         <section class="mana-column" aria-labelledby={`mana-${group.id}`}>
-          <h2 id={`mana-${group.id}`}>{group.label}<span>{group.quantity}</span></h2>
+          <h2 id={`mana-${group.id}`} tabindex="-1">{group.label}<span>{group.quantity}</span></h2>
           <ol class="stack-pile">
             {#each group.cards as card, index (card.key)}
               <li style={`--stack-order: ${index}`}>
-                <button class="stack-card" onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
+                <button class="stack-card" onpointerenter={() => warmCard(card)} onfocus={() => warmCard(card)} onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
                   <CardImage src={card.metadata.faces[0].images?.normal} alt={card.name} eager={index < 2} />
                   {#if card.quantity > 1}<span class="stack-quantity">×{card.quantity}</span>{/if}
                 </button>
@@ -118,7 +161,7 @@
       {/each}
     </div>
   {:else}
-    <button class="browse-launch" onclick={(event) => void browser.openAt(0, event.currentTarget)}>
+    <button class="browse-launch" onpointerenter={() => warmReader(0)} onfocus={() => warmReader(0)} onclick={(event) => void browser.openAt(0, event.currentTarget)}>
       <span class="launch-art"><CardImage src={deck.commander.metadata.faces[0].images?.normal} alt={deck.commander.name} /></span>
       <span>Browse cards <span aria-hidden="true">→</span></span>
     </button>
@@ -129,7 +172,7 @@
   <noscript><p class="noscript-note">Enable JavaScript for search, layouts, card browsing and version selection.</p></noscript>
 </section>
 
-<CardBrowser cards={browseCards} bind:this={browser} />
+<CardBrowser cards={browseCards} warmAt={warmReader} bind:this={browser} />
 
 <style>
   .deck-intro { display: grid; grid-template-columns: 1fr 210px; gap: 5rem; padding: 2.6rem 0 3.5rem; align-items: center; }
@@ -185,7 +228,9 @@
   .empty-state h3 { font: 400 1.6rem var(--serif); color: var(--text); }
   .empty-state p { font-size: .85rem; }
   .noscript-note { color: var(--muted); font-size: .8rem; }
-  .stack-note { color: var(--muted); font-size: .7rem; margin: -.3rem 0 1.5rem; line-height: 1.6; }
+  .stack-tools { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; margin: -.3rem 0 1.2rem; }
+  .stack-note { color: var(--muted); font-size: .7rem; margin: 0; line-height: 1.6; }
+  .jump-special { color: var(--accent); font-size: .7rem; padding: .5rem 0; background: none; border: 0; cursor: pointer; }
   .mana-columns { display: flex; gap: 1.3rem; align-items: flex-start; overflow: auto; padding: 8px 10px 20px; margin: -8px -10px; scrollbar-width: thin; scrollbar-color: #526044 transparent; }
   .mana-column { flex: 0 0 176px; min-width: 0; }
   .mana-column h2 { font-size: .8rem; font-weight: 500; margin: 0 0 1rem; display: flex; justify-content: space-between; color: var(--text); }

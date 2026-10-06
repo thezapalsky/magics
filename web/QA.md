@@ -9,11 +9,11 @@ This records local evidence, not a public deployment or an Arena-client verifica
 | Check | Result |
 | --- | --- |
 | `pnpm check` | Astro and Svelte: zero errors/warnings |
-| `pnpm test` | 12 tests passed |
+| `pnpm test` | 19 tests passed |
 | `pnpm build` | Eight valid 100-card snapshots, ten HTML pages, eight text exports |
-| Static HTML | Every commander and grid card exists before hydration |
+| Static HTML | Every commander and mana-stack card exists before hydration; selector order is stacks/browser/grid |
 | Export preservation | Every generated text export exactly matches the parsed tracked source |
-| JavaScript budget | All generated JS bundles combined: **under 24 KiB gzip**, below 100 KiB |
+| JavaScript budget | All generated JS bundles combined: **under 25 KiB gzip**, below 100 KiB |
 | Filtering unit benchmark | **0.07–0.15 ms** averages across local runs for a 100-entry fixture |
 | Root paper validator | One commander + 99 main-deck cards |
 | Cloudflare dry run | Assets-only packaging succeeds, with no bindings; nothing published |
@@ -51,8 +51,8 @@ Validation also checks commander color identity and the unchanged paper release.
 - Checked all 73 main-deck tiles in the paper mana columns: quantities total 99,
   lands are last, and a title-strip hover or keyboard focus reveals the complete card
   above the stack (`z-index: 100`). Search for “wurm” narrows the columns correctly.
-- Stacks persist after reloading through the local layout preference. Unsupported
-  stored values fall back to the server-rendered grid.
+- Stacks persist after reloading through the local layout preference. Missing/unsupported
+  stored values now fall back to the server-rendered stacks.
 - The full-screen reader shows the card image and source link, not a visible duplicate
   name/type/rules block. Arrow keys and wheel gestures advance/backtrack; Home/End
   reach the boundaries; native feed scrolling updates the active card.
@@ -76,6 +76,34 @@ Files changed for this layout update (all under `web/`):
 - Copy/grouping: `data/decks.json`, `src/lib/card-utils.ts`.
 - Verification: `scripts/check-static.ts`, `tests/decks.test.ts`.
 - Guidance/evidence: `README.md`, `AGENTS.md`, `QA.md`.
+
+## Default layout and image warm-up update
+
+- Mana stacks is the default before hydration; controls are ordered Mana stacks,
+  Card browser, Grid. Verified that an old `magics-card-view=grid` preference no longer
+  overrides the new default; a new Grid choice persists under `magics-card-view-v2`.
+- The paper deck's last column contains **35 lands, 9 unique entries**, including all
+  utility lands and both grouped basics. The “Lands →” button scrolls fully right and
+  focuses that heading, at both 1440 px and 390 px. No document-level overflow at 320 px.
+- Nonland cards without a printed mana cost sort before the final lands column.
+  There are none in the four current defaults; fixture tests distinguish these from
+  `{0}` and `{X}` spells and check preservation of all 99 main-deck copies in every snapshot.
+- Before opening the reader, four large-image resource entries existed for its opening
+  window. The commander was complete with **672 px natural width** immediately after
+  opening; the next card (Bushwhack) was also complete when reached. The window advanced
+  to five large-image entries. These are readiness checks in the existing local browser
+  session, not a cold-network speed/bandwidth benchmark; cache retention varies by browser.
+- Unit tests cover deduplication, two-load concurrency, intent priority, failures,
+  cleanup, hidden-page pause/resume, slow/data-saver policy and both active faces.
+  The application retains at most eight warmed decoded images, not the whole deck.
+- Rechecked full-screen mobile art, reader End boundary, Sephiroth's back face,
+  Tab confinement and image-error fallback. The error check removes the image but
+  preserves the **272 × 379.02 px** mobile frame at 320 px viewport width. Card-data API requests remain zero.
+
+This follow-up changes `src/lib/image-preload.ts`, `tests/image-preload.test.ts`,
+`src/lib/card-utils.ts`, `src/components/DeckViewer.svelte`,
+`src/components/CardBrowser.svelte`, `scripts/check-static.ts`,
+`tests/decks.test.ts`, `README.md`, `AGENTS.md`, and this evidence file only.
 
 Clipboard writes were denied by the isolated headless browser. The UI correctly offered
 the download fallback. Generated download contents are verified; successful clipboard
