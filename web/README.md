@@ -142,22 +142,30 @@ It includes a true 404 page, cache rules for hashed bundles, and basic security 
 Validate packaging without publishing:
 
 ```sh
-pnpm exec wrangler deploy --dry-run --outdir test-results/deploy
+pnpm deploy:check
 ```
 
-**Do not run the following until the user explicitly authorizes public deployment.**
-After signing into the intended Cloudflare account, publishing is:
+This runs check/test/build and a non-uploading Wrangler dry run. To exercise Cloudflare's
+actual local static-assets routing and `_headers` handling, run `pnpm preview:cloudflare`,
+then `pnpm test:cloudflare` in a second terminal. The preview binds only to `127.0.0.1:8787`.
 
-```sh
-pnpm deploy
-```
+The chosen publishing workflow is **Cloudflare's native GitHub connection (Workers Builds)**:
+`main` builds/deploys production; other branches create previews when enabled. Use build root
+`web/`, `pnpm install --frozen-lockfile && pnpm ci:build`, deploy command
+`pnpm exec wrangler deploy`, and preview command `pnpm exec wrangler preview`.
+Pin the runtime/build variables and follow the activation checklist in [DEPLOY.md](DEPLOY.md).
+The full repository must be checked out because builds read deck sources outside `web/`.
 
-The initial URL is `https://magics-viewer.<account-subdomain>.workers.dev`; Wrangler returns the
-actual account-specific address after an authorized deployment. No paid domain is required.
-Static asset requests/storage currently have [no additional charge](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/).
-An optional future Git integration must use the repository root checkout, `web/` as build root,
-`pnpm install --frozen-lockfile && pnpm build` as build command, and explicit production approval.
-The included GitHub workflow only checks/builds; it has no deployment or write permissions.
+The included GitHub workflow validates/builds and checks Cloudflare packaging without publishing.
+It has read-only permissions and needs no Cloudflare secret. Cloudflare repeats validation before
+its own deployment; the remote Git connection must be explicitly activated in its dashboard.
+**It is prepared, not yet connected or published.** Pushing, merging and first activation need approval.
+Native CI/CD does not use or require changing the existing local Wrangler login.
+
+The initial URL is `https://magics-viewer.<account-subdomain>.workers.dev`; verify the actual
+address returned by an authorized build. No paid domain is required. Static asset requests/storage
+currently have [no additional charge](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/).
+`pnpm deploy` remains an approval-gated manual fallback, not the primary publishing method.
 
 ## Verification
 
