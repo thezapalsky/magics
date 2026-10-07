@@ -1,24 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DeckCover from '../components/DeckCover.astro';
-import DeckPair from '../components/DeckPair.astro';
 import { families, loadCache, loadCover, loadDeck } from '../lib/decks.ts';
 const cache = loadCache();
 const decks = families.map(family => {
   const deck = loadDeck(family, family.defaultVersion, cache);
   return { ...deck, cover: loadCover(deck, cache) };
 });
-const paper = decks.find(deck => deck.family.id === 'paper-lathril')!;
-const arena = decks.find(deck => deck.family.id === 'arena-simulator')!;
-const otherDecks = decks.filter(deck => deck !== paper && deck !== arena);
 ---
 <Layout>
   <section class="home-intro">
     <h1>My decks<span class="title-period">.</span></h1>
   </section>
   <section class="deck-shelf" aria-label="The decks">
-    <DeckPair paper={paper} arena={arena} />
-    {otherDecks.map(deck => <DeckCover deck={deck} />)}
+    {decks.map((deck, index) => <DeckCover deck={deck} eager={index < 2} />)}
   </section>
   <p class="shelf-note"><span aria-hidden="true">◇</span> Saved lists, not live collections. Older versions are inside each deck.</p>
 </Layout>
@@ -27,10 +22,9 @@ const otherDecks = decks.filter(deck => deck !== paper && deck !== arena);
   .home-intro { position: relative; padding: 4.2rem 0 3.5rem; }
   h1 { font: 400 clamp(3.2rem, 6vw, 5.4rem) / 1.06 var(--serif); letter-spacing: -.045em; margin: 0; }
   .title-period { color: var(--accent); }
-  .deck-shelf { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+  .deck-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
   .shelf-note { color: var(--muted); font-size: .7rem; margin-top: 1.5rem; }
   .shelf-note span { color: var(--accent); margin-right: .45rem; }
-  @media (max-width: 1000px) { .deck-shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); } .deck-shelf :global(.deck-pair) { grid-column: 1 / -1; } }
   @media (max-width: 850px) { .home-intro { padding: 3rem 0 2rem; } }
   @media (max-width: 600px) { .deck-shelf { grid-template-columns: 1fr; gap: 1rem; } h1 { font-size: 3.3rem; } .shelf-note { line-height: 1.7; } }
 </style>

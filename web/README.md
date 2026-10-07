@@ -5,17 +5,12 @@ No server, database, login, live collection tracking, simulation UI, or runtime 
 
 ## Home shelf
 
-Paper Lathril and its Arena practice target share one shelf slot, with two half-width
-links. Hovering either cover or focusing its link reveals the three documented proxy
-swaps; the “97 shared cards / 3 swaps” disclosure also opens by tap or Enter/Space.
-Escape, leaving the group or clicking outside closes it. A native details fallback
-works without JavaScript. The four deck destinations, statuses and cover printings
-remain distinct; Arena is still a test target, not a verified client export.
-
-The shared count is generated from both default source lists, including quantities
-and commander, ignoring printings but retaining digital variants. Proxy mappings are
-checked against that exact diff at build time. If a default changes, review the mapping
-in `src/lib/deck-relation.ts`; a stale relation fails rather than publishing false copy.
+Four separate commander-art tiles form a 2×2 shelf on desktop: Paper Lathril, Arena
+Simulator, Elves and Sacrifice. Each is a direct link to its default version, with
+its own format, status and chosen cover printing. Narrow screens use a single column.
+There is no combined Lathril tile, hover comparison or format chooser; both Lathril
+destinations remain equally visible. Arena is still a test target, not a verified
+client export. Older versions remain inside the individual deck pages.
 
 ## Card layouts
 

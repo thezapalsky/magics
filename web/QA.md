@@ -295,6 +295,30 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - Changes are presentation-only. Paper remains 0.3.3, deck sources are untouched,
   and these local commits have not been pushed or deployed.
 
+## Restored four-tile home shelf — 7 October 2026
+
+- Supersedes the paired Lathril covers above, following the user's explicit request
+  to restore the original four separate tiles. Paper Lathril, Arena Simulator, Elves
+  and Sacrifice are direct links in a desktop 2×2 grid, with one column on mobile.
+  The subsequently proposed single-cover format chooser was abandoned before commit.
+- Removed the paired-cover widget, its unused comparison helper/tests and compact
+  cover mode. Existing deck-list tests still verify the exact paper/Arena proxies.
+  Changed files: `src/pages/index.astro`, `src/components/DeckCover.astro`,
+  `scripts/check-static.ts`, `README.md`, `AGENTS.md` and this file. Removed files:
+  `src/components/DeckPair.astro`, `src/lib/deck-relation.ts` and
+  `tests/deck-relation.test.ts`. All are recoverable through Git history.
+- Browser review used the built-site preview at `http://127.0.0.1:4321/` after a
+  development hot-reload request referenced the retired component. At 1280px the
+  four cards measured two equal columns and two rows; all four destinations and
+  the paper FDN 349 artwork were present, with no chooser. At 390px, four cards fit
+  a single column with no horizontal page overflow. The production preview console
+  had no errors/warnings. The temporary viewport override was reset.
+- Screenshot: `/private/tmp/magics-restored-four-decks.jpg`. Full `pnpm ci:build`
+  passed with zero diagnostics, 30 tests, nine valid snapshots, exact exports,
+  11 generated pages and 25.4 KiB combined gzip JavaScript. `git diff --check` passed.
+- No source deck, experiment or game result changed. Paper remains released 0.3.3;
+  the simulator remains the 0.3.3 test target. No push or deployment was performed.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
