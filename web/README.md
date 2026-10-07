@@ -9,8 +9,12 @@ No server, database, login, live collection tracking, simulation UI, or runtime 
   to mana value, not zero to the entire spell cost. Hover or keyboard focus raises a full
   card; tap/click opens the reader. Nonland cards with no mana cost get a separate trailing
   column, before lands; spells costing `{0}` or only `{X}` stay in the zero-mana column.
-  Every unique utility land and the grouped basics are included. Narrow screens scroll
-  horizontally; the “Lands →” shortcut jumps to the rightmost column.
+  Every unique utility land and the grouped basics are included. Overflowing columns
+  show “Scroll sideways to see more cards” on desktop or “Swipe to see more cards” on
+  mobile, with previous/next buttons advancing one column. A partial next column cues
+  scrolling; arrows disable at the edges and the navigation hides when all columns fit.
+  Native scrolling/swiping remains available. Keyboard users can Tab to the arrows and
+  activate them with Enter/Space; reduced motion uses immediate rather than smooth movement.
 - **Card browser**: a full-screen, artwork-only reader, starting with the commander.
   Scroll the wheel, swipe vertically, use the next/previous buttons, or press arrow keys.
   Home/End go to the first/last card; Escape closes and restores focus. Double-faced

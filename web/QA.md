@@ -233,6 +233,29 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
   zero diagnostics, 24 passing tests, nine validated snapshots, exact exports, 24.5 KiB
   combined gzip JavaScript, and one commander plus 99 main-deck cards.
 
+## Mana-column scroll guidance — 7 October 2026
+
+- Replaced the lands jump shortcut with desktop sideways-scroll guidance, mobile
+  swipe guidance and labelled 44px previous/next buttons. Native overflow scrolling
+  remains intact; buttons align to the adjacent column and clamp at the final edge.
+- Added a bounded column-width adjustment so a partial next column is visibly cut
+  off, rather than ending almost exactly at a gap. Search and resize remeasure the
+  layout; navigation hides when all groups fit, including empty results.
+- Real in-app browser checks at desktop and narrow mobile sizes verified an initial
+  disabled previous arrow, one-column advance, Enter activation, final disabled next
+  arrow and fully visible lands. Searching `elvish` and a nonexistent card hides the
+  navigation; clearing search and switching Grid → Mana stacks restores it.
+- Mobile guidance and 44px arrows were visible, with no page-level horizontal
+  overflow. A desktop screenshot was saved at `/private/tmp/magics-scroll-desktop.jpg`.
+  Browser console had no errors/warnings. A native horizontal-scroll attempt in the
+  browser automation did not move the container; physical trackpad/swipe verification
+  remains manual. Reduced-motion selection is handled in source, not OS-emulated here.
+- Six unit tests cover overflow/edge rounding, native overscroll bounds, adjacent
+  column targets after manual movement and partial-column sizing. Static HTML checks
+  require both hints and labelled arrows on all nine snapshots.
+- No deck list, release, metadata or game evidence was changed. This local UI update
+  does not deploy until an authorized push and production merge.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.

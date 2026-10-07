@@ -22,6 +22,12 @@ for (const family of families) {
     const positions = CARD_VIEWS.map(view => controls.indexOf(`>${view.label}</button>`));
     assert.ok(positions.every((position, index) => position >= 0 && (!index || position > positions[index - 1])));
     assert.ok(html.includes('id="mana-lands"'));
+    assert.ok(html.includes('Scroll sideways to see more cards'));
+    assert.ok(html.includes('Swipe to see more cards'));
+    assert.ok(html.includes('aria-label="Scroll to previous column"'));
+    assert.ok(html.includes('aria-label="Scroll to next column"'));
+    assert.ok(html.includes('id="mana-columns"'));
+    assert.ok(!html.includes('jump-special'));
     assert.ok(html.includes(deck.snapshot.status));
     assert.equal(readFileSync(resolve(`dist/exports/${family.id}-${snapshot.version}.txt`), 'utf8'), deck.exportText);
   }
