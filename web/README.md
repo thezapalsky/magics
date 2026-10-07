@@ -3,6 +3,20 @@
 A static, read-only Astro + Svelte viewer for the decklists in this repository.
 No server, database, login, live collection tracking, simulation UI, or runtime card-data API is needed.
 
+## Home shelf
+
+Paper Lathril and its Arena practice target share one shelf slot, with two half-width
+links. Hovering either cover or focusing its link reveals the three documented proxy
+swaps; the “97 shared cards / 3 swaps” disclosure also opens by tap or Enter/Space.
+Escape, leaving the group or clicking outside closes it. A native details fallback
+works without JavaScript. The four deck destinations, statuses and cover printings
+remain distinct; Arena is still a test target, not a verified client export.
+
+The shared count is generated from both default source lists, including quantities
+and commander, ignoring printings but retaining digital variants. Proxy mappings are
+checked against that exact diff at build time. If a default changes, review the mapping
+in `src/lib/deck-relation.ts`; a stale relation fails rather than publishing false copy.
+
 ## Card layouts
 
 - **Mana stacks** (default): overlapping columns by mana value, with lands last. X contributes zero

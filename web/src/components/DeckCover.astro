@@ -1,0 +1,53 @@
+---
+import type { CardMetadata, LoadedDeck } from '../lib/types.ts';
+interface Props {
+  deck: LoadedDeck & { cover: CardMetadata };
+  compact?: boolean;
+  eager?: boolean;
+}
+const { deck, compact = false, eager = false } = Astro.props;
+const title = compact && deck.family.id === 'arena-simulator' ? 'Simulator' : deck.family.title;
+---
+<a class:list={['deck-cover', deck.family.id, { compact }]} href={`/decks/${deck.family.id}/${deck.snapshot.version}/`} aria-label={`View ${deck.family.subtitle}, version ${deck.snapshot.version}`}>
+  <div class="cover-art">
+    {deck.cover.faces[0].images?.artCrop && <img src={deck.cover.faces[0].images.artCrop} alt="" width="626" height="457" loading={eager ? 'eager' : 'lazy'} decoding="async" />}
+  </div>
+  <span class="cover-label">{deck.family.medium}{!compact && <><span> / </span>{deck.family.format}</>}</span>
+  <div class="cover-copy">
+    <span class="cover-subtitle">{compact ? deck.family.format : deck.family.subtitle}</span>
+    <h2>{title}<span class="cover-arrow" aria-hidden="true">↗</span></h2>
+    <div class="cover-meta"><span>v{deck.snapshot.version}</span>{!compact && <><span class="meta-dot">·</span><span>{deck.snapshot.status}</span><span class="card-count">100 cards</span></>}</div>
+    {compact && <span class="compact-status">{deck.snapshot.status}</span>}
+  </div>
+</a>
+
+<style>
+  .deck-cover { display: block; isolation: isolate; position: relative; overflow: hidden; min-width: 0; min-height: 360px; border: 1px solid #56644755; border-radius: 12px; background: #333e2a; transition: border-color 200ms ease, transform 200ms ease; }
+  .cover-art { position: absolute; inset: 0; z-index: -2; }
+  .cover-art img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; filter: saturate(.72); transition: transform 500ms ease; }
+  .deck-cover::after { position: absolute; inset: 0; content: ''; z-index: -1; background: linear-gradient(180deg, #121a1650, #121a1608 30%, #121a16d9 73%, #121a16f5); }
+  .arena-simulator .cover-art img { object-position: 70% 25%; filter: saturate(.35) brightness(.85); }
+  .elves .cover-art img { object-position: 40% 10%; transform: scale(1.1); }
+  .sacrifice::after { background: linear-gradient(180deg, #17131755, #17131700 30%, #171317de 73%, #171317fa); }
+  .deck-cover:hover { transform: translateY(-3px); border-color: #b2cb9177; }
+  .deck-cover:hover .cover-art img { transform: scale(1.04); }
+  .elves:hover .cover-art img { transform: scale(1.14); }
+  .cover-label { position: absolute; top: 1.35rem; left: 1.5rem; font-size: .6rem; letter-spacing: .11em; text-transform: uppercase; padding: .4rem .6rem; border-radius: 4px; background: #1017108c; color: #e6ecd8; backdrop-filter: blur(10px); }
+  .cover-label span { opacity: .5; margin: 0 .4rem; }
+  .cover-copy { position: absolute; left: 1.6rem; right: 1.6rem; bottom: 1.6rem; }
+  .cover-subtitle { color: #c0c9b5; font-size: .67rem; }
+  h2 { display: flex; align-items: center; justify-content: space-between; gap: .3rem; font: 400 2.4rem var(--serif); letter-spacing: -.04em; margin: .45rem 0 .85rem; }
+  .cover-arrow { font-family: sans-serif; font-size: 1.6rem; color: var(--accent); }
+  .cover-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem; color: #b5c1aa; font-size: .65rem; }
+  .meta-dot { opacity: .5; }
+  .card-count { margin-left: auto; }
+  .compact .cover-label { top: 3.8rem; left: .9rem; }
+  .compact .cover-copy { left: .9rem; right: .9rem; bottom: 1.3rem; }
+  .compact h2 { font-size: clamp(1.35rem, 2vw, 1.8rem); }
+  .compact .cover-arrow { font-size: 1.1rem; }
+  .compact-status { display: block; margin-top: .4rem; color: #b5c1aa; font-size: .6rem; }
+  @media (max-width: 850px) { h2 { font-size: 2rem; } }
+  @media (max-width: 600px) { .deck-cover { min-height: 300px; } .cover-copy { left: 1.3rem; right: 1.3rem; } .compact h2 { font-size: 1.5rem; } .compact .cover-label { left: .7rem; } .compact .cover-copy { left: .7rem; right: .7rem; } }
+  @media (max-width: 360px) { .compact h2 { font-size: 1.25rem; } }
+  @media (prefers-reduced-motion: reduce) { .deck-cover, .cover-art img { transition: none; } .deck-cover:hover, .deck-cover:hover .cover-art img { transform: none; } }
+</style>

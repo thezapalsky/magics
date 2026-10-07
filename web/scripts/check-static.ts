@@ -3,9 +3,22 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { families, loadCache, loadCover, loadDeck } from '../src/lib/decks.ts';
 import { CARD_VIEWS } from '../src/lib/card-utils.ts';
+import { lathrilRelation } from '../src/lib/deck-relation.ts';
 
 const cache = loadCache();
 const home = readFileSync(resolve('dist/index.html'), 'utf8');
+const paperFamily = families.find(family => family.id === 'paper-lathril')!;
+const arenaFamily = families.find(family => family.id === 'arena-simulator')!;
+const relation = lathrilRelation(loadDeck(paperFamily, paperFamily.defaultVersion, cache), loadDeck(arenaFamily, arenaFamily.defaultVersion, cache));
+assert.ok(home.includes('data-deck-pair'));
+assert.ok(home.includes(`${relation.sharedCount} shared cards`));
+assert.ok(home.includes(`${relation.substitutions.length} swaps`));
+assert.ok(home.includes('Paper to Arena substitutions'));
+for (const swap of relation.substitutions) {
+  const escaped = (name: string) => name.replaceAll('&', '&amp;').replaceAll("'", '&#39;');
+  assert.ok(home.includes(escaped(swap.paper)));
+  assert.ok(home.includes(escaped(swap.arena)));
+}
 for (const family of families) {
   assert.ok(home.includes(`/decks/${family.id}/${family.defaultVersion}/`));
   const cover = loadCover(loadDeck(family, family.defaultVersion, cache), cache);

@@ -256,6 +256,26 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - No deck list, release, metadata or game evidence was changed. This local UI update
   does not deploy until an authorized push and production merge.
 
+## Paired Lathril covers — 7 October 2026
+
+- Paper and simulator are two half-width links within one shelf slot. Elves and
+  Sacrifice retain independent full-width slots. Desktop fits all three groups in
+  one row; tablet/mobile reflow keeps the Lathril pair side by side.
+- The explanation and three directional swaps are present in static HTML. Shared
+  count is calculated from tracked defaults (97/100); printing differences do not
+  count as substitutions. Four tests cover the exact mapping, repeated basics,
+  canonical DFC aliases, digital variants and fail-closed stale mappings.
+- Real browser review verified all four covers, keyboard focus opening the relation,
+  Enter toggling the native disclosure, Escape closing it and visible focus outline.
+  At a 390px viewport both half-width links and the open panel fit without page
+  overflow; the mobile disclosure is 44px tall. Desktop screenshot with the diff
+  was saved at `/private/tmp/magics-paired-home.jpg`.
+- Mouse hover handlers are implemented without a Svelte island; the tiny homepage
+  script manages hover/focus dismissal while native details supports no-JS taps.
+  Physical pointer hover was not independently driven by the browser test API.
+- This comparison is presentation-only. Releases, exports and metadata are unchanged;
+  no push, production merge or deployment was performed.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
