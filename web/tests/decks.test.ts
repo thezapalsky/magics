@@ -172,8 +172,8 @@ test('mana columns preserve every card and quantity, with X at zero and lands la
 
 test('only supported card layouts may be restored from browser storage', () => {
   assert.equal(DEFAULT_CARD_VIEW, 'stacks');
-  assert.deepEqual(CARD_VIEWS.map(view => view.id), ['stacks', 'browse', 'grid']);
-  for (const mode of ['grid', 'stacks', 'browse']) assert.ok(isCardView(mode));
+  assert.deepEqual(CARD_VIEWS.map(view => view.id), ['stacks', 'browse', 'grid', 'list']);
+  for (const mode of ['grid', 'stacks', 'browse', 'list']) assert.ok(isCardView(mode));
   for (const mode of [null, '', 'unknown', 1, {}]) assert.equal(isCardView(mode), false);
 });
 

@@ -7,7 +7,7 @@ export function isLand(card: DisplayCard): boolean {
 
 export const cardTypes = ['Creature', 'Artifact', 'Enchantment', 'Instant', 'Sorcery', 'Planeswalker', 'Land'] as const;
 
-export type CardView = 'grid' | 'stacks' | 'browse';
+export type CardView = 'grid' | 'stacks' | 'browse' | 'list';
 export const DEFAULT_CARD_VIEW: CardView = 'stacks';
 // Start everyone on the new default once; subsequent explicit choices persist.
 export const CARD_VIEW_STORAGE_KEY = 'magics-card-view-v2';
@@ -15,9 +15,10 @@ export const CARD_VIEWS: readonly { id: CardView; label: string }[] = [
   { id: 'stacks', label: 'Mana stacks' },
   { id: 'browse', label: 'Card browser' },
   { id: 'grid', label: 'Grid' },
+  { id: 'list', label: 'List' },
 ];
 export function isCardView(value: unknown): value is CardView {
-  return value === 'grid' || value === 'stacks' || value === 'browse';
+  return value === 'grid' || value === 'stacks' || value === 'browse' || value === 'list';
 }
 
 export function groupByMana(cards: DisplayCard[]): { id: string; label: string; cards: DisplayCard[]; quantity: number }[] {

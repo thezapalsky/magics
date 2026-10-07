@@ -34,6 +34,9 @@ in `src/lib/deck-relation.ts`; a stale relation fails rather than publishing fal
   Home/End go to the first/last card; Escape closes and restores focus. Double-faced
   cards have a Flip button; the bottom source link opens the displayed printing.
 - **Grid**: the original full-card gallery, third in the layout selector.
+- **List**: compact text rows with quantity, card name and mana cost. Uses the same
+  search/filter/sort and grouped basics; click or keyboard-activate a row to inspect
+  it in the card reader. No thumbnails or duplicated rules text.
 
 The chosen layout is saved on the visitor's device, not in the repo or a server.
 The preference key is now `magics-card-view-v2`: old choices start on stacks once,
