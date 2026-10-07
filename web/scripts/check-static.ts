@@ -3,26 +3,16 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { families, loadCache, loadCover, loadDeck } from '../src/lib/decks.ts';
 import { CARD_VIEWS } from '../src/lib/card-utils.ts';
-import { lathrilRelation } from '../src/lib/deck-relation.ts';
 
 const cache = loadCache();
 const home = readFileSync(resolve('dist/index.html'), 'utf8');
-const paperFamily = families.find(family => family.id === 'paper-lathril')!;
-const arenaFamily = families.find(family => family.id === 'arena-simulator')!;
-const relation = lathrilRelation(loadDeck(paperFamily, paperFamily.defaultVersion, cache), loadDeck(arenaFamily, arenaFamily.defaultVersion, cache));
-assert.ok(home.includes('data-deck-pair'));
-assert.ok(home.includes(`${relation.sharedCount} shared cards`));
-assert.ok(home.includes(`${relation.substitutions.length} swaps`));
-assert.ok(home.includes('Paper to Arena substitutions'));
-for (const swap of relation.substitutions) {
-  const escaped = (name: string) => name.replaceAll('&', '&amp;').replaceAll("'", '&#39;');
-  assert.ok(home.includes(escaped(swap.paper)));
-  assert.ok(home.includes(escaped(swap.arena)));
-}
+assert.equal((home.match(/class="deck-cover(?:\s|")/g) ?? []).length, families.length);
+assert.ok(!home.includes('data-deck-choice'));
+assert.ok(!home.includes('data-deck-pair'));
+assert.ok(!home.includes('shared cards'));
+assert.ok(!home.includes('Paper to Arena substitutions'));
 for (const family of families) {
   assert.ok(home.includes(`/decks/${family.id}/${family.defaultVersion}/`));
-  const cover = loadCover(loadDeck(family, family.defaultVersion, cache), cache);
-  if (cover.faces[0].images?.artCrop) assert.ok(home.includes(cover.faces[0].images.artCrop));
   for (const snapshot of family.versions) {
     const deck = loadDeck(family, snapshot.version, cache);
     const html = readFileSync(resolve(`dist/decks/${family.id}/${snapshot.version}/index.html`), 'utf8');
@@ -45,9 +35,11 @@ for (const family of families) {
     assert.equal(readFileSync(resolve(`dist/exports/${family.id}-${snapshot.version}.txt`), 'utf8'), deck.exportText);
   }
 }
-const covers = [...home.matchAll(/class="cover-art"[^>]*>([\s\S]*?)<\/div>/g)].map(match => match[1]);
-assert.equal(covers.length, families.length);
-for (const [index, family] of families.entries()) {
+// Each family has its own destination and chosen commander printing.
+const homeFamilies = families;
+const covers = [...home.matchAll(/<(?:div|span)[^>]*class="cover-art"[^>]*>([\s\S]*?)<\/(?:div|span)>/g)].map(match => match[1]);
+assert.equal(covers.length, homeFamilies.length);
+for (const [index, family] of homeFamilies.entries()) {
   const image = loadCover(loadDeck(family, family.defaultVersion, cache), cache).faces[0].images?.artCrop;
   if (image) assert.ok(covers[index].includes(image), `Incorrect home artwork: ${family.id}`);
 }

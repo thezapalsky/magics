@@ -2,22 +2,19 @@
 import type { CardMetadata, LoadedDeck } from '../lib/types.ts';
 interface Props {
   deck: LoadedDeck & { cover: CardMetadata };
-  compact?: boolean;
   eager?: boolean;
 }
-const { deck, compact = false, eager = false } = Astro.props;
-const title = compact && deck.family.id === 'arena-simulator' ? 'Simulator' : deck.family.title;
+const { deck, eager = false } = Astro.props;
 ---
-<a class:list={['deck-cover', deck.family.id, { compact }]} href={`/decks/${deck.family.id}/${deck.snapshot.version}/`} aria-label={`View ${deck.family.subtitle}, version ${deck.snapshot.version}`}>
+<a class:list={['deck-cover', deck.family.id]} href={`/decks/${deck.family.id}/${deck.snapshot.version}/`} aria-label={`View ${deck.family.subtitle}, version ${deck.snapshot.version}`}>
   <div class="cover-art">
     {deck.cover.faces[0].images?.artCrop && <img src={deck.cover.faces[0].images.artCrop} alt="" width="626" height="457" loading={eager ? 'eager' : 'lazy'} decoding="async" />}
   </div>
-  <span class="cover-label">{deck.family.medium}{!compact && <><span> / </span>{deck.family.format}</>}</span>
+  <span class="cover-label">{deck.family.medium}<span> / </span>{deck.family.format}</span>
   <div class="cover-copy">
-    <span class="cover-subtitle">{compact ? deck.family.format : deck.family.subtitle}</span>
-    <h2>{title}<span class="cover-arrow" aria-hidden="true">↗</span></h2>
-    <div class="cover-meta"><span>v{deck.snapshot.version}</span>{!compact && <><span class="meta-dot">·</span><span>{deck.snapshot.status}</span><span class="card-count">100 cards</span></>}</div>
-    {compact && <span class="compact-status">{deck.snapshot.status}</span>}
+    <span class="cover-subtitle">{deck.family.subtitle}</span>
+    <h2>{deck.family.title}<span class="cover-arrow" aria-hidden="true">↗</span></h2>
+    <div class="cover-meta"><span>v{deck.snapshot.version}</span><span class="meta-dot">·</span><span>{deck.snapshot.status}</span><span class="card-count">100 cards</span></div>
   </div>
 </a>
 
@@ -41,13 +38,7 @@ const title = compact && deck.family.id === 'arena-simulator' ? 'Simulator' : de
   .cover-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem; color: #b5c1aa; font-size: .65rem; }
   .meta-dot { opacity: .5; }
   .card-count { margin-left: auto; }
-  .compact .cover-label { top: 3.8rem; left: .9rem; }
-  .compact .cover-copy { left: .9rem; right: .9rem; bottom: 1.3rem; }
-  .compact h2 { font-size: clamp(1.35rem, 2vw, 1.8rem); }
-  .compact .cover-arrow { font-size: 1.1rem; }
-  .compact-status { display: block; margin-top: .4rem; color: #b5c1aa; font-size: .6rem; }
   @media (max-width: 850px) { h2 { font-size: 2rem; } }
-  @media (max-width: 600px) { .deck-cover { min-height: 300px; } .cover-copy { left: 1.3rem; right: 1.3rem; } .compact h2 { font-size: 1.5rem; } .compact .cover-label { left: .7rem; } .compact .cover-copy { left: .7rem; right: .7rem; } }
-  @media (max-width: 360px) { .compact h2 { font-size: 1.25rem; } }
+  @media (max-width: 600px) { .deck-cover { min-height: 300px; } .cover-copy { left: 1.3rem; right: 1.3rem; } }
   @media (prefers-reduced-motion: reduce) { .deck-cover, .cover-art img { transition: none; } .deck-cover:hover, .deck-cover:hover .cover-art img { transform: none; } }
 </style>
