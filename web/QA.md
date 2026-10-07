@@ -1,8 +1,8 @@
 # Viewer verification
 
-Last checked: **6 October 2026**, on macOS arm64, isolated Node 24.21.0,
-pnpm 10.17.1, and a real Chromium browser driven by `agent-browser`.
-This records local evidence, not a public deployment or an Arena-client verification.
+Latest production check: **7 October 2026**, in Safari and through read-only HTTP
+checks. The earlier local checks below used macOS arm64, isolated Node 24.21.0,
+pnpm 10.17.1, and a real Chromium browser. This is not an Arena-client verification.
 
 ## Automated checks
 
@@ -197,6 +197,42 @@ Files for this cover change: `web/data/decks.json`, `web/data/cards.json`,
 Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.test.ts`,
 `web/DEPLOY.md`, `web/README.md`, and this QA record. Decks/releases remain unchanged.
 
+## GitHub production activation — 7 October 2026
+
+- The user merged the viewer into `main` and explicitly authorized native Cloudflare
+  activation and `magics.zapalsky.com`. The user completed GitHub app-access consent.
+- The initial dashboard-created `magics` build failed: root `/`, no build command,
+  and `npx wrangler deploy` could not find static output. Renamed only this scoped
+  project to `magics-viewer`, matching the tracked Wrangler configuration. Corrected
+  the production root, commands and four build variables to the values in DEPLOY.md.
+- Native retry build `aedc4570-74e5-49ce-91bd-5f380ba069a0` succeeded in **1m 19s**.
+  It used `main`, Node 24.21.0 and pnpm 10.17.1, validated/built the website, and
+  deployed version `6cb03752-d036-4e39-86fb-2f6067311afb`. GitHub `main` was verified
+  at `6c02ce7a9bdb888a0559cad370611a36b936ee63`; no source push was made for this retry.
+- The build returned `https://magics-viewer.apap549.workers.dev` and attached only
+  `magics.zapalsky.com` as a Custom Domain. HTTPS succeeded without bypassing certificate
+  checks. No plan upgrade, dynamic application, database or runtime binding was added.
+- **33 read-only HTTP checks passed on each address**: every one of the nine deck
+  URLs, byte-exact text exports, 307 trailing-slash redirects, true custom 404s, security
+  headers and immutable hashed JavaScript caching. AGENTS.md, .env and _headers were
+  not publicly served. The homepage has no client script; the asset check uses a deck page.
+- Safari reviewed the live home (including the requested Paper FDN 349 cover) and
+  paper 0.3.3 default. Mana stacks rendered, search for `elvish` returned two cards,
+  the artwork-only reader opened, Down advanced to Bushwhack, and Escape closed it.
+  Restored Mana stacks after the check. No production interaction timing was measured.
+- Production is connected to GitHub `thezapalsky/magics`, branch `main`, with all
+  source paths watched. Preview builds use the same locked build, root and non-secret
+  runtime pins, with `pnpm exec wrangler preview` rather than the production deploy command.
+  After reloading the dashboard, production and preview URLs were both enabled and
+  `magics.zapalsky.com` was listed as this Worker's Production domain.
+  A subsequent Git webhook build and separate branch-preview URL remain to be verified
+  on the next authorized source push; no dummy commit was pushed just to test them.
+- Only deployment documentation was changed locally for this evidence. Deck sources,
+  release versions, metadata, experiments and game evidence are unchanged.
+- The local `pnpm ci:build` was rerun successfully before recording this milestone:
+  zero diagnostics, 24 passing tests, nine validated snapshots, exact exports, 24.5 KiB
+  combined gzip JavaScript, and one commander plus 99 main-deck cards.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
@@ -213,4 +249,5 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 
 The paper release is now **0.3.3**, adopted by explicit user confirmation in EXP-006;
 the simulator **0.3.3** remains a test target. The earlier viewer-only updates did not
-adopt a paper release. No game evidence, tags, remote pushes or deployments were added.
+adopt a paper release. The authorized public deployment is recorded above; no game
+evidence, tags or source pushes were added during deployment activation.

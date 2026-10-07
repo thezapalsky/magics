@@ -13,10 +13,13 @@ validation or build stops deployment even if its separate GitHub check has not f
 No Cloudflare token is needed in GitHub Actions for this native integration.
 See [Git integration](https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/).
 
-**Current state: prepared locally, not connected or publicly deployed.**
-Preparing these files does not authorize pushing, merging, granting GitHub access,
-or activating automatic production deployments. Connecting the repository can start
-a build/deployment immediately; obtain explicit activation approval first.
+**Current state: GitHub-connected and publicly deployed, verified 7 October 2026.**
+Production is [magics.zapalsky.com](https://magics.zapalsky.com/), with
+[the Workers address](https://magics-viewer.apap549.workers.dev/) also available.
+The user authorized activation after merging the viewer to `main`. The first successful
+native build was a dashboard retry, not a local upload. See [QA.md](QA.md) for evidence.
+The connection is configured to publish successful `main` builds automatically.
+This does not authorize future repository pushes, merges, or broader account access.
 
 ## Scope and cost
 
