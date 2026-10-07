@@ -5,6 +5,7 @@
   import Mana from './Mana.svelte';
   import { CARD_VIEWS, CARD_VIEW_STORAGE_KEY, DEFAULT_CARD_VIEW, cardTypes, groupByMana, isCardView, selectCards, type CardView } from '../lib/card-utils.ts';
   import { canWarmImages, ImagePreloader, readerImageUrls } from '../lib/image-preload.ts';
+  import { nextColumnScroll, observeStackScroll, stackScrollState, type StackScrollState } from '../lib/stack-scroll.ts';
   import type { DisplayCard, LoadedDeck } from '../lib/types.ts';
 
   let { deck }: { deck: LoadedDeck } = $props();
@@ -17,12 +18,13 @@
   let view: CardView = $state(DEFAULT_CARD_VIEW);
   let browser: { openAt(index: number, trigger: HTMLElement): Promise<void> };
   let manaColumns: HTMLDivElement | undefined = $state();
+  let scrollState = $state(stackScrollState(0, 0, 0));
+  let scrollReady = $state(false);
   let warmer: ImagePreloader | undefined;
   let visible = $derived(selectCards(deck.cards, query, type, sort));
   let visibleCopies = $derived(visible.reduce((sum, card) => sum + card.quantity, 0));
   let manaGroups = $derived(groupByMana(visible));
   let browseCards = $derived([deck.commander, ...visible]);
-  let specialGroups = $derived(manaGroups.filter(group => group.id === 'lands' || group.id === 'no-cost'));
 
   function warmCard(card: DisplayCard) {
     if (!warmer || document.hidden) return;
@@ -32,11 +34,17 @@
     if (!warmer || document.hidden) return;
     readerImageUrls(browseCards, index).forEach((url, position) => void warmer!.preload(url, position === 0 ? 'high' : 'low'));
   }
-  function jumpToSpecial() {
+  function updateStackScroll(next: StackScrollState) {
+    scrollState = next;
+    scrollReady = true;
+  }
+  function scrollColumn(direction: -1 | 1) {
     if (!manaColumns) return;
-    manaColumns.scrollTo({ left: manaColumns.scrollWidth,
+    const columns = [...manaColumns.children] as HTMLElement[];
+    const offsets = columns.map(column => column.offsetLeft - (columns[0]?.offsetLeft ?? 0));
+    const left = nextColumnScroll(manaColumns.scrollLeft, manaColumns.scrollWidth - manaColumns.clientWidth, offsets, direction);
+    manaColumns.scrollTo({ left,
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-    manaColumns.querySelector<HTMLElement>(`#mana-${specialGroups.at(-1)?.id}`)?.focus({ preventScroll: true });
   }
 
   function inspect(card: DisplayCard, event: MouseEvent) {
@@ -140,10 +148,16 @@
     </div>
   {:else if view === 'stacks'}
     <div class="stack-tools">
-      <p class="stack-note">Mana value columns. X counts as 0. Hover or focus to reveal; tap to browse.</p>
-      {#if specialGroups.length}<button class="jump-special" onclick={jumpToSpecial}>{specialGroups.map(group => group.label).join(' / ')} →</button>{/if}
+      <p class="stack-note" id="stack-card-instructions">Mana value columns. X counts as 0. Hover or focus to reveal; tap to browse.</p>
+      <div class="stack-navigation" class:pending={!scrollReady} hidden={scrollReady && !scrollState.overflows}>
+        <p class="scroll-hint"><span class="desktop-hint">Scroll sideways to see more cards</span><span class="mobile-hint">Swipe to see more cards</span></p>
+        <div class="scroll-arrows" role="group" aria-label="Scroll mana columns">
+          <button class="scroll-arrow" disabled={scrollState.atStart} aria-label="Scroll to previous column" aria-controls="mana-columns" onclick={() => scrollColumn(-1)}><span aria-hidden="true">←</span></button>
+          <button class="scroll-arrow" disabled={scrollState.atEnd} aria-label="Scroll to next column" aria-controls="mana-columns" onclick={() => scrollColumn(1)}><span aria-hidden="true">→</span></button>
+        </div>
+      </div>
     </div>
-    <div class="mana-columns" bind:this={manaColumns} role="region" aria-label="Cards grouped by mana value">
+    <div class="mana-columns" id="mana-columns" bind:this={manaColumns} use:observeStackScroll={updateStackScroll} role="region" aria-label="Cards grouped by mana value" aria-describedby="stack-card-instructions">
       {#each manaGroups as group (group.id)}
         <section class="mana-column" aria-labelledby={`mana-${group.id}`}>
           <h2 id={`mana-${group.id}`} tabindex="-1">{group.label}<span>{group.quantity}</span></h2>
@@ -228,11 +242,19 @@
   .empty-state h3 { font: 400 1.6rem var(--serif); color: var(--text); }
   .empty-state p { font-size: .85rem; }
   .noscript-note { color: var(--muted); font-size: .8rem; }
-  .stack-tools { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; margin: -.3rem 0 1.2rem; }
+  .stack-tools { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; min-height: 44px; margin: -.3rem 0 1.2rem; }
   .stack-note { color: var(--muted); font-size: .7rem; margin: 0; line-height: 1.6; }
-  .jump-special { color: var(--accent); font-size: .7rem; padding: .5rem 0; background: none; border: 0; cursor: pointer; }
-  .mana-columns { display: flex; gap: 1.3rem; align-items: flex-start; overflow: auto; padding: 8px 10px 20px; margin: -8px -10px; scrollbar-width: thin; scrollbar-color: #526044 transparent; }
-  .mana-column { flex: 0 0 176px; min-width: 0; }
+  .stack-navigation { display: flex; align-items: center; gap: .85rem; }
+  .stack-navigation[hidden] { display: none; }
+  .stack-navigation.pending { visibility: hidden; }
+  .scroll-hint { color: var(--muted); font-size: .7rem; margin: 0; }
+  .mobile-hint { display: none; }
+  .scroll-arrows { display: flex; gap: .35rem; }
+  .scroll-arrow { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--line); border-radius: 6px; color: var(--accent); background: transparent; font-size: 1rem; cursor: pointer; }
+  .scroll-arrow:hover:not(:disabled) { background: var(--panel); border-color: #515a49; }
+  .scroll-arrow:disabled { opacity: .3; cursor: default; }
+  .mana-columns { --stack-column-width: 176px; position: relative; display: flex; gap: 1.3rem; align-items: flex-start; overflow: auto; padding: 8px 10px 20px; margin: -8px -10px; scrollbar-width: thin; scrollbar-color: #526044 transparent; }
+  .mana-column { flex: 0 0 var(--peek-column-width, var(--stack-column-width)); min-width: 0; }
   .mana-column h2 { font-size: .8rem; font-weight: 500; margin: 0 0 1rem; display: flex; justify-content: space-between; color: var(--text); }
   .mana-column h2 span { color: var(--muted); font-size: .7rem; }
   .stack-pile { padding: 0; margin: 0; list-style: none; }
@@ -256,8 +278,10 @@
     .search-box { flex-basis: 100%; }
     .toolbar-actions { width: 100%; justify-content: space-between; }
     .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem .85rem; }
-    .mana-column { flex-basis: 154px; }
-    .mana-columns { gap: 1rem; }
+    .mana-columns { --stack-column-width: 154px; gap: 1rem; }
+    .stack-navigation { width: 100%; justify-content: space-between; }
+    .desktop-hint { display: none; }
+    .mobile-hint { display: inline; }
   }
   @media (max-width: 460px) {
     .deck-intro { grid-template-columns: 1fr 92px; gap: .9rem; }
