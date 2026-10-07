@@ -276,6 +276,25 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - This comparison is presentation-only. Releases, exports and metadata are unchanged;
   no push, production merge or deployment was performed.
 
+## Simple List layout — 7 October 2026
+
+- Added List as the fourth layout, retaining Mana stacks as the default. Rows show
+  quantity, name and mana cost without thumbnails or duplicated rules. The existing
+  search, type filter, ordering, grouped basics and artwork-only reader are shared.
+- Real browser checks verified 73 rows representing 99 main-deck cards, zero list
+  thumbnails, search results and empty state. A land-only filter showed nine rows
+  representing 35 lands, including 16 Forests and 12 Swamps. Enter opens the reader;
+  Escape closes it and returns focus to the originating row.
+- The selected List layout restored after reload/hydration. At 320px, all four
+  controls fit, rows remained at least 44px tall and the page had no horizontal
+  overflow. The desktop screenshot is `/private/tmp/magics-list-desktop.jpg`.
+  Browser console had no errors/warnings; the temporary viewport override was reset.
+- Full `pnpm ci:build` passed: zero Astro/Svelte diagnostics, 34 passing tests, nine
+  valid deck snapshots, exact static exports, 11 generated pages and 25.4 KiB combined
+  gzip JavaScript. The root paper validator confirmed one commander plus 99 cards.
+- Changes are presentation-only. Paper remains 0.3.3, deck sources are untouched,
+  and these local commits have not been pushed or deployed.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.

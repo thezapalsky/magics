@@ -174,6 +174,19 @@
         </section>
       {/each}
     </div>
+  {:else if view === 'list'}
+    <div class="list-heading" aria-hidden="true"><span>Qty</span><span>Card</span><span>Mana</span></div>
+    <ul class="card-list" aria-label="Cards in the selected deck">
+      {#each visible as card (card.key)}
+        <li>
+          <button class="list-card" onpointerenter={() => warmCard(card)} onfocus={() => warmCard(card)} onclick={(event) => inspect(card, event)} aria-label={`Inspect ${card.name}${card.quantity > 1 ? `, ${card.quantity} copies` : ''}`}>
+            <span class="list-quantity">{card.quantity}</span>
+            <span class="list-name">{card.name}</span>
+            <span class="list-mana">{#if card.metadata.faces[0].manaCost}<Mana cost={card.metadata.faces[0].manaCost} />{:else}<span aria-label="No mana cost">—</span>{/if}</span>
+          </button>
+        </li>
+      {/each}
+    </ul>
   {:else}
     <button class="browse-launch" onpointerenter={() => warmReader(0)} onfocus={() => warmReader(0)} onclick={(event) => void browser.openAt(0, event.currentTarget)}>
       <span class="launch-art"><CardImage src={deck.commander.metadata.faces[0].images?.normal} alt={deck.commander.name} /></span>
@@ -241,6 +254,14 @@
   .empty-state > span { font-size: 2rem; color: var(--accent); }
   .empty-state h3 { font: 400 1.6rem var(--serif); color: var(--text); }
   .empty-state p { font-size: .85rem; }
+  .card-list { padding: 0; margin: 0; list-style: none; }
+  .list-heading, .list-card { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr) auto; gap: .75rem; align-items: center; padding: .7rem .8rem; }
+  .list-heading { color: var(--muted); font-size: .6rem; text-transform: uppercase; letter-spacing: .08em; }
+  .list-card { width: 100%; min-height: 44px; border: 0; border-top: 1px solid var(--line); background: transparent; text-align: left; cursor: pointer; font-size: .85rem; border-radius: 3px; }
+  .list-card:hover, .list-card:focus-visible { background: var(--panel); }
+  .list-quantity { color: var(--muted); font-size: .75rem; font-variant-numeric: tabular-nums; }
+  .list-name { min-width: 0; overflow-wrap: anywhere; }
+  .list-mana { text-align: right; max-width: 9rem; color: var(--muted); }
   .noscript-note { color: var(--muted); font-size: .8rem; }
   .stack-tools { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; min-height: 44px; margin: -.3rem 0 1.2rem; }
   .stack-note { color: var(--muted); font-size: .7rem; margin: 0; line-height: 1.6; }
@@ -284,6 +305,9 @@
     .mobile-hint { display: inline; }
   }
   @media (max-width: 460px) {
+    .list-heading, .list-card { grid-template-columns: 1.5rem minmax(0, 1fr) auto; gap: .5rem; padding-inline: .3rem; }
+    .list-card { font-size: .75rem; }
+    .list-mana { max-width: 5rem; }
     .deck-intro { grid-template-columns: 1fr 92px; gap: .9rem; }
     .commander-preview { width: 88px; margin-top: .5rem; }
     .commander-caption { font-size: .6rem; }
