@@ -1,6 +1,18 @@
 # Changelog
 
-All released changes to the paper Lathril deck are recorded here.
+Released paper deck records are listed here. Unqualified historical version
+headings refer to Lathril; Sacrifice has its own version file.
+
+## Sacrifice [3.0.0] - 2026-10-27
+
+- Recorded the user's confirmed paper build with exactly the 100 card choices
+  and quantities of Arena Sacrifice 3.0. No swaps were made.
+- Added the canonical paper list, synchronized Forge and import/print exports,
+  independent deck version and source/ownership notes under `decks/sacrifice/`.
+- Paper 3.0.0 uses the repository's three-part version format for the same Arena
+  3.0 generation. Lathril's root version remains 0.3.3.
+- This is the confirmation/recording date, not an asserted original build date;
+  no new paper game or simulation result is claimed.
 
 ## [0.3.3] - 2026-10-06
 

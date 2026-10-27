@@ -16,3 +16,7 @@ Both files retain the set codes and collector numbers from the Arena exports. Th
 EXP-004 remains a historical benchmark and is not rewritten. Its supplied Sephiroth list predates the current snapshot: Sacrifice 3.0 adds Bastion of Remembrance and Drivnod, Carnage Dominus and removes Heraldic Banner and Persistent Specimen. The Elves 4.0 snapshot matches the EXP-004 supplied alternate Lathril input. Elves 4.1 is the user-confirmed post-craft/post-trim Arena snapshot.
 
 These Arena names are not paper release versions and do not change `VERSION`.
+
+The user also confirmed building [Paper Sacrifice 3.0.0](../sacrifice/README.md)
+with the same card choices and quantities as Sacrifice 3.0 on 2026-10-27. That
+separate paper record does not modify or rename the Arena snapshot.
