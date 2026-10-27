@@ -11,7 +11,7 @@ The root AGENTS.md applies. This directory is a read-only presentation layer, no
 - Preserve digital `A-` identities and all faces. New overrides require primary-source provenance.
 - Keep controls restrained and artwork-led. No results dashboard, comparisons, editing, or draw testing in v1.
 - Use factual copy. Keep the grid, mana stacks, simple text list and artwork-only reader; do not repeat printed rules visually.
-- Keep the home shelf as four separate deck links in a desktop 2×2 grid, one column on mobile. Do not combine the Lathril covers or add a hover chooser unless requested again.
+- Keep each deck as a separate link in the two-column desktop shelf, one column on mobile. The home All / Paper / Arena buttons filter the existing links; All is the default. Do not combine covers or add a hover chooser unless requested again.
 - Default to Mana stacks; selector order is Mana stacks, Card browser, Grid, List. Lands/no-cost cards trail the mana columns.
 - Keep image warming bounded, idle after initial load, and sensitive to data-saver/slow connections and hidden tabs. No whole-deck upfront preload.
 - Test stack hover/focus, saved layout choice, reader arrows/wheel/native scroll, both faces and focus confinement.

@@ -5,12 +5,12 @@ This repository is the source of truth for paper deck releases, candidate change
 ## Interactive deck viewer
 
 The [static deck viewer](web/README.md) lives alongside the deck records. It displays the released
-paper Lathril list, the Arena simulator target, and saved Elves/Sacrifice snapshots, with artwork,
+paper Lathril and Sacrifice lists, the Arena simulator target, and saved Elves/Sacrifice snapshots, with artwork,
 search, card details, historical versions, and text exports. It does not edit decks or run simulations.
 See its README for local preview, validation, and the prepared Cloudflare static-hosting configuration.
 Public deployment and remote pushes require explicit authorization.
 
-## Current release
+## Paper Lathril release
 
 - Deck: Lathril, Blade of the Elves
 - Version: `0.3.3`
@@ -22,11 +22,21 @@ Release `0.3.3` records the user's completed six-swap Elf tuning iteration: Sylv
 
 Only released lists change the version in `VERSION`. Experiments keep their own candidate list until a decision is made.
 
+## Paper Sacrifice
+
+The user confirmed building [Paper Sacrifice 3.0.0](decks/sacrifice/README.md) on
+2026-10-27 with the same 100 card choices as Arena Sacrifice 3.0 and no swaps.
+Its [canonical list](decks/sacrifice/decklist.txt), [Forge export](decks/sacrifice/forge.dck)
+and [ManaBox/print export](decks/sacrifice/exports/paper-3.0.0.txt) are synchronized.
+The three-part paper version records the same deck generation, not an upgrade.
+Its independent version is in `decks/sacrifice/VERSION`; root `VERSION` continues
+to track Lathril 0.3.3. Original versus playtest-print ownership is not inventoried.
+
 ## Arena practice mirror
 
 The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now describes paper `0.3.3` and the saved [Arena 0.3.3 test target](decks/lathril/exports/arena-test-0.3.3.txt). Its only differences are Mind Stone for Sol Ring, The Soul Stone for Commander's Sphere, and Cost of Brilliance as the recorded ownership/wildcard proxy for Risky Research. Both contain Wood Elves; the old Elvish Aberration / Llanowar Tribe difference is gone. The target is not a newly verified client export. [EXP-003](experiments/EXP-003-competitive-brawl-benchmark/README.md) preserves historical Forge results for the older Arena snapshot; those results are not relabelled as 0.3.3 evidence.
 
-Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.0](decks/arena/elves-4.0.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
+Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.1](decks/arena/elves-4.1.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
 
 ## Versioning
 

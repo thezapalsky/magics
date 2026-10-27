@@ -6861,6 +6861,1789 @@
       ],
       "digitalRebalanced": true,
       "rulesSource": "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-april-7-2022"
+    },
+    "[\"Accursed Marauder\",null,null]": {
+      "id": "5da14d86-0780-4821-a799-96f64b377df4",
+      "oracleId": "d8ad23a1-0b43-48ea-9fbe-d89b29194509",
+      "name": "Accursed Marauder",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mh3",
+      "collectorNumber": "80",
+      "scryfallUrl": "https://scryfall.com/card/mh3/80/accursed-marauder",
+      "faces": [
+        {
+          "name": "Accursed Marauder",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Zombie Warrior",
+          "oracleText": "When this creature enters, each player sacrifices a nontoken creature of their choice.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/d/5da14d86-0780-4821-a799-96f64b377df4.jpg?1783911284",
+            "normal": "https://cards.scryfall.io/normal/front/5/d/5da14d86-0780-4821-a799-96f64b377df4.jpg?1783911284",
+            "large": "https://cards.scryfall.io/large/front/5/d/5da14d86-0780-4821-a799-96f64b377df4.jpg?1783911284",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/d/5da14d86-0780-4821-a799-96f64b377df4.jpg?1783911284"
+          }
+        }
+      ]
+    },
+    "[\"Ashnod's Altar\",null,null]": {
+      "id": "0f2d0ee5-3173-4a03-be45-2fe9ea49cdc3",
+      "oracleId": "4d18bcba-a346-445e-a182-6cc30b7e066d",
+      "name": "Ashnod's Altar",
+      "manaValue": 3,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "brr",
+      "collectorNumber": "4",
+      "scryfallUrl": "https://scryfall.com/card/brr/4/ashnods-altar",
+      "faces": [
+        {
+          "name": "Ashnod's Altar",
+          "manaCost": "{3}",
+          "typeLine": "Artifact",
+          "oracleText": "Sacrifice a creature: Add {C}{C}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/f/0f2d0ee5-3173-4a03-be45-2fe9ea49cdc3.jpg?1783919799",
+            "normal": "https://cards.scryfall.io/normal/front/0/f/0f2d0ee5-3173-4a03-be45-2fe9ea49cdc3.jpg?1783919799",
+            "large": "https://cards.scryfall.io/large/front/0/f/0f2d0ee5-3173-4a03-be45-2fe9ea49cdc3.jpg?1783919799",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/f/0f2d0ee5-3173-4a03-be45-2fe9ea49cdc3.jpg?1783919799"
+          }
+        }
+      ]
+    },
+    "[\"Gixian Infiltrator\",null,null]": {
+      "id": "c94a3317-7d1f-4f29-8353-180f1ab48d18",
+      "oracleId": "2497926c-b253-4400-b540-776ee2cd807c",
+      "name": "Gixian Infiltrator",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "bro",
+      "collectorNumber": "98",
+      "scryfallUrl": "https://scryfall.com/card/bro/98/gixian-infiltrator",
+      "faces": [
+        {
+          "name": "Gixian Infiltrator",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Phyrexian Human",
+          "oracleText": "Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/9/c94a3317-7d1f-4f29-8353-180f1ab48d18.jpg?1783920088",
+            "normal": "https://cards.scryfall.io/normal/front/c/9/c94a3317-7d1f-4f29-8353-180f1ab48d18.jpg?1783920088",
+            "large": "https://cards.scryfall.io/large/front/c/9/c94a3317-7d1f-4f29-8353-180f1ab48d18.jpg?1783920088",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c94a3317-7d1f-4f29-8353-180f1ab48d18.jpg?1783920088"
+          }
+        }
+      ]
+    },
+    "[\"Bitterbloom Bearer\",null,null]": {
+      "id": "7127164d-f2a3-4d79-b6db-93507ff5ab47",
+      "oracleId": "5effb651-f9e0-4c14-8192-bd0e132b8d5d",
+      "name": "Bitterbloom Bearer",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "ecl",
+      "collectorNumber": "88",
+      "scryfallUrl": "https://scryfall.com/card/ecl/88/bitterbloom-bearer",
+      "faces": [
+        {
+          "name": "Bitterbloom Bearer",
+          "manaCost": "{B}{B}",
+          "typeLine": "Creature — Faerie Rogue",
+          "oracleText": "Flash\nFlying\nAt the beginning of your upkeep, you lose 1 life and create a 1/1 blue and black Faerie creature token with flying.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/1/7127164d-f2a3-4d79-b6db-93507ff5ab47.jpg?1783904470",
+            "normal": "https://cards.scryfall.io/normal/front/7/1/7127164d-f2a3-4d79-b6db-93507ff5ab47.jpg?1783904470",
+            "large": "https://cards.scryfall.io/large/front/7/1/7127164d-f2a3-4d79-b6db-93507ff5ab47.jpg?1783904470",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/1/7127164d-f2a3-4d79-b6db-93507ff5ab47.jpg?1783904470"
+          }
+        }
+      ]
+    },
+    "[\"Doomed Dissenter\",null,null]": {
+      "id": "f6a99641-1796-4263-bbbb-b4bac0b07dd4",
+      "oracleId": "11cb509d-21af-48f1-b355-135ebd3e4bd1",
+      "name": "Doomed Dissenter",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "j25",
+      "collectorNumber": "425",
+      "scryfallUrl": "https://scryfall.com/card/j25/425/doomed-dissenter",
+      "faces": [
+        {
+          "name": "Doomed Dissenter",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Human",
+          "oracleText": "When this creature dies, create a 2/2 black Zombie creature token.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/6/f6a99641-1796-4263-bbbb-b4bac0b07dd4.jpg?1783908733",
+            "normal": "https://cards.scryfall.io/normal/front/f/6/f6a99641-1796-4263-bbbb-b4bac0b07dd4.jpg?1783908733",
+            "large": "https://cards.scryfall.io/large/front/f/6/f6a99641-1796-4263-bbbb-b4bac0b07dd4.jpg?1783908733",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/6/f6a99641-1796-4263-bbbb-b4bac0b07dd4.jpg?1783908733"
+          }
+        }
+      ]
+    },
+    "[\"Bloodghast\",null,null]": {
+      "id": "fdceefe6-f083-4955-b53a-8e6f8aeb2083",
+      "oracleId": "e97f9c2b-b41e-4f36-9245-77c0ac125647",
+      "name": "Bloodghast",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "dft",
+      "collectorNumber": "77",
+      "scryfallUrl": "https://scryfall.com/card/dft/77/bloodghast",
+      "faces": [
+        {
+          "name": "Bloodghast",
+          "manaCost": "{B}{B}",
+          "typeLine": "Creature — Vampire Spirit",
+          "oracleText": "This creature can't block.\nThis creature has haste as long as an opponent has 10 or less life.\nLandfall — Whenever a land you control enters, you may return this card from your graveyard to the battlefield.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/d/fdceefe6-f083-4955-b53a-8e6f8aeb2083.jpg?1783907898",
+            "normal": "https://cards.scryfall.io/normal/front/f/d/fdceefe6-f083-4955-b53a-8e6f8aeb2083.jpg?1783907898",
+            "large": "https://cards.scryfall.io/large/front/f/d/fdceefe6-f083-4955-b53a-8e6f8aeb2083.jpg?1783907898",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdceefe6-f083-4955-b53a-8e6f8aeb2083.jpg?1783907898"
+          }
+        }
+      ]
+    },
+    "[\"Bojuka Bog\",null,null]": {
+      "id": "529c38b3-7397-4dac-9859-acd9cd451c32",
+      "oracleId": "04b7362d-0490-4cb0-b5d7-2a7732f659ce",
+      "name": "Bojuka Bog",
+      "manaValue": 0,
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "wwk",
+      "collectorNumber": "132",
+      "scryfallUrl": "https://scryfall.com/card/wwk/132/bojuka-bog",
+      "faces": [
+        {
+          "name": "Bojuka Bog",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/2/529c38b3-7397-4dac-9859-acd9cd451c32.jpg?1783942037",
+            "normal": "https://cards.scryfall.io/normal/front/5/2/529c38b3-7397-4dac-9859-acd9cd451c32.jpg?1783942037",
+            "large": "https://cards.scryfall.io/large/front/5/2/529c38b3-7397-4dac-9859-acd9cd451c32.jpg?1783942037",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/2/529c38b3-7397-4dac-9859-acd9cd451c32.jpg?1783942037"
+          }
+        }
+      ]
+    },
+    "[\"Bolas's Citadel\",null,null]": {
+      "id": "d2124603-d20e-40eb-97f0-a66323397ac2",
+      "oracleId": "2bd111bb-ce02-414c-b5b7-e0e037d8d96b",
+      "name": "Bolas's Citadel",
+      "manaValue": 6,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "war",
+      "collectorNumber": "79",
+      "scryfallUrl": "https://scryfall.com/card/war/79/bolass-citadel",
+      "faces": [
+        {
+          "name": "Bolas's Citadel",
+          "manaCost": "{3}{B}{B}{B}",
+          "typeLine": "Legendary Artifact",
+          "oracleText": "You may look at the top card of your library any time.\nYou may play lands and cast spells from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.\n{T}, Sacrifice ten nonland permanents: Each opponent loses 10 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1783933451",
+            "normal": "https://cards.scryfall.io/normal/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1783933451",
+            "large": "https://cards.scryfall.io/large/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1783933451",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/2/d2124603-d20e-40eb-97f0-a66323397ac2.jpg?1783933451"
+          }
+        }
+      ]
+    },
+    "[\"Bontu's Monument\",null,null]": {
+      "id": "18c1fcb8-1b50-4fc0-a3e1-34a748652a60",
+      "oracleId": "940ba435-7abc-40f8-a5af-c1c653b3284e",
+      "name": "Bontu's Monument",
+      "manaValue": 3,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "akr",
+      "collectorNumber": "269",
+      "scryfallUrl": "https://scryfall.com/card/akr/269/bontus-monument",
+      "faces": [
+        {
+          "name": "Bontu's Monument",
+          "manaCost": "{3}",
+          "typeLine": "Legendary Artifact",
+          "oracleText": "Black creature spells you cast cost {1} less to cast.\nWhenever you cast a creature spell, each opponent loses 1 life and you gain 1 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/8/18c1fcb8-1b50-4fc0-a3e1-34a748652a60.jpg?1783929898",
+            "normal": "https://cards.scryfall.io/normal/front/1/8/18c1fcb8-1b50-4fc0-a3e1-34a748652a60.jpg?1783929898",
+            "large": "https://cards.scryfall.io/large/front/1/8/18c1fcb8-1b50-4fc0-a3e1-34a748652a60.jpg?1783929898",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/8/18c1fcb8-1b50-4fc0-a3e1-34a748652a60.jpg?1783929898"
+          }
+        }
+      ]
+    },
+    "[\"Braids, Arisen Nightmare\",null,null]": {
+      "id": "4ff97c69-6a6b-401c-b0a1-55fa81045d19",
+      "oracleId": "e0445c80-fa53-4c3e-881e-940e9fce7f57",
+      "name": "Braids, Arisen Nightmare",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "dmu",
+      "collectorNumber": "84",
+      "scryfallUrl": "https://scryfall.com/card/dmu/84/braids-arisen-nightmare",
+      "faces": [
+        {
+          "name": "Braids, Arisen Nightmare",
+          "manaCost": "{1}{B}{B}",
+          "typeLine": "Legendary Creature — Nightmare",
+          "oracleText": "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/f/4ff97c69-6a6b-401c-b0a1-55fa81045d19.jpg?1783921336",
+            "normal": "https://cards.scryfall.io/normal/front/4/f/4ff97c69-6a6b-401c-b0a1-55fa81045d19.jpg?1783921336",
+            "large": "https://cards.scryfall.io/large/front/4/f/4ff97c69-6a6b-401c-b0a1-55fa81045d19.jpg?1783921336",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/f/4ff97c69-6a6b-401c-b0a1-55fa81045d19.jpg?1783921336"
+          }
+        }
+      ]
+    },
+    "[\"Voracious Vermin\",null,null]": {
+      "id": "8059be65-3c73-49bb-a3b6-c346ce2f9fa4",
+      "oracleId": "8d36d80e-9934-4b56-bf3c-2b18a6da3d2d",
+      "name": "Voracious Vermin",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "woe",
+      "collectorNumber": "116",
+      "scryfallUrl": "https://scryfall.com/card/woe/116/voracious-vermin",
+      "faces": [
+        {
+          "name": "Voracious Vermin",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Rat",
+          "oracleText": "When this creature enters, create a 1/1 black Rat creature token with \"This token can't block.\"\nWhenever another creature you control dies, put a +1/+1 counter on this creature.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/0/8059be65-3c73-49bb-a3b6-c346ce2f9fa4.jpg?1783915099",
+            "normal": "https://cards.scryfall.io/normal/front/8/0/8059be65-3c73-49bb-a3b6-c346ce2f9fa4.jpg?1783915099",
+            "large": "https://cards.scryfall.io/large/front/8/0/8059be65-3c73-49bb-a3b6-c346ce2f9fa4.jpg?1783915099",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/0/8059be65-3c73-49bb-a3b6-c346ce2f9fa4.jpg?1783915099"
+          }
+        }
+      ]
+    },
+    "[\"Corrupted Conviction\",null,null]": {
+      "id": "ce133ad5-8748-4a3d-ae8c-7b2a5938927d",
+      "oracleId": "b45e35df-9032-4482-89a6-c7c50c6d0a79",
+      "name": "Corrupted Conviction",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mom",
+      "collectorNumber": "98",
+      "scryfallUrl": "https://scryfall.com/card/mom/98/corrupted-conviction",
+      "faces": [
+        {
+          "name": "Corrupted Conviction",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/e/ce133ad5-8748-4a3d-ae8c-7b2a5938927d.jpg?1783917014",
+            "normal": "https://cards.scryfall.io/normal/front/c/e/ce133ad5-8748-4a3d-ae8c-7b2a5938927d.jpg?1783917014",
+            "large": "https://cards.scryfall.io/large/front/c/e/ce133ad5-8748-4a3d-ae8c-7b2a5938927d.jpg?1783917014",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/e/ce133ad5-8748-4a3d-ae8c-7b2a5938927d.jpg?1783917014"
+          }
+        }
+      ]
+    },
+    "[\"Culling the Weak\",null,null]": {
+      "id": "6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76",
+      "oracleId": "6385fd0d-256d-4400-9319-afa8170024db",
+      "name": "Culling the Weak",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "soa",
+      "collectorNumber": "27",
+      "scryfallUrl": "https://scryfall.com/card/soa/27/culling-the-weak",
+      "faces": [
+        {
+          "name": "Culling the Weak",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature.\nAdd {B}{B}{B}{B}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/c/6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76.jpg?1783903926",
+            "normal": "https://cards.scryfall.io/normal/front/6/c/6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76.jpg?1783903926",
+            "large": "https://cards.scryfall.io/large/front/6/c/6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76.jpg?1783903926",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/c/6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76.jpg?1783903926"
+          }
+        }
+      ]
+    },
+    "[\"Deadly Dispute\",null,null]": {
+      "id": "d86fa72c-25c1-43ef-9cb0-fe76f7568ed3",
+      "oracleId": "457af74a-02b3-4659-846d-63e482667f34",
+      "name": "Deadly Dispute",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "msc",
+      "collectorNumber": "794",
+      "scryfallUrl": "https://scryfall.com/card/msc/794/deadly-dispute",
+      "faces": [
+        {
+          "name": "Deadly Dispute",
+          "manaCost": "{1}{B}",
+          "typeLine": "Instant",
+          "oracleText": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013",
+            "normal": "https://cards.scryfall.io/normal/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013",
+            "large": "https://cards.scryfall.io/large/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013"
+          }
+        }
+      ]
+    },
+    "[\"Demon's Disciple\",null,null]": {
+      "id": "836f5197-e42b-45e0-8170-1b0a8a5beebd",
+      "oracleId": "d5a33091-a348-4b13-8dbd-79ab0ad99afe",
+      "name": "Demon's Disciple",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "znr",
+      "collectorNumber": "97",
+      "scryfallUrl": "https://scryfall.com/card/znr/97/demons-disciple",
+      "faces": [
+        {
+          "name": "Demon's Disciple",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Human Cleric",
+          "oracleText": "When this creature enters, each player sacrifices a creature or planeswalker of their choice.",
+          "power": "3",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd.jpg?1783929379",
+            "normal": "https://cards.scryfall.io/normal/front/8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd.jpg?1783929379",
+            "large": "https://cards.scryfall.io/large/front/8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd.jpg?1783929379",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd.jpg?1783929379"
+          }
+        }
+      ]
+    },
+    "[\"Feign Death\",null,null]": {
+      "id": "32af7061-fca6-4a06-be3c-01881e6b96f7",
+      "oracleId": "f718e507-296b-4f22-842b-5fb91322069b",
+      "name": "Feign Death",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "afr",
+      "collectorNumber": "103",
+      "scryfallUrl": "https://scryfall.com/card/afr/103/feign-death",
+      "faces": [
+        {
+          "name": "Feign Death",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.\"",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/2/32af7061-fca6-4a06-be3c-01881e6b96f7.jpg?1783926495",
+            "normal": "https://cards.scryfall.io/normal/front/3/2/32af7061-fca6-4a06-be3c-01881e6b96f7.jpg?1783926495",
+            "large": "https://cards.scryfall.io/large/front/3/2/32af7061-fca6-4a06-be3c-01881e6b96f7.jpg?1783926495",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/2/32af7061-fca6-4a06-be3c-01881e6b96f7.jpg?1783926495"
+          }
+        }
+      ]
+    },
+    "[\"Fell the Profane\",null,null]": {
+      "id": "a3cb782d-c459-468d-9779-9b5669abc337",
+      "oracleId": "053a69d8-2b5e-4f14-8b02-ca405891dc4a",
+      "name": "Fell the Profane // Fell Mire",
+      "manaValue": 4,
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mh3",
+      "collectorNumber": "244",
+      "scryfallUrl": "https://scryfall.com/card/mh3/244/fell-the-profane-fell-mire",
+      "faces": [
+        {
+          "name": "Fell the Profane",
+          "manaCost": "{2}{B}{B}",
+          "typeLine": "Instant",
+          "oracleText": "Destroy target creature or planeswalker.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "normal": "https://cards.scryfall.io/normal/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "large": "https://cards.scryfall.io/large/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234"
+          }
+        },
+        {
+          "name": "Fell Mire",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "normal": "https://cards.scryfall.io/normal/back/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "large": "https://cards.scryfall.io/large/back/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234"
+          }
+        }
+      ]
+    },
+    "[\"Fleshbag Marauder\",null,null]": {
+      "id": "fce2baa4-2976-4bbd-b6c5-a5a3c6a901be",
+      "oracleId": "4b1bf05e-753e-4350-a913-894cf3cecc0c",
+      "name": "Fleshbag Marauder",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "clu",
+      "collectorNumber": "111",
+      "scryfallUrl": "https://scryfall.com/card/clu/111/fleshbag-marauder",
+      "faces": [
+        {
+          "name": "Fleshbag Marauder",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Zombie Warrior",
+          "oracleText": "When this creature enters, each player sacrifices a creature of their choice.",
+          "power": "3",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1783912547",
+            "normal": "https://cards.scryfall.io/normal/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1783912547",
+            "large": "https://cards.scryfall.io/large/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1783912547",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/c/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be.jpg?1783912547"
+          }
+        }
+      ]
+    },
+    "[\"Forsaken Miner\",null,null]": {
+      "id": "1679f74d-00f8-436c-9f8c-aa3f843a546c",
+      "oracleId": "d37e0127-6f68-438e-8b9e-a71bb3c34733",
+      "name": "Forsaken Miner",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "otj",
+      "collectorNumber": "88",
+      "scryfallUrl": "https://scryfall.com/card/otj/88/forsaken-miner",
+      "faces": [
+        {
+          "name": "Forsaken Miner",
+          "manaCost": "{B}",
+          "typeLine": "Creature — Skeleton Rogue",
+          "oracleText": "This creature can't block.\nWhenever you commit a crime, you may pay {B}. If you do, return this card from your graveyard to the battlefield. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/6/1679f74d-00f8-436c-9f8c-aa3f843a546c.jpg?1783911833",
+            "normal": "https://cards.scryfall.io/normal/front/1/6/1679f74d-00f8-436c-9f8c-aa3f843a546c.jpg?1783911833",
+            "large": "https://cards.scryfall.io/large/front/1/6/1679f74d-00f8-436c-9f8c-aa3f843a546c.jpg?1783911833",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/6/1679f74d-00f8-436c-9f8c-aa3f843a546c.jpg?1783911833"
+          }
+        }
+      ]
+    },
+    "[\"Gray Merchant of Asphodel\",null,null]": {
+      "id": "7c1a7dd8-8034-4f59-a351-33666b26ff5a",
+      "oracleId": "38f3b157-0df4-409b-89cc-086e1531cd5b",
+      "name": "Gray Merchant of Asphodel",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "thb",
+      "collectorNumber": "99",
+      "scryfallUrl": "https://scryfall.com/card/thb/99/gray-merchant-of-asphodel",
+      "faces": [
+        {
+          "name": "Gray Merchant of Asphodel",
+          "manaCost": "{3}{B}{B}",
+          "typeLine": "Creature — Zombie",
+          "oracleText": "When this creature enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+          "power": "2",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1783931566",
+            "normal": "https://cards.scryfall.io/normal/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1783931566",
+            "large": "https://cards.scryfall.io/large/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1783931566",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c1a7dd8-8034-4f59-a351-33666b26ff5a.jpg?1783931566"
+          }
+        }
+      ]
+    },
+    "[\"Jadar, Ghoulcaller of Nephalia\",null,null]": {
+      "id": "ff971ba7-68b8-482a-9cb1-741f6893550c",
+      "oracleId": "fb3defc0-c93a-4423-9ff9-c399f8a8ef1f",
+      "name": "Jadar, Ghoulcaller of Nephalia",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mid",
+      "collectorNumber": "108",
+      "scryfallUrl": "https://scryfall.com/card/mid/108/jadar-ghoulcaller-of-nephalia",
+      "faces": [
+        {
+          "name": "Jadar, Ghoulcaller of Nephalia",
+          "manaCost": "{1}{B}",
+          "typeLine": "Legendary Creature — Human Wizard",
+          "oracleText": "At the beginning of your end step, if you control no creatures with decayed, create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/f/ff971ba7-68b8-482a-9cb1-741f6893550c.jpg?1783925615",
+            "normal": "https://cards.scryfall.io/normal/front/f/f/ff971ba7-68b8-482a-9cb1-741f6893550c.jpg?1783925615",
+            "large": "https://cards.scryfall.io/large/front/f/f/ff971ba7-68b8-482a-9cb1-741f6893550c.jpg?1783925615",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/f/ff971ba7-68b8-482a-9cb1-741f6893550c.jpg?1783925615"
+          }
+        }
+      ]
+    },
+    "[\"Malakir Rebirth\",null,null]": {
+      "id": "609d3ecf-f88d-4268-a8d3-4bf2bcf5df60",
+      "oracleId": "a731e87b-8d99-4b64-8ee3-8e540d652366",
+      "name": "Malakir Rebirth // Malakir Mire",
+      "manaValue": 1,
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "znr",
+      "collectorNumber": "111",
+      "scryfallUrl": "https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire",
+      "faces": [
+        {
+          "name": "Malakir Rebirth",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "Choose target creature. You lose 2 life. Until end of turn, that creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "normal": "https://cards.scryfall.io/normal/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "large": "https://cards.scryfall.io/large/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378"
+          }
+        },
+        {
+          "name": "Malakir Mire",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped.\n{T}: Add {B}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "normal": "https://cards.scryfall.io/normal/back/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "large": "https://cards.scryfall.io/large/back/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378"
+          }
+        }
+      ]
+    },
+    "[\"Merciless Executioner\",null,null]": {
+      "id": "7b135177-4786-4ebe-98cd-c1db9444e577",
+      "oracleId": "c3c45d50-9038-41df-bb2f-9bc40071845b",
+      "name": "Merciless Executioner",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "hoc",
+      "collectorNumber": "188",
+      "scryfallUrl": "https://scryfall.com/card/hoc/188/merciless-executioner",
+      "faces": [
+        {
+          "name": "Merciless Executioner",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Orc Warrior",
+          "oracleText": "When this creature enters, each player sacrifices a creature of their choice.",
+          "power": "3",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/b/7b135177-4786-4ebe-98cd-c1db9444e577.jpg?1785497513",
+            "normal": "https://cards.scryfall.io/normal/front/7/b/7b135177-4786-4ebe-98cd-c1db9444e577.jpg?1785497513",
+            "large": "https://cards.scryfall.io/large/front/7/b/7b135177-4786-4ebe-98cd-c1db9444e577.jpg?1785497513",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/b/7b135177-4786-4ebe-98cd-c1db9444e577.jpg?1785497513"
+          }
+        }
+      ]
+    },
+    "[\"Undead Butler\",null,null]": {
+      "id": "5882f515-7b4f-479f-be6b-17c772e9356b",
+      "oracleId": "426fa8e8-b0f9-4b6c-b22b-04ec2073187a",
+      "name": "Undead Butler",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "pio",
+      "collectorNumber": "117",
+      "scryfallUrl": "https://scryfall.com/card/pio/117/undead-butler",
+      "faces": [
+        {
+          "name": "Undead Butler",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Zombie",
+          "oracleText": "When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)\nWhen this creature dies, you may exile it. When you do, return target creature card from your graveyard to your hand.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/8/5882f515-7b4f-479f-be6b-17c772e9356b.jpg?1783908375",
+            "normal": "https://cards.scryfall.io/normal/front/5/8/5882f515-7b4f-479f-be6b-17c772e9356b.jpg?1783908375",
+            "large": "https://cards.scryfall.io/large/front/5/8/5882f515-7b4f-479f-be6b-17c772e9356b.jpg?1783908375",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/5882f515-7b4f-479f-be6b-17c772e9356b.jpg?1783908375"
+          }
+        }
+      ]
+    },
+    "[\"Morbid Opportunist\",null,null]": {
+      "id": "44b14a83-ba66-4c94-8b67-ebe577024532",
+      "oracleId": "322f44f0-e6da-4ee0-b474-e7d5e9a461c5",
+      "name": "Morbid Opportunist",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fic",
+      "collectorNumber": "278",
+      "scryfallUrl": "https://scryfall.com/card/fic/278/morbid-opportunist",
+      "faces": [
+        {
+          "name": "Morbid Opportunist",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Human Rogue",
+          "oracleText": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
+          "power": "1",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/4/44b14a83-ba66-4c94-8b67-ebe577024532.jpg?1783906271",
+            "normal": "https://cards.scryfall.io/normal/front/4/4/44b14a83-ba66-4c94-8b67-ebe577024532.jpg?1783906271",
+            "large": "https://cards.scryfall.io/large/front/4/4/44b14a83-ba66-4c94-8b67-ebe577024532.jpg?1783906271",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/4/44b14a83-ba66-4c94-8b67-ebe577024532.jpg?1783906271"
+          }
+        }
+      ]
+    },
+    "[\"Nine-Lives Familiar\",null,null]": {
+      "id": "988c23f6-59fe-49f9-a9ce-9881dccb7033",
+      "oracleId": "5049da27-f38b-4fe6-a387-51510bd1f44e",
+      "name": "Nine-Lives Familiar",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "66",
+      "scryfallUrl": "https://scryfall.com/card/fdn/66/nine-lives-familiar",
+      "faces": [
+        {
+          "name": "Nine-Lives Familiar",
+          "manaCost": "{1}{B}{B}",
+          "typeLine": "Creature — Cat",
+          "oracleText": "This creature enters with eight revival counters on it if you cast it.\nWhen this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/8/988c23f6-59fe-49f9-a9ce-9881dccb7033.jpg?1783909109",
+            "normal": "https://cards.scryfall.io/normal/front/9/8/988c23f6-59fe-49f9-a9ce-9881dccb7033.jpg?1783909109",
+            "large": "https://cards.scryfall.io/large/front/9/8/988c23f6-59fe-49f9-a9ce-9881dccb7033.jpg?1783909109",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/8/988c23f6-59fe-49f9-a9ce-9881dccb7033.jpg?1783909109"
+          }
+        }
+      ]
+    },
+    "[\"Not Dead After All\",null,null]": {
+      "id": "d01a2b68-efe6-4027-846d-db7b19d9eef6",
+      "oracleId": "380c367f-73ea-485f-a37b-5af0ba160893",
+      "name": "Not Dead After All",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "woe",
+      "collectorNumber": "101",
+      "scryfallUrl": "https://scryfall.com/card/woe/101/not-dead-after-all",
+      "faces": [
+        {
+          "name": "Not Dead After All",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "Until end of turn, target creature you control gains \"When this creature dies, return it to the battlefield tapped under its owner's control, then create a Wicked Role token attached to it.\" (Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.)",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/0/d01a2b68-efe6-4027-846d-db7b19d9eef6.jpg?1783915104",
+            "normal": "https://cards.scryfall.io/normal/front/d/0/d01a2b68-efe6-4027-846d-db7b19d9eef6.jpg?1783915104",
+            "large": "https://cards.scryfall.io/large/front/d/0/d01a2b68-efe6-4027-846d-db7b19d9eef6.jpg?1783915104",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d01a2b68-efe6-4027-846d-db7b19d9eef6.jpg?1783915104"
+          }
+        }
+      ]
+    },
+    "[\"Greedy Freebooter\",null,null]": {
+      "id": "692fe4e8-13b4-4bec-938e-a8073a7fbd71",
+      "oracleId": "d4a9d63a-5a8a-4f51-9e49-43d6dc3234b1",
+      "name": "Greedy Freebooter",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "lci",
+      "collectorNumber": "109",
+      "scryfallUrl": "https://scryfall.com/card/lci/109/greedy-freebooter",
+      "faces": [
+        {
+          "name": "Greedy Freebooter",
+          "manaCost": "{B}",
+          "typeLine": "Creature — Human Pirate",
+          "oracleText": "When this creature dies, scry 1 and create a Treasure token. (To scry 1, look at the top card of your library. You may put that card on the bottom. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/9/692fe4e8-13b4-4bec-938e-a8073a7fbd71.jpg?1783913776",
+            "normal": "https://cards.scryfall.io/normal/front/6/9/692fe4e8-13b4-4bec-938e-a8073a7fbd71.jpg?1783913776",
+            "large": "https://cards.scryfall.io/large/front/6/9/692fe4e8-13b4-4bec-938e-a8073a7fbd71.jpg?1783913776",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/9/692fe4e8-13b4-4bec-938e-a8073a7fbd71.jpg?1783913776"
+          }
+        }
+      ]
+    },
+    "[\"Blood for Bones\",null,null]": {
+      "id": "7892b516-0dce-491f-8b42-031d64397e26",
+      "oracleId": "fc7439ec-32e3-47db-9ff4-6eb84cb33d89",
+      "name": "Blood for Bones",
+      "manaValue": 4,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "m20",
+      "collectorNumber": "89",
+      "scryfallUrl": "https://scryfall.com/card/m20/89/blood-for-bones",
+      "faces": [
+        {
+          "name": "Blood for Bones",
+          "manaCost": "{3}{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature.\nReturn a creature card from your graveyard to the battlefield, then return another creature card from your graveyard to your hand.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg?1783932999",
+            "normal": "https://cards.scryfall.io/normal/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg?1783932999",
+            "large": "https://cards.scryfall.io/large/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg?1783932999",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/8/7892b516-0dce-491f-8b42-031d64397e26.jpg?1783932999"
+          }
+        }
+      ]
+    },
+    "[\"Pitiless Plunderer\",null,null]": {
+      "id": "c87ebffe-5907-427b-9f9b-7c36a12b4a03",
+      "oracleId": "a784481f-eccb-4112-bb38-04a659319660",
+      "name": "Pitiless Plunderer",
+      "manaValue": 4,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "rix",
+      "collectorNumber": "81",
+      "scryfallUrl": "https://scryfall.com/card/rix/81/pitiless-plunderer",
+      "faces": [
+        {
+          "name": "Pitiless Plunderer",
+          "manaCost": "{3}{B}",
+          "typeLine": "Creature — Human Pirate",
+          "oracleText": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "power": "1",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1783935307",
+            "normal": "https://cards.scryfall.io/normal/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1783935307",
+            "large": "https://cards.scryfall.io/large/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1783935307",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1783935307"
+          }
+        }
+      ]
+    },
+    "[\"Plaguecrafter\",null,null]": {
+      "id": "8682fb87-df14-4277-aaa0-0d53d766c406",
+      "oracleId": "2e3ee458-fa3f-4452-ab95-5a7fb5a0483b",
+      "name": "Plaguecrafter",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "grn",
+      "collectorNumber": "82",
+      "scryfallUrl": "https://scryfall.com/card/grn/82/plaguecrafter",
+      "faces": [
+        {
+          "name": "Plaguecrafter",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Human Shaman",
+          "oracleText": "When this creature enters, each player sacrifices a creature or planeswalker of their choice. Each player who can't discards a card.",
+          "power": "3",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1783934171",
+            "normal": "https://cards.scryfall.io/normal/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1783934171",
+            "large": "https://cards.scryfall.io/large/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1783934171",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/8682fb87-df14-4277-aaa0-0d53d766c406.jpg?1783934171"
+          }
+        }
+      ]
+    },
+    "[\"Reanimate\",null,null]": {
+      "id": "609c34f9-9f53-4773-a02b-517209024fc2",
+      "oracleId": "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0",
+      "name": "Reanimate",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "otp",
+      "collectorNumber": "18",
+      "scryfallUrl": "https://scryfall.com/card/otp/18/reanimate",
+      "faces": [
+        {
+          "name": "Reanimate",
+          "manaCost": "{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/0/609c34f9-9f53-4773-a02b-517209024fc2.jpg?1783911724",
+            "normal": "https://cards.scryfall.io/normal/front/6/0/609c34f9-9f53-4773-a02b-517209024fc2.jpg?1783911724",
+            "large": "https://cards.scryfall.io/large/front/6/0/609c34f9-9f53-4773-a02b-517209024fc2.jpg?1783911724",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/609c34f9-9f53-4773-a02b-517209024fc2.jpg?1783911724"
+          }
+        }
+      ]
+    },
+    "[\"Reassembling Skeleton\",null,null]": {
+      "id": "28e84b1b-1c05-4e1b-93b8-9cc2ca73509d",
+      "oracleId": "9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5",
+      "name": "Reassembling Skeleton",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "182",
+      "scryfallUrl": "https://scryfall.com/card/fdn/182/reassembling-skeleton",
+      "faces": [
+        {
+          "name": "Reassembling Skeleton",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Skeleton Warrior",
+          "oracleText": "{1}{B}: Return this card from your graveyard to the battlefield tapped.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/8/28e84b1b-1c05-4e1b-93b8-9cc2ca73509d.jpg?1783909073",
+            "normal": "https://cards.scryfall.io/normal/front/2/8/28e84b1b-1c05-4e1b-93b8-9cc2ca73509d.jpg?1783909073",
+            "large": "https://cards.scryfall.io/large/front/2/8/28e84b1b-1c05-4e1b-93b8-9cc2ca73509d.jpg?1783909073",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/8/28e84b1b-1c05-4e1b-93b8-9cc2ca73509d.jpg?1783909073"
+          }
+        }
+      ]
+    },
+    "[\"Reliquary Tower\",null,null]": {
+      "id": "81766fd6-c7e0-4527-a63e-512d126c0421",
+      "oracleId": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f",
+      "name": "Reliquary Tower",
+      "manaValue": 0,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "m19",
+      "collectorNumber": "254",
+      "scryfallUrl": "https://scryfall.com/card/m19/254/reliquary-tower",
+      "faces": [
+        {
+          "name": "Reliquary Tower",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "You have no maximum hand size.\n{T}: Add {C}.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/1/81766fd6-c7e0-4527-a63e-512d126c0421.jpg?1783934503",
+            "normal": "https://cards.scryfall.io/normal/front/8/1/81766fd6-c7e0-4527-a63e-512d126c0421.jpg?1783934503",
+            "large": "https://cards.scryfall.io/large/front/8/1/81766fd6-c7e0-4527-a63e-512d126c0421.jpg?1783934503",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/1/81766fd6-c7e0-4527-a63e-512d126c0421.jpg?1783934503"
+          }
+        }
+      ]
+    },
+    "[\"Supernatural Stamina\",null,null]": {
+      "id": "41276e5d-41b8-4dab-9880-c30e7e2dee13",
+      "oracleId": "65756e6d-9825-4ed6-91c4-79f1e3bd4ae5",
+      "name": "Supernatural Stamina",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "akr",
+      "collectorNumber": "126",
+      "scryfallUrl": "https://scryfall.com/card/akr/126/supernatural-stamina",
+      "faces": [
+        {
+          "name": "Supernatural Stamina",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/1/41276e5d-41b8-4dab-9880-c30e7e2dee13.jpg?1783929983",
+            "normal": "https://cards.scryfall.io/normal/front/4/1/41276e5d-41b8-4dab-9880-c30e7e2dee13.jpg?1783929983",
+            "large": "https://cards.scryfall.io/large/front/4/1/41276e5d-41b8-4dab-9880-c30e7e2dee13.jpg?1783929983",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/41276e5d-41b8-4dab-9880-c30e7e2dee13.jpg?1783929983"
+          }
+        }
+      ]
+    },
+    "[\"Ghoulish Procession\",null,null]": {
+      "id": "363bd6a6-e8e4-4626-a43c-0b77339dd28b",
+      "oracleId": "39e20898-cf01-48dc-8972-7ac500c3fa79",
+      "name": "Ghoulish Procession",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mid",
+      "collectorNumber": "102",
+      "scryfallUrl": "https://scryfall.com/card/mid/102/ghoulish-procession",
+      "faces": [
+        {
+          "name": "Ghoulish Procession",
+          "manaCost": "{1}{B}",
+          "typeLine": "Enchantment",
+          "oracleText": "Whenever one or more nontoken creatures die, create a 2/2 black Zombie creature token with decayed. This ability triggers only once each turn. (A creature with decayed can't block. When it attacks, sacrifice it at end of combat.)",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/6/363bd6a6-e8e4-4626-a43c-0b77339dd28b.jpg?1783925618",
+            "normal": "https://cards.scryfall.io/normal/front/3/6/363bd6a6-e8e4-4626-a43c-0b77339dd28b.jpg?1783925618",
+            "large": "https://cards.scryfall.io/large/front/3/6/363bd6a6-e8e4-4626-a43c-0b77339dd28b.jpg?1783925618",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/6/363bd6a6-e8e4-4626-a43c-0b77339dd28b.jpg?1783925618"
+          }
+        }
+      ]
+    },
+    "[\"The Meathook Massacre\",null,null]": {
+      "id": "08950015-eee5-4327-888c-82dfd13bb9ad",
+      "oracleId": "127de52b-df75-4342-95a0-20d84c5bf916",
+      "name": "The Meathook Massacre",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mid",
+      "collectorNumber": "112",
+      "scryfallUrl": "https://scryfall.com/card/mid/112/the-meathook-massacre",
+      "faces": [
+        {
+          "name": "The Meathook Massacre",
+          "manaCost": "{X}{B}{B}",
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When The Meathook Massacre enters, each creature gets -X/-X until end of turn.\nWhenever a creature you control dies, each opponent loses 1 life.\nWhenever a creature an opponent controls dies, you gain 1 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/8/08950015-eee5-4327-888c-82dfd13bb9ad.jpg?1783925613",
+            "normal": "https://cards.scryfall.io/normal/front/0/8/08950015-eee5-4327-888c-82dfd13bb9ad.jpg?1783925613",
+            "large": "https://cards.scryfall.io/large/front/0/8/08950015-eee5-4327-888c-82dfd13bb9ad.jpg?1783925613",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/8/08950015-eee5-4327-888c-82dfd13bb9ad.jpg?1783925613"
+          }
+        }
+      ]
+    },
+    "[\"Timeline Culler\",null,null]": {
+      "id": "33410410-72f2-49c4-9e63-a72202cd075a",
+      "oracleId": "3c307122-bc18-41f1-87d5-ae6b3ca9b8b9",
+      "name": "Timeline Culler",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "eoe",
+      "collectorNumber": "121",
+      "scryfallUrl": "https://scryfall.com/card/eoe/121/timeline-culler",
+      "faces": [
+        {
+          "name": "Timeline Culler",
+          "manaCost": "{B}{B}",
+          "typeLine": "Creature — Drix Warlock",
+          "oracleText": "Haste\nYou may cast this card from your graveyard using its warp ability.\nWarp—{B}, Pay 2 life. (You may cast this card from your hand or graveyard for its warp cost. If you do, exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/3/33410410-72f2-49c4-9e63-a72202cd075a.jpg?1783905960",
+            "normal": "https://cards.scryfall.io/normal/front/3/3/33410410-72f2-49c4-9e63-a72202cd075a.jpg?1783905960",
+            "large": "https://cards.scryfall.io/large/front/3/3/33410410-72f2-49c4-9e63-a72202cd075a.jpg?1783905960",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/3/33410410-72f2-49c4-9e63-a72202cd075a.jpg?1783905960"
+          }
+        }
+      ]
+    },
+    "[\"Toxic Deluge\",null,null]": {
+      "id": "5aa02b7d-db31-4924-b75e-eb02f332ca3a",
+      "oracleId": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "name": "Toxic Deluge",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mh3",
+      "collectorNumber": "277",
+      "scryfallUrl": "https://scryfall.com/card/mh3/277/toxic-deluge",
+      "faces": [
+        {
+          "name": "Toxic Deluge",
+          "manaCost": "{2}{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1783911214",
+            "normal": "https://cards.scryfall.io/normal/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1783911214",
+            "large": "https://cards.scryfall.io/large/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1783911214",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1783911214"
+          }
+        }
+      ]
+    },
+    "[\"Unearth\",null,null]": {
+      "id": "b1f73271-b70f-40ae-be64-f8de7805923a",
+      "oracleId": "4e0b647a-6e1a-421b-bca9-8d5e346bda80",
+      "name": "Unearth",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "2x2",
+      "collectorNumber": "96",
+      "scryfallUrl": "https://scryfall.com/card/2x2/96/unearth",
+      "faces": [
+        {
+          "name": "Unearth",
+          "manaCost": "{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "Return target creature card with mana value 3 or less from your graveyard to the battlefield.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900",
+            "normal": "https://cards.scryfall.io/normal/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900",
+            "large": "https://cards.scryfall.io/large/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900"
+          }
+        }
+      ]
+    },
+    "[\"Victimize\",null,null]": {
+      "id": "e7e7cbed-83d7-41e5-b495-9850d631ad56",
+      "oracleId": "240e85d3-e495-4877-8609-4b4056c402f7",
+      "name": "Victimize",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spg",
+      "collectorNumber": "23",
+      "scryfallUrl": "https://scryfall.com/card/spg/23/victimize",
+      "faces": [
+        {
+          "name": "Victimize",
+          "manaCost": "{2}{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/7/e7e7cbed-83d7-41e5-b495-9850d631ad56.jpg?1783912751",
+            "normal": "https://cards.scryfall.io/normal/front/e/7/e7e7cbed-83d7-41e5-b495-9850d631ad56.jpg?1783912751",
+            "large": "https://cards.scryfall.io/large/front/e/7/e7e7cbed-83d7-41e5-b495-9850d631ad56.jpg?1783912751",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e7e7cbed-83d7-41e5-b495-9850d631ad56.jpg?1783912751"
+          }
+        }
+      ]
+    },
+    "[\"Village Rites\",null,null]": {
+      "id": "82f82cb3-f01b-40b9-99ae-6215a580bd95",
+      "oracleId": "365548fb-5acc-4a8a-b20b-26d28b7d029f",
+      "name": "Village Rites",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "j25",
+      "collectorNumber": "508",
+      "scryfallUrl": "https://scryfall.com/card/j25/508/village-rites",
+      "faces": [
+        {
+          "name": "Village Rites",
+          "manaCost": "{B}",
+          "typeLine": "Instant",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/2/82f82cb3-f01b-40b9-99ae-6215a580bd95.jpg?1783908704",
+            "normal": "https://cards.scryfall.io/normal/front/8/2/82f82cb3-f01b-40b9-99ae-6215a580bd95.jpg?1783908704",
+            "large": "https://cards.scryfall.io/large/front/8/2/82f82cb3-f01b-40b9-99ae-6215a580bd95.jpg?1783908704",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/2/82f82cb3-f01b-40b9-99ae-6215a580bd95.jpg?1783908704"
+          }
+        }
+      ]
+    },
+    "[\"Warren Soultrader\",null,null]": {
+      "id": "b334e4c6-d316-4141-8889-f95afcc04701",
+      "oracleId": "ace86e56-efde-4eb7-8815-71456a4c3abe",
+      "name": "Warren Soultrader",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mh3",
+      "collectorNumber": "110",
+      "scryfallUrl": "https://scryfall.com/card/mh3/110/warren-soultrader",
+      "faces": [
+        {
+          "name": "Warren Soultrader",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Zombie Goblin Wizard",
+          "oracleText": "Pay 1 life, Sacrifice another creature: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+            "normal": "https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+            "large": "https://cards.scryfall.io/large/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565"
+          }
+        }
+      ]
+    },
+    "[\"Withering Torment\",null,null]": {
+      "id": "38048d14-3463-4157-951f-1d68ec78a64e",
+      "oracleId": "ffce81c5-1b58-4882-a4e7-6f8d7cb170de",
+      "name": "Withering Torment",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "dsk",
+      "collectorNumber": "124",
+      "scryfallUrl": "https://scryfall.com/card/dsk/124/withering-torment",
+      "faces": [
+        {
+          "name": "Withering Torment",
+          "manaCost": "{2}{B}",
+          "typeLine": "Instant",
+          "oracleText": "Destroy target creature or enchantment. You lose 2 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/8/38048d14-3463-4157-951f-1d68ec78a64e.jpg?1783909473",
+            "normal": "https://cards.scryfall.io/normal/front/3/8/38048d14-3463-4157-951f-1d68ec78a64e.jpg?1783909473",
+            "large": "https://cards.scryfall.io/large/front/3/8/38048d14-3463-4157-951f-1d68ec78a64e.jpg?1783909473",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/8/38048d14-3463-4157-951f-1d68ec78a64e.jpg?1783909473"
+          }
+        }
+      ]
+    },
+    "[\"Yawgmoth, Thran Physician\",null,null]": {
+      "id": "8690cbcc-f8fd-41f7-9e28-e61c12b04014",
+      "oracleId": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+      "name": "Yawgmoth, Thran Physician",
+      "manaValue": 4,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mh1",
+      "collectorNumber": "116",
+      "scryfallUrl": "https://scryfall.com/card/mh1/116/yawgmoth-thran-physician",
+      "faces": [
+        {
+          "name": "Yawgmoth, Thran Physician",
+          "manaCost": "{2}{B}{B}",
+          "typeLine": "Legendary Creature — Human Cleric",
+          "oracleText": "Protection from Humans\nPay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.\n{B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+          "power": "2",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/6/8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg?1783933118",
+            "normal": "https://cards.scryfall.io/normal/front/8/6/8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg?1783933118",
+            "large": "https://cards.scryfall.io/large/front/8/6/8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg?1783933118",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg?1783933118"
+          }
+        }
+      ]
+    },
+    "[\"Woe Strider\",null,null]": {
+      "id": "3457b558-b35b-49fd-b499-b1ec755f86ce",
+      "oracleId": "3adbd963-e85d-4569-963a-4472594f06f9",
+      "name": "Woe Strider",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "thb",
+      "collectorNumber": "123",
+      "scryfallUrl": "https://scryfall.com/card/thb/123/woe-strider",
+      "faces": [
+        {
+          "name": "Woe Strider",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Horror",
+          "oracleText": "When this creature enters, create a 0/1 white Goat creature token.\nSacrifice another creature: Scry 1.\nEscape—{3}{B}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\nThis creature escapes with two +1/+1 counters on it.",
+          "power": "3",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1783931556",
+            "normal": "https://cards.scryfall.io/normal/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1783931556",
+            "large": "https://cards.scryfall.io/large/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1783931556",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/4/3457b558-b35b-49fd-b499-b1ec755f86ce.jpg?1783931556"
+          }
+        }
+      ]
+    },
+    "[\"Weaponcraft Enthusiast\",null,null]": {
+      "id": "c6323a7b-e640-4f68-92bb-ca01e575f730",
+      "oracleId": "7c27136a-bf9d-4f42-9c37-abe347fad1bb",
+      "name": "Weaponcraft Enthusiast",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "klr",
+      "collectorNumber": "110",
+      "scryfallUrl": "https://scryfall.com/card/klr/110/weaponcraft-enthusiast",
+      "faces": [
+        {
+          "name": "Weaponcraft Enthusiast",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Aetherborn Artificer",
+          "oracleText": "Fabricate 2 (When this creature enters, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)",
+          "power": "0",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/6/c6323a7b-e640-4f68-92bb-ca01e575f730.jpg?1783929009",
+            "normal": "https://cards.scryfall.io/normal/front/c/6/c6323a7b-e640-4f68-92bb-ca01e575f730.jpg?1783929009",
+            "large": "https://cards.scryfall.io/large/front/c/6/c6323a7b-e640-4f68-92bb-ca01e575f730.jpg?1783929009",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/6/c6323a7b-e640-4f68-92bb-ca01e575f730.jpg?1783929009"
+          }
+        }
+      ]
+    },
+    "[\"Cult Conscript\",null,null]": {
+      "id": "fed77513-94ab-44e2-b9a1-30ba927cd6ee",
+      "oracleId": "e5762815-5fc3-4ae7-abee-69f27c5e4e90",
+      "name": "Cult Conscript",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "dmu",
+      "collectorNumber": "88",
+      "scryfallUrl": "https://scryfall.com/card/dmu/88/cult-conscript",
+      "faces": [
+        {
+          "name": "Cult Conscript",
+          "manaCost": "{B}",
+          "typeLine": "Creature — Skeleton Warrior",
+          "oracleText": "This creature enters tapped.\n{1}{B}: Return this card from your graveyard to the battlefield. Activate only if a non-Skeleton creature died under your control this turn.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/e/fed77513-94ab-44e2-b9a1-30ba927cd6ee.jpg?1783921335",
+            "normal": "https://cards.scryfall.io/normal/front/f/e/fed77513-94ab-44e2-b9a1-30ba927cd6ee.jpg?1783921335",
+            "large": "https://cards.scryfall.io/large/front/f/e/fed77513-94ab-44e2-b9a1-30ba927cd6ee.jpg?1783921335",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/e/fed77513-94ab-44e2-b9a1-30ba927cd6ee.jpg?1783921335"
+          }
+        }
+      ]
+    },
+    "[\"Shambling Ghast\",null,null]": {
+      "id": "d96198a7-dd19-4940-bf8f-23135011fc84",
+      "oracleId": "e5e6229a-3422-4afd-9a87-86daa2d31d3a",
+      "name": "Shambling Ghast",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "afr",
+      "collectorNumber": "119",
+      "scryfallUrl": "https://scryfall.com/card/afr/119/shambling-ghast",
+      "faces": [
+        {
+          "name": "Shambling Ghast",
+          "manaCost": "{B}",
+          "typeLine": "Creature — Zombie",
+          "oracleText": "When this creature dies, choose one —\n• Target creature an opponent controls gets -1/-1 until end of turn.\n• Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/9/d96198a7-dd19-4940-bf8f-23135011fc84.jpg?1783926489",
+            "normal": "https://cards.scryfall.io/normal/front/d/9/d96198a7-dd19-4940-bf8f-23135011fc84.jpg?1783926489",
+            "large": "https://cards.scryfall.io/large/front/d/9/d96198a7-dd19-4940-bf8f-23135011fc84.jpg?1783926489",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/9/d96198a7-dd19-4940-bf8f-23135011fc84.jpg?1783926489"
+          }
+        }
+      ]
+    },
+    "[\"Fake Your Own Death\",null,null]": {
+      "id": "693635a6-df50-44c5-9598-0c79b45d4df4",
+      "oracleId": "ad01df89-29fe-44c7-a133-91425f8ff09c",
+      "name": "Fake Your Own Death",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "174",
+      "scryfallUrl": "https://scryfall.com/card/fdn/174/fake-your-own-death",
+      "faces": [
+        {
+          "name": "Fake Your Own Death",
+          "manaCost": "{1}{B}",
+          "typeLine": "Instant",
+          "oracleText": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074",
+            "normal": "https://cards.scryfall.io/normal/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074",
+            "large": "https://cards.scryfall.io/large/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074"
+          }
+        }
+      ]
+    },
+    "[\"Dockside Chef\",null,null]": {
+      "id": "d80100c3-c81e-4084-8dfe-f8610637fd91",
+      "oracleId": "fed12a16-8920-403c-be63-0601a9d864b0",
+      "name": "Dockside Chef",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "neo",
+      "collectorNumber": "93",
+      "scryfallUrl": "https://scryfall.com/card/neo/93/dockside-chef",
+      "faces": [
+        {
+          "name": "Dockside Chef",
+          "manaCost": "{B}",
+          "typeLine": "Enchantment Creature — Human Citizen",
+          "oracleText": "{1}{B}, Sacrifice an artifact or creature: Draw a card.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/8/d80100c3-c81e-4084-8dfe-f8610637fd91.jpg?1783923888",
+            "normal": "https://cards.scryfall.io/normal/front/d/8/d80100c3-c81e-4084-8dfe-f8610637fd91.jpg?1783923888",
+            "large": "https://cards.scryfall.io/large/front/d/8/d80100c3-c81e-4084-8dfe-f8610637fd91.jpg?1783923888",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d80100c3-c81e-4084-8dfe-f8610637fd91.jpg?1783923888"
+          }
+        }
+      ]
+    },
+    "[\"Novice Occultist\",null,null]": {
+      "id": "a541ac79-a969-42b4-b989-f6e37572ec90",
+      "oracleId": "e51f5b41-5465-4b1d-b96a-544762657ca5",
+      "name": "Novice Occultist",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mid",
+      "collectorNumber": "117",
+      "scryfallUrl": "https://scryfall.com/card/mid/117/novice-occultist",
+      "faces": [
+        {
+          "name": "Novice Occultist",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Human Wizard",
+          "oracleText": "When this creature dies, you draw a card and you lose 1 life.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/5/a541ac79-a969-42b4-b989-f6e37572ec90.jpg?1783925610",
+            "normal": "https://cards.scryfall.io/normal/front/a/5/a541ac79-a969-42b4-b989-f6e37572ec90.jpg?1783925610",
+            "large": "https://cards.scryfall.io/large/front/a/5/a541ac79-a969-42b4-b989-f6e37572ec90.jpg?1783925610",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a541ac79-a969-42b4-b989-f6e37572ec90.jpg?1783925610"
+          }
+        }
+      ]
+    },
+    "[\"Witch's Cottage\",null,null]": {
+      "id": "b87891cd-b457-4dff-8d18-a7eaf6748fc6",
+      "oracleId": "6c8f276e-4e7b-4974-ab02-9356cc0ffb2b",
+      "name": "Witch's Cottage",
+      "manaValue": 0,
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "eld",
+      "collectorNumber": "249",
+      "scryfallUrl": "https://scryfall.com/card/eld/249/witchs-cottage",
+      "faces": [
+        {
+          "name": "Witch's Cottage",
+          "manaCost": "",
+          "typeLine": "Land — Swamp",
+          "oracleText": "({T}: Add {B}.)\nThis land enters tapped unless you control three or more other Swamps.\nWhen this land enters untapped, you may put target creature card from your graveyard on top of your library.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/8/b87891cd-b457-4dff-8d18-a7eaf6748fc6.jpg?1783932575",
+            "normal": "https://cards.scryfall.io/normal/front/b/8/b87891cd-b457-4dff-8d18-a7eaf6748fc6.jpg?1783932575",
+            "large": "https://cards.scryfall.io/large/front/b/8/b87891cd-b457-4dff-8d18-a7eaf6748fc6.jpg?1783932575",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/8/b87891cd-b457-4dff-8d18-a7eaf6748fc6.jpg?1783932575"
+          }
+        }
+      ]
+    },
+    "[\"Eaten Alive\",null,null]": {
+      "id": "1c4f7b20-b2a8-498c-8c36-dc296863b0b9",
+      "oracleId": "d437ecc2-2fd3-4ad3-b23e-217f55e58dae",
+      "name": "Eaten Alive",
+      "manaValue": 1,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "172",
+      "scryfallUrl": "https://scryfall.com/card/fdn/172/eaten-alive",
+      "faces": [
+        {
+          "name": "Eaten Alive",
+          "manaCost": "{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature or pay {3}{B}.\nExile target creature or planeswalker.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077",
+            "normal": "https://cards.scryfall.io/normal/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077",
+            "large": "https://cards.scryfall.io/large/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077"
+          }
+        }
+      ]
+    },
+    "[\"Vampire Gourmand\",null,null]": {
+      "id": "917514c0-9cd5-4b97-85b9-c4f753560ad4",
+      "oracleId": "3386414c-32fa-40ae-9b30-dab976a158c1",
+      "name": "Vampire Gourmand",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "74",
+      "scryfallUrl": "https://scryfall.com/card/fdn/74/vampire-gourmand",
+      "faces": [
+        {
+          "name": "Vampire Gourmand",
+          "manaCost": "{1}{B}",
+          "typeLine": "Creature — Vampire",
+          "oracleText": "Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/1/917514c0-9cd5-4b97-85b9-c4f753560ad4.jpg?1783909108",
+            "normal": "https://cards.scryfall.io/normal/front/9/1/917514c0-9cd5-4b97-85b9-c4f753560ad4.jpg?1783909108",
+            "large": "https://cards.scryfall.io/large/front/9/1/917514c0-9cd5-4b97-85b9-c4f753560ad4.jpg?1783909108",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/917514c0-9cd5-4b97-85b9-c4f753560ad4.jpg?1783909108"
+          }
+        }
+      ]
+    },
+    "[\"Infernal Vessel\",null,null]": {
+      "id": "877b6330-2d0b-4f2f-a848-f10b06fb4ef5",
+      "oracleId": "0e13c283-f462-441f-a8a5-0c75a59ff1d9",
+      "name": "Infernal Vessel",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "fdn",
+      "collectorNumber": "63",
+      "scryfallUrl": "https://scryfall.com/card/fdn/63/infernal-vessel",
+      "faces": [
+        {
+          "name": "Infernal Vessel",
+          "manaCost": "{2}{B}",
+          "typeLine": "Creature — Human Cleric",
+          "oracleText": "When this creature dies, if it wasn't a Demon, return it to the battlefield under its owner's control with two +1/+1 counters on it. It's a Demon in addition to its other types.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/7/877b6330-2d0b-4f2f-a848-f10b06fb4ef5.jpg?1783909112",
+            "normal": "https://cards.scryfall.io/normal/front/8/7/877b6330-2d0b-4f2f-a848-f10b06fb4ef5.jpg?1783909112",
+            "large": "https://cards.scryfall.io/large/front/8/7/877b6330-2d0b-4f2f-a848-f10b06fb4ef5.jpg?1783909112",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/7/877b6330-2d0b-4f2f-a848-f10b06fb4ef5.jpg?1783909112"
+          }
+        }
+      ]
+    },
+    "[\"My Precious\",null,null]": {
+      "id": "15ae4d50-be2f-412c-bb6b-b0a06b60474a",
+      "oracleId": "2e728381-6db0-4c66-883d-82d718fef833",
+      "name": "My Precious // Allure of Power",
+      "manaValue": 3,
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "hob",
+      "collectorNumber": "176",
+      "scryfallUrl": "https://scryfall.com/card/hob/176/my-precious-allure-of-power",
+      "faces": [
+        {
+          "name": "My Precious",
+          "manaCost": "{3}",
+          "typeLine": "Legendary Artifact — Equipment",
+          "oracleText": "Equipped creature has hexproof and can't be blocked.\nEquip—{2}, Pay 2 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/5/15ae4d50-be2f-412c-bb6b-b0a06b60474a.jpg?1783902783",
+            "normal": "https://cards.scryfall.io/normal/front/1/5/15ae4d50-be2f-412c-bb6b-b0a06b60474a.jpg?1783902783",
+            "large": "https://cards.scryfall.io/large/front/1/5/15ae4d50-be2f-412c-bb6b-b0a06b60474a.jpg?1783902783",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/5/15ae4d50-be2f-412c-bb6b-b0a06b60474a.jpg?1783902783"
+          }
+        },
+        {
+          "name": "Allure of Power",
+          "manaCost": "{1}{B}",
+          "typeLine": "Instant — Adventure",
+          "oracleText": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards."
+        }
+      ]
+    },
+    "[\"Bastion of Remembrance\",null,null]": {
+      "id": "6fe6ccad-e303-48f9-9dfa-0db7c1878031",
+      "oracleId": "c7f33cea-2ec8-4081-9208-a5b1d86721b3",
+      "name": "Bastion of Remembrance",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "tle",
+      "collectorNumber": "160",
+      "scryfallUrl": "https://scryfall.com/card/tle/160/bastion-of-remembrance",
+      "faces": [
+        {
+          "name": "Bastion of Remembrance",
+          "manaCost": "{2}{B}",
+          "typeLine": "Enchantment",
+          "oracleText": "When this enchantment enters, create a 1/1 white Human Soldier creature token.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/f/6fe6ccad-e303-48f9-9dfa-0db7c1878031.jpg?1783904806",
+            "normal": "https://cards.scryfall.io/normal/front/6/f/6fe6ccad-e303-48f9-9dfa-0db7c1878031.jpg?1783904806",
+            "large": "https://cards.scryfall.io/large/front/6/f/6fe6ccad-e303-48f9-9dfa-0db7c1878031.jpg?1783904806",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/f/6fe6ccad-e303-48f9-9dfa-0db7c1878031.jpg?1783904806"
+          }
+        }
+      ]
+    },
+    "[\"Drivnod, Carnage Dominus\",null,null]": {
+      "id": "6bc26bca-c4d8-4e8b-a96a-9529fc2daed7",
+      "oracleId": "51780f71-bf60-4208-94ea-76fa84790fb6",
+      "name": "Drivnod, Carnage Dominus",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "one",
+      "collectorNumber": "90",
+      "scryfallUrl": "https://scryfall.com/card/one/90/drivnod-carnage-dominus",
+      "faces": [
+        {
+          "name": "Drivnod, Carnage Dominus",
+          "manaCost": "{3}{B}{B}",
+          "typeLine": "Legendary Creature — Phyrexian Horror",
+          "oracleText": "If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\n{B/P}{B/P}, Exile three creature cards from your graveyard: Put an indestructible counter on Drivnod. ({B/P} can be paid with either {B} or 2 life.)",
+          "power": "8",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1783918048",
+            "normal": "https://cards.scryfall.io/normal/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1783918048",
+            "large": "https://cards.scryfall.io/large/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1783918048",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7.jpg?1783918048"
+          }
+        }
+      ]
     }
   }
 }

@@ -26,10 +26,15 @@ for (const family of families) {
     versions++;
   }
 }
-const paper = families.find(item => item.id === 'paper-lathril')!;
-const current = parseDeck(readSource(paper.versions.find(item => item.version === paper.defaultVersion)!.source));
-const canonical = parseDeck(readSource('decks/lathril/decklist.txt'));
-const signature = (deck: typeof current) => JSON.stringify([deck.commander.name, ...deck.entries.map(card => `${card.quantity} ${card.name}`).sort()]);
-if (signature(current) !== signature(canonical)) throw new Error('Published paper snapshot differs from the canonical release');
-if (readSource('VERSION').trim() !== paper.defaultVersion) throw new Error('Paper manifest default differs from VERSION');
-console.log(`Validated ${versions} snapshots; the paper default matches the canonical release and VERSION.`);
+const signature = (deck: ReturnType<typeof parseDeck>) => JSON.stringify([deck.commander.name, ...deck.entries.map(card => `${card.quantity} ${card.name}`).sort()]);
+for (const release of [
+  { id: 'paper-lathril', canonical: 'decks/lathril/decklist.txt', version: 'VERSION' },
+  { id: 'paper-sacrifice', canonical: 'decks/sacrifice/decklist.txt', version: 'decks/sacrifice/VERSION' },
+]) {
+  const paper = families.find(item => item.id === release.id);
+  if (!paper || paper.medium !== 'Paper') throw new Error(`Missing paper family: ${release.id}`);
+  const current = parseDeck(readSource(paper.versions.find(item => item.version === paper.defaultVersion)!.source));
+  if (signature(current) !== signature(parseDeck(readSource(release.canonical)))) throw new Error(`Published paper snapshot differs from the canonical release: ${release.id}`);
+  if (readSource(release.version).trim() !== paper.defaultVersion) throw new Error(`Paper manifest default differs from ${release.version}`);
+}
+console.log(`Validated ${versions} snapshots; both paper defaults match their canonical lists and version files.`);

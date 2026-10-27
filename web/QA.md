@@ -319,10 +319,55 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - No source deck, experiment or game result changed. Paper remains released 0.3.3;
   the simulator remains the 0.3.3 test target. No push or deployment was performed.
 
+## Built Paper Sacrifice and home platform filter — 27 October 2026
+
+- The user confirmed physically building Sacrifice with no swaps from the saved
+  Arena Sacrifice 3.0 list. Paper 3.0.0 records that same generation in three-part
+  form. Its own canonical list, Forge export, import export and version file live
+  under `decks/sacrifice/`; Lathril stays at 0.3.3 and the Arena snapshots are unchanged.
+- Added a fifth independent home destination at `/decks/paper-sacrifice/3.0.0/`
+  with Paper / Commander and Built labels. All / Paper / Arena buttons show five,
+  two and three links respectively. All is the default. The server-rendered HTML
+  contains every link; JavaScript filters locally and announces the visible count.
+- Added 59 name-only cache keys by reusing the exact saved Arena metadata. All 228
+  pre-existing records and the cache verification timestamp were checked unchanged.
+  No unrelated card rules or artwork were refreshed. A separate dated Scryfall
+  check resolved all 70 distinct identities as paper-available, Commander legal
+  and black/colorless; it does not establish ownership of official printings.
+- `pnpm ci:build` passed using the isolated, checksum-verified Node 24.21.0 and
+  pnpm 10.17.1: zero diagnostics, 31 tests, ten validated 100-card snapshots,
+  twelve HTML pages, ten byte-exact exports, 25.4 KiB combined gzip JavaScript
+  and passing structural validators for both paper lists. A regression test
+  checks all 100 paper card choices against Arena 3.0 and every synchronized export.
+- Real Chromium review used the built-site preview at `http://127.0.0.1:4325/`.
+  At 1440px, Paper showed two equal columns. At 390px, it showed one column;
+  320px also had no horizontal page overflow. All exposed five links, Paper two
+  and Arena three, with the expected pressed state and screen-reader status.
+  Enter and Space activated the home buttons; hidden links disappeared from
+  the accessibility tree. Desktop/mobile home screenshots were visually inspected.
+- Opened the Paper Sacrifice page, searched for Malakir Rebirth in List view,
+  inspected it, flipped to Malakir Mire and confirmed its image loaded. Escape
+  restored focus to the originating card. The commander reader also opened and
+  its flip control responded. Runtime Scryfall API requests were zero and the
+  browser reported no page errors. The export menu identifies a paper list and
+  points to `/exports/paper-sacrifice-3.0.0.txt`, already checked byte-for-byte.
+  Restored Mana stacks after testing. No new clipboard/download-dialog claim is made.
+- Local screenshots: `/private/tmp/magics-paper-sacrifice-home-desktop.png`,
+  `/private/tmp/magics-paper-sacrifice-home-mobile.png` and
+  `/private/tmp/magics-paper-sacrifice-deck-desktop.png`. These local review files
+  are not part of the static site or repository sources.
+- Wrangler 4.147.0's local packaging dry run passed with no upload or runtime
+  bindings. The local Cloudflare smoke check passed 36 requests covering all ten
+  deck routes/exports, redirects, private-file 404s and security/cache headers.
+  Browser checks on that local runtime also showed two Paper and three Arena
+  links after filtering, with no page errors under the configured security policy.
+- Public production activation is not part of this change. Merge to `main`
+  continues to use the existing native Cloudflare integration.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
-2. Start the production preview and review the home, all four defaults, and an older version.
+2. Start the production preview and review the home filters, all five defaults, and an older version.
 3. Check search, type filter, name sort, reset, both faces, keyboard focus/Escape,
    copy and download. Check mana-stack hover/focus, saved layout preference,
    and reader arrow/wheel/native scroll navigation. Compare the downloaded text with its tracked source.

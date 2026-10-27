@@ -7,7 +7,7 @@ import { CARD_VIEWS, DEFAULT_CARD_VIEW, groupBasicCopies, groupByMana, isCardVie
 
 test('every snapshot is complete, source-preserving and cached', () => {
   const cache = loadCache();
-  assert.equal(families.length, 4);
+  assert.equal(families.length, 5);
   for (const family of families) for (const snapshot of family.versions) {
     const deck = loadDeck(family, snapshot.version, cache);
     assert.equal(deck.total, 100);
@@ -111,6 +111,37 @@ test('paper and Arena 0.3.3 differ only in the three recorded proxies', () => {
   assert.deepEqual(entries(arena.exportText), expected);
   assert.equal(paper.landCount, arena.landCount);
   assert.equal(arena.snapshot.status, 'Test target');
+});
+
+test('built Paper Sacrifice preserves all Arena 3.0 card choices and synchronizes its paper records', () => {
+  const paper = loadDeck(families.find(family => family.id === 'paper-sacrifice')!, '3.0.0');
+  const arena = loadDeck(families.find(family => family.id === 'sacrifice')!, '3.0');
+  const signature = (text: string) => {
+    const deck = parseDeck(text);
+    return [deck.commander.name, ...deck.entries.map(card => `${card.quantity} ${card.name}`).sort()];
+  };
+  assert.deepEqual(signature(paper.exportText), signature(arena.exportText));
+  assert.equal(paper.family.medium, 'Paper');
+  assert.equal(paper.family.format, 'Commander');
+  assert.equal(paper.family.defaultVersion, '3.0.0');
+  assert.equal(paper.snapshot.status, 'Built');
+  assert.equal(paper.landCount, 35);
+  assert.equal(paper.cards.find(card => card.name === 'Swamp')!.quantity, 31);
+  assert.equal(readSource('decks/sacrifice/VERSION').trim(), '3.0.0');
+  assert.equal(readSource('VERSION').trim(), '0.3.3');
+  assert.equal(exportDeck(parseDeck(readSource('decks/sacrifice/decklist.txt'))), paper.exportText);
+  const forge = readSource('decks/sacrifice/forge.dck')
+    .replace(/^\[metadata\]\r?\nName=[^\r\n]+\r?\n/, '')
+    .replace('[Commander]', 'Commander').replace('[Main]', 'Deck');
+  assert.equal(exportDeck(parseDeck(forge)), paper.exportText);
+  const sourceCards = [arena.commander, ...arena.cards];
+  for (const card of [paper.commander, ...paper.cards]) {
+    assert.equal(card.set, undefined, 'Paper export must not claim an Arena printing');
+    const original = sourceCards.find(entry => entry.name === card.name)!;
+    assert.equal(card.metadata.oracleId ?? card.metadata.id, original.metadata.oracleId ?? original.metadata.id);
+    assert.deepEqual(card.metadata.faces.map(face => [face.name, face.oracleText]), original.metadata.faces.map(face => [face.name, face.oracleText]));
+    assert.ok(!card.metadata.digitalRebalanced);
+  }
 });
 
 test('search covers rules, type and names; lands sort last; empty results work', () => {

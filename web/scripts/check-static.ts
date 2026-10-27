@@ -11,8 +11,11 @@ assert.ok(!home.includes('data-deck-choice'));
 assert.ok(!home.includes('data-deck-pair'));
 assert.ok(!home.includes('shared cards'));
 assert.ok(!home.includes('Paper to Arena substitutions'));
+assert.ok(home.includes('aria-label="Deck platform"'));
+for (const platform of ['all', 'paper', 'arena']) assert.ok(home.includes(`data-deck-filter="${platform}"`));
 for (const family of families) {
   assert.ok(home.includes(`/decks/${family.id}/${family.defaultVersion}/`));
+  assert.ok(home.includes(`data-deck-medium="${family.medium.toLowerCase()}"`));
   for (const snapshot of family.versions) {
     const deck = loadDeck(family, snapshot.version, cache);
     const html = readFileSync(resolve(`dist/decks/${family.id}/${snapshot.version}/index.html`), 'utf8');

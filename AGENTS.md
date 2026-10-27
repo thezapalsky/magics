@@ -8,7 +8,8 @@ These instructions apply to the entire repository.
 
 ## Repository map
 
-- `VERSION` — current released version only.
+- `VERSION` — current released paper Lathril version only.
+- `decks/<deck>/VERSION` — independent released version for another paper deck, such as Sacrifice.
 - `decks/<deck>/decklist.txt` — canonical released paper list.
 - `decks/<deck>/forge.dck` — simulator export of the same released list.
 - `decks/<deck>/README.md` — deck identity and release summary.
@@ -27,7 +28,7 @@ The user's current direction overrides this paragraph whenever they explicitly c
 ## Invariants
 
 1. Never edit a released deck merely to demonstrate a candidate change. Put the candidate in an experiment directory.
-2. Keep `VERSION` on the latest accepted release. Prerelease experiment numbers belong in experiment documentation, not `VERSION`.
+2. Keep each version file on its deck's latest accepted release. Root `VERSION` tracks Lathril; other paper decks use their own `decks/<deck>/VERSION`. Prerelease experiment numbers belong in experiment documentation, not a version file.
 3. A Commander list must contain exactly one commander and 99 main-deck cards, with no duplicate nonbasic cards.
 4. Preserve exact card spelling and quantities. Confirm uncertain names, Oracle text, color identity, and format legality before relying on them.
 5. Keep `decklist.txt` and `forge.dck` synchronized when releasing a change.
@@ -69,7 +70,7 @@ Only release a change after the user accepts it or the experiment's agreed succe
 
 1. the canonical `decklist.txt`;
 2. the matching `forge.dck`;
-3. `VERSION`;
+3. the deck's version file (`VERSION` for Lathril, `decks/<deck>/VERSION` for another paper deck);
 4. the deck and root README release references;
 5. `CHANGELOG.md`;
 6. the experiment status and decision.

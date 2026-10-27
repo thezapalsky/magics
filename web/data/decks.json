@@ -15,6 +15,18 @@
     ]
   },
   {
+    "id": "paper-sacrifice",
+    "title": "Sacrifice",
+    "subtitle": "The paper Sephiroth deck",
+    "medium": "Paper",
+    "format": "Commander",
+    "description": "Built paper Sephiroth Commander decklist.",
+    "defaultVersion": "3.0.0",
+    "versions": [
+      { "version": "3.0.0", "status": "Built", "source": "decks/sacrifice/exports/paper-3.0.0.txt", "note": "Paper build confirmed 27 October 2026. Same card choices as Arena Sacrifice 3.0." }
+    ]
+  },
+  {
     "id": "arena-simulator",
     "title": "Lathril simulator",
     "subtitle": "The Arena simulator",
