@@ -11,20 +11,55 @@ const decks = families.map(family => {
 <Layout>
   <section class="home-intro">
     <h1>My decks<span class="title-period">.</span></h1>
+    <div class="deck-filters" role="group" aria-label="Deck platform">
+      <button type="button" data-deck-filter="all" aria-pressed="true" disabled>All</button>
+      <button type="button" data-deck-filter="paper" aria-pressed="false" disabled>Paper</button>
+      <button type="button" data-deck-filter="arena" aria-pressed="false" disabled>Arena</button>
+    </div>
   </section>
+  <p class="sr-only" id="deck-filter-status" role="status" aria-live="polite">Showing all {decks.length} decks.</p>
   <section class="deck-shelf" aria-label="The decks">
     {decks.map((deck, index) => <DeckCover deck={deck} eager={index < 2} />)}
   </section>
   <p class="shelf-note"><span aria-hidden="true">◇</span> Saved lists, not live collections. Older versions are inside each deck.</p>
 </Layout>
 
+<script>
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-deck-filter]')];
+  const covers = [...document.querySelectorAll<HTMLAnchorElement>('.deck-cover[data-deck-medium]')];
+  const status = document.querySelector<HTMLElement>('#deck-filter-status');
+  const platforms = new Set(['all', 'paper', 'arena']);
+
+  function filterDecks(platform: string) {
+    if (!platforms.has(platform)) return;
+    let visible = 0;
+    for (const cover of covers) {
+      cover.hidden = platform !== 'all' && cover.dataset.deckMedium !== platform;
+      if (!cover.hidden) visible++;
+    }
+    for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.deckFilter === platform));
+    if (status) status.textContent = `Showing ${visible} ${platform === 'all' ? '' : `${platform} `}decks.`;
+  }
+
+  for (const button of buttons) {
+    button.addEventListener('click', () => filterDecks(button.dataset.deckFilter ?? 'all'));
+    button.disabled = false;
+  }
+</script>
+
 <style>
-  .home-intro { position: relative; padding: 4.2rem 0 3.5rem; }
+  .home-intro { position: relative; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1.5rem; padding: 4.2rem 0 3.5rem; }
   h1 { font: 400 clamp(3.2rem, 6vw, 5.4rem) / 1.06 var(--serif); letter-spacing: -.045em; margin: 0; }
   .title-period { color: var(--accent); }
+  .deck-filters { display: flex; gap: .35rem; }
+  .deck-filters button { min-height: 44px; padding: .6rem .95rem; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: var(--muted); font: inherit; font-size: .75rem; cursor: pointer; transition: color 150ms ease, border-color 150ms ease, background 150ms ease; }
+  .deck-filters button:hover:not(:disabled) { color: var(--text); border-color: var(--accent); }
+  .deck-filters button[aria-pressed="true"] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+  .deck-filters button:disabled { cursor: default; }
   .deck-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
   .shelf-note { color: var(--muted); font-size: .7rem; margin-top: 1.5rem; }
   .shelf-note span { color: var(--accent); margin-right: .45rem; }
   @media (max-width: 850px) { .home-intro { padding: 3rem 0 2rem; } }
   @media (max-width: 600px) { .deck-shelf { grid-template-columns: 1fr; gap: 1rem; } h1 { font-size: 3.3rem; } .shelf-note { line-height: 1.7; } }
+  @media (prefers-reduced-motion: reduce) { .deck-filters button { transition: none; } }
 </style>

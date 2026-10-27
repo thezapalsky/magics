@@ -5,9 +5,14 @@ No server, database, login, live collection tracking, simulation UI, or runtime 
 
 ## Home shelf
 
-Four separate commander-art tiles form a 2×2 shelf on desktop: Paper Lathril, Arena
-Simulator, Elves and Sacrifice. Each is a direct link to its default version, with
-its own format, status and chosen cover printing. Narrow screens use a single column.
+Five separate commander-art tiles form a two-column shelf on desktop: Paper Lathril,
+Paper Sacrifice, Arena Simulator, Elves and Arena Sacrifice. Each is a direct link
+to its default version, with its own format, status and chosen cover printing.
+Narrow screens use a single column. The **All / Paper / Arena** buttons show all
+five decks by default, the two paper decks, or the three Arena decks. Filtering
+updates immediately without fetching data or navigating; keyboard users can Tab
+to each button and activate it with Enter/Space. All decks remain visible before
+JavaScript runs and when JavaScript is unavailable.
 There is no combined Lathril tile, hover comparison or format chooser; both Lathril
 destinations remain equally visible. Arena is still a test target, not a verified
 client export. Older versions remain inside the individual deck pages.
@@ -85,12 +90,16 @@ All servers bind to loopback; starting a preview does not publish the site.
 | Family | Default | Meaning |
 | --- | --- | --- |
 | Paper Lathril | 0.3.3 | Canonical paper release |
+| Paper Sacrifice | 3.0.0 | Confirmed built paper deck; same card choices as Arena Sacrifice 3.0 |
 | Arena simulator | 0.3.3 | Approved test target, not a verified client export |
 | Elves | 4.1 | Saved user-exported Arena snapshot |
-| Sacrifice | 3.0 | Saved user-exported Arena snapshot |
+| Arena Sacrifice | 3.0 | Saved user-exported Arena snapshot |
 
 Older named snapshots remain selectable. The Arena families have their own version names;
-the website does not renumber them or treat the repository's paper `VERSION` as their version.
+the website does not renumber them or treat the repository's root `VERSION` as their version.
+Paper Sacrifice is independently versioned in `decks/sacrifice/VERSION`; root
+`VERSION` continues to track Lathril. Paper Sacrifice 3.0.0 records the same deck
+generation as Arena 3.0 in the three-part paper version format, with no card swaps.
 Paper 0.3.3 was recorded on 6 October 2026 after the user's explicit adoption confirmation;
 see [EXP-006](../experiments/EXP-006-paper-elf-tuning/README.md). The viewer mirrors that release
 and preserves older versions; website development alone does not authorize deck adoption.
@@ -102,7 +111,7 @@ commander identity and artwork must validate; cover refreshes cannot silently su
 
 `pnpm validate` checks every selected list for one commander, 99 main-deck cards,
 singleton nonbasics, commander color identity, complete and matching card identities,
-valid manifest routes, and agreement between the default paper snapshot and its canonical list/`VERSION`.
+valid manifest routes, and agreement between both default paper snapshots and their canonical lists/version files.
 Land counts and default grouping use the **front-face** type. Modal spell/land cards stay in their spell group;
 both faces are available in inspection and type/rules search.
 
@@ -122,6 +131,12 @@ pnpm validate
 pnpm test
 pnpm build
 ```
+
+Paper Sacrifice reuses the existing Arena Sacrifice metadata for the same card
+identities, with name-only keys for its printing-independent paper export. That
+addition preserves all previously cached records and their verification timestamp;
+it does not refresh artwork or rules for unrelated lists. The normal refresh
+command above can resolve every declared source key when an update is requested.
 
 The refresh batches collection lookups, sets identification/Accept headers, and paces requests.
 It verifies exact card names and prefers saved printings. Placeholder collector number `0`, missing

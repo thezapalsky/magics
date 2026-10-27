@@ -15,7 +15,7 @@
     "preview": "astro preview --host 127.0.0.1",
     "preview:cloudflare": "wrangler dev --local --ip 127.0.0.1 --port 8787 --show-interactive-dev-session=false",
     "test:cloudflare": "node scripts/check-cloudflare.ts",
-    "ci:build": "pnpm check && pnpm test && pnpm build && ../scripts/validate-deck.sh ../decks/lathril/decklist.txt",
+    "ci:build": "pnpm check && pnpm test && pnpm build && ../scripts/validate-deck.sh ../decks/lathril/decklist.txt && ../scripts/validate-deck.sh ../decks/sacrifice/decklist.txt",
     "deploy:check": "pnpm ci:build && wrangler deploy --dry-run --outdir test-results/deploy",
     "deploy": "pnpm ci:build && wrangler deploy"
   },

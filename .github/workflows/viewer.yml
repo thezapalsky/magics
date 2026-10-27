@@ -27,7 +27,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: web/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - name: Validate and build viewer and canonical paper release
+      - name: Validate and build viewer and canonical paper decks
         run: pnpm ci:build
       - name: Check Cloudflare packaging without publishing
         env:
