@@ -2,6 +2,10 @@
 
 This repository is the source of truth for paper deck releases, candidate changes, and play-test evidence.
 
+For a new agent or cloud checkout, read [HANDOFF.md](HANDOFF.md) for the current
+project state, deck decisions and token lists. Forge is inactive for that
+continuation unless the user requests a fresh setup.
+
 ## Interactive deck viewer
 
 The [static deck viewer](web/README.md) lives alongside the deck records. It displays the released
