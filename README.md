@@ -42,6 +42,10 @@ The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now desc
 
 Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.1](decks/arena/elves-4.1.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
 
+## Binder collections
+
+The [Spider-Man binder project](collections/spider-man/README.md) tracks a character collection alongside the decks: a working baseline of **58 owned / 79 designated slots**, with **21 missing**. Its rules, Heroes / Allies / Villains organization, historical cost estimates and [missing-card print list](collections/spider-man/missing.txt) are saved separately from deck releases. The complete official checklist remains pending independent verification.
+
 ## Versioning
 
 Deck releases use `X.Y.Z`. While the project is still below `1.0.0`, the current line is:
