@@ -13,13 +13,12 @@ Keep the current four-pocket binder. Page 1 is the right-hand opening side; faci
 | Page side(s) | Proposed contents |
 |---|---|
 | 1 | Existing four MAR showcase cards |
-| 2-3 | Complete six-card Spidey's Sensational Showdown scene, 3 columns by 2 rows across the spread |
-| 4-5 | First two rows of the nine-card Spider-Verse panorama |
-| 6-7 | Third row of the Spider-Verse panorama, with aligned empty pockets |
-| 8 | Kraven's Last Hunt, Peter Parker's Camera and regular Multiversal Passage |
-| 9-29 | Remaining 82 characters in the established Heroes / Allies / Villains order, starting with Peter |
+| 2-3 | Complete six-card Spidey's Sensational Showdown scene; Kraven's Last Hunt and Peter Parker's Camera fill the two remaining pockets |
+| 4-5 | First eight Spider-Verse scene cards, in artwork order through consecutive pockets |
+| 6 | Spider-Punk 0207, regular Multiversal Passage, Peter Parker, then Spider-Man, Peter Parker |
+| 7-26 | Remaining characters in the established Heroes / Allies / Villains order |
 
-Eleven existing character entries move into the scenes rather than being displayed twice. All **93 character identities** retain reserved positions in the plan. The character target stays **79 SPM**, progress stays **60/79 plus eight SPE**, and scene-only nonlegendary cards do not enter the checklist. The plan displays **104 entries across 29 sides**, with **12 intentional empty pockets**.
+Eleven existing character entries move into the scenes rather than being displayed twice. All **93 character identities** retain reserved positions in the plan. The character target stays **79 SPM**, progress stays **60/79 plus eight SPE**, and scene-only nonlegendary cards do not enter the checklist. The compact plan displays **104 entries across 26 full sides**, with **no unassigned pockets**. Missing cards still use proxies or labels in their fixed positions. This supersedes the earlier 29-side plan with alignment blanks; the larger scene is temporarily split until the 3x3 binder upgrade.
 
 The Scene Box is **ordered, awaiting delivery**: all six of its places remain unfilled. For the nine-card scene, five exact printings are confirmed owned; print grayscale placeholders for **SPM 0200, 0202, 0203 and 0207**. Miles 0200 and Gwen 0202 must show their reverse faces. Miles and Spider-Punk are already owned as identities in other printings, so these artwork placeholders do not increase the missing-character count. Future 3x3 pages can display each scene on one side.
 

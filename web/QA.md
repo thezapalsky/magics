@@ -415,6 +415,8 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 
 ## Both scenes in the four-pocket binder - 18 November 2026
 
+This initial 29-side arrangement was superseded by the compact revision below.
+
 - Kept `inventory.json` unchanged: the 17 November video still establishes the
   26-side layout, 60/79 SPM identities and eight owned SPE bonuses.
 - Added a separately labelled, proposed scene layout as the default website view.
@@ -436,6 +438,24 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - A fresh headless Chromium launch failed in the macOS sandbox. Desktop/mobile
   interaction and screenshot review remains pending; no successful browser QA is
   claimed for the scene revision.
+
+## Compact scene revision - 18 November 2026
+
+- Applied the user's preference to fill every pocket while temporarily splitting
+  the larger scene. The plan now has 104 entries in 104 pockets across 26 sides.
+- The smaller scene remains joined across pages 2-3. Kraven's Last Hunt and Peter
+  Parker's Camera occupy page 3's two outer pockets. The larger scene runs in
+  artwork order across pages 4-6; regular Multiversal Passage and the first two
+  Peter cards complete page 6. Remaining characters continue through page 26.
+- Missing identities, exact scene-printing proxies and ordered Scene Box cards
+  keep their assigned positions. The ownership snapshot, card cache, character
+  counts and three download lists remain unchanged.
+- The 41 tests include exact compact page contents, all 93 character identities,
+  joined versus sequential scene geometry, reverse faces, and rejection of gaps,
+  overlaps and missing entries. Static checks require zero unassigned pockets.
+- `pnpm ci:build` and `git diff --cached --check` passed on the isolated source
+  tree. Visual browser review remains pending under the previously documented
+  sandbox and Cloudflare automated-access limitations.
 - Ownership remains the video-reviewed 60/79 SPM plus eight SPE bonuses. Incoming
   orders and future scene-display rearrangements are not treated as owned cards
   or completed physical-layout changes.

@@ -17,13 +17,15 @@ source. Character progress and missing-card downloads are derived only from it.
 Update an acquired card's status to `owned` and placeholder to `null` in that file;
 never remove its identity or mark an order as delivered. Its original Vulture page has three empty pockets.
 
-`../collections/spider-man/scene-layout.json` projects the same collection into 29 page
+`../collections/spider-man/scene-layout.json` projects the same collection into 26 full page
 sides: MAR gallery on page 1, the ordered six-card scene across facing pages 2-3,
-the nine-card scene across pages 4-7, the remaining gallery on page 8, then 82 characters
-starting with Peter on page 9. Eleven characters and Multiversal Passage 0206 move into
+with Kraven's Last Hunt and Peter Parker's Camera filling its two remaining pockets.
+The nine-card scene runs in artwork order through consecutive pockets on pages 4-6;
+regular Multiversal Passage fills page 6's top right pocket, then the 82 remaining
+characters start with Peter at bottom left on the same page. Eleven characters and Multiversal Passage 0206 move into
 the scenes, so they are not repeated in the following sections. The three new scene-only
 cards plus the existing Passage are outside character counts. There are 104 displayed
-entries and 12 intentional empty pockets. The complete proposed order and four exact
+entries, with a card or missing-card placeholder assigned to every pocket. The complete proposed order and four exact
 grayscale proxy printings are documented in `../collections/spider-man/scene-layout.md`.
 
 Scene availability is separate from identity ownership. Miles 0200 and Spider-Punk

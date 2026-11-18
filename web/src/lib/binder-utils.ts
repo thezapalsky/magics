@@ -55,11 +55,12 @@ export interface SceneCard {
 }
 export interface BinderScene {
   id: string; title: string; rows: number; columns: number;
+  arrangement: 'spread' | 'sequence';
   source: string; sourceImage?: string; note: string; cards: SceneCard[];
 }
 export interface BinderScenePlan {
   schemaVersion: 1; title: string; status: 'planned'; plannedAt: string;
-  pageCount: number; characterStartPage: number;
+  pageCount: number; characterStartPage: number; characterStartPocket: number;
   gallery: { slot: number; page: number; pocket: number }[];
   scenes: BinderScene[];
 }

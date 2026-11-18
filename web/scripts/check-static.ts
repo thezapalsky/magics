@@ -63,4 +63,5 @@ for (const set of ['SPM', 'SPE'] as const) assert.equal(readFileSync(resolve(`di
 assert.equal(readFileSync(resolve('dist/exports/spider-man-scenes.txt'), 'utf8'), sceneProxyText());
 assert.equal(readFileSync(resolve('../collections/spider-man/scene-proxies.txt'), 'utf8'), sceneProxyText());
 console.log(`Static HTML includes every deck before hydration; all ${snapshotCount} text exports match their sources.`);
-console.log('Static binder includes both scenes, all 104 planned entries, 29 page sides and all three exact character/scene exports before hydration.');
+assert.equal((binderHtml.match(/class="empty-pocket(?:\s|")/g) ?? []).length, 0);
+console.log('Static binder includes both scenes, all 104 planned entries, 26 full page sides and all three exact character/scene exports before hydration.');

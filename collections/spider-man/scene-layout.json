@@ -3,16 +3,17 @@
   "title": "Both scenes - four-pocket plan",
   "status": "planned",
   "plannedAt": "2026-11-18",
-  "pageCount": 29,
-  "characterStartPage": 9,
+  "pageCount": 26,
+  "characterStartPage": 6,
+  "characterStartPocket": 3,
   "gallery": [
     { "slot": 1, "page": 1, "pocket": 1 },
     { "slot": 2, "page": 1, "pocket": 2 },
     { "slot": 3, "page": 1, "pocket": 3 },
     { "slot": 4, "page": 1, "pocket": 4 },
-    { "slot": 5, "page": 8, "pocket": 1 },
-    { "slot": 6, "page": 8, "pocket": 2 },
-    { "slot": 8, "page": 8, "pocket": 3 }
+    { "slot": 5, "page": 3, "pocket": 2 },
+    { "slot": 6, "page": 3, "pocket": 4 },
+    { "slot": 8, "page": 6, "pocket": 2 }
   ],
   "scenes": [
     {
@@ -20,6 +21,7 @@
       "title": "Spidey's Sensational Showdown",
       "rows": 2,
       "columns": 3,
+      "arrangement": "spread",
       "source": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
       "note": "Scene Box ordered, awaiting delivery. All six spaces remain unfilled until the cards arrive.",
       "cards": [
@@ -36,19 +38,20 @@
       "title": "Spider-Verse panorama",
       "rows": 3,
       "columns": 3,
+      "arrangement": "sequence",
       "source": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
       "sourceImage": "https://media.wizards.com/2025/images/daily/xiR5dLkX2x.webp",
       "note": "Five scene printings confirmed in the user's photo. Print grayscale placeholders for the other four; Miles and Spider-Punk are already owned in other printings. Display Miles and Gwen on their Spider-Man / Ghost-Spider faces.",
       "cards": [
         { "name": "SP//dr, Piloted by Peni", "set": "SPM", "collectorNumber": "199", "characterSlot": 27, "row": 1, "column": 1, "page": 4, "pocket": 1, "availability": "owned", "faceIndex": 0 },
         { "name": "Miles Morales // Ultimate Spider-Man", "set": "SPM", "collectorNumber": "200", "characterSlot": 10, "row": 1, "column": 2, "page": 4, "pocket": 2, "availability": "proxy", "faceIndex": 1 },
-        { "name": "Spider-Ham, Peter Porker", "set": "SPM", "collectorNumber": "201", "characterSlot": 23, "row": 1, "column": 3, "page": 5, "pocket": 1, "availability": "owned", "faceIndex": 0 },
-        { "name": "Gwen Stacy // Ghost-Spider", "set": "SPM", "collectorNumber": "202", "characterSlot": 13, "row": 2, "column": 1, "page": 4, "pocket": 3, "availability": "proxy", "faceIndex": 1 },
-        { "name": "Web-Warriors", "set": "SPM", "collectorNumber": "203", "row": 2, "column": 2, "page": 4, "pocket": 4, "availability": "proxy", "faceIndex": 0 },
-        { "name": "Spider-Man Noir", "set": "SPM", "collectorNumber": "204", "characterSlot": 17, "row": 2, "column": 3, "page": 5, "pocket": 3, "availability": "owned", "faceIndex": 0 },
-        { "name": "Spider-Man 2099", "set": "SPM", "collectorNumber": "205", "characterSlot": 19, "row": 3, "column": 1, "page": 6, "pocket": 1, "availability": "owned", "faceIndex": 0 },
-        { "name": "Multiversal Passage", "set": "SPM", "collectorNumber": "206", "gallerySlot": 7, "row": 3, "column": 2, "page": 6, "pocket": 2, "availability": "owned", "faceIndex": 0 },
-        { "name": "Spider-Punk", "set": "SPM", "collectorNumber": "207", "characterSlot": 18, "row": 3, "column": 3, "page": 7, "pocket": 1, "availability": "proxy", "faceIndex": 0 }
+        { "name": "Spider-Ham, Peter Porker", "set": "SPM", "collectorNumber": "201", "characterSlot": 23, "row": 1, "column": 3, "page": 4, "pocket": 3, "availability": "owned", "faceIndex": 0 },
+        { "name": "Gwen Stacy // Ghost-Spider", "set": "SPM", "collectorNumber": "202", "characterSlot": 13, "row": 2, "column": 1, "page": 4, "pocket": 4, "availability": "proxy", "faceIndex": 1 },
+        { "name": "Web-Warriors", "set": "SPM", "collectorNumber": "203", "row": 2, "column": 2, "page": 5, "pocket": 1, "availability": "proxy", "faceIndex": 0 },
+        { "name": "Spider-Man Noir", "set": "SPM", "collectorNumber": "204", "characterSlot": 17, "row": 2, "column": 3, "page": 5, "pocket": 2, "availability": "owned", "faceIndex": 0 },
+        { "name": "Spider-Man 2099", "set": "SPM", "collectorNumber": "205", "characterSlot": 19, "row": 3, "column": 1, "page": 5, "pocket": 3, "availability": "owned", "faceIndex": 0 },
+        { "name": "Multiversal Passage", "set": "SPM", "collectorNumber": "206", "gallerySlot": 7, "row": 3, "column": 2, "page": 5, "pocket": 4, "availability": "owned", "faceIndex": 0 },
+        { "name": "Spider-Punk", "set": "SPM", "collectorNumber": "207", "characterSlot": 18, "row": 3, "column": 3, "page": 6, "pocket": 1, "availability": "proxy", "faceIndex": 0 }
       ]
     }
   ]

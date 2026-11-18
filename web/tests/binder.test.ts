@@ -75,28 +75,27 @@ test('both scenes keep every original entry exactly once and preserve collection
   const { inventory, stats, cards, scenePlan } = loadBinder();
   assert.equal(scenePlan.status, 'planned');
   assert.equal(scenePlan.cards.length, 104);
-  assert.equal(scenePlan.pages.length, 29);
-  assert.equal(scenePlan.pages.flatMap(page => page.pockets).filter(card => card === null).length, 12);
+  assert.equal(scenePlan.pages.length, 26);
+  assert.ok(scenePlan.pages.every(page => page.pockets.every(card => card !== null)));
   assert.equal(new Set(scenePlan.cards.map(card => card.key)).size, 104);
   assert.deepEqual(new Set(scenePlan.cards.filter(card => card.characterSlot !== null).map(card => card.characterSlot)),
     new Set(cards.filter(card => card.characterSlot !== null).map(card => card.characterSlot)));
   assert.equal(scenePlan.cards.filter(card => card.characterSlot !== null).length, 93);
   assert.equal(scenePlan.cards.filter(card => card.section === 'Scene extras').length, 3);
   assert.equal(scenePlan.cards.filter(card => card.name === 'Multiversal Passage').length, 2);
-  assert.equal(scenePlan.pages[8].pockets[0]?.name, 'Peter Parker // Amazing Spider-Man');
-  assert.deepEqual(scenePlan.pages[28].pockets.map(card => card?.name ?? null), ['Tombstone, Career Criminal', 'Vulture, Scheming Scavenger', null, null]);
+  assert.equal(scenePlan.pages[5].pockets[2]?.name, 'Peter Parker // Amazing Spider-Man');
+  assert.deepEqual(scenePlan.pages[25].pockets.map(card => card?.name ?? null), ['Stegron the Dinosaur Man', 'Swarm, Being of Bees', 'Tombstone, Career Criminal', 'Vulture, Scheming Scavenger']);
   assert.deepEqual(binderStats(inventory), stats);
 });
 
-test('scenes join across even-left and odd-right pages in artwork order', () => {
+test('small scene joins across a spread while the big scene fills consecutive pockets', () => {
   const { scenePlan } = loadBinder();
   const printings = (page: number) => scenePlan.pages[page - 1].pockets.map(card => card?.collectorNumber ?? null);
   assert.deepEqual(printings(2), ['21', '22', '24', '25']);
-  assert.deepEqual(printings(3), ['23', null, '26', null]);
-  assert.deepEqual(printings(4), ['199', '200', '202', '203']);
-  assert.deepEqual(printings(5), ['201', null, '204', null]);
-  assert.deepEqual(printings(6), ['205', '206', null, null]);
-  assert.deepEqual(printings(7), ['207', null, null, null]);
+  assert.deepEqual(printings(3), ['23', '226', '26', '171']);
+  assert.deepEqual(printings(4), ['199', '200', '201', '202']);
+  assert.deepEqual(printings(5), ['203', '204', '205', '206']);
+  assert.deepEqual(printings(6), ['207', '180', '10', '4']);
   for (const number of ['200', '202']) {
     const card = scenePlan.cards.find(card => card.collectorNumber === number)!;
     assert.equal(card.initialFaceIndex, 1);
@@ -122,7 +121,7 @@ test('ordered scene cards and missing artwork do not become owned characters', (
   assert.equal(select('Gallery').length, 8); // Includes Passage 0206, now in the scene.
 });
 
-test('scene plans reject overlapping pockets, lost characters and broken facing-page alignment', () => {
+test('scene plans reject overlapping pockets, lost characters, gaps and wrong artwork order', () => {
   const { cards, scenePlan } = loadBinder();
   const overlap = structuredClone(scenePlan.cards);
   overlap[1].page = overlap[0].page; overlap[1].pocket = overlap[0].pocket;
@@ -130,7 +129,13 @@ test('scene plans reject overlapping pockets, lost characters and broken facing-
   const lost = structuredClone(scenePlan.cards);
   lost.find(card => card.characterSlot === 1)!.key = 'lost-character';
   assert.throws(() => validateBinderSceneLayout(scenePlan, cards, lost), /Lost binder entry/);
+  const gap = structuredClone(scenePlan.cards);
+  gap.find(card => card.page === 1 && card.pocket === 1)!.page = 27;
+  assert.throws(() => validateBinderSceneLayout({ ...scenePlan, pageCount: 27 }, cards, gap), /scope/);
   const reordered = structuredClone(scenePlan);
   reordered.scenes[0].cards[0].page = 3;
   assert.throws(() => validateBinderSceneLayout(reordered, cards, reordered.cards), /artwork order/);
+  const split = structuredClone(scenePlan);
+  split.scenes[1].cards[0].pocket = 2;
+  assert.throws(() => validateBinderSceneLayout(split, cards, split.cards), /artwork order/);
 });

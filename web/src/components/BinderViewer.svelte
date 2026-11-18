@@ -36,7 +36,7 @@
   <a class="back-link" href="/">← My decks</a>
   <p class="eyebrow">The character collection</p>
   <h1 id="binder-title">Spider-Man<span>.</span></h1>
-  <p class="intro-note">Both scenes together, then Peter and the rest of the character collection. A reserved place for every missing card.</p>
+  <p class="intro-note">Both scenes in your four-pocket binder, then Peter and the rest of the character collection. A reserved place for every missing card.</p>
   <div class="collection-progress">
     <div class="main-progress">
       <div class="progress-heading"><h2>Main collection <span>SPM</span></h2><span class="percent">{stats.percent}%</span></div>
@@ -53,7 +53,7 @@
   <button type="button" aria-pressed={layout === 'verified'} onclick={() => chooseLayout('verified')} disabled={!ready}>Video-verified layout</button>
 </div>
 <p class="layout-note">{layout === 'scenes'
-  ? 'Proposed rearrangement · 29 page sides. The Scene Box is on order. Grayscale scene cards reserve the exact artwork; existing character ownership stays unchanged.'
+  ? 'Proposed rearrangement · 26 full page sides. The larger scene is split across three pages until the move to a 3×3 binder. Missing cards keep their proxy spaces; the Scene Box is on order.'
   : 'Physical layout checked in the 17 November video · 26 page sides. The proposed scene arrangement has not been physically verified.'}</p>
 
 <section class="binder-controls" aria-label="Filter binder cards">
@@ -76,7 +76,7 @@
     {#each scenePlan.scenes as scene}
       <div class="scene-overview">
         <h2>{scene.title}</h2>
-        <p>{scene.id === 'showdown' ? 'Pages 02-03 · one facing spread' : 'Pages 04-07 · top two rows, then bottom row on the next spread'}</p>
+        <p>{scene.id === 'showdown' ? 'Pages 02-03 · one facing spread, gallery cards fill the two remaining pockets' : 'Pages 04-06 · artwork order continues through consecutive pockets'}</p>
         <div class="scene-grid">
           {#each scene.cards as entry}
             {@const card = scenePlan.cards.find(card => card.sceneId === scene.id && card.collectorNumber === entry.collectorNumber)!}
@@ -120,7 +120,7 @@
 {/if}
 
 <section class="binder-notes" aria-labelledby="collection-notes">
-  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its proxy or label. The main goal stays at 79 SPM names; SPE cards are optional. Gallery cards and the four nonlegendary scene pieces sit outside those counts. Each character appears once in the proposed layout.</p><p>Pages count sides, with page 1 on the right. Facing pairs are 2-3, 4-5 and so on. Blank pockets alongside scenes preserve their artwork positions. When you move to a 3×3 binder, each scene can use one page.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
+  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its proxy or label. The main goal stays at 79 SPM names; SPE cards are optional. Gallery cards and the four nonlegendary scene pieces sit outside those counts. Each character appears once in the proposed layout.</p><p>Pages count sides, with page 1 on the right. The smaller scene joins across pages 2-3; gallery cards fill its two remaining pockets. The larger scene continues in artwork order across pages 4-6, followed immediately by the remaining gallery card and Peter. All 104 pockets have an assigned card or placeholder. When you move to a 3×3 binder, each scene can use one page.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
   <div class="missing-downloads"><h3>Missing-card print lists</h3><a href="/exports/spider-man-spm.txt" download>SPM · {stats.mainMissing} missing ↗</a><a href="/exports/spider-man-spe.txt" download>SPE · {stats.bonusReserved} reserved ↗</a><a href="/exports/spider-man-scenes.txt" download>Scene artwork · 4 proxies ↗</a><span>Scene proxies use exact printings. Print Miles 0200 and Gwen 0202 on their reverse faces. The six ordered Scene Box cards are excluded.</span></div>
 </section>
 <CardBrowser bind:this={browser} cards={matching} warmAt={() => {}} />

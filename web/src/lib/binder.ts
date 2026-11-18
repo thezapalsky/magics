@@ -82,7 +82,8 @@ export function loadBinder() {
     });
   }
   cards.filter(card => card.characterSlot !== null && !movedCharacters.has(card.characterSlot)).forEach((card, index) => {
-    plannedCards.push({ ...card, page: plan.characterStartPage + Math.floor(index / 4), pocket: index % 4 + 1 });
+    const offset = plan.characterStartPocket - 1 + index;
+    plannedCards.push({ ...card, page: plan.characterStartPage + Math.floor(offset / 4), pocket: offset % 4 + 1 });
   });
   validateBinderSceneLayout(plan, cards, plannedCards);
   plannedCards.sort((a, b) => a.page - b.page || a.pocket - b.pocket);
@@ -96,8 +97,10 @@ export function readBinderScenePlan(): BinderScenePlan {
 }
 
 export function validateBinderSceneLayout(plan: BinderScenePlan, verified: BinderCard[], planned: BinderCard[]) {
-  if (plan.schemaVersion !== 1 || plan.status !== 'planned' || plan.characterStartPage !== 9 ||
-      plan.pageCount !== 29 || plan.scenes.length !== 2 || planned.length !== 104) throw new Error('Invalid scene-plan scope');
+  if (plan.schemaVersion !== 1 || plan.status !== 'planned' ||
+      !Number.isInteger(plan.characterStartPage) || plan.characterStartPage < 1 || plan.characterStartPage > plan.pageCount ||
+      !Number.isInteger(plan.characterStartPocket) || plan.characterStartPocket < 1 || plan.characterStartPocket > 4 ||
+      plan.pageCount !== Math.ceil(planned.length / 4) || plan.scenes.length !== 2 || planned.length !== 104) throw new Error('Invalid scene-plan scope');
   const positions = new Set<string>();
   const keys = new Set<string>();
   for (const card of planned) {
@@ -109,16 +112,24 @@ export function validateBinderSceneLayout(plan: BinderScenePlan, verified: Binde
     if (keys.has(card.key)) throw new Error('A scene-plan card is displayed twice');
     positions.add(position); keys.add(card.key);
   }
+  for (let index = 0; index < planned.length; index++) {
+    if (!positions.has(`${Math.floor(index / 4) + 1}/${index % 4 + 1}`)) throw new Error('Scene plan must fill every pocket without gaps');
+  }
   for (const original of verified) if (!keys.has(original.key)) throw new Error(`Lost binder entry: ${original.name}`);
   for (const scene of plan.scenes) {
     if (scene.columns !== 3 || ![2, 3].includes(scene.rows) || scene.cards.length !== scene.rows * scene.columns) throw new Error('Incomplete scene');
     const coordinates = new Set<string>();
-    const leftPage = Math.min(...scene.cards.map(card => card.page));
-    if (leftPage % 2 !== 0) throw new Error('Scenes must begin on an even left-hand page');
+    const firstPage = Math.min(...scene.cards.map(card => card.page));
+    if (!['spread', 'sequence'].includes(scene.arrangement)) throw new Error('Invalid scene arrangement');
+    if (scene.arrangement === 'spread' && firstPage % 2 !== 0) throw new Error('Joined scenes must begin on an even left-hand page');
     for (const card of scene.cards) {
       const coordinate = `${card.row}/${card.column}`;
-      const page = leftPage + Math.floor((card.row - 1) / 2) * 2 + Math.floor((card.column - 1) / 2);
-      const pocket = ((card.row - 1) % 2) * 2 + (card.column - 1) % 2 + 1;
+      const offset = (card.row - 1) * scene.columns + card.column - 1;
+      const page = scene.arrangement === 'spread'
+        ? firstPage + Math.floor((card.row - 1) / 2) * 2 + Math.floor((card.column - 1) / 2)
+        : firstPage + Math.floor(offset / 4);
+      const pocket = scene.arrangement === 'spread'
+        ? ((card.row - 1) % 2) * 2 + (card.column - 1) % 2 + 1 : offset % 4 + 1;
       if (!Number.isInteger(card.row) || card.row < 1 || card.row > scene.rows ||
           !Number.isInteger(card.column) || card.column < 1 || card.column > scene.columns ||
           coordinates.has(coordinate) || card.page !== page || card.pocket !== pocket ||
