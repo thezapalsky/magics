@@ -40,4 +40,4 @@ for (const release of [
 }
 console.log(`Validated ${versions} snapshots; both paper defaults match their canonical lists and version files.`);
 const binder = loadBinder();
-console.log(`Binder: ${binder.stats.mainOwned}/${binder.stats.mainTarget} SPM, ${binder.stats.bonusOwned} SPE bonuses, ${binder.stats.slots} fixed character slots, ${binder.pages.length} four-pocket page sides.`);
+console.log(`Binder: ${binder.stats.mainOwned}/${binder.stats.mainTarget} SPM, ${binder.stats.bonusOwned} SPE bonuses, ${binder.stats.slots} character identities; ${binder.pages.length} verified / ${binder.scenePlan.pages.length} proposed four-pocket page sides.`);

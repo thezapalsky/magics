@@ -4,7 +4,26 @@ Recorded **2026-11-06** from the user's supplied context brief and updated **202
 
 The original photographic baseline and Welcome Deck reconciliation have now been followed by a full catalogue audit and a visual check of the reorganized binder in the user's **IMG_8150.MOV**, on **2026-11-17**. All 26 four-pocket page sides were compared with the agreed 93-slot plan. No misplaced or skipped character entries were found. This verifies visible names, order and placeholders; it does not establish foil finishes, condition or authenticity.
 
-[inventory.json](inventory.json) is the current machine-readable source for all **93 character slots and eight opening-gallery cards**. It drives the website at `/collections/spider-man/`, including the page/pocket layout, filters, counts and missing-card downloads. The website is a read-only snapshot of this file. Update the file when the physical binder changes.
+[inventory.json](inventory.json) is the machine-readable, video-verified source for all **93 character identities and eight gallery cards**. It drives ownership counts and missing-card downloads at `/collections/spider-man/`. The website now defaults to the separately labelled **[two-scene rearrangement plan](scene-layout.md)** from [scene-layout.json](scene-layout.json), with the original verified layout still selectable. Planning does not establish that physical cards have moved or arrived. Update inventory ownership only when confirmed.
+
+## Proposed layout with both scenes - 18 November 2026
+
+Keep the current four-pocket binder. Page 1 is the right-hand opening side; facing pairs are **2-3, 4-5, 6-7**, and so on.
+
+| Page side(s) | Proposed contents |
+|---|---|
+| 1 | Existing four MAR showcase cards |
+| 2-3 | Complete six-card Spidey's Sensational Showdown scene, 3 columns by 2 rows across the spread |
+| 4-5 | First two rows of the nine-card Spider-Verse panorama |
+| 6-7 | Third row of the Spider-Verse panorama, with aligned empty pockets |
+| 8 | Kraven's Last Hunt, Peter Parker's Camera and regular Multiversal Passage |
+| 9-29 | Remaining 82 characters in the established Heroes / Allies / Villains order, starting with Peter |
+
+Eleven existing character entries move into the scenes rather than being displayed twice. All **93 character identities** retain reserved positions in the plan. The character target stays **79 SPM**, progress stays **60/79 plus eight SPE**, and scene-only nonlegendary cards do not enter the checklist. The plan displays **104 entries across 29 sides**, with **12 intentional empty pockets**.
+
+The Scene Box is **ordered, awaiting delivery**: all six of its places remain unfilled. For the nine-card scene, five exact printings are confirmed owned; print grayscale placeholders for **SPM 0200, 0202, 0203 and 0207**. Miles 0200 and Gwen 0202 must show their reverse faces. Miles and Spider-Punk are already owned as identities in other printings, so these artwork placeholders do not increase the missing-character count. Future 3x3 pages can display each scene on one side.
+
+See [the full pocket-by-pocket order, proxy list and moving instructions](scene-layout.md). The older organization below remains the **verified 17 November baseline**, not a claim that the proposed rearrangement has already happened.
 
 ## Goal and scope
 

@@ -412,6 +412,30 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - Chromium launch was retried and is still blocked by macOS sandbox permissions
   at `MachPortRendezvousServer`. Desktop/mobile visual and interaction review
   remains pending; no successful browser QA is claimed for the binder addition.
+
+## Both scenes in the four-pocket binder - 18 November 2026
+
+- Kept `inventory.json` unchanged: the 17 November video still establishes the
+  26-side layout, 60/79 SPM identities and eight owned SPE bonuses.
+- Added a separately labelled, proposed scene layout as the default website view.
+  Its 104 display entries occupy 29 four-pocket page sides, with 12 intentional
+  empty pockets. All 93 character identities appear once; eleven move into scenes.
+- Checked scene ordering against Wizards' official panorama and Scene Box artwork.
+  Pages 2-3 hold the six-card scene; pages 4-5 and 6-7 hold the nine-card scene.
+  Even/odd facing-page alignment, all coordinates and reverse faces for Miles/Gwen
+  are covered by validation. Peter begins the remaining character sequence on page 9.
+- All six Scene Box pieces remain on order. Four exact SPM artwork proxies are
+  distinguished from identity ownership; regular Miles and Spider-Punk remain owned.
+  Added only six missing public printing records to the dedicated binder cache.
+  The deck cache, ownership inventory and released decks were not changed.
+- Local Astro/Svelte checks found zero errors or warnings; all 41 tests passed.
+  The static build includes both panoramas and all 104 planned pockets before
+  hydration, retains exact missing-character exports, and uses 31.2 KiB gzip
+  combined client JavaScript, within the existing 100 KiB budget.
+- Both canonical paper deck validators and `git diff --check` passed.
+- A fresh headless Chromium launch failed in the macOS sandbox. Desktop/mobile
+  interaction and screenshot review remains pending; no successful browser QA is
+  claimed for the scene revision.
 - Ownership remains the video-reviewed 60/79 SPM plus eight SPE bonuses. Incoming
   orders and future scene-display rearrangements are not treated as owned cards
   or completed physical-layout changes.

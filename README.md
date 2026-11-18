@@ -40,7 +40,7 @@ Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sac
 
 ## Binder collections
 
-The [Spider-Man binder project](collections/spider-man/README.md) tracks **60/79 main SPM characters**, plus **8 owned SPE bonuses**. The reorganized binder was visually checked from the user's video on 2026-11-17: **93 fixed character slots = 68 owned cards + 19 SPM proxies + six SPE labels**, with eight display cards on two separate opening gallery pages. The main target remains 79. [inventory.json](collections/spider-man/inventory.json) stores the complete order, ownership and page rules; the website reads it at `/collections/spider-man/` with four-pocket pages, filters and missing-card downloads. The final page has Vulture and three empty pockets. Rules, historical cost estimates and the [SPM missing list](collections/spider-man/missing.txt) remain separate from deck releases.
+The [Spider-Man binder project](collections/spider-man/README.md) tracks **60/79 main SPM characters**, plus **8 owned SPE bonuses**. [inventory.json](collections/spider-man/inventory.json) preserves the 17 November video-verified ownership and order. The website at `/collections/spider-man/` now also presents the **[proposed layout with both scenes](collections/spider-man/scene-layout.md)**: 104 display entries across 29 four-pocket page sides, each character displayed once, with reserved missing printings. The six-card Scene Box remains on order; scene artwork proxies do not change character completion. The verified 26-side layout is still selectable. The main target remains 79; the [SPM missing list](collections/spider-man/missing.txt) and deck releases remain separate.
 
 ## Versioning
 

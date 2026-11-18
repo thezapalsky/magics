@@ -65,6 +65,7 @@ export interface CardCache {
 export interface DisplayCard extends DeckEntry {
   key: string;
   metadata: CardMetadata;
+  initialFaceIndex?: number;
 }
 
 export interface LoadedDeck {

@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { readBinderInventory } from '../src/lib/binder.ts';
+import { readBinderInventory, readBinderScenePlan } from '../src/lib/binder.ts';
 import { printingKey, referencePrinting } from '../src/lib/binder-utils.ts';
 import { normalizeName } from '../src/lib/parser.ts';
 import type { CardFace, CardMetadata } from '../src/lib/types.ts';
@@ -18,8 +18,9 @@ interface PublicCard {
 const catalogue = JSON.parse(readFileSync(resolve(input), 'utf8')) as PublicCard[];
 if (!Array.isArray(catalogue)) throw new Error('Expected a public catalogue JSON array');
 const inventory = readBinderInventory();
+const plan = readBinderScenePlan();
 const cards: Record<string, CardMetadata> = {};
-for (const entry of [...inventory.gallery, ...inventory.entries]) {
+for (const entry of [...inventory.gallery, ...inventory.entries, ...plan.scenes.flatMap(scene => scene.cards)]) {
   const number = referencePrinting(entry);
   const matches = catalogue.filter(card => card.lang === 'en' && card.set === entry.set.toLowerCase() && card.collector_number === number);
   if (matches.length !== 1 || normalizeName(matches[0].name) !== normalizeName(entry.name)) throw new Error(`Unresolved exact binder printing: ${entry.name}`);

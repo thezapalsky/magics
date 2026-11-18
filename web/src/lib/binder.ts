@@ -2,8 +2,8 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { readSource } from './decks.ts';
 import { normalizeName } from './parser.ts';
-import { binderStats, displayBinderCard, makeBinderPages, printingKey, referencePrinting, type BinderInventory } from './binder-utils.ts';
-import type { CardCache } from './types.ts';
+import { binderStats, displayBinderCard, makeBinderPages, printingKey, referencePrinting, type BinderInventory, type BinderScenePlan, type BinderCard } from './binder-utils.ts';
+import type { CardCache, CardMetadata } from './types.ts';
 
 export function readBinderInventory(): BinderInventory {
   const inventory = JSON.parse(readSource('collections/spider-man/inventory.json')) as BinderInventory;
@@ -39,21 +39,102 @@ export function loadBinder() {
   const inventory = readBinderInventory();
   const cache = JSON.parse(readFileSync(resolve(process.cwd(), 'data/binder-cards.json'), 'utf8')) as CardCache;
   if (cache.schemaVersion !== 1) throw new Error('Unsupported binder card cache');
-  const cards = [...inventory.gallery, ...inventory.entries].map(card => {
+  const artwork = (card: { name: string; set: string; collectorNumber: string; observedCollectorNumber?: string | null }): CardMetadata => {
     const number = referencePrinting(card);
     const metadata = cache.cards[printingKey(card.set, number)];
     if (!metadata || normalizeName(metadata.name) !== normalizeName(card.name) ||
         metadata.set !== card.set.toLowerCase() || metadata.collectorNumber !== number || !metadata.faces[0]?.images) {
       throw new Error(`Missing or mismatched binder artwork: ${card.name} (${card.set} ${number})`);
     }
-    return displayBinderCard(card, metadata);
+    return metadata;
+  };
+  const cards = [...inventory.gallery, ...inventory.entries].map(card => displayBinderCard(card, artwork(card)));
+  const plan = readBinderScenePlan();
+  const plannedCards: BinderCard[] = plan.gallery.map(position => {
+    const original = cards.find(card => card.key === `gallery-${position.slot}`);
+    if (!original) throw new Error('Unknown scene-plan gallery card');
+    return { ...original, page: position.page, pocket: position.pocket };
   });
+  const movedCharacters = new Set<number>();
+  for (const scene of plan.scenes) for (const entry of scene.cards) {
+    const original = entry.characterSlot !== undefined
+      ? cards.find(card => card.characterSlot === entry.characterSlot)
+      : entry.gallerySlot !== undefined ? cards.find(card => card.key === `gallery-${entry.gallerySlot}`) : undefined;
+    if ((entry.characterSlot !== undefined || entry.gallerySlot !== undefined) &&
+        (!original || original.name !== entry.name || original.set !== entry.set.toLowerCase())) {
+      throw new Error(`Scene identity mismatch: ${entry.name}`);
+    }
+    const metadata = artwork(entry);
+    if (!Number.isInteger(entry.faceIndex) || !metadata.faces[entry.faceIndex]?.images) throw new Error('Invalid scene face');
+    if (entry.availability === 'owned' && original && (original.status !== 'owned' || original.collectorNumber !== entry.collectorNumber)) {
+      throw new Error(`Unverified owned scene printing: ${entry.name}`);
+    }
+    if (entry.characterSlot !== undefined) movedCharacters.add(entry.characterSlot);
+    plannedCards.push({
+      key: original?.key ?? `scene-${entry.set.toLowerCase()}-${entry.collectorNumber}`,
+      quantity: 1, name: entry.name, set: entry.set.toLowerCase(), collectorNumber: entry.collectorNumber,
+      metadata, initialFaceIndex: entry.faceIndex, page: entry.page, pocket: entry.pocket,
+      characterSlot: entry.characterSlot ?? null, section: original?.section ?? 'Scene extras',
+      status: entry.availability === 'owned' ? 'owned' : 'missing',
+      placeholder: null, rarity: original?.rarity ?? 'Rare',
+      sceneId: scene.id, sceneTitle: scene.title, availability: entry.availability,
+      ...(original && { identityStatus: original.status }),
+    });
+  }
+  cards.filter(card => card.characterSlot !== null && !movedCharacters.has(card.characterSlot)).forEach((card, index) => {
+    plannedCards.push({ ...card, page: plan.characterStartPage + Math.floor(index / 4), pocket: index % 4 + 1 });
+  });
+  validateBinderSceneLayout(plan, cards, plannedCards);
+  plannedCards.sort((a, b) => a.page - b.page || a.pocket - b.pocket);
   return { inventory, stats: binderStats(inventory), cards,
-    pages: makeBinderPages(cards, inventory.rules.galleryPages + Math.ceil(inventory.entries.length / 4)) };
+    pages: makeBinderPages(cards, inventory.rules.galleryPages + Math.ceil(inventory.entries.length / 4)),
+    scenePlan: { ...plan, cards: plannedCards, pages: makeBinderPages(plannedCards, plan.pageCount) } };
+}
+
+export function readBinderScenePlan(): BinderScenePlan {
+  return JSON.parse(readSource('collections/spider-man/scene-layout.json')) as BinderScenePlan;
+}
+
+export function validateBinderSceneLayout(plan: BinderScenePlan, verified: BinderCard[], planned: BinderCard[]) {
+  if (plan.schemaVersion !== 1 || plan.status !== 'planned' || plan.characterStartPage !== 9 ||
+      plan.pageCount !== 29 || plan.scenes.length !== 2 || planned.length !== 104) throw new Error('Invalid scene-plan scope');
+  const positions = new Set<string>();
+  const keys = new Set<string>();
+  for (const card of planned) {
+    const position = `${card.page}/${card.pocket}`;
+    if (!Number.isInteger(card.page) || card.page < 1 || card.page > plan.pageCount ||
+        !Number.isInteger(card.pocket) || card.pocket < 1 || card.pocket > 4 || positions.has(position)) {
+      throw new Error('Invalid or overlapping scene-plan pocket');
+    }
+    if (keys.has(card.key)) throw new Error('A scene-plan card is displayed twice');
+    positions.add(position); keys.add(card.key);
+  }
+  for (const original of verified) if (!keys.has(original.key)) throw new Error(`Lost binder entry: ${original.name}`);
+  for (const scene of plan.scenes) {
+    if (scene.columns !== 3 || ![2, 3].includes(scene.rows) || scene.cards.length !== scene.rows * scene.columns) throw new Error('Incomplete scene');
+    const coordinates = new Set<string>();
+    const leftPage = Math.min(...scene.cards.map(card => card.page));
+    if (leftPage % 2 !== 0) throw new Error('Scenes must begin on an even left-hand page');
+    for (const card of scene.cards) {
+      const coordinate = `${card.row}/${card.column}`;
+      const page = leftPage + Math.floor((card.row - 1) / 2) * 2 + Math.floor((card.column - 1) / 2);
+      const pocket = ((card.row - 1) % 2) * 2 + (card.column - 1) % 2 + 1;
+      if (!Number.isInteger(card.row) || card.row < 1 || card.row > scene.rows ||
+          !Number.isInteger(card.column) || card.column < 1 || card.column > scene.columns ||
+          coordinates.has(coordinate) || card.page !== page || card.pocket !== pocket ||
+          !['owned', 'proxy', 'ordered'].includes(card.availability)) throw new Error('Scene artwork order or availability is invalid');
+      coordinates.add(coordinate);
+    }
+  }
 }
 
 export function missingBinderText(set: 'SPM' | 'SPE'): string {
   const inventory = readBinderInventory();
   return inventory.entries.filter(card => card.set === set && card.status === 'missing')
+    .map(card => `1 ${card.name} (${card.set}) ${card.collectorNumber.padStart(4, '0')}`).join('\n') + '\n';
+}
+
+export function sceneProxyText(): string {
+  return readBinderScenePlan().scenes.flatMap(scene => scene.cards).filter(card => card.availability === 'proxy')
     .map(card => `1 ${card.name} (${card.set}) ${card.collectorNumber.padStart(4, '0')}`).join('\n') + '\n';
 }

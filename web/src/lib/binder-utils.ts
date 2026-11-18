@@ -38,16 +38,36 @@ export interface BinderCard extends DisplayCard {
   page: number;
   pocket: number;
   characterSlot: number | null;
-  section: BinderSection | 'Gallery';
+  section: BinderSection | 'Gallery' | 'Scene extras';
   status: BinderStatus;
   placeholder: BinderEntry['placeholder'];
   rarity: string;
+  sceneId?: string;
+  sceneTitle?: string;
+  availability?: 'owned' | 'proxy' | 'ordered';
+  identityStatus?: BinderStatus;
+}
+export interface SceneCard {
+  name: string; set: 'SPM' | 'SPE'; collectorNumber: string;
+  characterSlot?: number; gallerySlot?: number;
+  row: number; column: number; page: number; pocket: number;
+  availability: 'owned' | 'proxy' | 'ordered'; faceIndex: number;
+}
+export interface BinderScene {
+  id: string; title: string; rows: number; columns: number;
+  source: string; sourceImage?: string; note: string; cards: SceneCard[];
+}
+export interface BinderScenePlan {
+  schemaVersion: 1; title: string; status: 'planned'; plannedAt: string;
+  pageCount: number; characterStartPage: number;
+  gallery: { slot: number; page: number; pocket: number }[];
+  scenes: BinderScene[];
 }
 export interface BinderPage { number: number; sections: string[]; pockets: (BinderCard | null)[] }
 export interface BinderFilters {
   query: string;
   status: 'all' | BinderStatus;
-  set: 'all' | 'SPM' | 'SPE' | 'Gallery';
+  set: 'all' | 'SPM' | 'SPE' | 'Gallery' | 'Scenes';
 }
 
 export function binderStats(inventory: BinderInventory) {
@@ -68,8 +88,8 @@ export function printingKey(set: string, collectorNumber: string) {
   return `${set.toLowerCase()}/${collectorNumber}`;
 }
 
-export function referencePrinting(card: BinderEntry | GalleryEntry) {
-  return 'observedCollectorNumber' in card && card.observedCollectorNumber
+export function referencePrinting(card: { collectorNumber: string; observedCollectorNumber?: string | null }) {
+  return card.observedCollectorNumber
     ? card.observedCollectorNumber : card.collectorNumber;
 }
 
@@ -78,8 +98,9 @@ const fold = (text: string) => text.normalize('NFKD').replace(/\p{M}/gu, '').rep
 export function matchesBinderCard(card: BinderCard, filters: BinderFilters): boolean {
   if (filters.status !== 'all' && card.status !== filters.status) return false;
   if (filters.set === 'Gallery' && card.section !== 'Gallery') return false;
-  if (filters.set !== 'all' && filters.set !== 'Gallery' &&
-      (card.section === 'Gallery' || card.set?.toUpperCase() !== filters.set)) return false;
+  if (filters.set === 'Scenes' && !card.sceneId) return false;
+  if ((filters.set === 'SPM' || filters.set === 'SPE') &&
+      (card.characterSlot === null || card.set?.toUpperCase() !== filters.set)) return false;
   const needle = fold(filters.query.trim());
   return !needle || fold(`${card.name} ${card.metadata.faces.map(face => face.name).join(' ')} ${card.section}`).includes(needle);
 }

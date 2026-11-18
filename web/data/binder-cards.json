@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T21:02:19.757Z",
+  "updatedAt": "2026-11-18T19:28:15.866671+00:00",
   "source": "Scryfall public bulk catalogue; exact printings matched locally, no remote collection lookup.",
   "cards": {
     "mar/31": {
@@ -3235,6 +3235,221 @@
           }
         }
       ]
+    },
+    "spm/200": {
+      "id": "b6c129a7-59d3-499e-8279-f374266150be",
+      "oracleId": "be48c721-bdc6-4f2c-96d6-82d934b31615",
+      "name": "Miles Morales // Ultimate Spider-Man",
+      "manaValue": 2.0,
+      "colors": [],
+      "colorIdentity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "200",
+      "scryfallUrl": "https://scryfall.com/card/spm/200/miles-morales-ultimate-spider-man",
+      "faces": [
+        {
+          "name": "Miles Morales",
+          "manaCost": "{1}{G}",
+          "typeLine": "Legendary Creature — Human Citizen Hero",
+          "oracleText": "When Miles Morales enters, put a +1/+1 counter on each of up to two target creatures.\n{3}{R}{G}{W}: Transform Miles Morales. Activate only as a sorcery.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "normal": "https://cards.scryfall.io/normal/front/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "large": "https://cards.scryfall.io/large/front/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296"
+          }
+        },
+        {
+          "name": "Ultimate Spider-Man",
+          "manaCost": "{3}{R}{G}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "First strike, haste\nCamouflage — {2}: Put a +1/+1 counter on Ultimate Spider-Man. He gains hexproof and becomes colorless until end of turn.\nWhenever you attack, double the number of each kind of counter on each Spider and legendary creature you control.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "normal": "https://cards.scryfall.io/normal/back/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "large": "https://cards.scryfall.io/large/back/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/b/6/b6c129a7-59d3-499e-8279-f374266150be.jpg?1783905296"
+          }
+        }
+      ]
+    },
+    "spm/202": {
+      "id": "9126dfa0-b681-44c7-9ae1-7926df8a2767",
+      "oracleId": "5f143d87-35fb-40e3-94ae-f85cfff9adb5",
+      "name": "Gwen Stacy // Ghost-Spider",
+      "manaValue": 2.0,
+      "colors": [],
+      "colorIdentity": [
+        "R",
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "202",
+      "scryfallUrl": "https://scryfall.com/card/spm/202/gwen-stacy-ghost-spider",
+      "faces": [
+        {
+          "name": "Gwen Stacy",
+          "manaCost": "{1}{R}",
+          "typeLine": "Legendary Creature — Human Performer Hero",
+          "oracleText": "When Gwen Stacy enters, exile the top card of your library. You may play that card for as long as you control this creature.\n{2}{U}{R}{W}: Transform Gwen Stacy. Activate only as a sorcery.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "normal": "https://cards.scryfall.io/normal/front/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "large": "https://cards.scryfall.io/large/front/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295"
+          }
+        },
+        {
+          "name": "Ghost-Spider",
+          "manaCost": "{2}{U}{R}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flying, vigilance, haste\nWhenever you play a land from exile or cast a spell from exile, put a +1/+1 counter on Ghost-Spider.\nRemove two counters from Ghost-Spider: Exile the top card of your library. You may play that card this turn.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "normal": "https://cards.scryfall.io/normal/back/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "large": "https://cards.scryfall.io/large/back/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/9/1/9126dfa0-b681-44c7-9ae1-7926df8a2767.jpg?1783905295"
+          }
+        }
+      ]
+    },
+    "spm/203": {
+      "id": "bd672045-fe36-4a03-abf7-9c81f4100bba",
+      "oracleId": "3b23e4f8-882d-4cce-9b61-171ae2cc3a18",
+      "name": "Web-Warriors",
+      "manaValue": 5.0,
+      "colors": [
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "203",
+      "scryfallUrl": "https://scryfall.com/card/spm/203/web-warriors",
+      "faces": [
+        {
+          "name": "Web-Warriors",
+          "manaCost": "{4}{G/W}",
+          "typeLine": "Creature — Spider Hero",
+          "oracleText": "When this creature enters, put a +1/+1 counter on each other creature you control.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/d/bd672045-fe36-4a03-abf7-9c81f4100bba.jpg?1783905290",
+            "normal": "https://cards.scryfall.io/normal/front/b/d/bd672045-fe36-4a03-abf7-9c81f4100bba.jpg?1783905290",
+            "large": "https://cards.scryfall.io/large/front/b/d/bd672045-fe36-4a03-abf7-9c81f4100bba.jpg?1783905290",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bd672045-fe36-4a03-abf7-9c81f4100bba.jpg?1783905290"
+          }
+        }
+      ]
+    },
+    "spm/207": {
+      "id": "8807635d-b5f2-4f08-af5e-5792867eb60b",
+      "oracleId": "03bf7a90-78c1-4e83-8553-e22d85e49876",
+      "name": "Spider-Punk",
+      "manaValue": 2.0,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "207",
+      "scryfallUrl": "https://scryfall.com/card/spm/207/spider-punk",
+      "faces": [
+        {
+          "name": "Spider-Punk",
+          "manaCost": "{1}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Riot (This creature enters with your choice of a +1/+1 counter or haste.)\nOther Spiders you control have riot.\nSpells and abilities can't be countered.\nDamage can't be prevented.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/8/8807635d-b5f2-4f08-af5e-5792867eb60b.jpg?1783905288",
+            "normal": "https://cards.scryfall.io/normal/front/8/8/8807635d-b5f2-4f08-af5e-5792867eb60b.jpg?1783905288",
+            "large": "https://cards.scryfall.io/large/front/8/8/8807635d-b5f2-4f08-af5e-5792867eb60b.jpg?1783905288",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/8/8807635d-b5f2-4f08-af5e-5792867eb60b.jpg?1783905288"
+          }
+        }
+      ]
+    },
+    "spe/21": {
+      "id": "83e8c09e-c195-4137-a6c1-45abdcaed10e",
+      "oracleId": "dac76b28-23e8-4138-8442-51579a590f16",
+      "name": "Grasping Tentacles",
+      "manaValue": 3.0,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spe",
+      "collectorNumber": "21",
+      "scryfallUrl": "https://scryfall.com/card/spe/21/grasping-tentacles",
+      "faces": [
+        {
+          "name": "Grasping Tentacles",
+          "manaCost": "{1}{U}{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "Target opponent mills eight cards. You may put an artifact card from that player's graveyard onto the battlefield under your control.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/3/83e8c09e-c195-4137-a6c1-45abdcaed10e.jpg?1783905369",
+            "normal": "https://cards.scryfall.io/normal/front/8/3/83e8c09e-c195-4137-a6c1-45abdcaed10e.jpg?1783905369",
+            "large": "https://cards.scryfall.io/large/front/8/3/83e8c09e-c195-4137-a6c1-45abdcaed10e.jpg?1783905369",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/83e8c09e-c195-4137-a6c1-45abdcaed10e.jpg?1783905369"
+          }
+        }
+      ]
+    },
+    "spe/26": {
+      "id": "6e9a83b6-2881-4ba3-96d4-0fd89110837d",
+      "oracleId": "b0695221-a61a-41e4-8195-3eeaaab2d969",
+      "name": "Pumpkin Bombs",
+      "manaValue": 2.0,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spe",
+      "collectorNumber": "26",
+      "scryfallUrl": "https://scryfall.com/card/spe/26/pumpkin-bombs",
+      "faces": [
+        {
+          "name": "Pumpkin Bombs",
+          "manaCost": "{1}{R}",
+          "typeLine": "Artifact",
+          "oracleText": "{T}, Discard two cards: Draw three cards, then put a fuse counter on this artifact. It deals damage equal to the number of fuse counters on it to target opponent. They gain control of this artifact.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/e/6e9a83b6-2881-4ba3-96d4-0fd89110837d.jpg?1783905367",
+            "normal": "https://cards.scryfall.io/normal/front/6/e/6e9a83b6-2881-4ba3-96d4-0fd89110837d.jpg?1783905367",
+            "large": "https://cards.scryfall.io/large/front/6/e/6e9a83b6-2881-4ba3-96d4-0fd89110837d.jpg?1783905367",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/e/6e9a83b6-2881-4ba3-96d4-0fd89110837d.jpg?1783905367"
+          }
+        }
+      ]
     }
-  }
+  },
+  "sceneSource": "Six exact public Scryfall printing records added for the explicitly requested two-scene plan on 2026-11-18. Existing cache entries and ownership unchanged."
 }

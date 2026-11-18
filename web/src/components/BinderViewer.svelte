@@ -5,14 +5,16 @@
   import { makeBinderPages, matchesBinderCard, type BinderCard, type BinderFilters } from '../lib/binder-utils.ts';
   import type { loadBinder } from '../lib/binder.ts';
 
-  let { inventory, stats, cards }: Omit<ReturnType<typeof loadBinder>, 'pages'> = $props();
+  let { inventory, stats, cards: verifiedCards, scenePlan }: Omit<ReturnType<typeof loadBinder>, 'pages'> = $props();
+  let layout: 'scenes' | 'verified' = $state('scenes');
   let query = $state('');
   let status: BinderFilters['status'] = $state('all');
   let set: BinderFilters['set'] = $state('all');
   let ready = $state(false);
   let browser: { openAt(index: number, trigger: HTMLElement): Promise<void> };
   let filters = $derived({ query, status, set });
-  let pages = $derived(makeBinderPages(cards, inventory.rules.galleryPages + Math.ceil(inventory.entries.length / 4)));
+  let cards = $derived(layout === 'scenes' ? scenePlan.cards : verifiedCards);
+  let pages = $derived(makeBinderPages(cards, layout === 'scenes' ? scenePlan.pageCount : inventory.rules.galleryPages + Math.ceil(inventory.entries.length / 4)));
   let matching = $derived(cards.filter(card => matchesBinderCard(card, filters)));
   let visiblePages = $derived(pages.filter(page => page.pockets.some(card => card && matchesBinderCard(card, filters))));
   let filtered = $derived(Boolean(query.trim()) || status !== 'all' || set !== 'all');
@@ -22,6 +24,11 @@
     void browser.openAt(matching.findIndex(item => item.key === card.key), event.currentTarget as HTMLElement);
   }
   function reset() { query = ''; status = 'all'; set = 'all'; }
+  function chooseLayout(value: typeof layout) { layout = value; reset(); }
+  function displayStatus(card: BinderCard) {
+    return card.availability === 'ordered' ? 'On order' : card.availability === 'proxy' ? 'Proxy to print'
+      : card.status === 'owned' ? 'Owned' : card.placeholder === 'label' ? 'Reserved' : 'Proxy';
+  }
   onMount(() => { ready = true; });
 </script>
 
@@ -29,7 +36,7 @@
   <a class="back-link" href="/">← My decks</a>
   <p class="eyebrow">The character collection</p>
   <h1 id="binder-title">Spider-Man<span>.</span></h1>
-  <p class="intro-note">One character, one place. Heroes, allies and villains in their permanent pockets.</p>
+  <p class="intro-note">Both scenes together, then Peter and the rest of the character collection. A reserved place for every missing card.</p>
   <div class="collection-progress">
     <div class="main-progress">
       <div class="progress-heading"><h2>Main collection <span>SPM</span></h2><span class="percent">{stats.percent}%</span></div>
@@ -38,8 +45,16 @@
     </div>
     <div class="bonus-progress"><h2>The extras <span>SPE</span></h2><p><strong>{stats.bonusOwned}</strong> bonus cards</p><span>{stats.bonusReserved} reserved spaces · optional additions</span></div>
   </div>
-  <p class="inventory-note">Checked {inventory.verifiedAt} · {stats.slots} character slots · 4 pockets per page · 2 opening gallery pages</p>
+  <p class="inventory-note">Ownership checked {inventory.verifiedAt} · {stats.slots} character entries · 4 pockets per page</p>
 </section>
+
+<div class="layout-choice" role="group" aria-label="Binder layout">
+  <button type="button" aria-pressed={layout === 'scenes'} onclick={() => chooseLayout('scenes')} disabled={!ready}>Both scenes · proposed</button>
+  <button type="button" aria-pressed={layout === 'verified'} onclick={() => chooseLayout('verified')} disabled={!ready}>Video-verified layout</button>
+</div>
+<p class="layout-note">{layout === 'scenes'
+  ? 'Proposed rearrangement · 29 page sides. The Scene Box is on order. Grayscale scene cards reserve the exact artwork; existing character ownership stays unchanged.'
+  : 'Physical layout checked in the 17 November video · 26 page sides. The proposed scene arrangement has not been physically verified.'}</p>
 
 <section class="binder-controls" aria-label="Filter binder cards">
   <label class="search"><span class="sr-only">Search binder cards</span><span aria-hidden="true">⌕</span><input type="search" placeholder="Find a character…" bind:value={query} disabled={!ready} /></label>
@@ -48,31 +63,51 @@
       <button type="button" aria-pressed={status === option.value} onclick={() => status = option.value as BinderFilters['status']} disabled={!ready}>{option.label}</button>
     {/each}
   </div>
-  <label class="set-filter"><span class="sr-only">Card set</span><select aria-label="Card set" bind:value={set} disabled={!ready}><option value="all">All sets + gallery</option><option value="SPM">SPM · main collection</option><option value="SPE">SPE · optional extras</option><option value="Gallery">Opening gallery</option></select></label>
+  <label class="set-filter"><span class="sr-only">Card set</span><select aria-label="Card set" bind:value={set} disabled={!ready}><option value="all">All cards</option><option value="SPM">SPM · main characters</option><option value="SPE">SPE · bonus characters</option>{#if layout === 'scenes'}<option value="Scenes">Both scenes</option>{/if}<option value="Gallery">Display gallery</option></select></label>
 </section>
 <div class="results-heading">
   <p role="status" aria-live="polite"><strong>{matching.length}</strong> {matching.length === 1 ? 'card' : 'cards'} {filtered ? 'matching' : 'in the binder'} · {visiblePages.length} {visiblePages.length === 1 ? 'page' : 'pages'}</p>
-  {#if filtered}<button class="reset" onclick={reset}>Clear filters ↺</button>{:else}<span>Gallery first, then Heroes → Allies → Villains</span>{/if}
+  {#if filtered}<button class="reset" onclick={reset}>Clear filters ↺</button>{:else}<span>{layout === 'scenes' ? 'Gallery → Scenes → Heroes → Allies → Villains' : 'Gallery → Heroes → Allies → Villains'}</span>{/if}
 </div>
 {#if filtered && matching.length}<p class="filter-note">Other cards stay dimmed in their original pockets.</p>{/if}
+
+{#if layout === 'scenes' && !filtered}
+  <section class="scene-overviews" aria-label="Complete scene arrangements">
+    {#each scenePlan.scenes as scene}
+      <div class="scene-overview">
+        <h2>{scene.title}</h2>
+        <p>{scene.id === 'showdown' ? 'Pages 02-03 · one facing spread' : 'Pages 04-07 · top two rows, then bottom row on the next spread'}</p>
+        <div class="scene-grid">
+          {#each scene.cards as entry}
+            {@const card = scenePlan.cards.find(card => card.sceneId === scene.id && card.collectorNumber === entry.collectorNumber)!}
+            <button class="scene-piece" class:missing={card.status === 'missing'} onclick={event => inspect(card, event)} disabled={!ready} aria-label={`${card.metadata.faces[entry.faceIndex].name}, ${displayStatus(card)}, scene row ${entry.row}, column ${entry.column}`}>
+              <CardImage src={card.metadata.faces[entry.faceIndex].images?.normal} alt={card.metadata.faces[entry.faceIndex].name} />
+              {#if card.status === 'missing'}<span>{displayStatus(card)}</span>{/if}
+            </button>
+          {/each}
+        </div>
+      </div>
+    {/each}
+  </section>
+{/if}
 
 {#if !matching.length}
   <div class="empty-results"><h2>No cards match.</h2><p>Try another name, set or ownership filter.</p><button onclick={reset}>Show the full binder</button></div>
 {:else}
   <div class="binder-pages">
     {#each visiblePages as page (page.number)}
-      <section class="binder-page" aria-labelledby={`page-${page.number}`} data-binder-page={page.number}>
-        <div class="page-heading"><h2 id={`page-${page.number}`}>Page {String(page.number).padStart(2, '0')}</h2><span>{page.sections.map(section => section === 'Allies & Supporting Cast' ? 'Allies' : section).join(' / ')}</span></div>
+      <section class="binder-page" class:front-page={!filtered && page.number === 1} aria-labelledby={`page-${page.number}`} data-binder-page={page.number}>
+        <div class="page-heading"><h2 id={`page-${page.number}`}>Page {String(page.number).padStart(2, '0')} · {page.number % 2 === 0 ? 'left' : 'right'}</h2><span>{page.pockets.find(card => card?.sceneTitle)?.sceneTitle ?? page.sections.map(section => section === 'Allies & Supporting Cast' ? 'Allies' : section).join(' / ')}</span></div>
         <div class="pocket-grid">
           {#each page.pockets as card, pocket}
             {#if card}
               {@const match = matchesBinderCard(card, filters)}
-              <article class="pocket" class:missing={card.status === 'missing'} class:dimmed={!match} data-binder-slot={card.characterSlot ?? `gallery-${pocket + (page.number - 1) * 4 + 1}`} data-pocket={pocket + 1}>
-                <button class="card-art" onclick={event => inspect(card, event)} disabled={!ready || !match} aria-label={`Inspect ${card.name}, ${card.status === 'owned' ? 'owned' : card.placeholder === 'label' ? 'reserved space' : 'printed proxy'}. Page ${page.number}, ${positions[pocket]}.`}>
-                  <CardImage src={card.metadata.faces[0].images?.normal} alt={card.name} eager={page.number === 1 && pocket < 2} />
+              <article class="pocket" class:missing={card.status === 'missing'} class:dimmed={!match} data-binder-slot={card.characterSlot ?? card.key} data-pocket={pocket + 1}>
+                <button class="card-art" onclick={event => inspect(card, event)} disabled={!ready || !match} aria-label={`Inspect ${card.name}, ${displayStatus(card)}. Page ${page.number}, ${positions[pocket]}.`}>
+                  <CardImage src={card.metadata.faces[card.initialFaceIndex ?? 0].images?.normal} alt={card.metadata.faces[card.initialFaceIndex ?? 0].name} eager={page.number === 1 && pocket < 2} />
                   {#if card.placeholder === 'label'}<span class="reserved-label"><span>Reserved</span><strong>{card.name}</strong><small>{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</small></span>{/if}
                 </button>
-                <div class="pocket-info"><div class="pocket-label"><span class="pocket-set">{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</span><span class="card-status" class:is-owned={card.status === 'owned'}><i></i>{card.status === 'owned' ? 'Owned' : card.placeholder === 'label' ? 'Reserved' : 'Proxy'}</span></div><h3>{card.name}</h3><span class="slot-number">{card.characterSlot ? `Slot ${String(card.characterSlot).padStart(2, '0')}` : 'Display gallery'}</span></div>
+                <div class="pocket-info"><div class="pocket-label"><span class="pocket-set">{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</span><span class="card-status" class:is-owned={card.status === 'owned'}><i></i>{displayStatus(card)}</span></div><h3>{card.name}</h3><span class="slot-number">{card.characterSlot ? `Character ${String(card.characterSlot).padStart(2, '0')}` : card.sceneId ? 'Scene display only' : 'Display gallery'}{card.identityStatus === 'owned' && card.status === 'missing' ? ' · owned in another printing' : ''}</span></div>
               </article>
             {:else}
               <div class="empty-pocket" data-pocket={pocket + 1} aria-label={`Empty pocket, page ${page.number}, ${positions[pocket]}`}><span aria-hidden="true">◇</span><span>Empty pocket</span></div>
@@ -85,8 +120,8 @@
 {/if}
 
 <section class="binder-notes" aria-labelledby="collection-notes">
-  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its proxy or label. The main goal stays at 79 SPM names; SPE cards are optional. The opening gallery sits outside those counts.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
-  <div class="missing-downloads"><h3>Missing-card print lists</h3><a href="/exports/spider-man-spm.txt" download>SPM · {stats.mainMissing} missing ↗</a><a href="/exports/spider-man-spe.txt" download>SPE · {stats.bonusReserved} reserved ↗</a><span>One copy per name, with padded collector numbers.</span></div>
+  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its proxy or label. The main goal stays at 79 SPM names; SPE cards are optional. Gallery cards and the four nonlegendary scene pieces sit outside those counts. Each character appears once in the proposed layout.</p><p>Pages count sides, with page 1 on the right. Facing pairs are 2-3, 4-5 and so on. Blank pockets alongside scenes preserve their artwork positions. When you move to a 3×3 binder, each scene can use one page.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
+  <div class="missing-downloads"><h3>Missing-card print lists</h3><a href="/exports/spider-man-spm.txt" download>SPM · {stats.mainMissing} missing ↗</a><a href="/exports/spider-man-spe.txt" download>SPE · {stats.bonusReserved} reserved ↗</a><a href="/exports/spider-man-scenes.txt" download>Scene artwork · 4 proxies ↗</a><span>Scene proxies use exact printings. Print Miles 0200 and Gwen 0202 on their reverse faces. The six ordered Scene Box cards are excluded.</span></div>
 </section>
 <CardBrowser bind:this={browser} cards={matching} warmAt={() => {}} />
 
@@ -115,6 +150,18 @@
   .bonus-progress > span, .inventory-note { font-size: .65rem; color: var(--muted); line-height: 1.7; }
   .inventory-note { margin: 1rem 0 0; }
   .binder-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; padding: .5rem 0 1rem; }
+  .layout-choice { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .layout-choice button { padding: .75rem 1rem; min-height: 44px; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: var(--muted); font: inherit; font-size: .75rem; cursor: pointer; }
+  .layout-choice button[aria-pressed='true'] { color: var(--accent); border-color: var(--accent); }
+  .layout-note { color: var(--muted); font-size: .75rem; line-height: 1.8; max-width: 85ch; margin: 1rem 0 1.5rem; }
+  .scene-overviews { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: start; margin: 1rem 0 2.5rem; }
+  .scene-overview h2 { font: 400 1.5rem var(--serif); margin: 0 0 .5rem; }
+  .scene-overview p { font-size: .7rem; color: var(--muted); line-height: 1.7; min-height: 2.4em; }
+  .scene-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; }
+  .scene-piece { min-width: 0; position: relative; border: 0; padding: 0; background: transparent; cursor: pointer; }
+  .scene-piece :global(.image-frame) { border-radius: 0; }
+  .scene-piece span { position: absolute; bottom: .35rem; inset-inline: .25rem; border-radius: 3px; padding: .25rem; color: #eee; background: #141914e8; font-size: .5rem; text-align: center; }
+  .scene-piece:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; z-index: 1; }
   .search { display: flex; align-items: center; flex: 1 1 200px; border: 1px solid var(--line); border-radius: 6px; padding-left: .8rem; color: var(--muted); min-width: 0; }
   .search input { width: 100%; min-width: 0; background: transparent; border: 0; padding: .85rem .65rem; color: var(--text); font-size: .8rem; }
   .search input::placeholder { color: var(--muted); }
@@ -136,7 +183,7 @@
   .pocket { min-width: 0; }
   .card-art { position: relative; display: block; width: 100%; padding: 0; border: 0; background: transparent; cursor: pointer; border-radius: 9px; }
   .card-art:not(:disabled):hover { box-shadow: 0 0 0 2px var(--accent); }
-  .missing .card-art :global(.image-frame) { filter: grayscale(1); opacity: .65; }
+  .missing .card-art :global(.image-frame), .scene-piece.missing :global(.image-frame) { filter: grayscale(1); opacity: .65; }
   .dimmed { opacity: .2; }
   .dimmed .card-art { cursor: default; }
   .pocket-info { padding-top: .7rem; }
@@ -163,6 +210,7 @@
   .missing-downloads h3 { font-size: .75rem; font-weight: 500; margin: 0 0 .2rem; }
   .missing-downloads a { font-size: .75rem; color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
   .missing-downloads > span { font-size: .6rem; color: var(--muted); line-height: 1.8; }
-  @media (max-width: 720px) { .binder-pages { grid-template-columns: 1fr; } .binder-page { padding: 1rem; } .binder-controls { gap: .65rem; } .search { flex-basis: 100%; } .set-filter { flex: 1; } select { width: 100%; } .binder-notes { grid-template-columns: 1fr; gap: 1.5rem; } .reserved-label strong { font-size: 1rem; } }
+  @media (min-width: 721px) { .front-page { grid-column: 2; } }
+  @media (max-width: 720px) { .binder-pages, .scene-overviews { grid-template-columns: 1fr; } .binder-page { padding: 1rem; } .binder-controls { gap: .65rem; } .search { flex-basis: 100%; } .set-filter { flex: 1; } select { width: 100%; } .binder-notes { grid-template-columns: 1fr; gap: 1.5rem; } .reserved-label strong { font-size: 1rem; } }
   @media (max-width: 460px) { .collection-progress { gap: 1.2rem; grid-template-columns: 1fr; } .bonus-progress { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 1.2rem; } .bonus-progress p { display: inline-block; margin-right: .5rem; } .bonus-progress h2 { margin-bottom: .25rem; } .eyebrow { margin-top: 1.8rem; } .binder-page { padding: .75rem; } .pocket-grid { gap: 1rem .65rem; } .status-filters { flex: 1 1 100%; } .status-filters button { flex: 1; } .pocket h3 { font-size: .68rem; } .reserved-label { gap: .5rem; } .reserved-label strong { font-size: .8rem; } .page-heading > span { max-width: 65%; } }
 </style>
