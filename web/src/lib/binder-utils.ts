@@ -44,6 +44,7 @@ export interface BinderCard extends DisplayCard {
   rarity: string;
   sceneId?: string;
   sceneTitle?: string;
+  sceneCollectorNumber?: string;
   availability?: 'owned' | 'proxy' | 'ordered';
   identityStatus?: BinderStatus;
 }
@@ -52,6 +53,7 @@ export interface SceneCard {
   characterSlot?: number; gallerySlot?: number;
   row: number; column: number; page: number; pocket: number;
   availability: 'owned' | 'proxy' | 'ordered'; faceIndex: number;
+  useOwnedPrinting?: boolean;
 }
 export interface BinderScene {
   id: string; title: string; rows: number; columns: number;

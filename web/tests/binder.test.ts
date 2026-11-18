@@ -67,8 +67,9 @@ test('missing exports include only missing names, use zeros and retain double-fa
   const bonus = missingBinderText('SPE');
   assert.equal(bonus.trim().split('\n').length, 6);
   for (const number of ['0004', '0025', '0003', '0023', '0022', '0024']) assert.ok(bonus.includes(`(SPE) ${number}\n`));
-  assert.deepEqual(sceneProxyText().trim().split('\n').map(line => line.slice(-4)), ['0200', '0202', '0203', '0207']);
-  assert.ok(sceneProxyText().includes('Miles Morales // Ultimate Spider-Man'));
+  assert.deepEqual(sceneProxyText().trim().split('\n').map(line => line.slice(-4)), ['0202', '0203']);
+  assert.ok(!sceneProxyText().includes('Miles Morales'));
+  assert.ok(!sceneProxyText().includes('Spider-Punk'));
 });
 
 test('both scenes keep every original entry exactly once and preserve collection progress', () => {
@@ -93,11 +94,11 @@ test('small scene joins across a spread while the big scene fills consecutive po
   const printings = (page: number) => scenePlan.pages[page - 1].pockets.map(card => card?.collectorNumber ?? null);
   assert.deepEqual(printings(2), ['21', '22', '24', '25']);
   assert.deepEqual(printings(3), ['23', '226', '26', '171']);
-  assert.deepEqual(printings(4), ['199', '200', '201', '202']);
+  assert.deepEqual(printings(4), ['199', '108', '201', '202']);
   assert.deepEqual(printings(5), ['203', '204', '205', '206']);
-  assert.deepEqual(printings(6), ['207', '180', '10', '4']);
+  assert.deepEqual(printings(6), ['92', '180', '10', '4']);
   for (const number of ['200', '202']) {
-    const card = scenePlan.cards.find(card => card.collectorNumber === number)!;
+    const card = scenePlan.cards.find(card => card.sceneCollectorNumber === number)!;
     assert.equal(card.initialFaceIndex, 1);
     assert.match(card.metadata.faces[card.initialFaceIndex].name, number === '200' ? /Ultimate Spider-Man/ : /Ghost-Spider/);
   }
@@ -107,12 +108,14 @@ test('ordered scene cards and missing artwork do not become owned characters', (
   const { inventory, scenePlan } = loadBinder();
   assert.equal(scenePlan.cards.filter(card => card.availability === 'ordered').length, 6);
   assert.ok(scenePlan.cards.filter(card => card.availability === 'ordered').every(card => card.status === 'missing'));
-  assert.equal(scenePlan.cards.filter(card => card.availability === 'proxy').length, 4);
+  assert.equal(scenePlan.cards.filter(card => card.availability === 'proxy').length, 2);
   for (const slot of [10, 18]) {
     const display = scenePlan.cards.find(card => card.characterSlot === slot)!;
-    assert.equal(display.status, 'missing');
+    assert.equal(display.status, 'owned');
     assert.equal(display.identityStatus, 'owned');
     assert.equal(inventory.entries[slot - 1].status, 'owned');
+    assert.equal(display.collectorNumber, slot === 10 ? '108' : '92');
+    assert.equal(display.sceneCollectorNumber, slot === 10 ? '200' : '207');
   }
   const select = (set: 'SPM' | 'SPE' | 'Scenes' | 'Gallery') => scenePlan.cards.filter(card => matchesBinderCard(card, { query: '', set, status: 'all' }));
   assert.equal(select('SPM').length, 79);
@@ -138,4 +141,7 @@ test('scene plans reject overlapping pockets, lost characters, gaps and wrong ar
   const split = structuredClone(scenePlan);
   split.scenes[1].cards[0].pocket = 2;
   assert.throws(() => validateBinderSceneLayout(split, cards, split.cards), /artwork order/);
+  const unowned = structuredClone(scenePlan);
+  unowned.scenes[1].cards.find(card => card.characterSlot === 13)!.useOwnedPrinting = true;
+  assert.throws(() => validateBinderSceneLayout(unowned, cards, unowned.cards), /No owned replacement/);
 });

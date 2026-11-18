@@ -10,16 +10,16 @@ Page numbers count sides. Page 1 opens on the right; even pages face the followi
 |---|---|
 | 1 | Four existing MAR showcase cards |
 | 2-3 | Six-card Scene Box panorama: 3 columns by 2 rows; Kraven's Last Hunt and Peter Parker's Camera occupy the outer right column |
-| 4 | SP//dr 0199, Miles 0200, Spider-Ham 0201, Gwen 0202 |
+| 4 | SP//dr 0199, owned regular Miles, Spider-Ham 0201, Gwen placeholder |
 | 5 | Web-Warriors 0203, Noir 0204, Spider-Man 2099 0205, Multiversal Passage 0206 |
-| 6 | Spider-Punk 0207, regular Multiversal Passage 0180, Peter Parker, Spider-Man, Peter Parker |
+| 6 | Owned regular Spider-Punk, regular Multiversal Passage 0180, Peter Parker, Spider-Man, Peter Parker |
 | 7-26 | Remaining characters in the established Heroes / Allies / Villains order |
 
 There are **104 display entries in 104 pockets across 26 full sides**, with **no unassigned pockets**. Missing-card proxies and labels retain their fixed positions. Each of the 93 character identities appears once. Eleven characters are displayed in scenes, so their former thematic positions are not repeated. The two Multiversal Passage gallery printings remain the existing display exception. This compact plan supersedes the earlier 29-side arrangement with alignment blanks.
 
 ## Scene artwork order
 
-Read these tables across each row. The website offers complete scene previews. The current binder keeps the nine-card scene in that order through consecutive pockets on pages 4-6, without preserving the full panorama's geometry. A future 3x3 binder can hold each scene on one page.
+Read these target-artwork tables across each row. The website shows current printings in the scene positions, including owned regular copies. The current binder keeps the nine-card scene in that order through consecutive pockets on pages 4-6, without preserving the full panorama's geometry. A future 3x3 binder can hold each scene on one page.
 
 | Six-card scene | Left | Middle | Right |
 |---|---|---|---|
@@ -34,31 +34,31 @@ Read these tables across each row. The website offers complete scene previews. T
 
 Sources checked 18 November 2026: [Wizards collecting guide](https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man), [official nine-card arrangement](https://media.wizards.com/2025/images/daily/xiR5dLkX2x.webp), [Scene Box artwork](https://media.wizards.com/2025/images/daily/en_RwScndo7NN.webp), and exact English printing metadata. The five owned panorama printings are confirmed by the user's photograph.
 
-## Four grayscale scene proxies to print
+## Use owned regular copies, then replace in place
 
-Use [scene-proxies.txt](scene-proxies.txt) for exact-printing selection:
+Use the real **Miles Morales** and **Spider-Punk** cards already owned in their designated pockets. Their regular artwork is a reference where the exact physical printing is unverified. Scene **0200** and **0207** remain optional upgrades; they are not proxies to print.
 
-- SPM **0200** - Miles Morales // Ultimate Spider-Man. Print the **Ultimate Spider-Man reverse face**. The character is already owned in another printing.
-- SPM **0202** - Gwen Stacy // Ghost-Spider. Print the **Ghost-Spider reverse face**. The character is still missing.
-- SPM **0203** - Web-Warriors. Nonlegendary scene piece, outside the 79-card checklist.
-- SPM **0207** - Spider-Punk. The character is already owned in another printing.
+Only two scene positions still need placeholders. [scene-proxies.txt](scene-proxies.txt) provides optional artwork for those positions:
 
-All six Scene Box pieces are **on order**. Their reserved positions can use temporary labels until delivery. Four are optional legendary creatures; Grasping Tentacles and Pumpkin Bombs are scene-only extras. Do not mark any of the six owned before arrival. Regular Miles and Spider-Punk can go into storage when their grayscale scene placeholders are displayed, preserving one displayed entry per character.
+- SPM **0202** - Gwen Stacy // Ghost-Spider. The character is still missing. A placeholder may show the **Ghost-Spider reverse face**; use a real regular copy if acquired first.
+- SPM **0203** - Web-Warriors. Ownership is unconfirmed. Use an owned regular copy if found; otherwise keep a placeholder. This nonlegendary scene piece stays outside the 79-card checklist.
+
+All six Scene Box pieces are **on order**. Their reserved positions can use temporary labels until delivery. Four are optional legendary creatures; Grasping Tentacles and Pumpkin Bombs are scene-only extras. Do not mark any of the six owned before arrival. When a scene upgrade arrives, replace the regular copy in that same pocket and put the replaced copy into storage.
 
 The [19-card character proxy list](missing.txt) is unchanged and serves a different purpose. It does not include artwork upgrades or nonlegendary scene pieces.
 
 ## Complete pocket order
 
-Read each row top left, top right, bottom left, bottom right. **Owned** refers to the printing displayed in this plan; **proxy to print** does not mean an already-owned character has become missing. Character numbers remain stable identifiers, not the new page positions.
+Read each row top left, top right, bottom left, bottom right. **Regular copy** uses an owned card and records the optional scene upgrade separately. **Placeholder** means the card is missing or ownership is unconfirmed. Character numbers remain stable identifiers, not the new page positions.
 
 | Page | Top left | Top right | Bottom left | Bottom right |
 |---|---|---|---|---|
 | 1 (right) | Arachnogenesis (MAR 0031) - owned | Savage Beating (MAR 0026) - owned | Hex (MAR 0017) - owned | Beast Within (MAR 0033) - owned |
 | 2 (left) | Grasping Tentacles (SPE 0021) - on order | Venom, Deadly Devourer (SPE 0022) - on order - character 60 | Doc Ock, Evil Inventor (SPE 0024) - on order - character 65 | Sensational Spider-Man (SPE 0025) - on order - character 04 |
 | 3 (right) | Green Goblin, Nemesis (SPE 0023) - on order - character 53 | Kraven's Last Hunt (SPM 0226) - owned | Pumpkin Bombs (SPE 0026) - on order | Peter Parker's Camera (SPM 0171) - owned |
-| 4 (left) | SP//dr, Piloted by Peni (SPM 0199) - owned - character 27 | Ultimate Spider-Man (SPM 0200) - proxy to print - character 10 | Spider-Ham, Peter Porker (SPM 0201) - owned - character 23 | Ghost-Spider (SPM 0202) - proxy to print - character 13 |
-| 5 (right) | Web-Warriors (SPM 0203) - proxy to print | Spider-Man Noir (SPM 0204) - owned - character 17 | Spider-Man 2099 (SPM 0205) - owned - character 19 | Multiversal Passage (SPM 0206) - owned |
-| 6 (left) | Spider-Punk (SPM 0207) - proxy to print - character 18 | Multiversal Passage (SPM 0180) - owned | Peter Parker (SPM 0010) - SPM proxy - character 01 | Spider-Man, Peter Parker (SPE 0004) - SPE reserved - character 02 |
+| 4 (left) | SP//dr, Piloted by Peni (SPM 0199) - owned - character 27 | Ultimate Spider-Man (SPM 0108) - regular copy - optional scene 0200 - character 10 | Spider-Ham, Peter Porker (SPM 0201) - owned - character 23 | Ghost-Spider (SPM 0202) - placeholder - character 13 |
+| 5 (right) | Web-Warriors (SPM 0203) - placeholder | Spider-Man Noir (SPM 0204) - owned - character 17 | Spider-Man 2099 (SPM 0205) - owned - character 19 | Multiversal Passage (SPM 0206) - owned |
+| 6 (left) | Spider-Punk (SPM 0092) - regular copy - optional scene 0207 - character 18 | Multiversal Passage (SPM 0180) - owned | Peter Parker (SPM 0010) - SPM proxy - character 01 | Spider-Man, Peter Parker (SPE 0004) - SPE reserved - character 02 |
 | 7 (right) | Spectacular Spider-Man (SPM 0014) - owned - character 03 | Spider-Man, Web-Slinger (SPM 0016) - owned - character 05 | Cosmic Spider-Man (SPM 0127) - SPM proxy - character 06 | Symbiote Spider-Man (SPM 0156) - SPM proxy - character 07 |
 | 8 (left) | Iron Spider, Stark Upgrade (SPM 0166) - owned - character 08 | Superior Spider-Man (SPM 0155) - SPM proxy - character 09 | Spider-Man, Miles Morales (SPE 0018) - owned - character 11 | Spider-Man, Brooklyn Visionary (SPM 0115) - owned - character 12 |
 | 9 (right) | Ghost-Spider, Gwen Stacy (SPE 0014) - owned - character 14 | Spider-Gwen, Free Spirit (SPM 0090) - owned - character 15 | Gwenom, Remorseless (SPM 0056) - owned - character 16 | Spider-Man 2099, Miguel O'Hara (SPE 0008) - owned - character 20 |
@@ -83,7 +83,7 @@ Read each row top left, top right, bottom left, bottom right. **Owned** refers t
 ## Moving the physical cards once
 
 1. Keep the four MAR cards on page 1. Take the other Spider-Man cards out in the current order and keep their character numbers with the piles.
-2. Set aside the five owned scene printings and the scene placeholders. Fill pages 2-6 exactly as mapped; the large scene continues in artwork order through consecutive pockets.
+2. Set aside the five owned scene printings, the owned regular Miles and Spider-Punk, and placeholders for Gwen/Web-Warriors. Fill pages 2-6 exactly as mapped; the large scene continues in artwork order through consecutive pockets.
 3. Fill page 3's top right with Kraven's Last Hunt and bottom right with Peter Parker's Camera. Regular Multiversal Passage 0180 goes in page 6's top right; scene Passage 0206 is already on page 5.
 4. From the old character order, skip these eleven entries now displayed in scenes: **4, 10, 13, 17, 18, 19, 23, 27, 53, 60, 65**. Reinsert the remaining 82 entries starting at page 6, bottom left, with Peter Parker followed by Spider-Man, Peter Parker. Continue on page 7, keeping every missing proxy/label in place.
 5. When a missing card arrives, replace its placeholder in that pocket. Record the acquisition separately from this planned layout; do not shift later cards.

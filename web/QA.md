@@ -478,3 +478,20 @@ The paper release is now **0.3.3**, adopted by explicit user confirmation in EXP
 the simulator **0.3.3** remains a test target. The earlier viewer-only updates did not
 adopt a paper release. The authorized public deployment is recorded above; no game
 evidence, tags or source pushes were added during deployment activation.
+
+## Owned regular copies in scene positions - 18 November 2026
+
+- The proposed binder displays the owned regular Miles and Spider-Punk cards in
+  their existing scene pockets. The exact scene printings 0200/0207 remain optional
+  upgrades, separate from the displayed artwork and collector numbers.
+- Only Gwen and Web-Warriors retain scene placeholders. Gwen remains missing;
+  Web-Warriors ownership is unconfirmed and is not established by the four Welcome
+  Deck lists. The scene placeholder download now contains only 0202/0203.
+- The 26 full page sides, all 93 character identities, ownership snapshot, 79-card
+  target and ordered Scene Box status remain intact. No card cache was refreshed.
+- Tests cover owned replacements, exact displayed/desired printings, same-pocket
+  placement, exclusion of owned upgrades from proxy downloads, and rejection of
+  an owned-replacement claim for missing Gwen. All 41 tests and the required
+  `pnpm ci:build` checks passed on the isolated source tree.
+- Browser visual review remains pending under the previously recorded sandbox
+  and Cloudflare access limits.

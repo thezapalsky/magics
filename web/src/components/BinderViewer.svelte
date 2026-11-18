@@ -18,6 +18,7 @@
   let matching = $derived(cards.filter(card => matchesBinderCard(card, filters)));
   let visiblePages = $derived(pages.filter(page => page.pockets.some(card => card && matchesBinderCard(card, filters))));
   let filtered = $derived(Boolean(query.trim()) || status !== 'all' || set !== 'all');
+  let sceneProxyCount = $derived(scenePlan.cards.filter(card => card.availability === 'proxy').length);
   const positions = ['Top left', 'Top right', 'Bottom left', 'Bottom right'];
 
   function inspect(card: BinderCard, event: MouseEvent) {
@@ -26,7 +27,8 @@
   function reset() { query = ''; status = 'all'; set = 'all'; }
   function chooseLayout(value: typeof layout) { layout = value; reset(); }
   function displayStatus(card: BinderCard) {
-    return card.availability === 'ordered' ? 'On order' : card.availability === 'proxy' ? 'Proxy to print'
+    return card.sceneCollectorNumber && card.sceneCollectorNumber !== card.collectorNumber ? 'Regular copy'
+      : card.availability === 'ordered' ? 'On order' : card.availability === 'proxy' ? 'Placeholder'
       : card.status === 'owned' ? 'Owned' : card.placeholder === 'label' ? 'Reserved' : 'Proxy';
   }
   onMount(() => { ready = true; });
@@ -53,7 +55,7 @@
   <button type="button" aria-pressed={layout === 'verified'} onclick={() => chooseLayout('verified')} disabled={!ready}>Video-verified layout</button>
 </div>
 <p class="layout-note">{layout === 'scenes'
-  ? 'Proposed rearrangement · 26 full page sides. The larger scene is split across three pages until the move to a 3×3 binder. Missing cards keep their proxy spaces; the Scene Box is on order.'
+  ? 'Proposed rearrangement · 26 full page sides. The larger scene is split across three pages until the move to a 3×3 binder. Owned regular copies fill their scene positions; missing cards keep placeholders. The Scene Box is on order.'
   : 'Physical layout checked in the 17 November video · 26 page sides. The proposed scene arrangement has not been physically verified.'}</p>
 
 <section class="binder-controls" aria-label="Filter binder cards">
@@ -72,17 +74,17 @@
 {#if filtered && matching.length}<p class="filter-note">Other cards stay dimmed in their original pockets.</p>{/if}
 
 {#if layout === 'scenes' && !filtered}
-  <section class="scene-overviews" aria-label="Complete scene arrangements">
+  <section class="scene-overviews" aria-label="Scene positions with current printings">
     {#each scenePlan.scenes as scene}
       <div class="scene-overview">
         <h2>{scene.title}</h2>
         <p>{scene.id === 'showdown' ? 'Pages 02-03 · one facing spread, gallery cards fill the two remaining pockets' : 'Pages 04-06 · artwork order continues through consecutive pockets'}</p>
         <div class="scene-grid">
           {#each scene.cards as entry}
-            {@const card = scenePlan.cards.find(card => card.sceneId === scene.id && card.collectorNumber === entry.collectorNumber)!}
+            {@const card = scenePlan.cards.find(card => card.sceneId === scene.id && card.sceneCollectorNumber === entry.collectorNumber)!}
             <button class="scene-piece" class:missing={card.status === 'missing'} onclick={event => inspect(card, event)} disabled={!ready} aria-label={`${card.metadata.faces[entry.faceIndex].name}, ${displayStatus(card)}, scene row ${entry.row}, column ${entry.column}`}>
               <CardImage src={card.metadata.faces[entry.faceIndex].images?.normal} alt={card.metadata.faces[entry.faceIndex].name} />
-              {#if card.status === 'missing'}<span>{displayStatus(card)}</span>{/if}
+              {#if card.status === 'missing' || card.sceneCollectorNumber !== card.collectorNumber}<span>{displayStatus(card)}</span>{/if}
             </button>
           {/each}
         </div>
@@ -107,7 +109,7 @@
                   <CardImage src={card.metadata.faces[card.initialFaceIndex ?? 0].images?.normal} alt={card.metadata.faces[card.initialFaceIndex ?? 0].name} eager={page.number === 1 && pocket < 2} />
                   {#if card.placeholder === 'label'}<span class="reserved-label"><span>Reserved</span><strong>{card.name}</strong><small>{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</small></span>{/if}
                 </button>
-                <div class="pocket-info"><div class="pocket-label"><span class="pocket-set">{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</span><span class="card-status" class:is-owned={card.status === 'owned'}><i></i>{displayStatus(card)}</span></div><h3>{card.name}</h3><span class="slot-number">{card.characterSlot ? `Character ${String(card.characterSlot).padStart(2, '0')}` : card.sceneId ? 'Scene display only' : 'Display gallery'}{card.identityStatus === 'owned' && card.status === 'missing' ? ' · owned in another printing' : ''}</span></div>
+                <div class="pocket-info"><div class="pocket-label"><span class="pocket-set">{card.set?.toUpperCase()} {card.collectorNumber?.padStart(4, '0')}</span><span class="card-status" class:is-owned={card.status === 'owned'}><i></i>{displayStatus(card)}</span></div><h3>{card.name}</h3><span class="slot-number">{card.characterSlot ? `Character ${String(card.characterSlot).padStart(2, '0')}` : card.sceneId ? 'Scene display only' : 'Display gallery'}{card.sceneCollectorNumber && card.sceneCollectorNumber !== card.collectorNumber ? ` · scene upgrade ${card.sceneCollectorNumber.padStart(4, '0')}` : ''}</span></div>
               </article>
             {:else}
               <div class="empty-pocket" data-pocket={pocket + 1} aria-label={`Empty pocket, page ${page.number}, ${positions[pocket]}`}><span aria-hidden="true">◇</span><span>Empty pocket</span></div>
@@ -120,8 +122,8 @@
 {/if}
 
 <section class="binder-notes" aria-labelledby="collection-notes">
-  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its proxy or label. The main goal stays at 79 SPM names; SPE cards are optional. Gallery cards and the four nonlegendary scene pieces sit outside those counts. Each character appears once in the proposed layout.</p><p>Pages count sides, with page 1 on the right. The smaller scene joins across pages 2-3; gallery cards fill its two remaining pockets. The larger scene continues in artwork order across pages 4-6, followed immediately by the remaining gallery card and Peter. All 104 pockets have an assigned card or placeholder. When you move to a 3×3 binder, each scene can use one page.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
-  <div class="missing-downloads"><h3>Missing-card print lists</h3><a href="/exports/spider-man-spm.txt" download>SPM · {stats.mainMissing} missing ↗</a><a href="/exports/spider-man-spe.txt" download>SPE · {stats.bonusReserved} reserved ↗</a><a href="/exports/spider-man-scenes.txt" download>Scene artwork · 4 proxies ↗</a><span>Scene proxies use exact printings. Print Miles 0200 and Gwen 0202 on their reverse faces. The six ordered Scene Box cards are excluded.</span></div>
+  <div><h2 id="collection-notes">Room for the next find.</h2><p>A new card replaces its placeholder or regular copy in the same pocket. Miles and Spider-Punk use owned regular copies while their scene printings remain optional upgrades. Gwen is missing; Web-Warriors ownership is unconfirmed. The main goal stays at 79 SPM names; SPE cards are optional. Gallery cards and the four nonlegendary scene pieces sit outside those counts. Each character appears once in the proposed layout.</p><p>Pages count sides, with page 1 on the right. The smaller scene joins across pages 2-3; gallery cards fill its two remaining pockets. The larger scene continues in artwork order across pages 4-6, followed immediately by the remaining gallery card and Peter. All 104 pockets have an assigned card or placeholder. When you move to a 3×3 binder, each scene can use one page.</p><p>Display preference: full-art / showcase → foil → regular. Artwork is a reference where the physical printing has not been identified; foil finishes are unverified.</p></div>
+  <div class="missing-downloads"><h3>Missing-card print lists</h3><a href="/exports/spider-man-spm.txt" download>SPM · {stats.mainMissing} missing ↗</a><a href="/exports/spider-man-spe.txt" download>SPE · {stats.bonusReserved} reserved ↗</a><a href="/exports/spider-man-scenes.txt" download>Scene placeholders · {sceneProxyCount} cards ↗</a><span>Use real regular copies where owned. This optional placeholder list covers the remaining scene positions; print Gwen 0202 on her reverse face. Ordered Scene Box cards and Miles / Spider-Punk artwork upgrades are excluded.</span></div>
 </section>
 <CardBrowser bind:this={browser} cards={matching} warmAt={() => {}} />
 

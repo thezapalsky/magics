@@ -64,20 +64,24 @@ export function loadBinder() {
         (!original || original.name !== entry.name || original.set !== entry.set.toLowerCase())) {
       throw new Error(`Scene identity mismatch: ${entry.name}`);
     }
-    const metadata = artwork(entry);
+    const sceneMetadata = artwork(entry);
+    if (entry.useOwnedPrinting && (!original || original.status !== 'owned' || entry.availability !== 'owned')) {
+      throw new Error(`No owned replacement for scene: ${entry.name}`);
+    }
+    const metadata = entry.useOwnedPrinting ? original!.metadata : sceneMetadata;
     if (!Number.isInteger(entry.faceIndex) || !metadata.faces[entry.faceIndex]?.images) throw new Error('Invalid scene face');
-    if (entry.availability === 'owned' && original && (original.status !== 'owned' || original.collectorNumber !== entry.collectorNumber)) {
+    if (!entry.useOwnedPrinting && entry.availability === 'owned' && original && (original.status !== 'owned' || original.collectorNumber !== entry.collectorNumber)) {
       throw new Error(`Unverified owned scene printing: ${entry.name}`);
     }
     if (entry.characterSlot !== undefined) movedCharacters.add(entry.characterSlot);
     plannedCards.push({
       key: original?.key ?? `scene-${entry.set.toLowerCase()}-${entry.collectorNumber}`,
-      quantity: 1, name: entry.name, set: entry.set.toLowerCase(), collectorNumber: entry.collectorNumber,
+      quantity: 1, name: entry.name, set: entry.set.toLowerCase(), collectorNumber: metadata.collectorNumber,
       metadata, initialFaceIndex: entry.faceIndex, page: entry.page, pocket: entry.pocket,
       characterSlot: entry.characterSlot ?? null, section: original?.section ?? 'Scene extras',
       status: entry.availability === 'owned' ? 'owned' : 'missing',
       placeholder: null, rarity: original?.rarity ?? 'Rare',
-      sceneId: scene.id, sceneTitle: scene.title, availability: entry.availability,
+      sceneId: scene.id, sceneTitle: scene.title, sceneCollectorNumber: entry.collectorNumber, availability: entry.availability,
       ...(original && { identityStatus: original.status }),
     });
   }
@@ -123,6 +127,11 @@ export function validateBinderSceneLayout(plan: BinderScenePlan, verified: Binde
     if (!['spread', 'sequence'].includes(scene.arrangement)) throw new Error('Invalid scene arrangement');
     if (scene.arrangement === 'spread' && firstPage % 2 !== 0) throw new Error('Joined scenes must begin on an even left-hand page');
     for (const card of scene.cards) {
+      if (card.useOwnedPrinting !== undefined && typeof card.useOwnedPrinting !== 'boolean') throw new Error('Invalid scene replacement flag');
+      if (card.useOwnedPrinting && (card.availability !== 'owned' ||
+          !verified.some(original => original.characterSlot === card.characterSlot && original.status === 'owned'))) {
+        throw new Error(`No owned replacement for scene: ${card.name}`);
+      }
       const coordinate = `${card.row}/${card.column}`;
       const offset = (card.row - 1) * scene.columns + card.column - 1;
       const page = scene.arrangement === 'spread'

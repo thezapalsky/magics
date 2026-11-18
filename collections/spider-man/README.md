@@ -15,12 +15,12 @@ Keep the current four-pocket binder. Page 1 is the right-hand opening side; faci
 | 1 | Existing four MAR showcase cards |
 | 2-3 | Complete six-card Spidey's Sensational Showdown scene; Kraven's Last Hunt and Peter Parker's Camera fill the two remaining pockets |
 | 4-5 | First eight Spider-Verse scene cards, in artwork order through consecutive pockets |
-| 6 | Spider-Punk 0207, regular Multiversal Passage, Peter Parker, then Spider-Man, Peter Parker |
+| 6 | Owned regular Spider-Punk, regular Multiversal Passage, Peter Parker, then Spider-Man, Peter Parker |
 | 7-26 | Remaining characters in the established Heroes / Allies / Villains order |
 
 Eleven existing character entries move into the scenes rather than being displayed twice. All **93 character identities** retain reserved positions in the plan. The character target stays **79 SPM**, progress stays **60/79 plus eight SPE**, and scene-only nonlegendary cards do not enter the checklist. The compact plan displays **104 entries across 26 full sides**, with **no unassigned pockets**. Missing cards still use proxies or labels in their fixed positions. This supersedes the earlier 29-side plan with alignment blanks; the larger scene is temporarily split until the 3x3 binder upgrade.
 
-The Scene Box is **ordered, awaiting delivery**: all six of its places remain unfilled. For the nine-card scene, five exact printings are confirmed owned; print grayscale placeholders for **SPM 0200, 0202, 0203 and 0207**. Miles 0200 and Gwen 0202 must show their reverse faces. Miles and Spider-Punk are already owned as identities in other printings, so these artwork placeholders do not increase the missing-character count. Future 3x3 pages can display each scene on one side.
+The Scene Box is **ordered, awaiting delivery**: all six of its places remain unfilled. For the nine-card scene, keep the five confirmed scene printings and use the **owned regular Miles and Spider-Punk** cards in the other two owned-character positions. Scene versions 0200 and 0207 remain optional upgrades. Only **Gwen 0202 and Web-Warriors 0203** need placeholders: Gwen is missing, and Web-Warriors ownership has not been confirmed. Use regular Web-Warriors if a copy is found; its Welcome Deck contents do not establish ownership. Miles and Gwen display their reverse faces. Future scene upgrades replace the existing card in the same pocket; they do not change character completion or require moving later cards.
 
 See [the full pocket-by-pocket order, proxy list and moving instructions](scene-layout.md). The older organization below remains the **verified 17 November baseline**, not a claim that the proposed rearrangement has already happened.
 

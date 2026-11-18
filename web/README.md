@@ -25,11 +25,14 @@ regular Multiversal Passage fills page 6's top right pocket, then the 82 remaini
 characters start with Peter at bottom left on the same page. Eleven characters and Multiversal Passage 0206 move into
 the scenes, so they are not repeated in the following sections. The three new scene-only
 cards plus the existing Passage are outside character counts. There are 104 displayed
-entries, with a card or missing-card placeholder assigned to every pocket. The complete proposed order and four exact
-grayscale proxy printings are documented in `../collections/spider-man/scene-layout.md`.
+entries, with a card or missing-card placeholder assigned to every pocket. The complete proposed order and two remaining
+scene placeholders are documented in `../collections/spider-man/scene-layout.md`.
 
-Scene availability is separate from identity ownership. Miles 0200 and Spider-Punk
-0207 use artwork proxies even though their regular character printings are owned;
+Scene targets are separate from the displayed printing. Miles and Spider-Punk use
+their owned regular copies, with 0200 and 0207 retained as optional scene upgrades.
+`useOwnedPrinting` selects the verified entry's existing metadata; `sceneCollectorNumber`
+preserves the upgrade target without mislabelling the displayed regular artwork.
+Gwen is missing and Web-Warriors ownership is unconfirmed, so those positions retain placeholders;
 the six Scene Box cards stay `ordered` until received. Scene Miles/Gwen use face 1,
 including on first opening the artwork reader. The proposed layout has no physical
 verification claim. Page 1 is a right-hand page, so facing pairs start at 2-3.
@@ -55,8 +58,8 @@ and website browsing never fetch card metadata. Only artwork images are external
 Missing character lists are `/exports/spider-man-spm.txt` and `/exports/spider-man-spe.txt`;
 they retain double-faced names and use four-digit collector numbers for proxy selection.
 They deliberately do not add already-owned identities or nonlegendary scene pieces.
-`/exports/spider-man-scenes.txt` separately exports the four exact scene-artwork
-proxies, excluding the ordered Scene Box. Print Miles/Gwen on their reverse faces.
+`/exports/spider-man-scenes.txt` separately exports the two remaining scene placeholders,
+excluding the ordered Scene Box and the optional Miles/Punk upgrades. Print Gwen on her reverse face.
 
 ## Home shelf
 
