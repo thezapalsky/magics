@@ -2,9 +2,9 @@ name: Deck viewer
 
 on:
   push:
-    paths: ['web/**', 'decks/**', 'VERSION', 'scripts/validate-deck.sh', '.github/workflows/viewer.yml']
+    paths: ['web/**', 'collections/spider-man/**', 'decks/**', 'VERSION', 'scripts/validate-deck.sh', '.github/workflows/viewer.yml']
   pull_request:
-    paths: ['web/**', 'decks/**', 'VERSION', 'scripts/validate-deck.sh', '.github/workflows/viewer.yml']
+    paths: ['web/**', 'collections/spider-man/**', 'decks/**', 'VERSION', 'scripts/validate-deck.sh', '.github/workflows/viewer.yml']
 
 permissions:
   contents: read

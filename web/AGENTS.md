@@ -6,6 +6,7 @@ The root AGENTS.md applies. This directory is a read-only presentation layer, no
 - Keep frontend work under `web/`; the root README, ignore rules and CI may reference it.
 - Do not modify deck releases, simulation scripts/results, `VERSION`, or experiment decisions for a UI task.
 - Manifest statuses are explicit. Arena targets are not verified exports or ownership claims.
+- The Spider-Man binder is a read-only collection snapshot from `collections/spider-man/inventory.json`. Keep its 79-card SPM target separate from optional SPE and the gallery. Preserve all 93 fixed character positions, the two gallery page sides and four-pocket page coordinates. Proxies/labels are not owned cards; reference artwork and unverified finishes are not exact physical printing claims.
 - Use pinned Node/pnpm and the lockfile. Run package commands with `web/` as the working directory.
 - Keep builds network-independent. Refresh the checked-in card cache only explicitly.
 - Preserve digital `A-` identities and all faces. New overrides require primary-source provenance.

@@ -1,0 +1,3240 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-17T21:02:19.757Z",
+  "source": "Scryfall public bulk catalogue; exact printings matched locally, no remote collection lookup.",
+  "cards": {
+    "mar/31": {
+      "id": "77e2f5ac-5c0d-4503-b8ab-fee00eaaa4a3",
+      "oracleId": "b655bee5-52d3-467e-b16c-cfc2edf2b1a1",
+      "name": "Arachnogenesis",
+      "manaValue": 3,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "mar",
+      "collectorNumber": "31",
+      "scryfallUrl": "https://scryfall.com/card/mar/31/arachnogenesis",
+      "faces": [
+        {
+          "name": "Arachnogenesis",
+          "manaCost": "{2}{G}",
+          "typeLine": "Instant",
+          "oracleText": "Create X 1/2 green Spider creature tokens with reach, where X is the number of creatures attacking you. Prevent all combat damage that would be dealt this turn by non-Spider creatures.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/7/77e2f5ac-5c0d-4503-b8ab-fee00eaaa4a3.jpg?1783905382",
+            "normal": "https://cards.scryfall.io/normal/front/7/7/77e2f5ac-5c0d-4503-b8ab-fee00eaaa4a3.jpg?1783905382",
+            "large": "https://cards.scryfall.io/large/front/7/7/77e2f5ac-5c0d-4503-b8ab-fee00eaaa4a3.jpg?1783905382",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/7/77e2f5ac-5c0d-4503-b8ab-fee00eaaa4a3.jpg?1783905382"
+          }
+        }
+      ]
+    },
+    "mar/26": {
+      "id": "291ffa45-f395-420f-8862-9a685b65ce69",
+      "oracleId": "89d1cd45-8148-4396-a9b8-e0f495e94b5b",
+      "name": "Savage Beating",
+      "manaValue": 5,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "mar",
+      "collectorNumber": "26",
+      "scryfallUrl": "https://scryfall.com/card/mar/26/savage-beating",
+      "faces": [
+        {
+          "name": "Savage Beating",
+          "manaCost": "{3}{R}{R}",
+          "typeLine": "Instant",
+          "oracleText": "Cast this spell only during combat on your turn.\nChoose one —\n• Creatures you control gain double strike until end of turn.\n• Untap all creatures you control. After this phase, there is an additional combat phase.\nEntwine {1}{R} (Choose both if you pay the entwine cost.)",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/9/291ffa45-f395-420f-8862-9a685b65ce69.jpg?1783905384",
+            "normal": "https://cards.scryfall.io/normal/front/2/9/291ffa45-f395-420f-8862-9a685b65ce69.jpg?1783905384",
+            "large": "https://cards.scryfall.io/large/front/2/9/291ffa45-f395-420f-8862-9a685b65ce69.jpg?1783905384",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/9/291ffa45-f395-420f-8862-9a685b65ce69.jpg?1783905384"
+          }
+        }
+      ]
+    },
+    "mar/17": {
+      "id": "0db3f148-4ede-4134-b2e0-2bb513d9cefc",
+      "oracleId": "89457fa8-b0e2-4277-b6a9-c6601c59b46d",
+      "name": "Hex",
+      "manaValue": 6,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "mar",
+      "collectorNumber": "17",
+      "scryfallUrl": "https://scryfall.com/card/mar/17/hex",
+      "faces": [
+        {
+          "name": "Hex",
+          "manaCost": "{4}{B}{B}",
+          "typeLine": "Sorcery",
+          "oracleText": "Destroy six target creatures.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/d/0db3f148-4ede-4134-b2e0-2bb513d9cefc.jpg?1783905388",
+            "normal": "https://cards.scryfall.io/normal/front/0/d/0db3f148-4ede-4134-b2e0-2bb513d9cefc.jpg?1783905388",
+            "large": "https://cards.scryfall.io/large/front/0/d/0db3f148-4ede-4134-b2e0-2bb513d9cefc.jpg?1783905388",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0db3f148-4ede-4134-b2e0-2bb513d9cefc.jpg?1783905388"
+          }
+        }
+      ]
+    },
+    "mar/33": {
+      "id": "7f419a04-7a18-4ea4-9581-bbc35bec4f16",
+      "oracleId": "7735eeba-693b-47e2-bd51-414379cf1016",
+      "name": "Beast Within",
+      "manaValue": 3,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "mar",
+      "collectorNumber": "33",
+      "scryfallUrl": "https://scryfall.com/card/mar/33/beast-within",
+      "faces": [
+        {
+          "name": "Beast Within",
+          "manaCost": "{2}{G}",
+          "typeLine": "Instant",
+          "oracleText": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/f/7f419a04-7a18-4ea4-9581-bbc35bec4f16.jpg?1783905381",
+            "normal": "https://cards.scryfall.io/normal/front/7/f/7f419a04-7a18-4ea4-9581-bbc35bec4f16.jpg?1783905381",
+            "large": "https://cards.scryfall.io/large/front/7/f/7f419a04-7a18-4ea4-9581-bbc35bec4f16.jpg?1783905381",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/f/7f419a04-7a18-4ea4-9581-bbc35bec4f16.jpg?1783905381"
+          }
+        }
+      ]
+    },
+    "spm/226": {
+      "id": "eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a",
+      "oracleId": "e74efcf2-d77f-4fb5-9027-77e462ec829e",
+      "name": "Kraven's Last Hunt",
+      "manaValue": 4,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "226",
+      "scryfallUrl": "https://scryfall.com/card/spm/226/kravens-last-hunt",
+      "faces": [
+        {
+          "name": "Kraven's Last Hunt",
+          "manaCost": "{3}{G}",
+          "typeLine": "Enchantment — Saga",
+          "oracleText": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Mill five cards. When you do, this Saga deals damage equal to the greatest power among creature cards in your graveyard to target creature.\nII — Target creature you control gets +2/+2 until end of turn.\nIII — Return target creature card from your graveyard to your hand.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/a/eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a.jpg?1783905281",
+            "normal": "https://cards.scryfall.io/normal/front/e/a/eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a.jpg?1783905281",
+            "large": "https://cards.scryfall.io/large/front/e/a/eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a.jpg?1783905281",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/eae0bf5a-d5b1-4d87-af8e-e7dd512dfb4a.jpg?1783905281"
+          }
+        }
+      ]
+    },
+    "spm/171": {
+      "id": "47875dff-c046-4cb0-b1e3-f926cbe25b59",
+      "oracleId": "10777360-c046-43e3-ab44-9d0b926fbbf8",
+      "name": "Peter Parker's Camera",
+      "manaValue": 1,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "171",
+      "scryfallUrl": "https://scryfall.com/card/spm/171/peter-parkers-camera",
+      "faces": [
+        {
+          "name": "Peter Parker's Camera",
+          "manaCost": "{1}",
+          "typeLine": "Artifact",
+          "oracleText": "This artifact enters with three film counters on it.\n{2}, {T}, Remove a film counter from this artifact: Copy target activated or triggered ability you control. You may choose new targets for the copy.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/7/47875dff-c046-4cb0-b1e3-f926cbe25b59.jpg?1783905303",
+            "normal": "https://cards.scryfall.io/normal/front/4/7/47875dff-c046-4cb0-b1e3-f926cbe25b59.jpg?1783905303",
+            "large": "https://cards.scryfall.io/large/front/4/7/47875dff-c046-4cb0-b1e3-f926cbe25b59.jpg?1783905303",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/7/47875dff-c046-4cb0-b1e3-f926cbe25b59.jpg?1783905303"
+          }
+        }
+      ]
+    },
+    "spm/206": {
+      "id": "db88b6b6-7907-4c40-b712-4fa1456d8ad0",
+      "oracleId": "17770eeb-ecbf-4510-af2d-acececfbe146",
+      "name": "Multiversal Passage",
+      "manaValue": 0,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "206",
+      "scryfallUrl": "https://scryfall.com/card/spm/206/multiversal-passage",
+      "faces": [
+        {
+          "name": "Multiversal Passage",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/b/db88b6b6-7907-4c40-b712-4fa1456d8ad0.jpg?1783905289",
+            "normal": "https://cards.scryfall.io/normal/front/d/b/db88b6b6-7907-4c40-b712-4fa1456d8ad0.jpg?1783905289",
+            "large": "https://cards.scryfall.io/large/front/d/b/db88b6b6-7907-4c40-b712-4fa1456d8ad0.jpg?1783905289",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/b/db88b6b6-7907-4c40-b712-4fa1456d8ad0.jpg?1783905289"
+          }
+        }
+      ]
+    },
+    "spm/180": {
+      "id": "f5fb426a-5618-4dd4-9c51-0cc847be8c1d",
+      "oracleId": "17770eeb-ecbf-4510-af2d-acececfbe146",
+      "name": "Multiversal Passage",
+      "manaValue": 0,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "180",
+      "scryfallUrl": "https://scryfall.com/card/spm/180/multiversal-passage",
+      "faces": [
+        {
+          "name": "Multiversal Passage",
+          "manaCost": "",
+          "typeLine": "Land",
+          "oracleText": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/5/f5fb426a-5618-4dd4-9c51-0cc847be8c1d.jpg?1783905299",
+            "normal": "https://cards.scryfall.io/normal/front/f/5/f5fb426a-5618-4dd4-9c51-0cc847be8c1d.jpg?1783905299",
+            "large": "https://cards.scryfall.io/large/front/f/5/f5fb426a-5618-4dd4-9c51-0cc847be8c1d.jpg?1783905299",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/5/f5fb426a-5618-4dd4-9c51-0cc847be8c1d.jpg?1783905299"
+          }
+        }
+      ]
+    },
+    "spm/10": {
+      "id": "3ce33422-5dba-4a42-8375-dd8ccc692a7b",
+      "oracleId": "f1b7488c-c675-42e9-818a-24a50347ec2c",
+      "name": "Peter Parker // Amazing Spider-Man",
+      "manaValue": 2,
+      "colors": [],
+      "colorIdentity": [
+        "G",
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "10",
+      "scryfallUrl": "https://scryfall.com/card/spm/10/peter-parker-amazing-spider-man",
+      "faces": [
+        {
+          "name": "Peter Parker",
+          "manaCost": "{1}{W}",
+          "typeLine": "Legendary Creature — Human Scientist Hero",
+          "oracleText": "When Peter Parker enters, create a 2/1 green Spider creature token with reach.\n{1}{G}{W}{U}: Transform Peter Parker. Activate only as a sorcery.",
+          "power": "0",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "normal": "https://cards.scryfall.io/normal/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "large": "https://cards.scryfall.io/large/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367"
+          }
+        },
+        {
+          "name": "Amazing Spider-Man",
+          "manaCost": "{1}{G}{W}{U}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Vigilance, reach\nEach legendary spell you cast that's one or more colors has web-slinging {G}{W}{U}. (You may cast a spell for its web-slinging cost if you also return a tapped creature you control to its owner's hand.)",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "normal": "https://cards.scryfall.io/normal/back/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "large": "https://cards.scryfall.io/large/back/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367"
+          }
+        }
+      ]
+    },
+    "spe/4": {
+      "id": "415bf221-215b-4c9f-b995-8d31ca95adc0",
+      "oracleId": "5be3243a-6840-4601-96c8-ffb756041d49",
+      "name": "Spider-Man, Peter Parker",
+      "manaValue": 5,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spe",
+      "collectorNumber": "4",
+      "scryfallUrl": "https://scryfall.com/card/spe/4/spider-man-peter-parker",
+      "faces": [
+        {
+          "name": "Spider-Man, Peter Parker",
+          "manaCost": "{3}{W}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever you gain life, put a +1/+1 counter on target creature you control. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373",
+            "normal": "https://cards.scryfall.io/normal/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373",
+            "large": "https://cards.scryfall.io/large/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373"
+          }
+        }
+      ]
+    },
+    "spm/14": {
+      "id": "32bff506-efc0-42ef-8286-ed939bf853d7",
+      "oracleId": "eed5e0cc-8f88-4779-bf10-6a823c72df7f",
+      "name": "Spectacular Spider-Man",
+      "manaValue": 2,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "14",
+      "scryfallUrl": "https://scryfall.com/card/spm/14/spectacular-spider-man",
+      "faces": [
+        {
+          "name": "Spectacular Spider-Man",
+          "manaCost": "{1}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flash\n{1}: Spectacular Spider-Man gains flying until end of turn.\n{1}, Sacrifice Spectacular Spider-Man: Creatures you control gain hexproof and indestructible until end of turn.",
+          "power": "3",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/2/32bff506-efc0-42ef-8286-ed939bf853d7.jpg?1783905360",
+            "normal": "https://cards.scryfall.io/normal/front/3/2/32bff506-efc0-42ef-8286-ed939bf853d7.jpg?1783905360",
+            "large": "https://cards.scryfall.io/large/front/3/2/32bff506-efc0-42ef-8286-ed939bf853d7.jpg?1783905360",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/2/32bff506-efc0-42ef-8286-ed939bf853d7.jpg?1783905360"
+          }
+        }
+      ]
+    },
+    "spe/25": {
+      "id": "7a938fa9-cba2-4773-9be9-db1e37aa001f",
+      "oracleId": "8c489e39-b9ff-400f-a855-3cddf7e112e6",
+      "name": "Sensational Spider-Man",
+      "manaValue": 3,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "set": "spe",
+      "collectorNumber": "25",
+      "scryfallUrl": "https://scryfall.com/card/spe/25/sensational-spider-man",
+      "faces": [
+        {
+          "name": "Sensational Spider-Man",
+          "manaCost": "{1}{W}{U}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Whenever Sensational Spider-Man attacks, tap target creature defending player controls and put a stun counter on it. Then you may remove up to three stun counters from among all permanents. Draw cards equal to the number of stun counters removed this way.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/a/7a938fa9-cba2-4773-9be9-db1e37aa001f.jpg?1783905366",
+            "normal": "https://cards.scryfall.io/normal/front/7/a/7a938fa9-cba2-4773-9be9-db1e37aa001f.jpg?1783905366",
+            "large": "https://cards.scryfall.io/large/front/7/a/7a938fa9-cba2-4773-9be9-db1e37aa001f.jpg?1783905366",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/a/7a938fa9-cba2-4773-9be9-db1e37aa001f.jpg?1783905366"
+          }
+        }
+      ]
+    },
+    "spm/16": {
+      "id": "897418bc-df8c-4c97-b6bf-7c9133a8a577",
+      "oracleId": "505231d8-714f-4c5b-a635-d1662bd18a78",
+      "name": "Spider-Man, Web-Slinger",
+      "manaValue": 3,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "16",
+      "scryfallUrl": "https://scryfall.com/card/spm/16/spider-man-web-slinger",
+      "faces": [
+        {
+          "name": "Spider-Man, Web-Slinger",
+          "manaCost": "{2}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {W} (You may cast this spell for {W} if you also return a tapped creature you control to its owner's hand.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/9/897418bc-df8c-4c97-b6bf-7c9133a8a577.jpg?1783905360",
+            "normal": "https://cards.scryfall.io/normal/front/8/9/897418bc-df8c-4c97-b6bf-7c9133a8a577.jpg?1783905360",
+            "large": "https://cards.scryfall.io/large/front/8/9/897418bc-df8c-4c97-b6bf-7c9133a8a577.jpg?1783905360",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/9/897418bc-df8c-4c97-b6bf-7c9133a8a577.jpg?1783905360"
+          }
+        }
+      ]
+    },
+    "spm/127": {
+      "id": "f82f4013-7308-4917-9042-19a5909f2134",
+      "oracleId": "0334a2f8-a74a-44c9-ba64-d9b7fabe160c",
+      "name": "Cosmic Spider-Man",
+      "manaValue": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "127",
+      "scryfallUrl": "https://scryfall.com/card/spm/127/cosmic-spider-man",
+      "faces": [
+        {
+          "name": "Cosmic Spider-Man",
+          "manaCost": "{W}{U}{B}{R}{G}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flying, first strike, trample, lifelink, haste\nAt the beginning of combat on your turn, other Spiders you control gain flying, first strike, trample, lifelink, and haste until end of turn.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/8/f82f4013-7308-4917-9042-19a5909f2134.jpg?1783905318",
+            "normal": "https://cards.scryfall.io/normal/front/f/8/f82f4013-7308-4917-9042-19a5909f2134.jpg?1783905318",
+            "large": "https://cards.scryfall.io/large/front/f/8/f82f4013-7308-4917-9042-19a5909f2134.jpg?1783905318",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/8/f82f4013-7308-4917-9042-19a5909f2134.jpg?1783905318"
+          }
+        }
+      ]
+    },
+    "spm/156": {
+      "id": "6a21c0ff-b51a-4946-9737-7872a7eef97b",
+      "oracleId": "bc681ecf-2a52-4782-9a47-90f5a9f435d8",
+      "name": "Symbiote Spider-Man",
+      "manaValue": 3,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "156",
+      "scryfallUrl": "https://scryfall.com/card/spm/156/symbiote-spider-man",
+      "faces": [
+        {
+          "name": "Symbiote Spider-Man",
+          "manaCost": "{2}{U/B}",
+          "typeLine": "Legendary Creature — Symbiote Spider Hero",
+          "oracleText": "Whenever this creature deals combat damage to a player, look at that many cards from the top of your library. Put one of them into your hand and the rest into your graveyard.\nFind New Host — {2}{U/B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains this card's other abilities. Activate only as a sorcery.",
+          "power": "2",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310",
+            "normal": "https://cards.scryfall.io/normal/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310",
+            "large": "https://cards.scryfall.io/large/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310"
+          }
+        }
+      ]
+    },
+    "spm/166": {
+      "id": "8da5f34e-7f40-406a-88d2-bb1e3ed25200",
+      "oracleId": "e123fd7d-ace9-48a4-9510-eedcc837d8e8",
+      "name": "Iron Spider, Stark Upgrade",
+      "manaValue": 3,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "166",
+      "scryfallUrl": "https://scryfall.com/card/spm/166/iron-spider-stark-upgrade",
+      "faces": [
+        {
+          "name": "Iron Spider, Stark Upgrade",
+          "manaCost": "{3}",
+          "typeLine": "Legendary Artifact Creature — Spider Hero",
+          "oracleText": "Vigilance\n{T}: Put a +1/+1 counter on each artifact creature and/or Vehicle you control.\n{2}, Remove two +1/+1 counters from among artifacts you control: Draw a card.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/d/8da5f34e-7f40-406a-88d2-bb1e3ed25200.jpg?1783905305",
+            "normal": "https://cards.scryfall.io/normal/front/8/d/8da5f34e-7f40-406a-88d2-bb1e3ed25200.jpg?1783905305",
+            "large": "https://cards.scryfall.io/large/front/8/d/8da5f34e-7f40-406a-88d2-bb1e3ed25200.jpg?1783905305",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8da5f34e-7f40-406a-88d2-bb1e3ed25200.jpg?1783905305"
+          }
+        }
+      ]
+    },
+    "spm/155": {
+      "id": "ad4adc3e-ec41-4406-8ff2-59ba8067cf4e",
+      "oracleId": "636cc915-9d1b-4ffe-9e74-795b78663911",
+      "name": "Superior Spider-Man",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "155",
+      "scryfallUrl": "https://scryfall.com/card/spm/155/superior-spider-man",
+      "faces": [
+        {
+          "name": "Superior Spider-Man",
+          "manaCost": "{2}{U}{B}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Mind Swap — You may have Superior Spider-Man enter as a copy of any creature card in a graveyard, except his name is Superior Spider-Man and he's a 4/4 Spider Human Hero in addition to his other types. When you do, exile that card.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/d/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e.jpg?1783905308",
+            "normal": "https://cards.scryfall.io/normal/front/a/d/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e.jpg?1783905308",
+            "large": "https://cards.scryfall.io/large/front/a/d/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e.jpg?1783905308",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/d/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e.jpg?1783905308"
+          }
+        }
+      ]
+    },
+    "spm/108": {
+      "id": "9f8b4d9b-208a-4673-a617-5e3edd069c33",
+      "oracleId": "be48c721-bdc6-4f2c-96d6-82d934b31615",
+      "name": "Miles Morales // Ultimate Spider-Man",
+      "manaValue": 2,
+      "colors": [],
+      "colorIdentity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "108",
+      "scryfallUrl": "https://scryfall.com/card/spm/108/miles-morales-ultimate-spider-man",
+      "faces": [
+        {
+          "name": "Miles Morales",
+          "manaCost": "{1}{G}",
+          "typeLine": "Legendary Creature — Human Citizen Hero",
+          "oracleText": "When Miles Morales enters, put a +1/+1 counter on each of up to two target creatures.\n{3}{R}{G}{W}: Transform Miles Morales. Activate only as a sorcery.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "normal": "https://cards.scryfall.io/normal/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "large": "https://cards.scryfall.io/large/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331"
+          }
+        },
+        {
+          "name": "Ultimate Spider-Man",
+          "manaCost": "{3}{R}{G}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "First strike, haste\nCamouflage — {2}: Put a +1/+1 counter on Ultimate Spider-Man. He gains hexproof and becomes colorless until end of turn.\nWhenever you attack, double the number of each kind of counter on each Spider and legendary creature you control.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "normal": "https://cards.scryfall.io/normal/back/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "large": "https://cards.scryfall.io/large/back/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331"
+          }
+        }
+      ]
+    },
+    "spe/18": {
+      "id": "61c17573-437e-4ffb-811f-8390d388d5a7",
+      "oracleId": "229ecaa1-b3c9-44a1-8e7a-857ea5b8b0df",
+      "name": "Spider-Man, Miles Morales",
+      "manaValue": 6,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spe",
+      "collectorNumber": "18",
+      "scryfallUrl": "https://scryfall.com/card/spe/18/spider-man-miles-morales",
+      "faces": [
+        {
+          "name": "Spider-Man, Miles Morales",
+          "manaCost": "{4}{G}{G}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Vigilance, trample (Attacking doesn't cause this creature to tap. He can deal excess combat damage to the player he's attacking.)\nWhenever Spider-Man enters or attacks, put a +1/+1 counter on each other creature you control. Those creatures gain trample until end of turn.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368",
+            "normal": "https://cards.scryfall.io/normal/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368",
+            "large": "https://cards.scryfall.io/large/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368"
+          }
+        }
+      ]
+    },
+    "spm/115": {
+      "id": "e19929bc-cbe1-4970-952d-8e9d0193ddce",
+      "oracleId": "2ca85872-9436-4515-af50-c13e59605627",
+      "name": "Spider-Man, Brooklyn Visionary",
+      "manaValue": 5,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "115",
+      "scryfallUrl": "https://scryfall.com/card/spm/115/spider-man-brooklyn-visionary",
+      "faces": [
+        {
+          "name": "Spider-Man, Brooklyn Visionary",
+          "manaCost": "{4}{G}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {2}{G} (You may cast this spell for {2}{G} if you also return a tapped creature you control to its owner's hand.)\nWhen Spider-Man enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/1/e19929bc-cbe1-4970-952d-8e9d0193ddce.jpg?1783905323",
+            "normal": "https://cards.scryfall.io/normal/front/e/1/e19929bc-cbe1-4970-952d-8e9d0193ddce.jpg?1783905323",
+            "large": "https://cards.scryfall.io/large/front/e/1/e19929bc-cbe1-4970-952d-8e9d0193ddce.jpg?1783905323",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/1/e19929bc-cbe1-4970-952d-8e9d0193ddce.jpg?1783905323"
+          }
+        }
+      ]
+    },
+    "spm/78": {
+      "id": "b0f1597f-1dc7-465e-8fcb-0afe61bcca46",
+      "oracleId": "5f143d87-35fb-40e3-94ae-f85cfff9adb5",
+      "name": "Gwen Stacy // Ghost-Spider",
+      "manaValue": 2,
+      "colors": [],
+      "colorIdentity": [
+        "R",
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "78",
+      "scryfallUrl": "https://scryfall.com/card/spm/78/gwen-stacy-ghost-spider",
+      "faces": [
+        {
+          "name": "Gwen Stacy",
+          "manaCost": "{1}{R}",
+          "typeLine": "Legendary Creature — Human Performer Hero",
+          "oracleText": "When Gwen Stacy enters, exile the top card of your library. You may play that card for as long as you control this creature.\n{2}{U}{R}{W}: Transform Gwen Stacy. Activate only as a sorcery.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "normal": "https://cards.scryfall.io/normal/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "large": "https://cards.scryfall.io/large/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342"
+          }
+        },
+        {
+          "name": "Ghost-Spider",
+          "manaCost": "{2}{U}{R}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flying, vigilance, haste\nWhenever you play a land from exile or cast a spell from exile, put a +1/+1 counter on Ghost-Spider.\nRemove two counters from Ghost-Spider: Exile the top card of your library. You may play that card this turn.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "normal": "https://cards.scryfall.io/normal/back/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "large": "https://cards.scryfall.io/large/back/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342"
+          }
+        }
+      ]
+    },
+    "spe/14": {
+      "id": "fa0ccd32-63c8-47a2-8de1-5845dad8e682",
+      "oracleId": "1d95b5c0-d193-4a03-9954-23861ac1c762",
+      "name": "Ghost-Spider, Gwen Stacy",
+      "manaValue": 5,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spe",
+      "collectorNumber": "14",
+      "scryfallUrl": "https://scryfall.com/card/spe/14/ghost-spider-gwen-stacy",
+      "faces": [
+        {
+          "name": "Ghost-Spider, Gwen Stacy",
+          "manaCost": "{3}{R}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever Ghost-Spider attacks, she deals X damage to defending player, where X is the number of attacking creatures.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370",
+            "normal": "https://cards.scryfall.io/normal/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370",
+            "large": "https://cards.scryfall.io/large/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370"
+          }
+        }
+      ]
+    },
+    "spm/90": {
+      "id": "3bc04fa7-6265-4549-91f6-eebdcd67398a",
+      "oracleId": "2648559d-1d96-47d2-a769-cfa2cbca2be5",
+      "name": "Spider-Gwen, Free Spirit",
+      "manaValue": 3,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "90",
+      "scryfallUrl": "https://scryfall.com/card/spm/90/spider-gwen-free-spirit",
+      "faces": [
+        {
+          "name": "Spider-Gwen, Free Spirit",
+          "manaCost": "{2}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Reach\nWhenever Spider-Gwen becomes tapped, you may discard a card. If you do, draw a card.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/b/3bc04fa7-6265-4549-91f6-eebdcd67398a.jpg?1783905333",
+            "normal": "https://cards.scryfall.io/normal/front/3/b/3bc04fa7-6265-4549-91f6-eebdcd67398a.jpg?1783905333",
+            "large": "https://cards.scryfall.io/large/front/3/b/3bc04fa7-6265-4549-91f6-eebdcd67398a.jpg?1783905333",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/b/3bc04fa7-6265-4549-91f6-eebdcd67398a.jpg?1783905333"
+          }
+        }
+      ]
+    },
+    "spm/56": {
+      "id": "46b6cc5d-7a37-4e8b-a1a5-9a573056610c",
+      "oracleId": "c48cf135-b280-4e9f-a9d9-225104870741",
+      "name": "Gwenom, Remorseless",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "56",
+      "scryfallUrl": "https://scryfall.com/card/spm/56/gwenom-remorseless",
+      "faces": [
+        {
+          "name": "Gwenom, Remorseless",
+          "manaCost": "{3}{B}{B}",
+          "typeLine": "Legendary Creature — Symbiote Spider Hero",
+          "oracleText": "Deathtouch, lifelink\nWhenever Gwenom attacks, until end of turn, you may look at the top card of your library any time and you may play cards from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/6/46b6cc5d-7a37-4e8b-a1a5-9a573056610c.jpg?1783905344",
+            "normal": "https://cards.scryfall.io/normal/front/4/6/46b6cc5d-7a37-4e8b-a1a5-9a573056610c.jpg?1783905344",
+            "large": "https://cards.scryfall.io/large/front/4/6/46b6cc5d-7a37-4e8b-a1a5-9a573056610c.jpg?1783905344",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/6/46b6cc5d-7a37-4e8b-a1a5-9a573056610c.jpg?1783905344"
+          }
+        }
+      ]
+    },
+    "spm/204": {
+      "id": "d9a8b9a4-c9d9-4e9f-80b0-23de71a7423b",
+      "oracleId": "2efd6494-c5e1-41de-bc6e-8490ff046cd1",
+      "name": "Spider-Man Noir",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "204",
+      "scryfallUrl": "https://scryfall.com/card/spm/204/spider-man-noir",
+      "faces": [
+        {
+          "name": "Spider-Man Noir",
+          "manaCost": "{4}{B}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Menace\nWhenever a creature you control attacks alone, put a +1/+1 counter on it. Then surveil X, where X is the number of counters on it. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/9/d9a8b9a4-c9d9-4e9f-80b0-23de71a7423b.jpg?1783905290",
+            "normal": "https://cards.scryfall.io/normal/front/d/9/d9a8b9a4-c9d9-4e9f-80b0-23de71a7423b.jpg?1783905290",
+            "large": "https://cards.scryfall.io/large/front/d/9/d9a8b9a4-c9d9-4e9f-80b0-23de71a7423b.jpg?1783905290",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/9/d9a8b9a4-c9d9-4e9f-80b0-23de71a7423b.jpg?1783905290"
+          }
+        }
+      ]
+    },
+    "spm/92": {
+      "id": "0bd41879-fcd4-4211-9b98-47e7cdba5399",
+      "oracleId": "03bf7a90-78c1-4e83-8553-e22d85e49876",
+      "name": "Spider-Punk",
+      "manaValue": 2,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "92",
+      "scryfallUrl": "https://scryfall.com/card/spm/92/spider-punk",
+      "faces": [
+        {
+          "name": "Spider-Punk",
+          "manaCost": "{1}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Riot (This creature enters with your choice of a +1/+1 counter or haste.)\nOther Spiders you control have riot.\nSpells and abilities can't be countered.\nDamage can't be prevented.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/b/0bd41879-fcd4-4211-9b98-47e7cdba5399.jpg?1783905333",
+            "normal": "https://cards.scryfall.io/normal/front/0/b/0bd41879-fcd4-4211-9b98-47e7cdba5399.jpg?1783905333",
+            "large": "https://cards.scryfall.io/large/front/0/b/0bd41879-fcd4-4211-9b98-47e7cdba5399.jpg?1783905333",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/b/0bd41879-fcd4-4211-9b98-47e7cdba5399.jpg?1783905333"
+          }
+        }
+      ]
+    },
+    "spm/205": {
+      "id": "b680a089-5cf0-494a-98e8-23d28315f572",
+      "oracleId": "19845456-3d96-48a4-89fa-9b8e583774c9",
+      "name": "Spider-Man 2099",
+      "manaValue": 2,
+      "colors": [
+        "R",
+        "U"
+      ],
+      "colorIdentity": [
+        "R",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "205",
+      "scryfallUrl": "https://scryfall.com/card/spm/205/spider-man-2099",
+      "faces": [
+        {
+          "name": "Spider-Man 2099",
+          "manaCost": "{U}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "From the Future — You can't cast Spider-Man 2099 during your first, second, or third turns of the game.\nDouble strike, vigilance\nAt the beginning of your end step, if you've played a land or cast a spell this turn from anywhere other than your hand, Spider-Man 2099 deals damage equal to his power to any target.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/6/b680a089-5cf0-494a-98e8-23d28315f572.jpg?1783905289",
+            "normal": "https://cards.scryfall.io/normal/front/b/6/b680a089-5cf0-494a-98e8-23d28315f572.jpg?1783905289",
+            "large": "https://cards.scryfall.io/large/front/b/6/b680a089-5cf0-494a-98e8-23d28315f572.jpg?1783905289",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/6/b680a089-5cf0-494a-98e8-23d28315f572.jpg?1783905289"
+          }
+        }
+      ]
+    },
+    "spe/8": {
+      "id": "eca05fe2-f203-4e7c-ae90-41f1f2ae94cb",
+      "oracleId": "c0280d66-699f-4139-828b-a0f79ae2d20d",
+      "name": "Spider-Man 2099, Miguel O'Hara",
+      "manaValue": 5,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spe",
+      "collectorNumber": "8",
+      "scryfallUrl": "https://scryfall.com/card/spe/8/spider-man-2099-miguel-ohara",
+      "faces": [
+        {
+          "name": "Spider-Man 2099, Miguel O'Hara",
+          "manaCost": "{4}{U}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "When Spider-Man 2099 enters, return up to one target creature to its owner's hand.\nWhenever one or more creatures you control deal combat damage to a player, draw a card.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373",
+            "normal": "https://cards.scryfall.io/normal/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373",
+            "large": "https://cards.scryfall.io/large/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373"
+          }
+        }
+      ]
+    },
+    "spm/151": {
+      "id": "65b8af30-559b-43a9-8526-62c28c378339",
+      "oracleId": "8933297c-62f1-4df9-91b8-2d3481db77e5",
+      "name": "Spider-Man India",
+      "manaValue": 5,
+      "colors": [
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "151",
+      "scryfallUrl": "https://scryfall.com/card/spm/151/spider-man-india",
+      "faces": [
+        {
+          "name": "Spider-Man India",
+          "manaCost": "{3}{G}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {1}{G}{W} (You may cast this spell for {1}{G}{W} if you also return a tapped creature you control to its owner's hand.)\nPavitr's Sevā — Whenever you cast a creature spell, put a +1/+1 counter on target creature you control. It gains flying until end of turn.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/5/65b8af30-559b-43a9-8526-62c28c378339.jpg?1783905310",
+            "normal": "https://cards.scryfall.io/normal/front/6/5/65b8af30-559b-43a9-8526-62c28c378339.jpg?1783905310",
+            "large": "https://cards.scryfall.io/large/front/6/5/65b8af30-559b-43a9-8526-62c28c378339.jpg?1783905310",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/5/65b8af30-559b-43a9-8526-62c28c378339.jpg?1783905310"
+          }
+        }
+      ]
+    },
+    "spm/17": {
+      "id": "6beb4548-1fab-4b9e-bf24-f7b9aadecc87",
+      "oracleId": "ebf8d006-2997-431b-b4cb-9692741b45ca",
+      "name": "Spider-UK",
+      "manaValue": 4,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "17",
+      "scryfallUrl": "https://scryfall.com/card/spm/17/spider-uk",
+      "faces": [
+        {
+          "name": "Spider-UK",
+          "manaCost": "{3}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {2}{W} (You may cast this spell for {2}{W} if you also return a tapped creature you control to its owner's hand.)\nAt the beginning of your end step, if two or more creatures entered the battlefield under your control this turn, you draw a card and gain 2 life.",
+          "power": "3",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/b/6beb4548-1fab-4b9e-bf24-f7b9aadecc87.jpg?1783905359",
+            "normal": "https://cards.scryfall.io/normal/front/6/b/6beb4548-1fab-4b9e-bf24-f7b9aadecc87.jpg?1783905359",
+            "large": "https://cards.scryfall.io/large/front/6/b/6beb4548-1fab-4b9e-bf24-f7b9aadecc87.jpg?1783905359",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6beb4548-1fab-4b9e-bf24-f7b9aadecc87.jpg?1783905359"
+          }
+        }
+      ]
+    },
+    "spm/201": {
+      "id": "020426f0-ca38-4b0e-aa20-6fe12dc34853",
+      "oracleId": "00b50215-e832-417f-9c80-2bc3050b6ebb",
+      "name": "Spider-Ham, Peter Porker",
+      "manaValue": 2,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "201",
+      "scryfallUrl": "https://scryfall.com/card/spm/201/spider-ham-peter-porker",
+      "faces": [
+        {
+          "name": "Spider-Ham, Peter Porker",
+          "manaCost": "{1}{G}",
+          "typeLine": "Legendary Creature — Spider Boar Hero",
+          "oracleText": "When Spider-Ham enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nAnimal May-Ham — Other Spiders, Boars, Bats, Bears, Birds, Cats, Dogs, Frogs, Jackals, Lizards, Mice, Otters, Rabbits, Raccoons, Rats, Squirrels, Turtles, and Wolves you control get +1/+1.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/2/020426f0-ca38-4b0e-aa20-6fe12dc34853.jpg?1786595005",
+            "normal": "https://cards.scryfall.io/normal/front/0/2/020426f0-ca38-4b0e-aa20-6fe12dc34853.jpg?1786595005",
+            "large": "https://cards.scryfall.io/large/front/0/2/020426f0-ca38-4b0e-aa20-6fe12dc34853.jpg?1786595005",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/2/020426f0-ca38-4b0e-aa20-6fe12dc34853.jpg?1786595005"
+          }
+        }
+      ]
+    },
+    "spm/116": {
+      "id": "5b6e0bea-f126-4adb-8808-901950a77c7b",
+      "oracleId": "58b771d4-dfaf-4189-a5f6-4bc0fb4c0fa3",
+      "name": "Spider-Rex, Daring Dino",
+      "manaValue": 6,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "116",
+      "scryfallUrl": "https://scryfall.com/card/spm/116/spider-rex-daring-dino",
+      "faces": [
+        {
+          "name": "Spider-Rex, Daring Dino",
+          "manaCost": "{4}{G}{G}",
+          "typeLine": "Legendary Creature — Spider Dinosaur Hero",
+          "oracleText": "Reach, trample\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+          "power": "6",
+          "toughness": "6",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/b/5b6e0bea-f126-4adb-8808-901950a77c7b.jpg?1783905322",
+            "normal": "https://cards.scryfall.io/normal/front/5/b/5b6e0bea-f126-4adb-8808-901950a77c7b.jpg?1783905322",
+            "large": "https://cards.scryfall.io/large/front/5/b/5b6e0bea-f126-4adb-8808-901950a77c7b.jpg?1783905322",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b6e0bea-f126-4adb-8808-901950a77c7b.jpg?1783905322"
+          }
+        }
+      ]
+    },
+    "spm/117": {
+      "id": "1183262e-1f02-46b3-8cfa-fe30e0016c11",
+      "oracleId": "d21d7557-9702-46c1-8277-42a3442084c2",
+      "name": "Spiders-Man, Heroic Horde",
+      "manaValue": 2,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "117",
+      "scryfallUrl": "https://scryfall.com/card/spm/117/spiders-man-heroic-horde",
+      "faces": [
+        {
+          "name": "Spiders-Man, Heroic Horde",
+          "manaCost": "{1}{G}",
+          "typeLine": "Legendary Creature — Spider Hero",
+          "oracleText": "Web-slinging {4}{G}{G} (You may cast this spell for {4}{G}{G} if you also return a tapped creature you control to its owner's hand.)\nWhen Spiders-Man enters, if they were cast using web-slinging, you gain 3 life and create two 2/1 green Spider creature tokens with reach.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/1/1183262e-1f02-46b3-8cfa-fe30e0016c11.jpg?1783905323",
+            "normal": "https://cards.scryfall.io/normal/front/1/1/1183262e-1f02-46b3-8cfa-fe30e0016c11.jpg?1783905323",
+            "large": "https://cards.scryfall.io/large/front/1/1/1183262e-1f02-46b3-8cfa-fe30e0016c11.jpg?1783905323",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/1/1183262e-1f02-46b3-8cfa-fe30e0016c11.jpg?1783905323"
+          }
+        }
+      ]
+    },
+    "spm/44": {
+      "id": "210ae606-12a4-453b-bfb4-73ca9c22b8b5",
+      "oracleId": "845472ca-3fcb-4bcd-953c-96eb8d914af9",
+      "name": "Spider-Byte, Web Warden",
+      "manaValue": 3,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "44",
+      "scryfallUrl": "https://scryfall.com/card/spm/44/spider-byte-web-warden",
+      "faces": [
+        {
+          "name": "Spider-Byte, Web Warden",
+          "manaCost": "{2}{U}",
+          "typeLine": "Legendary Creature — Spider Avatar Hero",
+          "oracleText": "When Spider-Byte enters, return up to one target nonland permanent to its owner's hand.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/1/210ae606-12a4-453b-bfb4-73ca9c22b8b5.jpg?1783905352",
+            "normal": "https://cards.scryfall.io/normal/front/2/1/210ae606-12a4-453b-bfb4-73ca9c22b8b5.jpg?1783905352",
+            "large": "https://cards.scryfall.io/large/front/2/1/210ae606-12a4-453b-bfb4-73ca9c22b8b5.jpg?1783905352",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/210ae606-12a4-453b-bfb4-73ca9c22b8b5.jpg?1783905352"
+          }
+        }
+      ]
+    },
+    "spm/199": {
+      "id": "e8c1aace-e8fe-45ee-bc40-225409ff8657",
+      "oracleId": "722ab6e4-a2e0-4aaa-a050-7b6436e22b40",
+      "name": "SP//dr, Piloted by Peni",
+      "manaValue": 5,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "199",
+      "scryfallUrl": "https://scryfall.com/card/spm/199/spdr-piloted-by-peni",
+      "faces": [
+        {
+          "name": "SP//dr, Piloted by Peni",
+          "manaCost": "{3}{W}{U}",
+          "typeLine": "Legendary Artifact Creature — Spider Hero",
+          "oracleText": "Vigilance\nWhen SP//dr enters, put a +1/+1 counter on target creature.\nWhenever a modified creature you control deals combat damage to a player, draw a card. (Equipment, Auras you control, and counters are modifications.)",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/8/e8c1aace-e8fe-45ee-bc40-225409ff8657.jpg?1783905293",
+            "normal": "https://cards.scryfall.io/normal/front/e/8/e8c1aace-e8fe-45ee-bc40-225409ff8657.jpg?1783905293",
+            "large": "https://cards.scryfall.io/large/front/e/8/e8c1aace-e8fe-45ee-bc40-225409ff8657.jpg?1783905293",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/8/e8c1aace-e8fe-45ee-bc40-225409ff8657.jpg?1783905293"
+          }
+        }
+      ]
+    },
+    "spm/149": {
+      "id": "d1f3196a-fe48-446f-ab07-00c66b7816c8",
+      "oracleId": "d459b3f5-a18c-4c17-a855-dc147f7c2161",
+      "name": "Spider-Girl, Legacy Hero",
+      "manaValue": 2,
+      "colors": [
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "149",
+      "scryfallUrl": "https://scryfall.com/card/spm/149/spider-girl-legacy-hero",
+      "faces": [
+        {
+          "name": "Spider-Girl, Legacy Hero",
+          "manaCost": "{G}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "During your turn, Spider-Girl has flying.\nWhen Spider-Girl leaves the battlefield, create a 1/1 green and white Human Citizen creature token.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/1/d1f3196a-fe48-446f-ab07-00c66b7816c8.jpg?1783905311",
+            "normal": "https://cards.scryfall.io/normal/front/d/1/d1f3196a-fe48-446f-ab07-00c66b7816c8.jpg?1783905311",
+            "large": "https://cards.scryfall.io/large/front/d/1/d1f3196a-fe48-446f-ab07-00c66b7816c8.jpg?1783905311",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/1/d1f3196a-fe48-446f-ab07-00c66b7816c8.jpg?1783905311"
+          }
+        }
+      ]
+    },
+    "spm/154": {
+      "id": "2b54d4a5-634f-4ae3-b592-0dc527f60d56",
+      "oracleId": "2d961997-4f5f-4ce2-b062-11411147e2f7",
+      "name": "Sun-Spider, Nimble Webber",
+      "manaValue": 4,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "154",
+      "scryfallUrl": "https://scryfall.com/card/spm/154/sun-spider-nimble-webber",
+      "faces": [
+        {
+          "name": "Sun-Spider, Nimble Webber",
+          "manaCost": "{3}{W/U}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "During your turn, Sun-Spider has flying.\nWhen Sun-Spider enters, search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+          "power": "3",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310",
+            "normal": "https://cards.scryfall.io/normal/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310",
+            "large": "https://cards.scryfall.io/large/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310"
+          }
+        }
+      ]
+    },
+    "spm/152": {
+      "id": "bc9b2a76-3cce-4fd0-a4ef-932747cb11b2",
+      "oracleId": "be2b9c6d-4ecb-49ec-b276-4aa93c5dfc00",
+      "name": "Spider-Woman, Stunning Savior",
+      "manaValue": 2,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "152",
+      "scryfallUrl": "https://scryfall.com/card/spm/152/spider-woman-stunning-savior",
+      "faces": [
+        {
+          "name": "Spider-Woman, Stunning Savior",
+          "manaCost": "{1}{W/U}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Flying\nVenom Blast — Artifacts and creatures your opponents control enter tapped.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310",
+            "normal": "https://cards.scryfall.io/normal/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310",
+            "large": "https://cards.scryfall.io/large/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310"
+          }
+        }
+      ]
+    },
+    "spm/142": {
+      "id": "ee771581-f867-48d7-9ddb-897a1ffcdf0a",
+      "oracleId": "13ab2f3f-f65e-42b5-b743-39b30a4c4751",
+      "name": "Scarlet Spider, Ben Reilly",
+      "manaValue": 3,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "142",
+      "scryfallUrl": "https://scryfall.com/card/spm/142/scarlet-spider-ben-reilly",
+      "faces": [
+        {
+          "name": "Scarlet Spider, Ben Reilly",
+          "manaCost": "{1}{R}{G}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {R}{G} (You may cast this spell for {R}{G} if you also return a tapped creature you control to its owner's hand.)\nTrample\nSensational Save — If Scarlet Spider was cast using web-slinging, he enters with X +1/+1 counters on him, where X is the mana value of the returned creature.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/e/ee771581-f867-48d7-9ddb-897a1ffcdf0a.jpg?1783905313",
+            "normal": "https://cards.scryfall.io/normal/front/e/e/ee771581-f867-48d7-9ddb-897a1ffcdf0a.jpg?1783905313",
+            "large": "https://cards.scryfall.io/large/front/e/e/ee771581-f867-48d7-9ddb-897a1ffcdf0a.jpg?1783905313",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/e/ee771581-f867-48d7-9ddb-897a1ffcdf0a.jpg?1783905313"
+          }
+        }
+      ]
+    },
+    "spm/143": {
+      "id": "2cb00060-8cc5-42dc-bcbf-affd9e59f8fd",
+      "oracleId": "4ec8a5ea-b750-4711-8843-2bc98f4ce060",
+      "name": "Scarlet Spider, Kaine",
+      "manaValue": 2,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "143",
+      "scryfallUrl": "https://scryfall.com/card/spm/143/scarlet-spider-kaine",
+      "faces": [
+        {
+          "name": "Scarlet Spider, Kaine",
+          "manaCost": "{B}{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Scarlet Spider enters, you may discard a card. If you do, put a +1/+1 counter on him.\nMayhem {B/R} (You may cast this card from your graveyard for {B/R} if you discarded it this turn. Timing rules still apply.)",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/c/2cb00060-8cc5-42dc-bcbf-affd9e59f8fd.jpg?1783905312",
+            "normal": "https://cards.scryfall.io/normal/front/2/c/2cb00060-8cc5-42dc-bcbf-affd9e59f8fd.jpg?1783905312",
+            "large": "https://cards.scryfall.io/large/front/2/c/2cb00060-8cc5-42dc-bcbf-affd9e59f8fd.jpg?1783905312",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2cb00060-8cc5-42dc-bcbf-affd9e59f8fd.jpg?1783905312"
+          }
+        }
+      ]
+    },
+    "spm/145": {
+      "id": "588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1",
+      "oracleId": "50477dc8-9a2a-41eb-984d-c9e1e78e08a2",
+      "name": "Silk, Web Weaver",
+      "manaValue": 4,
+      "colors": [
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "145",
+      "scryfallUrl": "https://scryfall.com/card/spm/145/silk-web-weaver",
+      "faces": [
+        {
+          "name": "Silk, Web Weaver",
+          "manaCost": "{2}{G}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {1}{G}{W} (You may cast this spell for {1}{G}{W} if you also return a tapped creature you control to its owner's hand.)\nWhenever you cast a creature spell, create a 1/1 green and white Human Citizen creature token.\n{3}{G}{W}: Creatures you control get +2/+2 and gain vigilance until end of turn.",
+          "power": "3",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1783905311",
+            "normal": "https://cards.scryfall.io/normal/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1783905311",
+            "large": "https://cards.scryfall.io/large/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1783905311",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1783905311"
+          }
+        }
+      ]
+    },
+    "spm/123": {
+      "id": "b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8",
+      "oracleId": "a16037f2-a0f6-465d-8d6e-cec34b4a6320",
+      "name": "Araña, Heart of the Spider",
+      "manaValue": 3,
+      "colors": [
+        "R",
+        "W"
+      ],
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "123",
+      "scryfallUrl": "https://scryfall.com/card/spm/123/ara%C3%B1a-heart-of-the-spider",
+      "faces": [
+        {
+          "name": "Araña, Heart of the Spider",
+          "manaCost": "{1}{R}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Whenever you attack, put a +1/+1 counter on target attacking creature.\nWhenever a modified creature you control deals combat damage to a player, exile the top card of your library. You may play that card this turn. (Equipment, Auras you control, and counters are modifications.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/0/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8.jpg?1783905320",
+            "normal": "https://cards.scryfall.io/normal/front/b/0/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8.jpg?1783905320",
+            "large": "https://cards.scryfall.io/large/front/b/0/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8.jpg?1783905320",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8.jpg?1783905320"
+          }
+        }
+      ]
+    },
+    "spm/2": {
+      "id": "7c1f871a-bd85-402e-b474-1deb64c18a52",
+      "oracleId": "28d500ea-720f-4332-891e-404fb03acb5c",
+      "name": "Arachne, Psionic Weaver",
+      "manaValue": 3,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "2",
+      "scryfallUrl": "https://scryfall.com/card/spm/2/arachne-psionic-weaver",
+      "faces": [
+        {
+          "name": "Arachne, Psionic Weaver",
+          "manaCost": "{2}{W}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Web-slinging {W} (You may cast this spell for {W} if you also return a tapped creature you control to its owner's hand.)\nAs Arachne enters, look at an opponent's hand, then choose a card type other than creature.\nSpells of the chosen type cost {1} more to cast.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/c/7c1f871a-bd85-402e-b474-1deb64c18a52.jpg?1783905365",
+            "normal": "https://cards.scryfall.io/normal/front/7/c/7c1f871a-bd85-402e-b474-1deb64c18a52.jpg?1783905365",
+            "large": "https://cards.scryfall.io/large/front/7/c/7c1f871a-bd85-402e-b474-1deb64c18a52.jpg?1783905365",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c1f871a-bd85-402e-b474-1deb64c18a52.jpg?1783905365"
+          }
+        }
+      ]
+    },
+    "spm/94": {
+      "id": "a27834b7-e763-48ac-845e-ed49f2fa6c6d",
+      "oracleId": "daca1d5e-349d-4e8a-abc7-427dab43fb0c",
+      "name": "Spinneret and Spiderling",
+      "manaValue": 1,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "94",
+      "scryfallUrl": "https://scryfall.com/card/spm/94/spinneret-and-spiderling",
+      "faces": [
+        {
+          "name": "Spinneret and Spiderling",
+          "manaCost": "{R}",
+          "typeLine": "Legendary Creature — Spider Human Hero",
+          "oracleText": "Whenever you attack with two or more Spiders, put a +1/+1 counter on Spinneret and Spiderling.\nWhenever Spinneret and Spiderling deals 4 or more damage, exile the top card of your library. Until the end of your next turn, you may play that card.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/2/a27834b7-e763-48ac-845e-ed49f2fa6c6d.jpg?1783905332",
+            "normal": "https://cards.scryfall.io/normal/front/a/2/a27834b7-e763-48ac-845e-ed49f2fa6c6d.jpg?1783905332",
+            "large": "https://cards.scryfall.io/large/front/a/2/a27834b7-e763-48ac-845e-ed49f2fa6c6d.jpg?1783905332",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a27834b7-e763-48ac-845e-ed49f2fa6c6d.jpg?1783905332"
+          }
+        }
+      ]
+    },
+    "spm/1": {
+      "id": "560384fe-7be0-4b93-a515-2fe687ab2492",
+      "oracleId": "3c7bafe9-80cd-48d0-bcae-e7910c9fb83b",
+      "name": "Anti-Venom, Horrifying Healer",
+      "manaValue": 5,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "1",
+      "scryfallUrl": "https://scryfall.com/card/spm/1/anti-venom-horrifying-healer",
+      "faces": [
+        {
+          "name": "Anti-Venom, Horrifying Healer",
+          "manaCost": "{W}{W}{W}{W}{W}",
+          "typeLine": "Legendary Creature — Symbiote Hero",
+          "oracleText": "When Anti-Venom enters, if he was cast, return target creature card from your graveyard to the battlefield.\nIf damage would be dealt to Anti-Venom, prevent that damage and put that many +1/+1 counters on him.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/6/560384fe-7be0-4b93-a515-2fe687ab2492.jpg?1783905365",
+            "normal": "https://cards.scryfall.io/normal/front/5/6/560384fe-7be0-4b93-a515-2fe687ab2492.jpg?1783905365",
+            "large": "https://cards.scryfall.io/large/front/5/6/560384fe-7be0-4b93-a515-2fe687ab2492.jpg?1783905365",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/6/560384fe-7be0-4b93-a515-2fe687ab2492.jpg?1783905365"
+          }
+        }
+      ]
+    },
+    "spm/255": {
+      "id": "5569baf4-0cc9-46da-80cb-2cac5452f460",
+      "oracleId": "14c356aa-178d-4c14-a88e-fbe92ee6d89f",
+      "name": "Agent Venom",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "255",
+      "scryfallUrl": "https://scryfall.com/card/spm/255/agent-venom",
+      "faces": [
+        {
+          "name": "Agent Venom",
+          "manaCost": "{2}{B}",
+          "typeLine": "Legendary Creature — Symbiote Soldier Hero",
+          "oracleText": "Flash\nMenace\nWhenever another nontoken creature you control dies, you draw a card and lose 1 life.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/5/5569baf4-0cc9-46da-80cb-2cac5452f460.jpg?1783905271",
+            "normal": "https://cards.scryfall.io/normal/front/5/5/5569baf4-0cc9-46da-80cb-2cac5452f460.jpg?1783905271",
+            "large": "https://cards.scryfall.io/large/front/5/5/5569baf4-0cc9-46da-80cb-2cac5452f460.jpg?1783905271",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/5569baf4-0cc9-46da-80cb-2cac5452f460.jpg?1783905271"
+          }
+        }
+      ]
+    },
+    "spm/13": {
+      "id": "cf0d4116-acee-4d9a-985c-396d10e03838",
+      "oracleId": "40b82dee-98c7-4b86-88b8-28388cd0331f",
+      "name": "Silver Sable, Mercenary Leader",
+      "manaValue": 3,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "13",
+      "scryfallUrl": "https://scryfall.com/card/spm/13/silver-sable-mercenary-leader",
+      "faces": [
+        {
+          "name": "Silver Sable, Mercenary Leader",
+          "manaCost": "{2}{W}",
+          "typeLine": "Legendary Creature — Human Mercenary Hero",
+          "oracleText": "When Silver Sable enters, put a +1/+1 counter on another target creature.\nWhenever Silver Sable attacks, target modified creature you control gains lifelink until end of turn. (Equipment, Auras you control, and counters are modifications.)",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/f/cf0d4116-acee-4d9a-985c-396d10e03838.jpg?1783905363",
+            "normal": "https://cards.scryfall.io/normal/front/c/f/cf0d4116-acee-4d9a-985c-396d10e03838.jpg?1783905363",
+            "large": "https://cards.scryfall.io/large/front/c/f/cf0d4116-acee-4d9a-985c-396d10e03838.jpg?1783905363",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cf0d4116-acee-4d9a-985c-396d10e03838.jpg?1783905363"
+          }
+        }
+      ]
+    },
+    "spm/18": {
+      "id": "babbf53d-3e10-4110-8725-91f766c8cdad",
+      "oracleId": "13fd7ca6-c278-409f-a9c4-57f16051ffce",
+      "name": "Starling, Aerial Ally",
+      "manaValue": 5,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "18",
+      "scryfallUrl": "https://scryfall.com/card/spm/18/starling-aerial-ally",
+      "faces": [
+        {
+          "name": "Starling, Aerial Ally",
+          "manaCost": "{4}{W}",
+          "typeLine": "Legendary Creature — Human Hero",
+          "oracleText": "Flying\nWhen Starling enters, another target creature you control gains flying until end of turn.",
+          "power": "3",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/a/babbf53d-3e10-4110-8725-91f766c8cdad.jpg?1783905360",
+            "normal": "https://cards.scryfall.io/normal/front/b/a/babbf53d-3e10-4110-8725-91f766c8cdad.jpg?1783905360",
+            "large": "https://cards.scryfall.io/large/front/b/a/babbf53d-3e10-4110-8725-91f766c8cdad.jpg?1783905360",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/a/babbf53d-3e10-4110-8725-91f766c8cdad.jpg?1783905360"
+          }
+        }
+      ]
+    },
+    "spm/160": {
+      "id": "5f46ed93-de6d-4180-9018-26ee07f75464",
+      "oracleId": "38684c31-e8c6-4825-8740-1a3d34b58b39",
+      "name": "Wraith, Vicious Vigilante",
+      "manaValue": 3,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "160",
+      "scryfallUrl": "https://scryfall.com/card/spm/160/wraith-vicious-vigilante",
+      "faces": [
+        {
+          "name": "Wraith, Vicious Vigilante",
+          "manaCost": "{1}{W}{U}",
+          "typeLine": "Legendary Creature — Human Detective Hero",
+          "oracleText": "Double strike\nFear Gas — Wraith can't be blocked.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/f/5f46ed93-de6d-4180-9018-26ee07f75464.jpg?1783905306",
+            "normal": "https://cards.scryfall.io/normal/front/5/f/5f46ed93-de6d-4180-9018-26ee07f75464.jpg?1783905306",
+            "large": "https://cards.scryfall.io/large/front/5/f/5f46ed93-de6d-4180-9018-26ee07f75464.jpg?1783905306",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5f46ed93-de6d-4180-9018-26ee07f75464.jpg?1783905306"
+          }
+        }
+      ]
+    },
+    "spm/3": {
+      "id": "ad96343b-baac-428c-8270-fcffbbbe9fb8",
+      "oracleId": "bdb769b5-c861-4ec1-ad6b-e2a56ca05fd1",
+      "name": "Aunt May",
+      "manaValue": 1,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "3",
+      "scryfallUrl": "https://scryfall.com/card/spm/3/aunt-may",
+      "faces": [
+        {
+          "name": "Aunt May",
+          "manaCost": "{W}",
+          "typeLine": "Legendary Creature — Human Citizen",
+          "oracleText": "Whenever another creature you control enters, you gain 1 life. If it's a Spider, put a +1/+1 counter on it.",
+          "power": "0",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/d/ad96343b-baac-428c-8270-fcffbbbe9fb8.jpg?1783905365",
+            "normal": "https://cards.scryfall.io/normal/front/a/d/ad96343b-baac-428c-8270-fcffbbbe9fb8.jpg?1783905365",
+            "large": "https://cards.scryfall.io/large/front/a/d/ad96343b-baac-428c-8270-fcffbbbe9fb8.jpg?1783905365",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/d/ad96343b-baac-428c-8270-fcffbbbe9fb8.jpg?1783905365"
+          }
+        }
+      ]
+    },
+    "spm/134": {
+      "id": "178345f7-8ccd-4e47-80f4-5bd31bab6655",
+      "oracleId": "6d44c87b-8945-4c39-b034-7690cf483992",
+      "name": "Mary Jane Watson",
+      "manaValue": 2,
+      "colors": [
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "134",
+      "scryfallUrl": "https://scryfall.com/card/spm/134/mary-jane-watson",
+      "faces": [
+        {
+          "name": "Mary Jane Watson",
+          "manaCost": "{1}{G/W}",
+          "typeLine": "Legendary Creature — Human Performer",
+          "oracleText": "Whenever a Spider you control enters, draw a card. This ability triggers only once each turn.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316",
+            "normal": "https://cards.scryfall.io/normal/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316",
+            "large": "https://cards.scryfall.io/large/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316"
+          }
+        }
+      ]
+    },
+    "spe/3": {
+      "id": "46734558-4af4-4773-8c13-59e110bacae9",
+      "oracleId": "06f647a7-ee53-42bd-8c73-53a0c6ede34a",
+      "name": "MJ, Rising Star",
+      "manaValue": 3,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spe",
+      "collectorNumber": "3",
+      "scryfallUrl": "https://scryfall.com/card/spe/3/mj-rising-star",
+      "faces": [
+        {
+          "name": "MJ, Rising Star",
+          "manaCost": "{2}{W}",
+          "typeLine": "Legendary Creature — Human Performer",
+          "oracleText": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhenever you gain life, put a +1/+1 counter on MJ.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374",
+            "normal": "https://cards.scryfall.io/normal/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374",
+            "large": "https://cards.scryfall.io/large/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374"
+          }
+        }
+      ]
+    },
+    "spe/15": {
+      "id": "88ede451-65c2-4169-b7a1-34edfc4e92ce",
+      "oracleId": "f2f4e14d-1ce8-41b3-b907-03ff561b42f7",
+      "name": "The Mary Janes",
+      "manaValue": 4,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spe",
+      "collectorNumber": "15",
+      "scryfallUrl": "https://scryfall.com/card/spe/15/the-mary-janes",
+      "faces": [
+        {
+          "name": "The Mary Janes",
+          "manaCost": "{3}{R}",
+          "typeLine": "Legendary Creature — Human Bard Performer",
+          "oracleText": "This spell costs {1} less to cast for each creature that attacked this turn.\nMenace (This creature can't be blocked except by two or more creatures.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369",
+            "normal": "https://cards.scryfall.io/normal/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369",
+            "large": "https://cards.scryfall.io/large/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369"
+          }
+        }
+      ]
+    },
+    "spm/7": {
+      "id": "44cf372b-f668-45e9-981e-4533295dcc74",
+      "oracleId": "f536a518-160e-4267-89da-3d34accc6d2c",
+      "name": "Flash Thompson, Spider-Fan",
+      "manaValue": 2,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "7",
+      "scryfallUrl": "https://scryfall.com/card/spm/7/flash-thompson-spider-fan",
+      "faces": [
+        {
+          "name": "Flash Thompson, Spider-Fan",
+          "manaCost": "{1}{W}",
+          "typeLine": "Legendary Creature — Human Citizen",
+          "oracleText": "Flash\nWhen Flash Thompson enters, choose one or both —\n• Heckle — Tap target creature.\n• Hero Worship — Untap target creature.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/4/44cf372b-f668-45e9-981e-4533295dcc74.jpg?1783905364",
+            "normal": "https://cards.scryfall.io/normal/front/4/4/44cf372b-f668-45e9-981e-4533295dcc74.jpg?1783905364",
+            "large": "https://cards.scryfall.io/large/front/4/4/44cf372b-f668-45e9-981e-4533295dcc74.jpg?1783905364",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/4/44cf372b-f668-45e9-981e-4533295dcc74.jpg?1783905364"
+          }
+        }
+      ]
+    },
+    "spm/81": {
+      "id": "9ee905d6-b647-4eb1-a8d9-89add9bafc31",
+      "oracleId": "de861715-fd0b-493e-9a7c-c470a23044c0",
+      "name": "J. Jonah Jameson",
+      "manaValue": 3,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "81",
+      "scryfallUrl": "https://scryfall.com/card/spm/81/j-jonah-jameson",
+      "faces": [
+        {
+          "name": "J. Jonah Jameson",
+          "manaCost": "{2}{R}",
+          "typeLine": "Legendary Creature — Human Citizen",
+          "oracleText": "When J. Jonah Jameson enters, suspect up to one target creature. (A suspected creature has menace and can't block.)\nWhenever a creature you control with menace attacks, create a Treasure token.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/e/9ee905d6-b647-4eb1-a8d9-89add9bafc31.jpg?1783905336",
+            "normal": "https://cards.scryfall.io/normal/front/9/e/9ee905d6-b647-4eb1-a8d9-89add9bafc31.jpg?1783905336",
+            "large": "https://cards.scryfall.io/large/front/9/e/9ee905d6-b647-4eb1-a8d9-89add9bafc31.jpg?1783905336",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/e/9ee905d6-b647-4eb1-a8d9-89add9bafc31.jpg?1783905336"
+          }
+        }
+      ]
+    },
+    "spm/36": {
+      "id": "a16ca3fc-3cdf-4333-93e0-524afafe367b",
+      "oracleId": "b1e0841d-b004-40f9-a644-aecb422f6ad5",
+      "name": "Madame Web, Clairvoyant",
+      "manaValue": 6,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "36",
+      "scryfallUrl": "https://scryfall.com/card/spm/36/madame-web-clairvoyant",
+      "faces": [
+        {
+          "name": "Madame Web, Clairvoyant",
+          "manaCost": "{4}{U}{U}",
+          "typeLine": "Legendary Creature — Mutant Advisor",
+          "oracleText": "You may look at the top card of your library any time.\nYou may cast Spider spells and noncreature spells from the top of your library.\nWhenever you attack, you may mill a card. (You may put the top card of your library into your graveyard.)",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/1/a16ca3fc-3cdf-4333-93e0-524afafe367b.jpg?1783905353",
+            "normal": "https://cards.scryfall.io/normal/front/a/1/a16ca3fc-3cdf-4333-93e0-524afafe367b.jpg?1783905353",
+            "large": "https://cards.scryfall.io/large/front/a/1/a16ca3fc-3cdf-4333-93e0-524afafe367b.jpg?1783905353",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/1/a16ca3fc-3cdf-4333-93e0-524afafe367b.jpg?1783905353"
+          }
+        }
+      ]
+    },
+    "spm/100": {
+      "id": "bb7c3ae2-6b01-4472-8bd1-9a7456401ddc",
+      "oracleId": "4074e897-82a4-4f57-86c2-4aab3f29ef9b",
+      "name": "Ezekiel Sims, Spider-Totem",
+      "manaValue": 5,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "100",
+      "scryfallUrl": "https://scryfall.com/card/spm/100/ezekiel-sims-spider-totem",
+      "faces": [
+        {
+          "name": "Ezekiel Sims, Spider-Totem",
+          "manaCost": "{4}{G}",
+          "typeLine": "Legendary Creature — Spider Human Advisor",
+          "oracleText": "Reach\nAt the beginning of combat on your turn, target Spider you control gets +2/+2 until end of turn.",
+          "power": "3",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/b/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc.jpg?1783905329",
+            "normal": "https://cards.scryfall.io/normal/front/b/b/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc.jpg?1783905329",
+            "large": "https://cards.scryfall.io/large/front/b/b/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc.jpg?1783905329",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/b/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc.jpg?1783905329"
+          }
+        }
+      ]
+    },
+    "spe/7": {
+      "id": "26ea86d7-34f8-4358-8fdf-a18e53397755",
+      "oracleId": "b7fb0141-4fbd-4269-a2e9-92f75ec95271",
+      "name": "Lyla, Holographic Assistant",
+      "manaValue": 4,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spe",
+      "collectorNumber": "7",
+      "scryfallUrl": "https://scryfall.com/card/spe/7/lyla-holographic-assistant",
+      "faces": [
+        {
+          "name": "Lyla, Holographic Assistant",
+          "manaCost": "{3}{U}",
+          "typeLine": "Legendary Artifact Creature — Illusion Advisor",
+          "oracleText": "Whenever you draw a card, put a +1/+1 counter on target creature.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/6/26ea86d7-34f8-4358-8fdf-a18e53397755.jpg?1783905375",
+            "normal": "https://cards.scryfall.io/normal/front/2/6/26ea86d7-34f8-4358-8fdf-a18e53397755.jpg?1783905375",
+            "large": "https://cards.scryfall.io/large/front/2/6/26ea86d7-34f8-4358-8fdf-a18e53397755.jpg?1783905375",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/6/26ea86d7-34f8-4358-8fdf-a18e53397755.jpg?1783905375"
+          }
+        }
+      ]
+    },
+    "spm/52": {
+      "id": "0ed36ada-22c8-4e40-86c5-c116a0bee1c2",
+      "oracleId": "f5cdb413-2b72-4dc6-b93d-2532ac2ae568",
+      "name": "Black Cat, Cunning Thief",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "52",
+      "scryfallUrl": "https://scryfall.com/card/spm/52/black-cat-cunning-thief",
+      "faces": [
+        {
+          "name": "Black Cat, Cunning Thief",
+          "manaCost": "{3}{B}{B}",
+          "typeLine": "Legendary Creature — Human Rogue Villain",
+          "oracleText": "When Black Cat enters, look at the top nine cards of target opponent's library, exile two of them face down, then put the rest on the bottom of their library in a random order. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/e/0ed36ada-22c8-4e40-86c5-c116a0bee1c2.jpg?1783905347",
+            "normal": "https://cards.scryfall.io/normal/front/0/e/0ed36ada-22c8-4e40-86c5-c116a0bee1c2.jpg?1783905347",
+            "large": "https://cards.scryfall.io/large/front/0/e/0ed36ada-22c8-4e40-86c5-c116a0bee1c2.jpg?1783905347",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/e/0ed36ada-22c8-4e40-86c5-c116a0bee1c2.jpg?1783905347"
+          }
+        }
+      ]
+    },
+    "spm/39": {
+      "id": "d5c53af9-7150-4e78-8771-2de7980aa307",
+      "oracleId": "aa5b06a4-90c3-45e7-ab83-cb5c96ded21d",
+      "name": "Norman Osborn // Green Goblin",
+      "manaValue": 2,
+      "colors": [],
+      "colorIdentity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "39",
+      "scryfallUrl": "https://scryfall.com/card/spm/39/norman-osborn-green-goblin",
+      "faces": [
+        {
+          "name": "Norman Osborn",
+          "manaCost": "{1}{U}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "Norman Osborn can't be blocked.\nWhenever Norman Osborn deals combat damage to a player, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\n{1}{U}{B}{R}: Transform Norman Osborn. Activate only as a sorcery.",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "normal": "https://cards.scryfall.io/normal/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "large": "https://cards.scryfall.io/large/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356"
+          }
+        },
+        {
+          "name": "Green Goblin",
+          "manaCost": "{1}{U}{B}{R}",
+          "typeLine": "Legendary Creature — Goblin Human Villain",
+          "oracleText": "Flying, menace\nSpells you cast from your graveyard cost {2} less to cast.\nGoblin Formula — Each nonland card in your graveyard has mayhem. The mayhem cost is equal to its mana cost. (You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "normal": "https://cards.scryfall.io/normal/back/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "large": "https://cards.scryfall.io/large/back/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356"
+          }
+        }
+      ]
+    },
+    "spe/23": {
+      "id": "b2860277-5b9e-444a-81f9-58e23355a722",
+      "oracleId": "d1f1e48f-f1f4-497f-9112-79159d2f443b",
+      "name": "Green Goblin, Nemesis",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spe",
+      "collectorNumber": "23",
+      "scryfallUrl": "https://scryfall.com/card/spe/23/green-goblin-nemesis",
+      "faces": [
+        {
+          "name": "Green Goblin, Nemesis",
+          "manaCost": "{2}{B}{R}",
+          "typeLine": "Legendary Creature — Goblin Human Villain",
+          "oracleText": "Flying\nWhenever you discard a nonland card, put a +1/+1 counter on target Goblin you control.\nWhenever you discard a land card, create a tapped Treasure token.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/2/b2860277-5b9e-444a-81f9-58e23355a722.jpg?1783905367",
+            "normal": "https://cards.scryfall.io/normal/front/b/2/b2860277-5b9e-444a-81f9-58e23355a722.jpg?1783905367",
+            "large": "https://cards.scryfall.io/large/front/b/2/b2860277-5b9e-444a-81f9-58e23355a722.jpg?1783905367",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/2/b2860277-5b9e-444a-81f9-58e23355a722.jpg?1783905367"
+          }
+        }
+      ]
+    },
+    "spm/130": {
+      "id": "218ef931-46f5-4a4d-9f26-898a1ff8f70f",
+      "oracleId": "67175889-02f9-4ad8-a9ab-11db44328b67",
+      "name": "Green Goblin, Revenant",
+      "manaValue": 5,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "130",
+      "scryfallUrl": "https://scryfall.com/card/spm/130/green-goblin-revenant",
+      "faces": [
+        {
+          "name": "Green Goblin, Revenant",
+          "manaCost": "{3}{B}{R}",
+          "typeLine": "Legendary Creature — Goblin Human Villain",
+          "oracleText": "Flying, deathtouch\nWhenever Green Goblin attacks, discard a card. Then draw a card for each card you've discarded this turn.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/1/218ef931-46f5-4a4d-9f26-898a1ff8f70f.jpg?1783905318",
+            "normal": "https://cards.scryfall.io/normal/front/2/1/218ef931-46f5-4a4d-9f26-898a1ff8f70f.jpg?1783905318",
+            "large": "https://cards.scryfall.io/large/front/2/1/218ef931-46f5-4a4d-9f26-898a1ff8f70f.jpg?1783905318",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/218ef931-46f5-4a4d-9f26-898a1ff8f70f.jpg?1783905318"
+          }
+        }
+      ]
+    },
+    "spm/157": {
+      "id": "e82d3f71-8404-40e7-b7fa-35713d1b384e",
+      "oracleId": "b5b43d01-fce6-4a00-9c19-7a7e2a09d833",
+      "name": "Ultimate Green Goblin",
+      "manaValue": 3,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "157",
+      "scryfallUrl": "https://scryfall.com/card/spm/157/ultimate-green-goblin",
+      "faces": [
+        {
+          "name": "Ultimate Green Goblin",
+          "manaCost": "{1}{B/R}{B/R}",
+          "typeLine": "Legendary Creature — Goblin Villain",
+          "oracleText": "At the beginning of your upkeep, discard a card, then create a Treasure token.\nMayhem {2}{B/R} (You may cast this card from your graveyard for {2}{B/R} if you discarded it this turn. Timing rules still apply.)",
+          "power": "5",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308",
+            "normal": "https://cards.scryfall.io/normal/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308",
+            "large": "https://cards.scryfall.io/large/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308"
+          }
+        }
+      ]
+    },
+    "spm/80": {
+      "id": "50716fe3-7a19-431e-8758-984fc48d714e",
+      "oracleId": "1d453331-6b8e-4d3d-b658-683eab2760da",
+      "name": "Hobgoblin, Mantled Marauder",
+      "manaValue": 2,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "80",
+      "scryfallUrl": "https://scryfall.com/card/spm/80/hobgoblin-mantled-marauder",
+      "faces": [
+        {
+          "name": "Hobgoblin, Mantled Marauder",
+          "manaCost": "{1}{R}",
+          "typeLine": "Legendary Creature — Goblin Human Villain",
+          "oracleText": "Flying, haste\nWhenever you discard a card, Hobgoblin gets +2/+0 until end of turn.",
+          "power": "1",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/0/50716fe3-7a19-431e-8758-984fc48d714e.jpg?1783905338",
+            "normal": "https://cards.scryfall.io/normal/front/5/0/50716fe3-7a19-431e-8758-984fc48d714e.jpg?1783905338",
+            "large": "https://cards.scryfall.io/large/front/5/0/50716fe3-7a19-431e-8758-984fc48d714e.jpg?1783905338",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/0/50716fe3-7a19-431e-8758-984fc48d714e.jpg?1783905338"
+          }
+        }
+      ]
+    },
+    "spm/55": {
+      "id": "f3455651-e643-445e-9489-51e4e24fca4c",
+      "oracleId": "fe01c96b-eb78-4477-bec2-944b2a28c778",
+      "name": "Eddie Brock // Venom, Lethal Protector",
+      "manaValue": 3,
+      "colors": [],
+      "colorIdentity": [
+        "B",
+        "G",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "55",
+      "scryfallUrl": "https://scryfall.com/card/spm/55/eddie-brock-venom-lethal-protector",
+      "faces": [
+        {
+          "name": "Eddie Brock",
+          "manaCost": "{2}{B}",
+          "typeLine": "Legendary Creature — Human Hero Villain",
+          "oracleText": "When Eddie Brock enters, return target creature card with mana value 1 or less from your graveyard to the battlefield.\n{3}{B}{R}{G}: Transform Eddie Brock. Activate only as a sorcery.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "normal": "https://cards.scryfall.io/normal/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "large": "https://cards.scryfall.io/large/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351"
+          }
+        },
+        {
+          "name": "Venom, Lethal Protector",
+          "manaCost": "{3}{B}{R}{G}",
+          "typeLine": "Legendary Creature — Symbiote Hero Villain",
+          "oracleText": "Menace, trample, haste\nWhenever Venom attacks, you may sacrifice another creature. If you do, draw X cards, then you may put a permanent card with mana value X or less from your hand onto the battlefield, where X is the sacrificed creature's mana value.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/back/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "normal": "https://cards.scryfall.io/normal/back/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "large": "https://cards.scryfall.io/large/back/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
+            "artCrop": "https://cards.scryfall.io/art_crop/back/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351"
+          }
+        }
+      ]
+    },
+    "spe/12": {
+      "id": "eab647ce-fe86-450d-b5e8-ebcda631f6a1",
+      "oracleId": "9132d7e6-7190-45e1-9c57-8fe2e5d0f2f2",
+      "name": "Venom, Eddie Brock",
+      "manaValue": 6,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spe",
+      "collectorNumber": "12",
+      "scryfallUrl": "https://scryfall.com/card/spe/12/venom-eddie-brock",
+      "faces": [
+        {
+          "name": "Venom, Eddie Brock",
+          "manaCost": "{4}{B}{B}",
+          "typeLine": "Legendary Creature — Symbiote Villain",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever another creature dies, put a +1/+1 counter on Venom. If that creature was a Villain, draw a card.",
+          "power": "6",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371",
+            "normal": "https://cards.scryfall.io/normal/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371",
+            "large": "https://cards.scryfall.io/large/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371"
+          }
+        }
+      ]
+    },
+    "spm/71": {
+      "id": "ab3d51a4-40f0-4606-b5f9-2686c12fd54b",
+      "oracleId": "6731d861-cc52-4a2e-8c33-154681fd50e4",
+      "name": "Venom, Evil Unleashed",
+      "manaValue": 5,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "71",
+      "scryfallUrl": "https://scryfall.com/card/spm/71/venom-evil-unleashed",
+      "faces": [
+        {
+          "name": "Venom, Evil Unleashed",
+          "manaCost": "{4}{B}",
+          "typeLine": "Legendary Creature — Symbiote Villain",
+          "oracleText": "Deathtouch\n{2}{B}, Exile this card from your graveyard: Put two +1/+1 counters on target creature. It gains deathtouch until end of turn. Activate only as a sorcery.",
+          "power": "4",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/b/ab3d51a4-40f0-4606-b5f9-2686c12fd54b.jpg?1783905338",
+            "normal": "https://cards.scryfall.io/normal/front/a/b/ab3d51a4-40f0-4606-b5f9-2686c12fd54b.jpg?1783905338",
+            "large": "https://cards.scryfall.io/large/front/a/b/ab3d51a4-40f0-4606-b5f9-2686c12fd54b.jpg?1783905338",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/ab3d51a4-40f0-4606-b5f9-2686c12fd54b.jpg?1783905338"
+          }
+        }
+      ]
+    },
+    "spe/22": {
+      "id": "7d2cb243-08a7-47c9-9d71-7748c499ac30",
+      "oracleId": "f064fc04-28fb-423f-a4f3-bb567c71168f",
+      "name": "Venom, Deadly Devourer",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "set": "spe",
+      "collectorNumber": "22",
+      "scryfallUrl": "https://scryfall.com/card/spe/22/venom-deadly-devourer",
+      "faces": [
+        {
+          "name": "Venom, Deadly Devourer",
+          "manaCost": "{2}{B}{G}",
+          "typeLine": "Legendary Creature — Symbiote Villain",
+          "oracleText": "Vigilance, menace\n{3}: Exile target creature card from a graveyard. When you do, put X +1/+1 counters on target Symbiote, where X is the exiled card's toughness.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/d/7d2cb243-08a7-47c9-9d71-7748c499ac30.jpg?1783905368",
+            "normal": "https://cards.scryfall.io/normal/front/7/d/7d2cb243-08a7-47c9-9d71-7748c499ac30.jpg?1783905368",
+            "large": "https://cards.scryfall.io/large/front/7/d/7d2cb243-08a7-47c9-9d71-7748c499ac30.jpg?1783905368",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/d/7d2cb243-08a7-47c9-9d71-7748c499ac30.jpg?1783905368"
+          }
+        }
+      ]
+    },
+    "spm/125": {
+      "id": "930befba-6068-493e-baa2-e9371cd99e93",
+      "oracleId": "c0efafc6-8ffb-4908-ae64-3f391722370a",
+      "name": "Carnage, Crimson Chaos",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "125",
+      "scryfallUrl": "https://scryfall.com/card/spm/125/carnage-crimson-chaos",
+      "faces": [
+        {
+          "name": "Carnage, Crimson Chaos",
+          "manaCost": "{2}{B}{R}",
+          "typeLine": "Legendary Creature — Symbiote Villain",
+          "oracleText": "Trample\nWhen Carnage enters, return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains \"This creature attacks each combat if able\" and \"When this creature deals combat damage to a player, sacrifice it.\"\nMayhem {B}{R}",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/9/3/930befba-6068-493e-baa2-e9371cd99e93.jpg?1783905319",
+            "normal": "https://cards.scryfall.io/normal/front/9/3/930befba-6068-493e-baa2-e9371cd99e93.jpg?1783905319",
+            "large": "https://cards.scryfall.io/large/front/9/3/930befba-6068-493e-baa2-e9371cd99e93.jpg?1783905319",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/9/3/930befba-6068-493e-baa2-e9371cd99e93.jpg?1783905319"
+          }
+        }
+      ]
+    },
+    "spe/9": {
+      "id": "5fa7a8dc-67b3-4f96-af6e-98bb0a052d92",
+      "oracleId": "a93f0735-9854-487d-b646-d55e2bee00c0",
+      "name": "Grendel, Spawn of Knull",
+      "manaValue": 4,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spe",
+      "collectorNumber": "9",
+      "scryfallUrl": "https://scryfall.com/card/spe/9/grendel-spawn-of-knull",
+      "faces": [
+        {
+          "name": "Grendel, Spawn of Knull",
+          "manaCost": "{3}{B}",
+          "typeLine": "Legendary Creature — Symbiote Dragon Villain",
+          "oracleText": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373",
+            "normal": "https://cards.scryfall.io/normal/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373",
+            "large": "https://cards.scryfall.io/large/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373"
+          }
+        }
+      ]
+    },
+    "spm/29": {
+      "id": "de16ad65-c8c3-48c0-9d13-5af91b4e6f01",
+      "oracleId": "dbaa70e6-26de-4ce9-9543-e652cbe387c1",
+      "name": "Doc Ock, Sinister Scientist",
+      "manaValue": 5,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "29",
+      "scryfallUrl": "https://scryfall.com/card/spm/29/doc-ock-sinister-scientist",
+      "faces": [
+        {
+          "name": "Doc Ock, Sinister Scientist",
+          "manaCost": "{4}{U}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "As long as there are eight or more cards in your graveyard, Doc Ock has base power and toughness 8/8.\nAs long as you control another Villain, Doc Ock has hexproof. (He can't be the target of spells or abilities your opponents control.)",
+          "power": "4",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/e/de16ad65-c8c3-48c0-9d13-5af91b4e6f01.jpg?1783905354",
+            "normal": "https://cards.scryfall.io/normal/front/d/e/de16ad65-c8c3-48c0-9d13-5af91b4e6f01.jpg?1783905354",
+            "large": "https://cards.scryfall.io/large/front/d/e/de16ad65-c8c3-48c0-9d13-5af91b4e6f01.jpg?1783905354",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/e/de16ad65-c8c3-48c0-9d13-5af91b4e6f01.jpg?1783905354"
+          }
+        }
+      ]
+    },
+    "spm/128": {
+      "id": "76e1d361-18a1-4dec-a203-f83bf0014e02",
+      "oracleId": "2fecfbef-e521-4025-94ea-451c9abde3de",
+      "name": "Doctor Octopus, Master Planner",
+      "manaValue": 7,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "128",
+      "scryfallUrl": "https://scryfall.com/card/spm/128/doctor-octopus-master-planner",
+      "faces": [
+        {
+          "name": "Doctor Octopus, Master Planner",
+          "manaCost": "{5}{U}{B}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "Other Villains you control get +2/+2.\nYour maximum hand size is eight.\nAt the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference.",
+          "power": "4",
+          "toughness": "8",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/7/6/76e1d361-18a1-4dec-a203-f83bf0014e02.jpg?1783905317",
+            "normal": "https://cards.scryfall.io/normal/front/7/6/76e1d361-18a1-4dec-a203-f83bf0014e02.jpg?1783905317",
+            "large": "https://cards.scryfall.io/large/front/7/6/76e1d361-18a1-4dec-a203-f83bf0014e02.jpg?1783905317",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76e1d361-18a1-4dec-a203-f83bf0014e02.jpg?1783905317"
+          }
+        }
+      ]
+    },
+    "spe/24": {
+      "id": "ad287357-9602-4090-8feb-6f658f2a47b0",
+      "oracleId": "3e0738af-00ec-4707-a56d-85b5a5ce4529",
+      "name": "Doc Ock, Evil Inventor",
+      "manaValue": 7,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spe",
+      "collectorNumber": "24",
+      "scryfallUrl": "https://scryfall.com/card/spe/24/doc-ock-evil-inventor",
+      "faces": [
+        {
+          "name": "Doc Ock, Evil Inventor",
+          "manaCost": "{5}{U}{B}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "At the beginning of combat on your turn, target noncreature artifact you control becomes an 8/8 Robot Villain artifact creature in addition to its other types.",
+          "power": "8",
+          "toughness": "8",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/d/ad287357-9602-4090-8feb-6f658f2a47b0.jpg?1783905368",
+            "normal": "https://cards.scryfall.io/normal/front/a/d/ad287357-9602-4090-8feb-6f658f2a47b0.jpg?1783905368",
+            "large": "https://cards.scryfall.io/large/front/a/d/ad287357-9602-4090-8feb-6f658f2a47b0.jpg?1783905368",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/d/ad287357-9602-4090-8feb-6f658f2a47b0.jpg?1783905368"
+          }
+        }
+      ]
+    },
+    "spm/35": {
+      "id": "8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e",
+      "oracleId": "8e51fdb8-4f83-4e94-b36c-40a501075ecb",
+      "name": "Lady Octopus, Inspired Inventor",
+      "manaValue": 1,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "35",
+      "scryfallUrl": "https://scryfall.com/card/spm/35/lady-octopus-inspired-inventor",
+      "faces": [
+        {
+          "name": "Lady Octopus, Inspired Inventor",
+          "manaCost": "{U}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "Whenever you draw your first or second card each turn, put an ingenuity counter on Lady Octopus.\n{T}: You may cast an artifact spell from your hand with mana value less than or equal to the number of ingenuity counters on Lady Octopus without paying its mana cost.",
+          "power": "0",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/c/8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e.jpg?1783905354",
+            "normal": "https://cards.scryfall.io/normal/front/8/c/8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e.jpg?1783905354",
+            "large": "https://cards.scryfall.io/large/front/8/c/8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e.jpg?1783905354",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/c/8c5f360b-f9a0-46e0-9e8b-58e5b4b0389e.jpg?1783905354"
+          }
+        }
+      ]
+    },
+    "spm/26": {
+      "id": "a194f930-c99f-4915-8a62-e20ab2b4ad1f",
+      "oracleId": "87972de1-c1d7-408e-8d56-995590f639b8",
+      "name": "Beetle, Legacy Criminal",
+      "manaValue": 4,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "26",
+      "scryfallUrl": "https://scryfall.com/card/spm/26/beetle-legacy-criminal",
+      "faces": [
+        {
+          "name": "Beetle, Legacy Criminal",
+          "manaCost": "{3}{U}",
+          "typeLine": "Legendary Creature — Human Rogue Villain",
+          "oracleText": "Flying\n{1}{U}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. It gains flying until end of turn. Activate only as a sorcery.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/1/a194f930-c99f-4915-8a62-e20ab2b4ad1f.jpg?1783905356",
+            "normal": "https://cards.scryfall.io/normal/front/a/1/a194f930-c99f-4915-8a62-e20ab2b4ad1f.jpg?1783905356",
+            "large": "https://cards.scryfall.io/large/front/a/1/a194f930-c99f-4915-8a62-e20ab2b4ad1f.jpg?1783905356",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/1/a194f930-c99f-4915-8a62-e20ab2b4ad1f.jpg?1783905356"
+          }
+        }
+      ]
+    },
+    "spm/27": {
+      "id": "43892ce7-f63a-4294-922b-8f879f684033",
+      "oracleId": "1ce239f2-79ad-4a30-8e8f-f985045f78dc",
+      "name": "Chameleon, Master of Disguise",
+      "manaValue": 4,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "27",
+      "scryfallUrl": "https://scryfall.com/card/spm/27/chameleon-master-of-disguise",
+      "faces": [
+        {
+          "name": "Chameleon, Master of Disguise",
+          "manaCost": "{3}{U}",
+          "typeLine": "Legendary Creature — Human Shapeshifter Villain",
+          "oracleText": "You may have Chameleon enter as a copy of a creature you control, except his name is Chameleon, Master of Disguise.\nMayhem {2}{U} (You may cast this card from your graveyard for {2}{U} if you discarded it this turn. Timing rules still apply.)",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/3/43892ce7-f63a-4294-922b-8f879f684033.jpg?1783905356",
+            "normal": "https://cards.scryfall.io/normal/front/4/3/43892ce7-f63a-4294-922b-8f879f684033.jpg?1783905356",
+            "large": "https://cards.scryfall.io/large/front/4/3/43892ce7-f63a-4294-922b-8f879f684033.jpg?1783905356",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/3/43892ce7-f63a-4294-922b-8f879f684033.jpg?1783905356"
+          }
+        }
+      ]
+    },
+    "spm/76": {
+      "id": "d672cfad-e656-47f8-bf93-64f262aff33e",
+      "oracleId": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+      "name": "Electro, Assaulting Battery",
+      "manaValue": 3,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "76",
+      "scryfallUrl": "https://scryfall.com/card/spm/76/electro-assaulting-battery",
+      "faces": [
+        {
+          "name": "Electro, Assaulting Battery",
+          "manaCost": "{1}{R}{R}",
+          "typeLine": "Legendary Creature — Human Villain",
+          "oracleText": "Flying\nYou don't lose unspent red mana as steps and phases end.\nWhenever you cast an instant or sorcery spell, add {R}.\nWhen Electro leaves the battlefield, you may pay {X}. When you do, he deals X damage to target player.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/d/6/d672cfad-e656-47f8-bf93-64f262aff33e.jpg?1783905338",
+            "normal": "https://cards.scryfall.io/normal/front/d/6/d672cfad-e656-47f8-bf93-64f262aff33e.jpg?1783905338",
+            "large": "https://cards.scryfall.io/large/front/d/6/d672cfad-e656-47f8-bf93-64f262aff33e.jpg?1783905338",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/d/6/d672cfad-e656-47f8-bf93-64f262aff33e.jpg?1783905338"
+          }
+        }
+      ]
+    },
+    "spm/33": {
+      "id": "e53115a4-8959-40fa-b763-931504a1c5a2",
+      "oracleId": "a93a8edf-2879-4cae-b3b9-b46298270823",
+      "name": "Hydro-Man, Fluid Felon",
+      "manaValue": 2,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "33",
+      "scryfallUrl": "https://scryfall.com/card/spm/33/hydro-man-fluid-felon",
+      "faces": [
+        {
+          "name": "Hydro-Man, Fluid Felon",
+          "manaCost": "{U}{U}",
+          "typeLine": "Legendary Creature — Elemental Villain",
+          "oracleText": "Whenever you cast a blue spell, if Hydro-Man is a creature, he gets +1/+1 until end of turn.\nAt the beginning of your end step, untap Hydro-Man. Until your next turn, he becomes a land and gains \"{T}: Add {U}.\" (He's not a creature during that time.)",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/5/e53115a4-8959-40fa-b763-931504a1c5a2.jpg?1783905353",
+            "normal": "https://cards.scryfall.io/normal/front/e/5/e53115a4-8959-40fa-b763-931504a1c5a2.jpg?1783905353",
+            "large": "https://cards.scryfall.io/large/front/e/5/e53115a4-8959-40fa-b763-931504a1c5a2.jpg?1783905353",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/5/e53115a4-8959-40fa-b763-931504a1c5a2.jpg?1783905353"
+          }
+        }
+      ]
+    },
+    "spm/131": {
+      "id": "c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2",
+      "oracleId": "5998f07e-01f9-4d02-94dd-867c7166463f",
+      "name": "Jackal, Genius Geneticist",
+      "manaValue": 2,
+      "colors": [
+        "G",
+        "U"
+      ],
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "131",
+      "scryfallUrl": "https://scryfall.com/card/spm/131/jackal-genius-geneticist",
+      "faces": [
+        {
+          "name": "Jackal, Genius Geneticist",
+          "manaCost": "{G}{U}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "Trample\nWhenever you cast a creature spell with mana value equal to Jackal's power, copy that spell, except the copy isn't legendary. Then put a +1/+1 counter on Jackal. (The copy becomes a token.)",
+          "power": "1",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/0/c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2.jpg?1783905318",
+            "normal": "https://cards.scryfall.io/normal/front/c/0/c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2.jpg?1783905318",
+            "large": "https://cards.scryfall.io/large/front/c/0/c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2.jpg?1783905318",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2.jpg?1783905318"
+          }
+        }
+      ]
+    },
+    "spm/132": {
+      "id": "af7c63e1-eccc-40a2-ba14-ce0d2a6123fc",
+      "oracleId": "12b8b4bf-ba85-419c-8005-1ec34b2b1deb",
+      "name": "Kraven, Proud Predator",
+      "manaValue": 3,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "132",
+      "scryfallUrl": "https://scryfall.com/card/spm/132/kraven-proud-predator",
+      "faces": [
+        {
+          "name": "Kraven, Proud Predator",
+          "manaCost": "{1}{R}{G}",
+          "typeLine": "Legendary Creature — Human Warrior Villain",
+          "oracleText": "Vigilance\nTop of the Food Chain — Kraven's power is equal to the greatest mana value among permanents you control.",
+          "power": "*",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/f/af7c63e1-eccc-40a2-ba14-ce0d2a6123fc.jpg?1783905316",
+            "normal": "https://cards.scryfall.io/normal/front/a/f/af7c63e1-eccc-40a2-ba14-ce0d2a6123fc.jpg?1783905316",
+            "large": "https://cards.scryfall.io/large/front/a/f/af7c63e1-eccc-40a2-ba14-ce0d2a6123fc.jpg?1783905316",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/f/af7c63e1-eccc-40a2-ba14-ce0d2a6123fc.jpg?1783905316"
+          }
+        }
+      ]
+    },
+    "spm/133": {
+      "id": "afdab464-3674-449b-be01-1cbd21fced23",
+      "oracleId": "3e2bfa3a-ae83-453a-8e3f-ca6205a9af12",
+      "name": "Kraven the Hunter",
+      "manaValue": 3,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "133",
+      "scryfallUrl": "https://scryfall.com/card/spm/133/kraven-the-hunter",
+      "faces": [
+        {
+          "name": "Kraven the Hunter",
+          "manaCost": "{1}{B}{G}",
+          "typeLine": "Legendary Creature — Human Warrior Villain",
+          "oracleText": "Trample\nWhenever a creature an opponent controls with the greatest power among creatures that player controls dies, draw a card and put a +1/+1 counter on Kraven the Hunter.",
+          "power": "4",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/f/afdab464-3674-449b-be01-1cbd21fced23.jpg?1783905315",
+            "normal": "https://cards.scryfall.io/normal/front/a/f/afdab464-3674-449b-be01-1cbd21fced23.jpg?1783905315",
+            "large": "https://cards.scryfall.io/large/front/a/f/afdab464-3674-449b-be01-1cbd21fced23.jpg?1783905315",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/f/afdab464-3674-449b-be01-1cbd21fced23.jpg?1783905315"
+          }
+        }
+      ]
+    },
+    "spm/167": {
+      "id": "26833b64-2e6d-4977-9a6e-6fe73c54d671",
+      "oracleId": "b255e13d-01b2-4348-80bd-8d9a8f29be91",
+      "name": "Living Brain, Mechanical Marvel",
+      "manaValue": 4,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "167",
+      "scryfallUrl": "https://scryfall.com/card/spm/167/living-brain-mechanical-marvel",
+      "faces": [
+        {
+          "name": "Living Brain, Mechanical Marvel",
+          "manaCost": "{4}",
+          "typeLine": "Legendary Artifact Creature — Robot Villain",
+          "oracleText": "At the beginning of combat on your turn, target non-Equipment artifact you control becomes an artifact creature with base power and toughness 3/3 until end of turn. Untap it.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/6/26833b64-2e6d-4977-9a6e-6fe73c54d671.jpg?1783905304",
+            "normal": "https://cards.scryfall.io/normal/front/2/6/26833b64-2e6d-4977-9a6e-6fe73c54d671.jpg?1783905304",
+            "large": "https://cards.scryfall.io/large/front/2/6/26833b64-2e6d-4977-9a6e-6fe73c54d671.jpg?1783905304",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/6/26833b64-2e6d-4977-9a6e-6fe73c54d671.jpg?1783905304"
+          }
+        }
+      ]
+    },
+    "spm/106": {
+      "id": "6add5d2a-950e-4bee-9850-e68f5f6d6142",
+      "oracleId": "48d1b217-b068-468c-bc6c-4bef9e44cc6e",
+      "name": "Lizard, Connors's Curse",
+      "manaValue": 4,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "106",
+      "scryfallUrl": "https://scryfall.com/card/spm/106/lizard-connorss-curse",
+      "faces": [
+        {
+          "name": "Lizard, Connors's Curse",
+          "manaCost": "{2}{G}{G}",
+          "typeLine": "Legendary Creature — Lizard Villain",
+          "oracleText": "Trample\nLizard Formula — When Lizard, Connors's Curse enters, up to one other target creature loses all abilities and becomes a green Lizard creature with base power and toughness 4/4.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/a/6add5d2a-950e-4bee-9850-e68f5f6d6142.jpg?1783905326",
+            "normal": "https://cards.scryfall.io/normal/front/6/a/6add5d2a-950e-4bee-9850-e68f5f6d6142.jpg?1783905326",
+            "large": "https://cards.scryfall.io/large/front/6/a/6add5d2a-950e-4bee-9850-e68f5f6d6142.jpg?1783905326",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/a/6add5d2a-950e-4bee-9850-e68f5f6d6142.jpg?1783905326"
+          }
+        }
+      ]
+    },
+    "spm/135": {
+      "id": "2c9cb13d-55ff-4e26-aa49-755f8bcebc11",
+      "oracleId": "c8da3262-826d-4ea8-bb22-06374bebefe5",
+      "name": "Mister Negative",
+      "manaValue": 7,
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "135",
+      "scryfallUrl": "https://scryfall.com/card/spm/135/mister-negative",
+      "faces": [
+        {
+          "name": "Mister Negative",
+          "manaCost": "{5}{W}{B}",
+          "typeLine": "Legendary Creature — Human Villain",
+          "oracleText": "Vigilance, lifelink\nDarkforce Inversion — When Mister Negative enters, you may exchange life totals with target opponent. If you lost life this way, draw that many cards.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/2/c/2c9cb13d-55ff-4e26-aa49-755f8bcebc11.jpg?1783905315",
+            "normal": "https://cards.scryfall.io/normal/front/2/c/2c9cb13d-55ff-4e26-aa49-755f8bcebc11.jpg?1783905315",
+            "large": "https://cards.scryfall.io/large/front/2/c/2c9cb13d-55ff-4e26-aa49-755f8bcebc11.jpg?1783905315",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2c9cb13d-55ff-4e26-aa49-755f8bcebc11.jpg?1783905315"
+          }
+        }
+      ]
+    },
+    "spm/84": {
+      "id": "f469d621-25d0-4d8e-909f-47dac0b9c5b0",
+      "oracleId": "c6fcf3c1-0626-4d53-92c0-caa22fa61e9a",
+      "name": "Molten Man, Inferno Incarnate",
+      "manaValue": 3,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "84",
+      "scryfallUrl": "https://scryfall.com/card/spm/84/molten-man-inferno-incarnate",
+      "faces": [
+        {
+          "name": "Molten Man, Inferno Incarnate",
+          "manaCost": "{2}{R}",
+          "typeLine": "Legendary Creature — Elemental Villain",
+          "oracleText": "When Molten Man enters, search your library for a basic Mountain card, put it onto the battlefield tapped, then shuffle.\nMolten Man gets +1/+1 for each Mountain you control.\nWhen Molten Man leaves the battlefield, sacrifice a land.",
+          "power": "0",
+          "toughness": "0",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/4/f469d621-25d0-4d8e-909f-47dac0b9c5b0.jpg?1783905334",
+            "normal": "https://cards.scryfall.io/normal/front/f/4/f469d621-25d0-4d8e-909f-47dac0b9c5b0.jpg?1783905334",
+            "large": "https://cards.scryfall.io/large/front/f/4/f469d621-25d0-4d8e-909f-47dac0b9c5b0.jpg?1783905334",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/4/f469d621-25d0-4d8e-909f-47dac0b9c5b0.jpg?1783905334"
+          }
+        }
+      ]
+    },
+    "spm/137": {
+      "id": "b978d0e2-f5a7-4ade-befc-11b406e84477",
+      "oracleId": "1a947e4d-8a14-45f1-bb80-760a317b1ed0",
+      "name": "Morbius the Living Vampire",
+      "manaValue": 4,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "137",
+      "scryfallUrl": "https://scryfall.com/card/spm/137/morbius-the-living-vampire",
+      "faces": [
+        {
+          "name": "Morbius the Living Vampire",
+          "manaCost": "{2}{U}{B}",
+          "typeLine": "Legendary Creature — Vampire Scientist Villain",
+          "oracleText": "Flying, vigilance, lifelink\n{U}{B}, Exile this card from your graveyard: Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+          "power": "3",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/9/b978d0e2-f5a7-4ade-befc-11b406e84477.jpg?1783905317",
+            "normal": "https://cards.scryfall.io/normal/front/b/9/b978d0e2-f5a7-4ade-befc-11b406e84477.jpg?1783905317",
+            "large": "https://cards.scryfall.io/large/front/b/9/b978d0e2-f5a7-4ade-befc-11b406e84477.jpg?1783905317",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/9/b978d0e2-f5a7-4ade-befc-11b406e84477.jpg?1783905317"
+          }
+        }
+      ]
+    },
+    "spm/59": {
+      "id": "1beb2eb9-90b5-43ba-8b04-cfce7dcb744b",
+      "oracleId": "273ad15c-366a-4691-978b-d6028b57005a",
+      "name": "Morlun, Devourer of Spiders",
+      "manaValue": 2,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "59",
+      "scryfallUrl": "https://scryfall.com/card/spm/59/morlun-devourer-of-spiders",
+      "faces": [
+        {
+          "name": "Morlun, Devourer of Spiders",
+          "manaCost": "{X}{B}{B}",
+          "typeLine": "Legendary Creature — Vampire Villain",
+          "oracleText": "Lifelink\nMorlun enters with X +1/+1 counters on him.\nWhen Morlun enters, he deals X damage to target opponent.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/b/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b.jpg?1783905345",
+            "normal": "https://cards.scryfall.io/normal/front/1/b/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b.jpg?1783905345",
+            "large": "https://cards.scryfall.io/large/front/1/b/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b.jpg?1783905345",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/b/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b.jpg?1783905345"
+          }
+        }
+      ]
+    },
+    "spm/37": {
+      "id": "facbd96f-c088-4377-b740-5e0fe99102bb",
+      "oracleId": "40f664d8-4c73-44aa-8fb1-d38771a42520",
+      "name": "Mysterio, Master of Illusion",
+      "manaValue": 4,
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "37",
+      "scryfallUrl": "https://scryfall.com/card/spm/37/mysterio-master-of-illusion",
+      "faces": [
+        {
+          "name": "Mysterio, Master of Illusion",
+          "manaCost": "{3}{U}",
+          "typeLine": "Legendary Creature — Human Villain",
+          "oracleText": "When Mysterio enters, create a 3/3 blue Illusion Villain creature token for each nontoken Villain you control. Exile those tokens when Mysterio leaves the battlefield.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/f/a/facbd96f-c088-4377-b740-5e0fe99102bb.jpg?1783905353",
+            "normal": "https://cards.scryfall.io/normal/front/f/a/facbd96f-c088-4377-b740-5e0fe99102bb.jpg?1783905353",
+            "large": "https://cards.scryfall.io/large/front/f/a/facbd96f-c088-4377-b740-5e0fe99102bb.jpg?1783905353",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/f/a/facbd96f-c088-4377-b740-5e0fe99102bb.jpg?1783905353"
+          }
+        }
+      ]
+    },
+    "spm/138": {
+      "id": "bd31953a-7259-44e3-a94f-013bda68006d",
+      "oracleId": "76742bfc-ae99-4b06-b29d-e0e41d92ae14",
+      "name": "Prowler, Clawed Thief",
+      "manaValue": 3,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "138",
+      "scryfallUrl": "https://scryfall.com/card/spm/138/prowler-clawed-thief",
+      "faces": [
+        {
+          "name": "Prowler, Clawed Thief",
+          "manaCost": "{1}{U}{B}",
+          "typeLine": "Legendary Creature — Human Rogue Villain",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever another Villain you control enters, Prowler connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/b/d/bd31953a-7259-44e3-a94f-013bda68006d.jpg?1783905315",
+            "normal": "https://cards.scryfall.io/normal/front/b/d/bd31953a-7259-44e3-a94f-013bda68006d.jpg?1783905315",
+            "large": "https://cards.scryfall.io/large/front/b/d/bd31953a-7259-44e3-a94f-013bda68006d.jpg?1783905315",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bd31953a-7259-44e3-a94f-013bda68006d.jpg?1783905315"
+          }
+        }
+      ]
+    },
+    "spe/17": {
+      "id": "169fbdcd-5a08-4410-b7d4-fe04ad7891cc",
+      "oracleId": "8a56c2a7-7131-4495-aa27-52f48e5f1fb6",
+      "name": "Prowler, Misguided Mentor",
+      "manaValue": 3,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spe",
+      "collectorNumber": "17",
+      "scryfallUrl": "https://scryfall.com/card/spe/17/prowler-misguided-mentor",
+      "faces": [
+        {
+          "name": "Prowler, Misguided Mentor",
+          "manaCost": "{2}{G}",
+          "typeLine": "Legendary Creature — Human Rogue Villain",
+          "oracleText": "Prowler can't be blocked by creatures with power 2 or less.\nWhenever Prowler deals combat damage to a player, put a +1/+1 counter on another target creature you control.",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369",
+            "normal": "https://cards.scryfall.io/normal/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369",
+            "large": "https://cards.scryfall.io/large/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369"
+          }
+        }
+      ]
+    },
+    "spm/140": {
+      "id": "4b8ac400-1e98-49fc-94be-00386d15f2ae",
+      "oracleId": "9a6bf8a3-7640-4890-ac62-d5028f41978b",
+      "name": "Rhino, Barreling Brute",
+      "manaValue": 7,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "140",
+      "scryfallUrl": "https://scryfall.com/card/spm/140/rhino-barreling-brute",
+      "faces": [
+        {
+          "name": "Rhino, Barreling Brute",
+          "manaCost": "{3}{R}{R}{G}{G}",
+          "typeLine": "Legendary Creature — Human Villain",
+          "oracleText": "Vigilance, trample, haste\nWhenever Rhino attacks, if you've cast a spell with mana value 4 or greater this turn, draw a card.",
+          "power": "6",
+          "toughness": "7",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/b/4b8ac400-1e98-49fc-94be-00386d15f2ae.jpg?1783905314",
+            "normal": "https://cards.scryfall.io/normal/front/4/b/4b8ac400-1e98-49fc-94be-00386d15f2ae.jpg?1783905314",
+            "large": "https://cards.scryfall.io/large/front/4/b/4b8ac400-1e98-49fc-94be-00386d15f2ae.jpg?1783905314",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/b/4b8ac400-1e98-49fc-94be-00386d15f2ae.jpg?1783905314"
+          }
+        }
+      ]
+    },
+    "spm/112": {
+      "id": "609ac18c-ec58-4fa7-bbee-3912a69d0ec6",
+      "oracleId": "8b205480-b1fb-490c-b1c9-cf5cc3c5acdb",
+      "name": "Sandman, Shifting Scoundrel",
+      "manaValue": 3,
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "set": "spm",
+      "collectorNumber": "112",
+      "scryfallUrl": "https://scryfall.com/card/spm/112/sandman-shifting-scoundrel",
+      "faces": [
+        {
+          "name": "Sandman, Shifting Scoundrel",
+          "manaCost": "{1}{G}{G}",
+          "typeLine": "Legendary Creature — Sand Elemental Villain",
+          "oracleText": "Sandman's power and toughness are each equal to the number of lands you control.\nSandman can't be blocked by creatures with power 2 or less.\n{3}{G}{G}: Return this card and target land card from your graveyard to the battlefield tapped.",
+          "power": "*",
+          "toughness": "*",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/0/609ac18c-ec58-4fa7-bbee-3912a69d0ec6.jpg?1783905324",
+            "normal": "https://cards.scryfall.io/normal/front/6/0/609ac18c-ec58-4fa7-bbee-3912a69d0ec6.jpg?1783905324",
+            "large": "https://cards.scryfall.io/large/front/6/0/609ac18c-ec58-4fa7-bbee-3912a69d0ec6.jpg?1783905324",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/609ac18c-ec58-4fa7-bbee-3912a69d0ec6.jpg?1783905324"
+          }
+        }
+      ]
+    },
+    "spm/64": {
+      "id": "cf407e08-b27f-42ba-b824-75846a80e238",
+      "oracleId": "c357230a-afde-4c2a-b390-9f6928599236",
+      "name": "Scorpion, Seething Striker",
+      "manaValue": 4,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "64",
+      "scryfallUrl": "https://scryfall.com/card/spm/64/scorpion-seething-striker",
+      "faces": [
+        {
+          "name": "Scorpion, Seething Striker",
+          "manaCost": "{3}{B}",
+          "typeLine": "Legendary Creature — Scorpion Human Villain",
+          "oracleText": "Deathtouch\nAt the beginning of your end step, if a creature died this turn, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
+          "power": "3",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/f/cf407e08-b27f-42ba-b824-75846a80e238.jpg?1783905342",
+            "normal": "https://cards.scryfall.io/normal/front/c/f/cf407e08-b27f-42ba-b824-75846a80e238.jpg?1783905342",
+            "large": "https://cards.scryfall.io/large/front/c/f/cf407e08-b27f-42ba-b824-75846a80e238.jpg?1783905342",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cf407e08-b27f-42ba-b824-75846a80e238.jpg?1783905342"
+          }
+        }
+      ]
+    },
+    "spm/89": {
+      "id": "8b2c0d9a-364a-4823-aa4c-fe473d4463f0",
+      "oracleId": "564dac59-97f7-4988-9f30-d82a891e29ef",
+      "name": "Shocker, Unshakable",
+      "manaValue": 6,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "89",
+      "scryfallUrl": "https://scryfall.com/card/spm/89/shocker-unshakable",
+      "faces": [
+        {
+          "name": "Shocker, Unshakable",
+          "manaCost": "{4}{R}{R}",
+          "typeLine": "Legendary Creature — Human Rogue Villain",
+          "oracleText": "During your turn, Shocker has first strike.\nVibro-Shock Gauntlets — When Shocker enters, he deals 2 damage to target creature and 2 damage to that creature's controller.",
+          "power": "5",
+          "toughness": "5",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/8/b/8b2c0d9a-364a-4823-aa4c-fe473d4463f0.jpg?1783905333",
+            "normal": "https://cards.scryfall.io/normal/front/8/b/8b2c0d9a-364a-4823-aa4c-fe473d4463f0.jpg?1783905333",
+            "large": "https://cards.scryfall.io/large/front/8/b/8b2c0d9a-364a-4823-aa4c-fe473d4463f0.jpg?1783905333",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8b2c0d9a-364a-4823-aa4c-fe473d4463f0.jpg?1783905333"
+          }
+        }
+      ]
+    },
+    "spm/144": {
+      "id": "01f1900e-b10f-47dd-8b3d-6913fa661186",
+      "oracleId": "5773ae05-44bc-423c-846c-f323dd8a5079",
+      "name": "Shriek, Treblemaker",
+      "manaValue": 3,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "144",
+      "scryfallUrl": "https://scryfall.com/card/spm/144/shriek-treblemaker",
+      "faces": [
+        {
+          "name": "Shriek, Treblemaker",
+          "manaCost": "{2}{B/R}",
+          "typeLine": "Legendary Creature — Mutant Villain",
+          "oracleText": "At the beginning of your first main phase, you may discard a card. When you do, target creature can't block this turn.\nSonic Blast — Whenever a creature an opponent controls dies, Shriek deals 1 damage to that player.",
+          "power": "2",
+          "toughness": "3",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312",
+            "normal": "https://cards.scryfall.io/normal/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312",
+            "large": "https://cards.scryfall.io/large/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312"
+          }
+        }
+      ]
+    },
+    "spm/175": {
+      "id": "ac37ca6f-a6ee-4dfb-949f-2562f98d09d0",
+      "oracleId": "ca68f436-2522-4007-87bf-2669c7743db0",
+      "name": "Spider-Slayer, Hatred Honed",
+      "manaValue": 2,
+      "colors": [],
+      "colorIdentity": [],
+      "set": "spm",
+      "collectorNumber": "175",
+      "scryfallUrl": "https://scryfall.com/card/spm/175/spider-slayer-hatred-honed",
+      "faces": [
+        {
+          "name": "Spider-Slayer, Hatred Honed",
+          "manaCost": "{2}",
+          "typeLine": "Legendary Artifact Creature — Human Villain",
+          "oracleText": "Whenever Spider-Slayer deals damage to a Spider, destroy that creature.\n{6}, Exile this card from your graveyard: Create two tapped 1/1 colorless Robot artifact creature tokens with flying.",
+          "power": "2",
+          "toughness": "1",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/a/c/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0.jpg?1783905300",
+            "normal": "https://cards.scryfall.io/normal/front/a/c/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0.jpg?1783905300",
+            "large": "https://cards.scryfall.io/large/front/a/c/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0.jpg?1783905300",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/a/c/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0.jpg?1783905300"
+          }
+        }
+      ]
+    },
+    "spm/231": {
+      "id": "6891b71d-c7af-4e55-afb4-72ab6887d290",
+      "oracleId": "a5dfa7ad-9637-4da8-9ed2-0ac863617d9a",
+      "name": "The Spot, Living Portal",
+      "manaValue": 5,
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "set": "spm",
+      "collectorNumber": "231",
+      "scryfallUrl": "https://scryfall.com/card/spm/231/the-spot-living-portal",
+      "faces": [
+        {
+          "name": "The Spot, Living Portal",
+          "manaCost": "{3}{W}{B}",
+          "typeLine": "Legendary Creature — Human Scientist Villain",
+          "oracleText": "When The Spot enters, exile up to one target nonland permanent and up to one target nonland permanent card from a graveyard.\nWhen The Spot dies, put him on the bottom of his owner's library. If you do, return the exiled cards to their owners' hands.",
+          "power": "4",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/6/8/6891b71d-c7af-4e55-afb4-72ab6887d290.jpg?1783905280",
+            "normal": "https://cards.scryfall.io/normal/front/6/8/6891b71d-c7af-4e55-afb4-72ab6887d290.jpg?1783905280",
+            "large": "https://cards.scryfall.io/large/front/6/8/6891b71d-c7af-4e55-afb4-72ab6887d290.jpg?1783905280",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/6891b71d-c7af-4e55-afb4-72ab6887d290.jpg?1783905280"
+          }
+        }
+      ]
+    },
+    "spm/95": {
+      "id": "485ceacb-fa76-4517-8466-c3c6bf6bcd6e",
+      "oracleId": "5c94b616-8edf-465c-b316-4599df95c52a",
+      "name": "Stegron the Dinosaur Man",
+      "manaValue": 5,
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "set": "spm",
+      "collectorNumber": "95",
+      "scryfallUrl": "https://scryfall.com/card/spm/95/stegron-the-dinosaur-man",
+      "faces": [
+        {
+          "name": "Stegron the Dinosaur Man",
+          "manaCost": "{4}{R}",
+          "typeLine": "Legendary Creature — Dinosaur Villain",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nDinosaur Formula — {1}{R}, Discard this card: Until end of turn, target creature you control gets +3/+1 and becomes a Dinosaur in addition to its other types.",
+          "power": "5",
+          "toughness": "4",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/4/8/485ceacb-fa76-4517-8466-c3c6bf6bcd6e.jpg?1783905330",
+            "normal": "https://cards.scryfall.io/normal/front/4/8/485ceacb-fa76-4517-8466-c3c6bf6bcd6e.jpg?1783905330",
+            "large": "https://cards.scryfall.io/large/front/4/8/485ceacb-fa76-4517-8466-c3c6bf6bcd6e.jpg?1783905330",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/4/8/485ceacb-fa76-4517-8466-c3c6bf6bcd6e.jpg?1783905330"
+          }
+        }
+      ]
+    },
+    "spm/69": {
+      "id": "cb83d54e-6641-4929-99ad-c0ba5b610902",
+      "oracleId": "10c8cf3b-2530-49e7-b38e-95cdaae8a6e7",
+      "name": "Swarm, Being of Bees",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "69",
+      "scryfallUrl": "https://scryfall.com/card/spm/69/swarm-being-of-bees",
+      "faces": [
+        {
+          "name": "Swarm, Being of Bees",
+          "manaCost": "{2}{B}",
+          "typeLine": "Legendary Creature — Insect Villain",
+          "oracleText": "Flash\nFlying\nMayhem {B} (You may cast this card from your graveyard for {B} if you discarded it this turn. Timing rules still apply.)",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/c/b/cb83d54e-6641-4929-99ad-c0ba5b610902.jpg?1783905340",
+            "normal": "https://cards.scryfall.io/normal/front/c/b/cb83d54e-6641-4929-99ad-c0ba5b610902.jpg?1783905340",
+            "large": "https://cards.scryfall.io/large/front/c/b/cb83d54e-6641-4929-99ad-c0ba5b610902.jpg?1783905340",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/c/b/cb83d54e-6641-4929-99ad-c0ba5b610902.jpg?1783905340"
+          }
+        }
+      ]
+    },
+    "spm/70": {
+      "id": "313189ef-fe6e-4511-9386-920a88a49a88",
+      "oracleId": "6ad2cbb6-2291-420c-bfc8-ed3f079b59bf",
+      "name": "Tombstone, Career Criminal",
+      "manaValue": 3,
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "set": "spm",
+      "collectorNumber": "70",
+      "scryfallUrl": "https://scryfall.com/card/spm/70/tombstone-career-criminal",
+      "faces": [
+        {
+          "name": "Tombstone, Career Criminal",
+          "manaCost": "{2}{B}",
+          "typeLine": "Legendary Creature — Human Villain",
+          "oracleText": "When Tombstone enters, return target Villain card from your graveyard to your hand.\nVillain spells you cast cost {1} less to cast.",
+          "power": "2",
+          "toughness": "2",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/3/1/313189ef-fe6e-4511-9386-920a88a49a88.jpg?1783905341",
+            "normal": "https://cards.scryfall.io/normal/front/3/1/313189ef-fe6e-4511-9386-920a88a49a88.jpg?1783905341",
+            "large": "https://cards.scryfall.io/large/front/3/1/313189ef-fe6e-4511-9386-920a88a49a88.jpg?1783905341",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/313189ef-fe6e-4511-9386-920a88a49a88.jpg?1783905341"
+          }
+        }
+      ]
+    },
+    "spm/158": {
+      "id": "e29281be-e722-4149-93a0-6dd3f0f64253",
+      "oracleId": "0409765a-bbb4-465e-99b3-3687bffc3cf9",
+      "name": "Vulture, Scheming Scavenger",
+      "manaValue": 6,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "set": "spm",
+      "collectorNumber": "158",
+      "scryfallUrl": "https://scryfall.com/card/spm/158/vulture-scheming-scavenger",
+      "faces": [
+        {
+          "name": "Vulture, Scheming Scavenger",
+          "manaCost": "{5}{U/B}",
+          "typeLine": "Legendary Creature — Human Artificer Villain",
+          "oracleText": "Flying\nWhenever Vulture attacks, other Villains you control gain flying until end of turn.",
+          "power": "4",
+          "toughness": "6",
+          "images": {
+            "small": "https://cards.scryfall.io/small/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308",
+            "normal": "https://cards.scryfall.io/normal/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308",
+            "large": "https://cards.scryfall.io/large/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308",
+            "artCrop": "https://cards.scryfall.io/art_crop/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,41 @@
-# Magics deck viewer
+# Magics deck and binder viewer
 
-A static, read-only Astro + Svelte viewer for the decklists in this repository.
+A static, read-only Astro + Svelte viewer for the decklists and Spider-Man binder in this repository.
 No server, database, login, live collection tracking, simulation UI, or runtime card-data API is needed.
+
+## Spider-Man binder
+
+The home page includes a separate collection link below the five deck tiles, and the
+header has Decks / Binder navigation. `/collections/spider-man/` mirrors the physical
+four-pocket binder: two opening gallery page sides, then 93 permanent character slots.
+The 2026-11-17 video check recorded 60/79 SPM cards, eight owned SPE bonuses,
+19 printed SPM proxies and six SPE labels. SPE remains optional; gallery cards and
+duplicate gallery printings do not affect character completion.
+
+`../collections/spider-man/inventory.json` is the single current ownership/layout
+source. The page derives its counts, page numbers and missing-card downloads from it.
+Update an acquired card's status to `owned` and placeholder to `null` in that file;
+never remove its slot or shift later cards. The final Vulture page has three empty pockets.
+Filters cover names, ownership, SPM, SPE and the opening gallery. Nonmatching cards
+are dimmed in their original pockets, and page numbers stay physical. Card inspection
+reuses the existing artwork reader, including double faces. The complete layout is
+server-rendered; with JavaScript off, cards and downloads remain available.
+
+`data/binder-cards.json` is a separate checked-in artwork/rules cache. Exact observed
+printing numbers are used where legible; otherwise the page explicitly calls artwork a
+reference and does not claim a verified foil finish. It was imported from the already
+downloaded public bulk catalogue locally, without sending private inventory identifiers
+to a card API or refreshing the deck cache. Rebuild this cache only when printings change:
+
+```sh
+pnpm import:binder-cards /absolute/path/to/public-catalogue.json
+```
+
+The input is a local JSON array of public Scryfall card records. Every selected printing
+must resolve exactly; missing or mismatched identities stop the import. Normal builds
+and website browsing never fetch card metadata. Only artwork images are external.
+Missing lists are `/exports/spider-man-spm.txt` and `/exports/spider-man-spe.txt`;
+they retain double-faced names and use four-digit collector numbers for proxy selection.
 
 ## Home shelf
 

@@ -38,6 +38,10 @@ The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now desc
 
 Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.1](decks/arena/elves-4.1.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
 
+## Binder collections
+
+The [Spider-Man binder project](collections/spider-man/README.md) tracks **60/79 main SPM characters**, plus **8 owned SPE bonuses**. The reorganized binder was visually checked from the user's video on 2026-11-17: **93 fixed character slots = 68 owned cards + 19 SPM proxies + six SPE labels**, with eight display cards on two separate opening gallery pages. The main target remains 79. [inventory.json](collections/spider-man/inventory.json) stores the complete order, ownership and page rules; the website reads it at `/collections/spider-man/` with four-pocket pages, filters and missing-card downloads. The final page has Vulture and three empty pockets. Rules, historical cost estimates and the [SPM missing list](collections/spider-man/missing.txt) remain separate from deck releases.
+
 ## Versioning
 
 Deck releases use `X.Y.Z`. While the project is still below `1.0.0`, the current line is:

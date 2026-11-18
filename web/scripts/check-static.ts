@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { families, loadCache, loadCover, loadDeck } from '../src/lib/decks.ts';
 import { CARD_VIEWS } from '../src/lib/card-utils.ts';
+import { loadBinder, missingBinderText } from '../src/lib/binder.ts';
 
 const cache = loadCache();
 const home = readFileSync(resolve('dist/index.html'), 'utf8');
@@ -48,4 +49,13 @@ for (const [index, family] of homeFamilies.entries()) {
 }
 assert.ok(readFileSync(resolve('dist/404.html'), 'utf8').includes('No deck at this address.'));
 const snapshotCount = families.reduce((count, family) => count + family.versions.length, 0);
+const binder = loadBinder();
+const binderHtml = readFileSync(resolve('dist/collections/spider-man/index.html'), 'utf8');
+assert.ok(home.includes('href="/collections/spider-man/"'));
+assert.equal((binderHtml.match(/data-binder-page="/g) ?? []).length, 26);
+assert.equal((binderHtml.match(/data-binder-slot="/g) ?? []).length, 101);
+assert.ok(binderHtml.includes('data-binder-slot="93"'));
+for (const card of binder.cards) assert.ok(binderHtml.includes(card.key.startsWith('gallery') ? `data-binder-slot="${card.key}"` : `data-binder-slot="${card.characterSlot}"`));
+for (const set of ['SPM', 'SPE'] as const) assert.equal(readFileSync(resolve(`dist/exports/spider-man-${set.toLowerCase()}.txt`), 'utf8'), missingBinderText(set));
 console.log(`Static HTML includes every deck before hydration; all ${snapshotCount} text exports match their sources.`);
+console.log('Static binder includes all 101 gallery/character entries, 26 page sides and both exact missing-card exports before hydration.');

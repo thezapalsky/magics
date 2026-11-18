@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BinderViewer from '../../components/BinderViewer.svelte';
+import { loadBinder } from '../../lib/binder.ts';
+const binder = loadBinder();
+---
+<Layout title="Spider-Man binder · Magics" description="The Spider-Man character binder: 79 SPM legendary creatures, optional SPE cards, and a fixed four-pocket page layout.">
+  <BinderViewer inventory={binder.inventory} stats={binder.stats} cards={binder.cards} client:load />
+  <noscript><p>The complete binder is shown below. Filtering and card inspection need JavaScript.</p></noscript>
+</Layout>

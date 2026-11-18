@@ -364,6 +364,58 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - Public production activation is not part of this change. Merge to `main`
   continues to use the existing native Cloudflare integration.
 
+## Spider-Man binder snapshot - 17 November 2026
+
+- Added a separate home collection tile and Decks / Binder header navigation.
+- `collections/spider-man/inventory.json` records the full video-reviewed layout:
+  60/79 SPM, eight SPE bonuses, 19 SPM proxies, six SPE labels, eight gallery
+  cards, 26 page sides and three empty pockets after Vulture. No purchases were
+  inferred from shopping carts or search results.
+- The website derives counts, physical coordinates and two padded missing-card
+  downloads from that inventory. The separate artwork cache was matched locally
+  from a previously downloaded public catalogue; the deck cache was unchanged.
+- `pnpm check` passed with zero Astro/Svelte errors or warnings. All 37 tests
+  passed. The production build passed with 13 HTML pages, all ten original
+  deck exports and both binder exports; combined JavaScript is 30.1 KiB gzip.
+- Static assertions verify all 101 gallery/character entries and all 26 page
+  sides exist before hydration. Unit tests cover exact scope/counts, duplicate
+  identities, placeholder ownership, SPE separation, slot coordinates, filters,
+  acquisition without reordering, double-faced names and padded exports.
+- Both root paper validators and `git diff --check` passed. Paper Lathril
+  remains 0.3.3; Paper Sacrifice remains 3.0.0. Deck sources were not changed.
+- A real desktop/mobile browser check was attempted but Chromium could not
+  launch inside the current macOS sandbox (`MachPortRendezvousServer:
+  Permission denied`). No visual, keyboard/focus, image-failure or responsive
+  browser result is claimed for this addition. Complete those checks before
+  publishing; the planned checks also cover no-JS rendering and card-reader flips.
+- Changes are local. No remote push or deployment was performed.
+
+## Binder pull-request preflight - 18 November 2026
+
+- Prepared an isolated branch from remote `main` (`b3fd96a`) containing only
+  the binder implementation, its collection sources and supporting documentation.
+  Separate deck proposals and teaching-deck changes remain outside this branch.
+- Re-ran `pnpm ci:build` with Node 24.21.0 and pnpm 10.17.1: zero Astro/Svelte
+  errors or warnings, 37 passing tests, ten valid deck snapshots, 13 generated
+  HTML pages, all ten deck exports and both exact binder exports. Both canonical
+  paper validators passed. Combined client JavaScript remains 30.1 KiB gzip.
+- The built-site preview returned the home page, all 101 binder entries across
+  26 page sides, and the 19-card SPM / six-card SPE missing lists successfully.
+- Wrangler 4.147.0's packaging dry run read 55 asset files and passed without
+  publishing or adding runtime bindings. The local Cloudflare runtime passed
+  the existing 36 deck/routing/header checks plus four binder checks: exact
+  binder HTML, both byte-exact missing lists, and the canonical 307 redirect.
+  Binder responses retained the configured security headers. Temporary log and
+  registry paths kept local runtime writes within the isolated checkout.
+- Updated both GitHub workflow path filters to include
+  `collections/spider-man/**`, so inventory-only changes also trigger validation.
+- Chromium launch was retried and is still blocked by macOS sandbox permissions
+  at `MachPortRendezvousServer`. Desktop/mobile visual and interaction review
+  remains pending; no successful browser QA is claimed for the binder addition.
+- Ownership remains the video-reviewed 60/79 SPM plus eight SPE bonuses. Incoming
+  orders and future scene-display rearrangements are not treated as owned cards
+  or completed physical-layout changes.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.

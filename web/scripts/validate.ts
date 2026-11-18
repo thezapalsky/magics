@@ -1,5 +1,6 @@
 import { families, loadCache, loadCover, loadDeck, readSource } from '../src/lib/decks.ts';
 import { parseDeck } from '../src/lib/parser.ts';
+import { loadBinder } from '../src/lib/binder.ts';
 
 const cache = loadCache();
 const ids = new Set<string>();
@@ -38,3 +39,5 @@ for (const release of [
   if (readSource(release.version).trim() !== paper.defaultVersion) throw new Error(`Paper manifest default differs from ${release.version}`);
 }
 console.log(`Validated ${versions} snapshots; both paper defaults match their canonical lists and version files.`);
+const binder = loadBinder();
+console.log(`Binder: ${binder.stats.mainOwned}/${binder.stats.mainTarget} SPM, ${binder.stats.bonusOwned} SPE bonuses, ${binder.stats.slots} fixed character slots, ${binder.pages.length} four-pocket page sides.`);
