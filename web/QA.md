@@ -364,6 +364,102 @@ Files for this domain preparation: `web/wrangler.jsonc`, `web/tests/cloudflare.t
 - Public production activation is not part of this change. Merge to `main`
   continues to use the existing native Cloudflare integration.
 
+## Spider-Man binder snapshot - 17 November 2026
+
+- Added a separate home collection tile and Decks / Binder header navigation.
+- `collections/spider-man/inventory.json` records the full video-reviewed layout:
+  60/79 SPM, eight SPE bonuses, 19 SPM proxies, six SPE labels, eight gallery
+  cards, 26 page sides and three empty pockets after Vulture. No purchases were
+  inferred from shopping carts or search results.
+- The website derives counts, physical coordinates and two padded missing-card
+  downloads from that inventory. The separate artwork cache was matched locally
+  from a previously downloaded public catalogue; the deck cache was unchanged.
+- `pnpm check` passed with zero Astro/Svelte errors or warnings. All 37 tests
+  passed. The production build passed with 13 HTML pages, all ten original
+  deck exports and both binder exports; combined JavaScript is 30.1 KiB gzip.
+- Static assertions verify all 101 gallery/character entries and all 26 page
+  sides exist before hydration. Unit tests cover exact scope/counts, duplicate
+  identities, placeholder ownership, SPE separation, slot coordinates, filters,
+  acquisition without reordering, double-faced names and padded exports.
+- Both root paper validators and `git diff --check` passed. Paper Lathril
+  remains 0.3.3; Paper Sacrifice remains 3.0.0. Deck sources were not changed.
+- A real desktop/mobile browser check was attempted but Chromium could not
+  launch inside the current macOS sandbox (`MachPortRendezvousServer:
+  Permission denied`). No visual, keyboard/focus, image-failure or responsive
+  browser result is claimed for this addition. Complete those checks before
+  publishing; the planned checks also cover no-JS rendering and card-reader flips.
+- Changes are local. No remote push or deployment was performed.
+
+## Binder pull-request preflight - 18 November 2026
+
+- Prepared an isolated branch from remote `main` (`b3fd96a`) containing only
+  the binder implementation, its collection sources and supporting documentation.
+  Separate deck proposals and teaching-deck changes remain outside this branch.
+- Re-ran `pnpm ci:build` with Node 24.21.0 and pnpm 10.17.1: zero Astro/Svelte
+  errors or warnings, 37 passing tests, ten valid deck snapshots, 13 generated
+  HTML pages, all ten deck exports and both exact binder exports. Both canonical
+  paper validators passed. Combined client JavaScript remains 30.1 KiB gzip.
+- The built-site preview returned the home page, all 101 binder entries across
+  26 page sides, and the 19-card SPM / six-card SPE missing lists successfully.
+- Wrangler 4.147.0's packaging dry run read 55 asset files and passed without
+  publishing or adding runtime bindings. The local Cloudflare runtime passed
+  the existing 36 deck/routing/header checks plus four binder checks: exact
+  binder HTML, both byte-exact missing lists, and the canonical 307 redirect.
+  Binder responses retained the configured security headers. Temporary log and
+  registry paths kept local runtime writes within the isolated checkout.
+- Updated both GitHub workflow path filters to include
+  `collections/spider-man/**`, so inventory-only changes also trigger validation.
+- Chromium launch was retried and is still blocked by macOS sandbox permissions
+  at `MachPortRendezvousServer`. Desktop/mobile visual and interaction review
+  remains pending; no successful browser QA is claimed for the binder addition.
+
+## Both scenes in the four-pocket binder - 18 November 2026
+
+This initial 29-side arrangement was superseded by the compact revision below.
+
+- Kept `inventory.json` unchanged: the 17 November video still establishes the
+  26-side layout, 60/79 SPM identities and eight owned SPE bonuses.
+- Added a separately labelled, proposed scene layout as the default website view.
+  Its 104 display entries occupy 29 four-pocket page sides, with 12 intentional
+  empty pockets. All 93 character identities appear once; eleven move into scenes.
+- Checked scene ordering against Wizards' official panorama and Scene Box artwork.
+  Pages 2-3 hold the six-card scene; pages 4-5 and 6-7 hold the nine-card scene.
+  Even/odd facing-page alignment, all coordinates and reverse faces for Miles/Gwen
+  are covered by validation. Peter begins the remaining character sequence on page 9.
+- All six Scene Box pieces remain on order. Four exact SPM artwork proxies are
+  distinguished from identity ownership; regular Miles and Spider-Punk remain owned.
+  Added only six missing public printing records to the dedicated binder cache.
+  The deck cache, ownership inventory and released decks were not changed.
+- Local Astro/Svelte checks found zero errors or warnings; all 41 tests passed.
+  The static build includes both panoramas and all 104 planned pockets before
+  hydration, retains exact missing-character exports, and uses 31.2 KiB gzip
+  combined client JavaScript, within the existing 100 KiB budget.
+- Both canonical paper deck validators and `git diff --check` passed.
+- A fresh headless Chromium launch failed in the macOS sandbox. Desktop/mobile
+  interaction and screenshot review remains pending; no successful browser QA is
+  claimed for the scene revision.
+
+## Compact scene revision - 18 November 2026
+
+- Applied the user's preference to fill every pocket while temporarily splitting
+  the larger scene. The plan now has 104 entries in 104 pockets across 26 sides.
+- The smaller scene remains joined across pages 2-3. Kraven's Last Hunt and Peter
+  Parker's Camera occupy page 3's two outer pockets. The larger scene runs in
+  artwork order across pages 4-6; regular Multiversal Passage and the first two
+  Peter cards complete page 6. Remaining characters continue through page 26.
+- Missing identities, exact scene-printing proxies and ordered Scene Box cards
+  keep their assigned positions. The ownership snapshot, card cache, character
+  counts and three download lists remain unchanged.
+- The 41 tests include exact compact page contents, all 93 character identities,
+  joined versus sequential scene geometry, reverse faces, and rejection of gaps,
+  overlaps and missing entries. Static checks require zero unassigned pockets.
+- `pnpm ci:build` and `git diff --cached --check` passed on the isolated source
+  tree. Visual browser review remains pending under the previously documented
+  sandbox and Cloudflare automated-access limitations.
+- Ownership remains the video-reviewed 60/79 SPM plus eight SPE bonuses. Incoming
+  orders and future scene-display rearrangements are not treated as owned cards
+  or completed physical-layout changes.
+
 ## Repeat before publishing
 
 1. Run the documented check/test/build commands and the root paper validator.
@@ -382,3 +478,41 @@ The paper release is now **0.3.3**, adopted by explicit user confirmation in EXP
 the simulator **0.3.3** remains a test target. The earlier viewer-only updates did not
 adopt a paper release. The authorized public deployment is recorded above; no game
 evidence, tags or source pushes were added during deployment activation.
+
+## Owned regular copies in scene positions - 18 November 2026
+
+- The proposed binder displays the owned regular Miles and Spider-Punk cards in
+  their existing scene pockets. The exact scene printings 0200/0207 remain optional
+  upgrades, separate from the displayed artwork and collector numbers.
+- Only Gwen and Web-Warriors retain scene placeholders. Gwen remains missing;
+  Web-Warriors ownership is unconfirmed and is not established by the four Welcome
+  Deck lists. The scene placeholder download now contains only 0202/0203.
+- The 26 full page sides, all 93 character identities, ownership snapshot, 79-card
+  target and ordered Scene Box status remain intact. No card cache was refreshed.
+- Tests cover owned replacements, exact displayed/desired printings, same-pocket
+  placement, exclusion of owned upgrades from proxy downloads, and rejection of
+  an owned-replacement claim for missing Gwen. All 41 tests and the required
+  `pnpm ci:build` checks passed on the isolated source tree.
+- Browser visual review remains pending under the previously recorded sandbox
+  and Cloudflare access limits.
+
+## Angels website preflight - 19 November 2026
+
+- Added the exact supplied Calling All Angels list as a separate Angels entry
+  with Giada, Font of Hope, status Saved list and version 0.1.0. Its source and
+  export preserve all 100 cards, original names and quantities, including 32
+  Plains and six nonbasic lands. The home shelf has six decks, three Paper.
+- Added only 64 missing named artwork/rules records; all 287 existing deck-cache
+  records are unchanged. Fetched names were exact paper/Commander-legal matches
+  with white or colorless identity. Builds do not fetch card metadata.
+- Pinned Node 24.21.0 / pnpm 10.17.1 `pnpm ci:build` passed: zero Astro/Svelte
+  diagnostics, 42 passing tests, 14 static HTML pages, 11 exact deck exports and
+  three exact binder exports. Client JavaScript totals 31.5 KiB gzip.
+- The new saved-list structural check passed with one commander and 99 main-deck
+  cards. Both existing canonical paper deck checks also passed.
+- Wrangler packaging dry run found 60 assets and no bindings; no deployment was
+  performed by that check. The reviewed diff preserves existing deck releases,
+  version files, binder ownership and scene layout.
+- The cloud executor blocked scripted Chromium launch with a socket permission
+  error. Local browser interaction checks did not run; post-push preview review
+  is reported in the PR rather than claimed here.

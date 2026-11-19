@@ -1,21 +1,84 @@
-# Magics deck viewer
+# Magics deck and binder viewer
 
-A static, read-only Astro + Svelte viewer for the decklists in this repository.
+A static, read-only Astro + Svelte viewer for the decklists and Spider-Man binder in this repository.
 No server, database, login, live collection tracking, simulation UI, or runtime card-data API is needed.
+
+## Spider-Man binder
+
+The home page includes a separate collection link below the six deck tiles, and the
+header has Decks / Binder navigation. `/collections/spider-man/` opens the proposed
+four-pocket arrangement with both scenes and retains the video-verified layout as a second view.
+The 2026-11-17 video check recorded 60/79 SPM cards, eight owned SPE bonuses,
+19 printed SPM proxies and six SPE labels. SPE remains optional; gallery cards and
+duplicate gallery printings do not affect character completion.
+
+`../collections/spider-man/inventory.json` remains the verified ownership/layout
+source. Character progress and missing-card downloads are derived only from it.
+Update an acquired card's status to `owned` and placeholder to `null` in that file;
+never remove its identity or mark an order as delivered. Its original Vulture page has three empty pockets.
+
+`../collections/spider-man/scene-layout.json` projects the same collection into 26 full page
+sides: MAR gallery on page 1, the ordered six-card scene across facing pages 2-3,
+with Kraven's Last Hunt and Peter Parker's Camera filling its two remaining pockets.
+The nine-card scene runs in artwork order through consecutive pockets on pages 4-6;
+regular Multiversal Passage fills page 6's top right pocket, then the 82 remaining
+characters start with Peter at bottom left on the same page. Eleven characters and Multiversal Passage 0206 move into
+the scenes, so they are not repeated in the following sections. The three new scene-only
+cards plus the existing Passage are outside character counts. There are 104 displayed
+entries, with a card or missing-card placeholder assigned to every pocket. The complete proposed order and two remaining
+scene placeholders are documented in `../collections/spider-man/scene-layout.md`.
+
+Scene targets are separate from the displayed printing. Miles and Spider-Punk use
+their owned regular copies, with 0200 and 0207 retained as optional scene upgrades.
+`useOwnedPrinting` selects the verified entry's existing metadata; `sceneCollectorNumber`
+preserves the upgrade target without mislabelling the displayed regular artwork.
+Gwen is missing and Web-Warriors ownership is unconfirmed, so those positions retain placeholders;
+the six Scene Box cards stay `ordered` until received. Scene Miles/Gwen use face 1,
+including on first opening the artwork reader. The proposed layout has no physical
+verification claim. Page 1 is a right-hand page, so facing pairs start at 2-3.
+
+Filters cover names, display ownership, SPM/SPE characters, scenes and the gallery. Nonmatching cards
+are dimmed in their original pockets, and page numbers stay physical. Card inspection
+reuses the existing artwork reader, including double faces. The complete layout is
+server-rendered; with JavaScript off, cards and downloads remain available.
+
+`data/binder-cards.json` is a separate checked-in artwork/rules cache. Exact observed
+printing numbers are used where legible; otherwise the page explicitly calls artwork a
+reference and does not claim a verified foil finish. It was imported from the already
+downloaded public bulk catalogue locally, without sending private inventory identifiers
+to a card API or refreshing the deck cache. Rebuild this cache only when printings change:
+
+```sh
+pnpm import:binder-cards /absolute/path/to/public-catalogue.json
+```
+
+The input is a local JSON array of public Scryfall card records. Every selected printing
+must resolve exactly; missing or mismatched identities stop the import. Normal builds
+and website browsing never fetch card metadata. Only artwork images are external.
+Missing character lists are `/exports/spider-man-spm.txt` and `/exports/spider-man-spe.txt`;
+they retain double-faced names and use four-digit collector numbers for proxy selection.
+They deliberately do not add already-owned identities or nonlegendary scene pieces.
+`/exports/spider-man-scenes.txt` separately exports the two remaining scene placeholders,
+excluding the ordered Scene Box and the optional Miles/Punk upgrades. Print Gwen on her reverse face.
 
 ## Home shelf
 
-Five separate commander-art tiles form a two-column shelf on desktop: Paper Lathril,
-Paper Sacrifice, Arena Simulator, Elves and Arena Sacrifice. Each is a direct link
+Six separate commander-art tiles form a two-column shelf on desktop: Paper Lathril,
+Paper Sacrifice, Angels, Arena Simulator, Elves and Arena Sacrifice. Each is a direct link
 to its default version, with its own format, status and chosen cover printing.
 Narrow screens use a single column. The **All / Paper / Arena** buttons show all
-five decks by default, the two paper decks, or the three Arena decks. Filtering
+six decks by default, the three paper decks, or the three Arena decks. Filtering
 updates immediately without fetching data or navigating; keyboard users can Tab
 to each button and activate it with Enter/Space. All decks remain visible before
 JavaScript runs and when JavaScript is unavailable.
 There is no combined Lathril tile, hover comparison or format chooser; both Lathril
 destinations remain equally visible. Arena is still a test target, not a verified
 client export. Older versions remain inside the individual deck pages.
+
+Angels is the exact supplied Calling All Angels list, with Giada, Font of Hope
+as commander, saved as snapshot `0.1.0` at `/decks/angels/0.1.0/`. Its 100 cards,
+original names and quantities are preserved in the text export. It uses reference
+artwork and the status Saved list, without a physical-printing ownership claim.
 
 ## Card layouts
 

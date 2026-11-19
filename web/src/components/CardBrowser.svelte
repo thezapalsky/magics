@@ -20,7 +20,7 @@
     opener = trigger;
     activeIndex = Math.max(0, Math.min(index, cards.length - 1));
     warmAt(activeIndex);
-    faceIndex = 0;
+    faceIndex = cards[activeIndex].initialFaceIndex ?? 0;
     opened = true;
     await tick();
     previousOverflow = document.body.style.overflow;
@@ -46,7 +46,7 @@
         (index === cards.length - 1 && focused.getAttribute('aria-label') === 'Next card')) {
         dialog.querySelector<HTMLButtonElement>('.close-browser')?.focus({ preventScroll: true });
       }
-      activeIndex = index; faceIndex = 0;
+      activeIndex = index; faceIndex = cards[index].initialFaceIndex ?? 0;
     }
   }
   function closed() {
@@ -108,7 +108,7 @@
     <button class="close-browser" aria-label="Close card browser" onclick={() => dialog.close()}>×</button>
     <div class="card-feed" bind:this={feed} use:wheelNavigation onscroll={scrolled} data-active-index={activeIndex}>
       {#each cards as card, index (card.key)}
-        {@const face = card.metadata.faces[index === activeIndex ? faceIndex : 0]}
+        {@const face = card.metadata.faces[index === activeIndex ? faceIndex : (card.initialFaceIndex ?? 0)]}
         <section class="card-slide" aria-label={face.name} aria-hidden={index !== activeIndex} inert={index !== activeIndex}>
           <div class="reader-art">
             {#key `${card.key}-${face.name}`}

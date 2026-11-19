@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "title": "Both scenes - four-pocket plan",
+  "status": "planned",
+  "plannedAt": "2026-11-18",
+  "pageCount": 26,
+  "characterStartPage": 6,
+  "characterStartPocket": 3,
+  "gallery": [
+    { "slot": 1, "page": 1, "pocket": 1 },
+    { "slot": 2, "page": 1, "pocket": 2 },
+    { "slot": 3, "page": 1, "pocket": 3 },
+    { "slot": 4, "page": 1, "pocket": 4 },
+    { "slot": 5, "page": 3, "pocket": 2 },
+    { "slot": 6, "page": 3, "pocket": 4 },
+    { "slot": 8, "page": 6, "pocket": 2 }
+  ],
+  "scenes": [
+    {
+      "id": "showdown",
+      "title": "Spidey's Sensational Showdown",
+      "rows": 2,
+      "columns": 3,
+      "arrangement": "spread",
+      "source": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
+      "note": "Scene Box ordered, awaiting delivery. All six spaces remain unfilled until the cards arrive.",
+      "cards": [
+        { "name": "Grasping Tentacles", "set": "SPE", "collectorNumber": "21", "row": 1, "column": 1, "page": 2, "pocket": 1, "availability": "ordered", "faceIndex": 0 },
+        { "name": "Venom, Deadly Devourer", "set": "SPE", "collectorNumber": "22", "characterSlot": 60, "row": 1, "column": 2, "page": 2, "pocket": 2, "availability": "ordered", "faceIndex": 0 },
+        { "name": "Green Goblin, Nemesis", "set": "SPE", "collectorNumber": "23", "characterSlot": 53, "row": 1, "column": 3, "page": 3, "pocket": 1, "availability": "ordered", "faceIndex": 0 },
+        { "name": "Doc Ock, Evil Inventor", "set": "SPE", "collectorNumber": "24", "characterSlot": 65, "row": 2, "column": 1, "page": 2, "pocket": 3, "availability": "ordered", "faceIndex": 0 },
+        { "name": "Sensational Spider-Man", "set": "SPE", "collectorNumber": "25", "characterSlot": 4, "row": 2, "column": 2, "page": 2, "pocket": 4, "availability": "ordered", "faceIndex": 0 },
+        { "name": "Pumpkin Bombs", "set": "SPE", "collectorNumber": "26", "row": 2, "column": 3, "page": 3, "pocket": 3, "availability": "ordered", "faceIndex": 0 }
+      ]
+    },
+    {
+      "id": "spider-verse",
+      "title": "Spider-Verse panorama",
+      "rows": 3,
+      "columns": 3,
+      "arrangement": "sequence",
+      "source": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
+      "sourceImage": "https://media.wizards.com/2025/images/daily/xiR5dLkX2x.webp",
+      "note": "Keep the five confirmed scene printings and use the owned regular Miles and Spider-Punk cards in their designated pockets. Only Gwen and Web-Warriors need placeholders: Gwen is missing, and Web-Warriors ownership is unconfirmed. Scene collector numbers remain optional artwork upgrade targets. Display Miles and Gwen on their Spider-Man / Ghost-Spider faces.",
+      "cards": [
+        { "name": "SP//dr, Piloted by Peni", "set": "SPM", "collectorNumber": "199", "characterSlot": 27, "row": 1, "column": 1, "page": 4, "pocket": 1, "availability": "owned", "faceIndex": 0 },
+        { "name": "Miles Morales // Ultimate Spider-Man", "set": "SPM", "collectorNumber": "200", "characterSlot": 10, "row": 1, "column": 2, "page": 4, "pocket": 2, "availability": "owned", "useOwnedPrinting": true, "faceIndex": 1 },
+        { "name": "Spider-Ham, Peter Porker", "set": "SPM", "collectorNumber": "201", "characterSlot": 23, "row": 1, "column": 3, "page": 4, "pocket": 3, "availability": "owned", "faceIndex": 0 },
+        { "name": "Gwen Stacy // Ghost-Spider", "set": "SPM", "collectorNumber": "202", "characterSlot": 13, "row": 2, "column": 1, "page": 4, "pocket": 4, "availability": "proxy", "faceIndex": 1 },
+        { "name": "Web-Warriors", "set": "SPM", "collectorNumber": "203", "row": 2, "column": 2, "page": 5, "pocket": 1, "availability": "proxy", "faceIndex": 0 },
+        { "name": "Spider-Man Noir", "set": "SPM", "collectorNumber": "204", "characterSlot": 17, "row": 2, "column": 3, "page": 5, "pocket": 2, "availability": "owned", "faceIndex": 0 },
+        { "name": "Spider-Man 2099", "set": "SPM", "collectorNumber": "205", "characterSlot": 19, "row": 3, "column": 1, "page": 5, "pocket": 3, "availability": "owned", "faceIndex": 0 },
+        { "name": "Multiversal Passage", "set": "SPM", "collectorNumber": "206", "gallerySlot": 7, "row": 3, "column": 2, "page": 5, "pocket": 4, "availability": "owned", "faceIndex": 0 },
+        { "name": "Spider-Punk", "set": "SPM", "collectorNumber": "207", "characterSlot": 18, "row": 3, "column": 3, "page": 6, "pocket": 1, "availability": "owned", "useOwnedPrinting": true, "faceIndex": 0 }
+      ]
+    }
+  ]
+}

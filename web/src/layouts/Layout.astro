@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
 interface Props { title?: string; description?: string }
-const { title = 'Magics — my decks', description = 'Paper Commander and Arena Brawl decklists, saved versions, and card images.' } = Astro.props;
+const { title = 'Magics - my decks & binder', description = 'Paper Commander and Arena Brawl decklists, saved versions, and the Spider-Man character binder.' } = Astro.props;
+const binderPage = Astro.url.pathname.startsWith('/collections/');
 ---
 <!doctype html>
 <html lang="en">
@@ -20,12 +21,13 @@ const { title = 'Magics — my decks', description = 'Paper Commander and Arena 
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header wrap">
       <a href="/" class="wordmark" aria-label="Magics home"><span class="brand-mark" aria-hidden="true">✳</span> magics<span class="wordmark-dot">.</span></a>
-      <span class="header-note">a deck notebook</span>
-      <a href="https://github.com/thezapalsky/magics" target="_blank" rel="noopener noreferrer" class="repo-link">The repository <span aria-hidden="true">↗</span></a>
+      <span class="header-note">a deck & collection notebook</span>
+      <nav class="site-nav" aria-label="Main navigation"><a href="/" aria-current={!binderPage ? 'page' : undefined}>Decks</a><a href="/collections/spider-man/" aria-current={binderPage ? 'page' : undefined}>Binder</a></nav>
+      <a href="https://github.com/thezapalsky/magics" target="_blank" rel="noopener noreferrer" class="repo-link"><span class="repo-full">The repository</span><span class="repo-short">GitHub</span> <span aria-hidden="true">↗</span></a>
     </header>
     <main id="main" class="wrap"><slot /></main>
     <footer class="site-footer wrap">
-      <span>Paper Commander & Arena Brawl decklists.</span>
+      <span>Paper Commander, Arena Brawl & the Spider-Man binder.</span>
       <span>Card data & artwork via <a href="https://scryfall.com" target="_blank" rel="noopener noreferrer">Scryfall</a>.<br />Magic: The Gathering © Wizards of the Coast. Unofficial fan project.</span>
     </footer>
   </body>
