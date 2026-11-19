@@ -1,19 +1,39 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
+import { createHash } from 'node:crypto';
 import { families, loadCache, loadCover, loadDeck, readSource } from '../src/lib/decks.ts';
 import { cardKey, exportDeck, parseDeck } from '../src/lib/parser.ts';
 import { CARD_VIEWS, DEFAULT_CARD_VIEW, groupBasicCopies, groupByMana, isCardView, isLand, selectCards } from '../src/lib/card-utils.ts';
 
 test('every snapshot is complete, source-preserving and cached', () => {
   const cache = loadCache();
-  assert.equal(families.length, 5);
+  assert.equal(families.length, 6);
   for (const family of families) for (const snapshot of family.versions) {
     const deck = loadDeck(family, snapshot.version, cache);
     assert.equal(deck.total, 100);
     assert.equal(deck.exportText, exportDeck(parseDeck(readSource(snapshot.source))));
     assert.ok(deck.cards.every(card => card.metadata.faces.length));
   }
+});
+
+test('Angels preserves the supplied Calling All Angels list with Giada and 32 Plains', () => {
+  const family = families.find(family => family.id === 'angels')!;
+  const deck = loadDeck(family, '0.1.0');
+  const source = parseDeck(deck.exportText);
+  assert.equal(family.title, 'Angels');
+  assert.equal(family.medium, 'Paper');
+  assert.equal(family.format, 'Commander');
+  assert.equal(deck.snapshot.status, 'Saved list');
+  assert.equal(deck.commander.name, 'Giada, Font of Hope');
+  assert.equal(deck.commander.quantity, 1);
+  assert.equal(deck.total, 100);
+  assert.equal(deck.landCount, 38);
+  assert.equal(deck.cards.find(card => card.name === 'Plains')!.quantity, 32);
+  assert.deepEqual(deck.commander.metadata.colorIdentity, ['W']);
+  const signature = [source.commander.name, ...source.entries.map(card => `${card.quantity} ${card.name}`).sort()];
+  assert.equal(createHash('sha256').update(JSON.stringify(signature)).digest('hex'),
+    '1d0473d269d03da144de55970259bee5993c2e4d83bb3d7025f070f9d0445d8d');
 });
 
 test('paper cover uses the selected FDN 349 printing without changing any deck or export', () => {

@@ -495,3 +495,24 @@ evidence, tags or source pushes were added during deployment activation.
   `pnpm ci:build` checks passed on the isolated source tree.
 - Browser visual review remains pending under the previously recorded sandbox
   and Cloudflare access limits.
+
+## Angels website preflight - 19 November 2026
+
+- Added the exact supplied Calling All Angels list as a separate Angels entry
+  with Giada, Font of Hope, status Saved list and version 0.1.0. Its source and
+  export preserve all 100 cards, original names and quantities, including 32
+  Plains and six nonbasic lands. The home shelf has six decks, three Paper.
+- Added only 64 missing named artwork/rules records; all 287 existing deck-cache
+  records are unchanged. Fetched names were exact paper/Commander-legal matches
+  with white or colorless identity. Builds do not fetch card metadata.
+- Pinned Node 24.21.0 / pnpm 10.17.1 `pnpm ci:build` passed: zero Astro/Svelte
+  diagnostics, 42 passing tests, 14 static HTML pages, 11 exact deck exports and
+  three exact binder exports. Client JavaScript totals 31.5 KiB gzip.
+- The new saved-list structural check passed with one commander and 99 main-deck
+  cards. Both existing canonical paper deck checks also passed.
+- Wrangler packaging dry run found 60 assets and no bindings; no deployment was
+  performed by that check. The reviewed diff preserves existing deck releases,
+  version files, binder ownership and scene layout.
+- The cloud executor blocked scripted Chromium launch with a socket permission
+  error. Local browser interaction checks did not run; post-push preview review
+  is reported in the PR rather than claimed here.

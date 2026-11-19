@@ -38,6 +38,10 @@ The [Lathril Arena crafting plan](decks/lathril/arena-crafting-plan.md) now desc
 
 Other current Arena snapshots are tracked under [decks/arena](decks/arena): [Sacrifice 3.0](decks/arena/sacrifice-3.0.txt) and [Elves 4.1](decks/arena/elves-4.1.txt). The earlier supplied versions remain preserved in [EXP-004](experiments/EXP-004-two-deck-comparison/README.md) for benchmark reproducibility.
 
+## Angels
+
+[Angels](decks/angels/README.md) saves the supplied **Calling All Angels** Commander list with **Giada, Font of Hope**. The exact 100 cards, including 32 Plains, appear on the website at `/decks/angels/0.1.0/`, with a [text export](decks/angels/exports/angels-0.1.0.txt). This is a saved list; existing deck releases and version files remain unchanged.
+
 ## Binder collections
 
 The [Spider-Man binder project](collections/spider-man/README.md) tracks **60/79 main SPM characters**, plus **8 owned SPE bonuses**. [inventory.json](collections/spider-man/inventory.json) preserves the 17 November video-verified ownership and order. The website at `/collections/spider-man/` now also presents the **[proposed layout with both scenes](collections/spider-man/scene-layout.md)**: 104 display entries across 26 full four-pocket page sides, each character displayed once, with reserved missing printings and no unassigned pockets. The larger scene is temporarily split across pages 4-6. Owned regular Miles and Spider-Punk fill their scene positions, with scene artwork as optional upgrades. The six-card Scene Box remains on order; placeholders do not change character completion. The verified layout is still selectable. The main target remains 79; the [SPM missing list](collections/spider-man/missing.txt) and deck releases remain separate.

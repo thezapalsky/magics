@@ -5,7 +5,7 @@ No server, database, login, live collection tracking, simulation UI, or runtime 
 
 ## Spider-Man binder
 
-The home page includes a separate collection link below the five deck tiles, and the
+The home page includes a separate collection link below the six deck tiles, and the
 header has Decks / Binder navigation. `/collections/spider-man/` opens the proposed
 four-pocket arrangement with both scenes and retains the video-verified layout as a second view.
 The 2026-11-17 video check recorded 60/79 SPM cards, eight owned SPE bonuses,
@@ -63,17 +63,22 @@ excluding the ordered Scene Box and the optional Miles/Punk upgrades. Print Gwen
 
 ## Home shelf
 
-Five separate commander-art tiles form a two-column shelf on desktop: Paper Lathril,
-Paper Sacrifice, Arena Simulator, Elves and Arena Sacrifice. Each is a direct link
+Six separate commander-art tiles form a two-column shelf on desktop: Paper Lathril,
+Paper Sacrifice, Angels, Arena Simulator, Elves and Arena Sacrifice. Each is a direct link
 to its default version, with its own format, status and chosen cover printing.
 Narrow screens use a single column. The **All / Paper / Arena** buttons show all
-five decks by default, the two paper decks, or the three Arena decks. Filtering
+six decks by default, the three paper decks, or the three Arena decks. Filtering
 updates immediately without fetching data or navigating; keyboard users can Tab
 to each button and activate it with Enter/Space. All decks remain visible before
 JavaScript runs and when JavaScript is unavailable.
 There is no combined Lathril tile, hover comparison or format chooser; both Lathril
 destinations remain equally visible. Arena is still a test target, not a verified
 client export. Older versions remain inside the individual deck pages.
+
+Angels is the exact supplied Calling All Angels list, with Giada, Font of Hope
+as commander, saved as snapshot `0.1.0` at `/decks/angels/0.1.0/`. Its 100 cards,
+original names and quantities are preserved in the text export. It uses reference
+artwork and the status Saved list, without a physical-printing ownership claim.
 
 ## Card layouts
 

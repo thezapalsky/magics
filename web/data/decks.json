@@ -27,6 +27,18 @@
     ]
   },
   {
+    "id": "angels",
+    "title": "Angels",
+    "subtitle": "Giada, Font of Hope",
+    "medium": "Paper",
+    "format": "Commander",
+    "description": "Calling All Angels: the supplied mono-white Giada Commander list.",
+    "defaultVersion": "0.1.0",
+    "versions": [
+      { "version": "0.1.0", "status": "Saved list", "source": "decks/angels/exports/angels-0.1.0.txt", "note": "Calling All Angels. Exact supplied 100-card list, with Giada as commander." }
+    ]
+  },
+  {
     "id": "arena-simulator",
     "title": "Lathril simulator",
     "subtitle": "The Arena simulator",
